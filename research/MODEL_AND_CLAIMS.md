@@ -24,6 +24,8 @@ The capacity is asymptotic entanglement transmission per original input. It is n
 
 C2 and C3 are evaluations of one capacity principle, not unrelated new projects. The threshold is not an assertion that the channel becomes entanglement-breaking. The fidelity ceiling is unconditional and is not the same metric as average state fidelity.
 
+The reader-facing lead combines C1 with C7: the exact unrestricted capacity and the optimal predetermined product benchmark give a strict rate separation at the stated qubit split. C6 records the preceding qualitative proof, now strengthened by C7. C3 supplies the complementary optical energy/loss law; C4 and C5 remain supporting results. This ordering changes emphasis, not claims or proof dependencies.
+
 [The physical picture](PHYSICAL_PICTURE.md) translates the optical law into a collection requirement at a chosen target rate. This is an algebraic consequence of C3. C7 strengthens C6 to an exact product benchmark and certifies the example's gap at approximately $0.11949910$ qubits/use. Every single-use POVM and predetermined use-varying schedule is included; outcome-adaptive local strategies and general separable block POVMs remain outside the claim. C7 is a qubit result, not an optical measurement-optimality theorem.
 
 ## Dependencies that must remain visible
