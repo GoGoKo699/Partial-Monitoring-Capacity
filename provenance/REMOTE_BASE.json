@@ -1,0 +1,20 @@
+{
+  "repository": "GoGoKo699/Partial-Monitoring-Capacity",
+  "id": 1408355010,
+  "date_checked": "2026-10-07",
+  "main": "9243513e6c8f5dee31977180743e3f6f44a9d613",
+  "tree": "e7c6a0e88fa17d1a93f172947b2132a709ee6a01",
+  "files": {
+    "LICENSE": "e17a781bf47c4aadf18b68fc593846a1193b86c1",
+    "README.md": "342ff2d7f6e642de926b365765c629e339f2e632"
+  },
+  "visibility": "public",
+  "license": "MIT, 2026 Ruge Lin",
+  "permissions_read_from_GitHub": {
+    "admin": true,
+    "push": true,
+    "pull": true
+  },
+  "retrieval": "Live GitHub connector GET; reconstructed exact public objects after local clone failed DNS.",
+  "write_status": "No exposed GitHub write action; no remote mutation or merge has occurred."
+}

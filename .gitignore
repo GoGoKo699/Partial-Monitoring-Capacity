@@ -1,0 +1,6 @@
+__pycache__/
+*.py[cod]
+.venv/
+verification-artifacts/
+local-evidence*/
+.DS_Store

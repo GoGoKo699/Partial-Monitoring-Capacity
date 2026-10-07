@@ -1,0 +1,50 @@
+{
+  "checked_on": "2026-10-06",
+  "primary_sources": [
+    {
+      "id": "SVW05",
+      "url": "https://arxiv.org/pdf/quant-ph/0505038",
+      "scope": "Theorems1/8, rank-one ensemble construction, flagged-channel proof; Figure1 and Theorem8 visually verified on PDF page5. Full-source channel correction framework is inherited."
+    },
+    {
+      "id": "DH11",
+      "url": "https://arxiv.org/pdf/1011.1972",
+      "scope": "Operational task and Theorem8 minimum-cut lower bound reread. PDF page11 screenshot failed; parsed mathematics available. Not a full appendix rederivation."
+    },
+    {
+      "id": "WQ18",
+      "url": "https://arxiv.org/pdf/1609.01997",
+      "scope": "Energy constrained coding/converse references and thermal-reference Theorem6 proof reviewed; PDF page21 screenshot failed. No chart values used."
+    },
+    {
+      "id": "BD13",
+      "url": "https://arxiv.org/pdf/1009.4464",
+      "scope": "Primary abstract, introduction and helper definition around PDF page10. Full purification access, not a theorem supplying the new partial-output converse. Not a complete one-shot proof audit."
+    },
+    {
+      "id": "DJ10",
+      "url": "https://arxiv.org/abs/1008.3350",
+      "scope": "Correct authors, title, PRA82,062324 metadata and abstract checked. Main construction reading inherited from archived baseline."
+    },
+    {
+      "id": "DS05",
+      "url": "https://arxiv.org/abs/quant-ph/0311131",
+      "scope": "Primary metadata/abstract verified for standard degradability attribution; specific encoder-ancilla proof is explicit in current note."
+    },
+    {
+      "id": "GW03",
+      "url": "https://arxiv.org/abs/quant-ph/0209025",
+      "scope": "Primary abstract/metadata and standard random-unitary characterization; prior exact scope counterexample unchanged."
+    },
+    {
+      "id": "OMW21",
+      "url": "https://arxiv.org/abs/2101.00602",
+      "scope": "Primary abstract only: helper prepares an input-environment state. Not output-only assistance."
+    }
+  ],
+  "exhaustive_priority": false,
+  "independent_review": false,
+  "search_limitations": "Targeted partial-environment/degradable-helper searches produced many irrelevant and secondary results. Those were not used as scientific support or negative novelty evidence. No broad new research topic was selected.",
+  "visual_reading": "Only SVW05 PDF page5 was successfully rendered; its actual diagram and displayed channel-coding proof were inspected. No screenshot-derived claims for the two failed pages.",
+  "unrelated_attached_Cabart_paper": "Not used, not copied, and not cited as evidence for the monitoring claim."
+}

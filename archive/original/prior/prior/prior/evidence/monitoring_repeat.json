@@ -1,0 +1,155 @@
+{
+  "coherent_collection_control": {
+    "a": 0.1,
+    "all_classical_monitoring_capacity": 0,
+    "b": 0.2,
+    "boundary": "Zero unassisted quantum rate is not an entanglement-breaking claim; two-way assisted tasks are different.",
+    "c": 0.7,
+    "channel_identity_error": 1.8824747269678055e-16,
+    "counted_choi_negativity": 0.11583123951776998,
+    "quantum_collection_capacity": 0.5062152409272129
+  },
+  "counting_capacity": {
+    "rows": [
+      {
+        "collection": 0.5,
+        "count_capacity": 1.0,
+        "decay_probability": 0.0,
+        "optimal_excited_population": 0.5000000000000001
+      },
+      {
+        "collection": 0.5,
+        "count_capacity": 0.0,
+        "decay_probability": 0.8,
+        "optimal_excited_population": null
+      },
+      {
+        "collection": 0.75,
+        "count_capacity": 0.0,
+        "decay_probability": 0.8,
+        "optimal_excited_population": null
+      },
+      {
+        "collection": 0.8,
+        "count_capacity": 0.0544870167363658,
+        "decay_probability": 0.8,
+        "optimal_excited_population": 0.5321309143149087
+      },
+      {
+        "collection": 0.9,
+        "count_capacity": 0.18621044456570957,
+        "decay_probability": 0.8,
+        "optimal_excited_population": 0.558344347837029
+      },
+      {
+        "collection": 1.0,
+        "count_capacity": 0.40568523137582446,
+        "decay_probability": 0.8,
+        "optimal_excited_population": 0.6188428571650189
+      },
+      {
+        "collection": 0.95,
+        "count_capacity": 0.11176689638010884,
+        "decay_probability": 0.9,
+        "optimal_excited_population": 0.6105755356855781
+      }
+    ],
+    "scope": "Analytic degradability/phase covariance gives single-letter optimization. Reported interior maxima are scalar numerical evaluations, not interval certificates."
+  },
+  "degradability": {
+    "maximum_error": 2.226942816682668e-16,
+    "proof": "Explicit amplitude damping on nonflag block; click flag preserved.",
+    "tests": 80
+  },
+  "kraus": "Exact symbolic output/complement swap a<->b; trace preservation when a+b+c=1.",
+  "lifetime_and_scope": {
+    "boundary": "Threshold is optimized over measurement-only helper strategies; counting rate itself is not claimed globally optimal over such measurements. No intervention during decay.",
+    "full_collection_example": {
+      "counting_capacity": 0.4056852313758246,
+      "known_full_environment_assisted_capacity": 0.6500224216483542,
+      "survival": 0.2
+    },
+    "rows": [
+      {
+        "collection": 0.0,
+        "critical_Gamma_t": 0.6931471805599453,
+        "ratio_to_unmonitored": 1.0
+      },
+      {
+        "collection": 0.5,
+        "critical_Gamma_t": 1.0986122886681098,
+        "ratio_to_unmonitored": 1.5849625007211563
+      },
+      {
+        "collection": 0.8,
+        "critical_Gamma_t": 1.7917594692280552,
+        "ratio_to_unmonitored": 2.5849625007211565
+      },
+      {
+        "collection": 0.9,
+        "critical_Gamma_t": 2.3978952727983707,
+        "ratio_to_unmonitored": 3.4594316186372978
+      },
+      {
+        "collection": 0.99,
+        "critical_Gamma_t": 4.615120516841259,
+        "ratio_to_unmonitored": 6.658211482751794
+      }
+    ]
+  },
+  "status": "PASS",
+  "test_groups": 6,
+  "universal_monitoring_converse": {
+    "rows": [
+      {
+        "a": 0.1,
+        "b": 0.2,
+        "c": 0.7,
+        "choi_error": 2.7755575615628914e-17,
+        "measurement_branch_error": 4.599534607324329e-17,
+        "uses": 1
+      },
+      {
+        "a": 0.1,
+        "b": 0.2,
+        "c": 0.7,
+        "choi_error": 3.7547848202023757e-17,
+        "measurement_branch_error": 2.399716424490694e-17,
+        "uses": 2
+      },
+      {
+        "a": 0.2,
+        "b": 0.2,
+        "c": 0.6,
+        "choi_error": 0.0,
+        "measurement_branch_error": 0.0,
+        "uses": 1
+      },
+      {
+        "a": 0.2,
+        "b": 0.2,
+        "c": 0.6,
+        "choi_error": 0.0,
+        "measurement_branch_error": 0.0,
+        "uses": 2
+      },
+      {
+        "a": 0.0,
+        "b": 0.4,
+        "c": 0.6,
+        "choi_error": 0.0,
+        "measurement_branch_error": 5.551115123125783e-17,
+        "uses": 1
+      },
+      {
+        "a": 0.0,
+        "b": 0.4,
+        "c": 0.6,
+        "choi_error": 0.0,
+        "measurement_branch_error": 1.4668417977904485e-17,
+        "uses": 2
+      }
+    ],
+    "scope": "Choi identities check reference preservation before measuring D. Tensorization and commuting any instrument with the degrading map prove the all-blocklength statement; finite tests do not prove it by enumeration."
+  }
+}

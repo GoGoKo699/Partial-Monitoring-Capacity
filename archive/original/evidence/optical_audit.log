@@ -1,0 +1,11 @@
+test_energy_law_limits_and_resource_comparators (__main__.Checks.test_energy_law_limits_and_resource_comparators) ... ok
+test_flagged_receiver_channel_and_two_converse_cuts (__main__.Checks.test_flagged_receiver_channel_and_two_converse_cuts) ... ok
+test_marginal_degradation_is_insufficient (__main__.Checks.test_marginal_degradation_is_insufficient) ... ok
+test_passive_fock_identity_and_conditioning (__main__.Checks.test_passive_fock_identity_and_conditioning) ... ok
+test_thermal_cutoff_achievability_with_charged_energy (__main__.Checks.test_thermal_cutoff_achievability_with_charged_energy) ... ok
+test_thermal_extremality_for_nongaussian_entangled_inputs (__main__.Checks.test_thermal_extremality_for_nongaussian_entangled_inputs) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.291s
+
+OK

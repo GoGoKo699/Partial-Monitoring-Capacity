@@ -1,0 +1,13 @@
+# Partial Monitoring Capacity
+
+> Exact author-side quantum transmission rates with partial environmental observation and measurement-only helper communication.
+
+Repository: GoGoKo699/Partial-Monitoring-Capacity. Start with README.md, STATUS.md and WORKSPACE.md. Scientific entry: research/MODEL_AND_CLAIMS.md, research/THEOREM.md, research/PROOF_AUDIT.md and research/OPTICAL_AUDIT.md. Prior-art depth: literature/PRIOR_ART.md. Current bounded task: work_orders/CURRENT.md.
+
+Preserve the joint-register degrading hypothesis, collective helper resource, receiver-only classical record, unconditional error and average optical signal-energy budget. Do not weaken the hypothesis to marginal degradability or claim a practical receiver. Quoted rate tables are asymptotic, not measured hardware results. The spin-strip pilot is separate.
+
+Original inputs and excerpts are pinned in provenance/IMPORT_MANIFEST.json. Run verify.py and the infrastructure tests without refreshing references. Archive records are historical, not live task instructions. Local initialization is not a remote merge; read STATUS and the actual live GitHub state.
+
+## Purpose and contact
+
+This repository serves as a record of the work and a guide for the author’s self-directed learning. For discussion or potential collaboration, please contact Ruge Lin at [gogoko699@gmail.com](mailto:gogoko699@gmail.com).

@@ -1,0 +1,104 @@
+{
+  "date": "2026-10-06",
+  "scope": "Priority monitoring-capacity audit and same-mechanism finite-energy optical evaluation. The separate spin pilot is preserved but not advanced.",
+  "primary_records": [
+    {
+      "key": "SVW05",
+      "title": "Entanglement of assistance and multipartite state distillation",
+      "authors": "John A. Smolin; Frank Verstraete; Andreas Winter",
+      "record": "Phys. Rev. A72,052317(2005)",
+      "url": "https://arxiv.org/pdf/quant-ph/0505038",
+      "read": "Primary parsed Theorem1, relevant ensemble construction, SectionIV/Theorem8 and its fixed block measurement -> flagged channel -> ordinary code argument. The sender does not require a measurement-dependent recovery in that channel step.",
+      "use": "Inherited pure-state assistance and receiver-only macrochannel achievability; not a new random-measurement protocol.",
+      "limit": "No numerical figure used or all-paper theorem reproduction."
+    },
+    {
+      "key": "DH11",
+      "title": "Assisted Entanglement Distillation",
+      "authors": "Nicolas Dutil; Patrick Hayden",
+      "url": "https://arxiv.org/pdf/1011.1972",
+      "read": "Primary parsed Theorem8, min-cut coherent-information lower bound and task definitions.",
+      "use": "Attribution for the existing lower bound. Recipient LOCC in the source is not silently supplied to this channel model.",
+      "limit": "Not a complete25-page appendix audit or exclusion of every extension."
+    },
+    {
+      "key": "WQ18",
+      "title": "Energy-constrained private and quantum capacities of quantum channels",
+      "authors": "Mark M. Wilde; Haoyu Qi",
+      "record": "IEEE Transactions on Information Theory64(12),7802-7827(2018)",
+      "doi": "10.1109/TIT.2018.2854766",
+      "url": "https://arxiv.org/pdf/1609.01997",
+      "read": "Primary parsed SectionsVI/VIII Theorems2/5 for energy-constrained coding, SectionIX Theorem6 for the thermal-reference relative-entropy proof, and SectionX.A for the ordinary pure-loss expression and large-energy limit.",
+      "use": "Inherited constrained coding and thermal entropy optimizer method. The new monitored converse separately requires joint-register degradation.",
+      "limit": "No claim to have independently reconstructed every operational-capacity equivalence in the30-page paper; no figure/table data taken."
+    },
+    {
+      "key": "GW03",
+      "title": "Quantum Lost and Found",
+      "authors": "M. Gregoratti; R. F. Werner",
+      "doi": "10.1080/09500340308234541",
+      "url": "https://arxiv.org/abs/quant-ph/0209025",
+      "read": "Primary abstract and bibliographic record; correction characterization as a convex mixture of isometric channels.",
+      "use": "The countercontrol is a standard environment-corrected random phase error. Its explicit matrix is calculated directly in the note.",
+      "limit": "Abstract-level attribution, not a full14-page proof reading."
+    },
+    {
+      "key": "IP25",
+      "title": "Relaying Quantum Information",
+      "authors": "Yigal Ilin; Uzi Pereg",
+      "url": "https://arxiv.org/html/2507.06770v2",
+      "read": "Primary HTML SectionsII/III causal relay input and encoder/decoder definitions; partial decode-forward discussion and quantum transmission interpretation.",
+      "use": "Explicitly distinguish a relay that injects a new quantum input based on earlier outputs from our fixed vacuum network and output-only measurement helper.",
+      "limit": "Not a complete rate-region or appendix comparison."
+    },
+    {
+      "key": "PDB21",
+      "title": "Quantum Broadcast Channels with Cooperating Decoders: An Information-Theoretic Perspective on Quantum Repeaters",
+      "authors": "Uzi Pereg; Christian Deppe; Holger Boche",
+      "url": "https://arxiv.org/pdf/2011.09233",
+      "read": "Primary parsed model, SectionVII classical/quantum conferencing distinction and its declared communication tasks.",
+      "use": "Do not exchange a classical-message theorem or quantum conferencing resource for the present quantum-capacity task.",
+      "limit": "No complete46-page theorem-by-theorem exclusion."
+    },
+    {
+      "key": "OMW21",
+      "title": "Capacities of Gaussian Quantum Channels with Passive Environment Assistance",
+      "authors": "Samad Khabbazi Oskouei; Stefano Mancini; Andreas Winter",
+      "url": "https://arxiv.org/abs/2101.00602",
+      "read": "Primary abstract.",
+      "use": "Incoming environment state is a controlled resource in that model, not an output-only measurement on a vacuum splitter.",
+      "limit": "No construction-level optimizer comparison."
+    },
+    {
+      "key": "V26",
+      "title": "Passive Environment-Assisted Quantum Communication",
+      "authors": "Evelyn Voss; Bikun Li; Zhaoyou Wang; Liang Jiang",
+      "url": "https://arxiv.org/abs/2602.21549",
+      "read": "Primary abstract, including selection of Fock/cat/nonvacuum ancillary input states.",
+      "use": "Different resource model; no claim that this source contradicts an output-measurement bound.",
+      "limit": "No full-text protocol reproduction or experimental inference."
+    },
+    {
+      "key": "PE21",
+      "title": "Environment-assisted bosonic quantum communications",
+      "record": "npj Quantum Information(2021)",
+      "url": "https://www.nature.com/articles/s41534-021-00413-2",
+      "read": "Primary abstract/model overview: correlated Gaussian environmental noise and a two-link/relay arrangement.",
+      "use": "Not silently substituted for the single-input vacuum splitter.",
+      "limit": "No full appendix or numerical reproduction."
+    }
+  ],
+  "failed_routes": [
+    "Direct arXiv HTML1609.01997v2 failed; primary parsed PDF was readable and used.",
+    "One attempted relay HTML route2411.16263v3 failed; its abstract was only a lead, not construction-level evidence."
+  ],
+  "excluded_search_hits": "Broad monitoring/environment searches returned mirrors, generated summaries, unrelated ion-channel Holevo-capacity models, dense coding, biological examples and unrelated capacity claims. None is technical support or negative novelty evidence.",
+  "reading_claim": "Only the specified primary passages count as read. No PDF figure/table datum was needed; no unread visual claimed inspected.",
+  "unresolved_priority": "The targeted comparison did not locate the identical partial-output measurement capacity law in inspected constructions. This is not exhaustive global priority and unread sources may cover related results.",
+  "inherited_vs_new": "Pure-state assistance, its flagged-channel coding conversion, the min-cut lower bound, thermal-reference extremality and ordinary pure-loss capacity are inherited. The joint-register converse was derived in the supplied followup; this pass audits it and derives the exact average-energy optical rate.",
+  "independent_review": false,
+  "full_physical_premise_audit": false,
+  "protected_Cabart_source_used": false,
+  "repositories_accessed": false,
+  "third_party_PDFs_redistributed": false
+}

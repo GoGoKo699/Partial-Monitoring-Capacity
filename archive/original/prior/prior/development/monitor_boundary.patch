@@ -1,0 +1,11 @@
+--- old/check_monitoring_followup.py
++++ new/check_monitoring_followup.py
+@@ -19,7 +19,7 @@
+     if a<=b:return 0.,0.
+     # h(q) and d(q) concave. Locate their crossing and smooth stationary candidates.
+     d=lambda q:h(a*q)-h(b*q)
+-    cross=brentq(lambda q:h(q)-d(q),1e-10,1-1e-12,xtol=1e-14) if (a,b)!=(1.,0.) else .5
++    cross=1. if a+b==1. else brentq(lambda q:h(q)-d(q),1e-10,1-1e-12,xtol=1e-14)
+     obj=lambda q:min(h(q),d(q))
+     opt=minimize_scalar(lambda q:-d(q),bounds=(1e-12,cross),method='bounded',options={'xatol':1e-14})
+     qs=[0.,.5,cross,float(opt.x),1.]

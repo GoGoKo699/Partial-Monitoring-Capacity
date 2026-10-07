@@ -1,0 +1,12 @@
+test_bosonic_vacuum_extension_all_fock_coherences (__main__.Checks.test_bosonic_vacuum_extension_all_fock_coherences) ... ok
+test_concavity_and_phase_twirl_for_entropy_bound (__main__.Checks.test_concavity_and_phase_twirl_for_entropy_bound) ... ok
+test_counted_achievability_under_arbitrary_positive_energy_budget (__main__.Checks.test_counted_achievability_under_arbitrary_positive_energy_budget) ... ok
+test_exact_capacity_limits_and_threshold_slopes (__main__.Checks.test_exact_capacity_limits_and_threshold_slopes) ... ok
+test_message_fidelity_operator_bound (__main__.Checks.test_message_fidelity_operator_bound) ... ok
+test_reverse_simulation_and_classical_information_penalty (__main__.Checks.test_reverse_simulation_and_classical_information_penalty) ... ok
+test_two_cut_entropy_formula_and_corrected_partial_rate (__main__.Checks.test_two_cut_entropy_formula_and_corrected_partial_rate) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.556s
+
+OK

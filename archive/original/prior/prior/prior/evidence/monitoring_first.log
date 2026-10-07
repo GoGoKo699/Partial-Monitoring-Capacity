@@ -1,0 +1,11 @@
+test_capacity_formula_and_phase_twirl (__main__.MonitoringChecks.test_capacity_formula_and_phase_twirl) ... ok
+test_degradability_and_antidegradability (__main__.MonitoringChecks.test_degradability_and_antidegradability) ... ok
+test_flagged_channel_and_complement_exact (__main__.MonitoringChecks.test_flagged_channel_and_complement_exact) ... ok
+test_lifetime_boundary_and_click_information_not_global_optimum (__main__.MonitoringChecks.test_lifetime_boundary_and_click_information_not_global_optimum) ... ok
+test_quantum_access_control_and_residual_entanglement (__main__.MonitoringChecks.test_quantum_access_control_and_residual_entanglement) ... ok
+test_register_preserving_converse_before_any_measurement (__main__.MonitoringChecks.test_register_preserving_converse_before_any_measurement) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.055s
+
+OK

@@ -1,0 +1,174 @@
+--- preliminary/check_monitoring_followup.py
++++ final/check_monitoring_followup.py
+@@ -1,5 +1,5 @@
+ #!/usr/bin/env python3
+-"""Six bounded channel checks; analytical all-block statements are in FOLLOWUP.md.
++"""Seven bounded channel checks; analytical all-block statements are in FOLLOWUP.md.
+ Usage: python check_monitoring_followup.py --output NEW.json
+ """
+ from __future__ import annotations
+@@ -26,6 +26,25 @@
+     q=max(qs,key=obj)
+     return float(obj(q)),float(q)
+ 
++def exact_capacity(a,b,c):
++    """Numerically maximize the proved single-letter formula; no POVM search.
++
++    Splitting at the entropy-branch crossing avoids a nondifferentiable objective.
++    Numerical maxima are not interval certificates for the reported decimals.
++    """
++    if min(a,b,c)<-1e-14 or abs(a+b+c-1)>1e-12:
++        raise ValueError('Require a,b,c>=0 and a+b+c=1.')
++    if a<=b:return 0.,0.
++    cut=1/(1+a-b)
++    f=lambda q:min(h(a*q),h((1-b)*q))-h(b*q)
++    candidates=[0.,cut,1.]
++    for lo,hi in [(0.,cut),(cut,1.)]:
++        if hi-lo>1e-12:
++            opt=minimize_scalar(lambda q:-f(q),bounds=(lo,hi),method='bounded',options={'xatol':1e-14})
++            candidates.append(float(opt.x))
++    q=max(candidates,key=f)
++    return float(f(q)),float(q)
++
+ def isometry_n(a,b,c,n):
+     V=isometry(a,b,c)
+     if n==1:return V
+@@ -35,6 +54,7 @@
+ def ensemble(V,rho,dim,rows):
+     out=V@rho@V.conj().T
+     b=partial_trace(out,[dim]*3,[0]);e=partial_trace(out,[dim]*3,[1])
++    bd=partial_trace(out,[dim]*3,[0,2])
+     bx=[];ex=[];weights=[]
+     for row in rows:
+         K=np.kron(np.eye(dim*dim),row.reshape(1,dim))
+@@ -42,7 +62,7 @@
+         bb=partial_trace(sub,[dim,dim],[0]);ee=partial_trace(sub,[dim,dim],[1])
+         p=float(np.trace(bb).real)
+         if p>1e-14:bx.append(bb/p);ex.append(ee/p);weights.append(p)
+-    return b,e,weights,bx,ex
++    return b,e,bd,weights,bx,ex
+ 
+ def random_povm(d,m,rng):
+     Z=rng.normal(size=(m,d))+1j*rng.normal(size=(m,d));Q,_=np.linalg.qr(Z)
+@@ -73,7 +93,7 @@
+                 d=2**n;V=isometry_n(a,b,c,n)
+                 M=rng.normal(size=(d,d))+1j*rng.normal(size=(d,d));rho=M@M.conj().T;rho/=np.trace(rho)
+                 Q=random_povm(d,2*d,rng)
+-                B,E,p,Bx,Ex=ensemble(V,rho,d,Q)
++                B,E,BD,p,Bx,Ex=ensemble(V,rho,d,Q)
+                 ks=ad_kraus(b/a)
+                 if n==2:ks=[np.kron(x,y)for x in ks for y in ks]
+                 for bb,ee in zip(Bx,Ex):self.assertLess(np.linalg.norm(sum(k@bb@k.conj().T for k in ks)-ee),3e-13)
+@@ -82,30 +102,38 @@
+                 loss=(se(B)-sum(w*se(bb)for w,bb in zip(p,Bx)))-(se(E)-sum(w*se(ee)for w,ee in zip(p,Ex)))
+                 self.assertGreaterEqual(loss,-3e-13)
+                 self.assertAlmostEqual(difference-ic,loss,places=12)
+-                self.assertLessEqual(ic,min(se(rho),difference)+4e-13)
++                second_cut=se(BD)-se(E)
++                self.assertLessEqual(ic,min(second_cut,difference)+4e-13)
++                self.assertLessEqual(second_cut,se(rho)+4e-13)
+                 # Input-entropy and receiver-minus-loss-entropy bounds reduce to single sites.
+-                dm=[];sh=[]
++                dm=[];sh=[];bdm=[]
+                 for i in range(n):
+                     ri=rho if n==1 else partial_trace(rho,[2,2],[i])
+                     dm.append(se(ad(ri,a))-se(ad(ri,b)));sh.append(se(ri))
++                    bdm.append(se(ad(ri,1-b))-se(ad(ri,b)))
+                 self.assertLessEqual(difference,sum(dm)+4e-13)
+                 self.assertLessEqual(se(rho),sum(sh)+4e-13)
+-                U,q=rates_upper(a,b)
++                self.assertLessEqual(second_cut,sum(bdm)+4e-13)
++                average=rho if n==1 else (partial_trace(rho,[2,2],[0])+partial_trace(rho,[2,2],[1]))/2
++                average_cuts=[se(ad(average,survival))-se(ad(average,b)) for survival in (a,1-b)]
++                self.assertLessEqual(min(sum(dm),sum(bdm)),n*min(average_cuts)+4e-13)
++                U,q=exact_capacity(a,b,c)
+                 self.assertLessEqual(ic,n*U+1e-10)
+                 rows.append(dict(a=a,b=b,c=c,uses=n,helper_outcomes=2*d,coherent_information=ic,
+-                    entropy_difference=difference,classical_record_penalty=loss,per_use_upper=U))
++                    entropy_difference=difference,second_cut=second_cut,classical_record_penalty=loss,
++                    exact_capacity_per_use=U,proof_boundary="Attainment uses the cited asymptotic assistance/coding theorem, not this finite POVM test.")))
+         REPORT['collective_helper_entropy_bound']=rows
+ 
+-    def test_single_letter_rate_bracket_and_threshold_slopes(self):
++    def test_exact_capacity_limits_and_threshold_slopes(self):
+         rows=[]
+         for eta in [.75,.751,.76,.8,.9,1.]:
+             a=.2;b=.8*(1-eta);c=.8*eta
+-            lower,qlo=capacity(a,b,c);upper,qup=rates_upper(a,b)
++            lower,qlo=capacity(a,b,c);upper,qup=exact_capacity(a,b,c)
+             self.assertGreaterEqual(upper+2e-12,lower)
+             if eta==1:self.assertAlmostEqual(upper,h(1/6),places=11)
+-            rows.append(dict(decay=.8,collection=eta,counting_lower=lower,all_measurements_upper=upper,
+-                             lower_population=qlo,upper_population=qup))
+-        # Whole lower/upper near a=b=.2, c=.6; not a claimed exact slope of Q_mon.
++            rows.append(dict(decay=.8,collection=eta,counting_capacity=lower,exact_monitored_capacity=upper,
++                             counting_optimum_population=qlo,monitored_optimum_population=qup))
++        # Near-threshold slopes for counting and the newly proved exact monitored capacity.
+         t=.2
+         fl=lambda q:0. if q==0 else q*np.log2((1-(1-t)*q)/(t*q))
+         lower_opt=minimize_scalar(lambda q:-fl(q),bounds=(1e-12,1-1e-12),method='bounded')
+@@ -113,16 +141,16 @@
+         edge=[]
+         for eps in [1e-2,1e-3,1e-4]:
+             a=t+eps/2;b=t-eps/2
+-            L=capacity(a,b,.6)[0];U=rates_upper(a,b)[0]
++            L=capacity(a,b,.6)[0];U=exact_capacity(a,b,.6)[0]
+             edge.append(dict(epsilon=eps,lower_over_epsilon=L/eps,upper_over_epsilon=U/eps))
+         self.assertLess(abs(edge[-1]['lower_over_epsilon']-slope_lower),1e-7)
+         self.assertLess(abs(edge[-1]['upper_over_epsilon']-slope_upper),1e-5)
+         for a in [.55,.8,1.]:
+-            upper,_=rates_upper(a,1-a)
++            upper,_=exact_capacity(a,1-a,0.)
+             self.assertAlmostEqual(upper,capacity(a,1-a,0)[0],places=10)
+-        REPORT['rate_brackets']={'rows':rows,'threshold_path':'a=.2+epsilon/2, b=.2-epsilon/2, c=.6',
++        REPORT['exact_rate_formula']={'rows':rows,'threshold_path':'a=.2+epsilon/2, b=.2-epsilon/2, c=.6',
+              'lower_slope':slope_lower,'upper_slope':slope_upper,'edge_checks':edge,
+-             'boundary':'Upper bound is not proved attainable for partial collection; counting is a lower bound.'}
++             'boundary':'The formula is analytically proved using register-preserving degradation plus established asymptotic assistance. Its scalar optimization is numerical; no finite-size helper or practical decoder is supplied.'}
+ 
+     def test_message_fidelity_operator_bound(self):
+         rows=[]
+@@ -177,11 +205,40 @@
+             for j in range(2):
+                 Z=rng.normal(size=(2,2))+1j*rng.normal(size=(2,2));r=Z@Z.conj().T;r/=np.trace(r);states.append(r)
+             mix=.37*states[0]+.63*states[1]
+-            D=lambda r:se(ad(r,a))-se(ad(r,b))
+-            self.assertGreaterEqual(D(mix)-.37*D(states[0])-.63*D(states[1]),-1e-12)
+-            diag=np.diag(np.diag(mix));self.assertGreaterEqual(D(diag)-D(mix),-1e-12)
++            diag=np.diag(np.diag(mix))
++            for survival in (a,1-b):
++                D=lambda r:se(ad(r,survival))-se(ad(r,b))
++                self.assertGreaterEqual(D(mix)-.37*D(states[0])-.63*D(states[1]),-1e-12)
++                self.assertGreaterEqual(D(diag)-D(mix),-1e-12)
+             self.assertGreaterEqual(se(diag)-se(mix),-1e-12)
+         REPORT['entropy_reduction']='100 deterministic random tests of proven degraded-entropy concavity and phase twirling; finite tests not their proof.'
++
++    def test_two_cut_entropy_formula_and_corrected_partial_rate(self):
++        rows=[]
++        for a,b,c in [(.2,.08,.72),(.2,.16,.64),(.8,.2,0.),(.2,0.,.8),(1.,0.,0.),(.5,.5,0.)]:
++            V=isometry(a,b,c)
++            for q in [.01,.2,.5,.85,1.]:
++                rho=np.diag([1-q,q]);out=V@rho@V.conj().T
++                B=partial_trace(out,[2,2,2],[0]);E=partial_trace(out,[2,2,2],[1]);BD=partial_trace(out,[2,2,2],[0,2])
++                first=se(B)-se(E);second=se(BD)-se(E)
++                formula=min(h(a*q),h((1-b)*q))-h(b*q)
++                self.assertAlmostEqual(min(first,second),formula,places=12)
++                self.assertLessEqual(second,se(rho)+1e-12)
++            value,qopt=exact_capacity(a,b,c)
++            loose,unused=rates_upper(a,b)
++            self.assertLessEqual(value,loose+2e-12)
++            self.assertGreaterEqual(value+2e-12,capacity(a,b,c)[0])
++            grid=np.linspace(0,1,2001)
++            best=max(min(h(a*q),h((1-b)*q))-h(b*q)for q in grid)
++            self.assertGreaterEqual(value+1e-10,best)
++            rows.append(dict(a=a,b=b,c=c,exact_capacity=value,optimal_population=qopt,                earlier_loose_bound=loose,grid_lower=best))
++        exact,qopt=exact_capacity(.2,.08,.72)
++        self.assertAlmostEqual(qopt,25/28,places=12)
++        self.assertAlmostEqual(exact,h(5/28)-h(1/14),places=12)
++        self.assertAlmostEqual(exact,.3057095431400063,places=12)
++        self.assertLess(exact,rates_upper(.2,.08)[0]-.005)
++        self.assertAlmostEqual(exact_capacity(1.,0.,0.)[0],1.,places=12)
++        REPORT['two_cut_identity_and_rate_control']=rows
+ 
+ if __name__=='__main__':
+     p=argparse.ArgumentParser(description=__doc__);p.add_argument('--output',required=True,type=Path);args=p.parse_args()

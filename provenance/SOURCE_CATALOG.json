@@ -1,0 +1,656 @@
+{
+  "PRIOR_ART.md": {
+    "bytes": 4761,
+    "imported": true,
+    "reason": "Monitoring provenance or excerpt",
+    "sha256": "15d920b89c0a6756b5f1d6d351f95a4b910ff46b061ba6f6ed854a823dc83b8f"
+  },
+  "PROOF_AUDIT.md": {
+    "bytes": 6414,
+    "imported": true,
+    "reason": "Monitoring provenance or excerpt",
+    "sha256": "d052e6afada39f21f674286a6470cddefe5cf1a27fe54d3327a64b16baf3eb54"
+  },
+  "README.md": {
+    "bytes": 2342,
+    "imported": false,
+    "reason": "Separate spin pilot, combined driver/status, duplicate reference, or archive packaging not required by this monitoring-only import",
+    "sha256": "25a33912cc1a6e9269de6e8966574788276da8a51a0306b72285d3862926243a"
+  },
+  "RUN_RECORD.json": {
+    "bytes": 3471,
+    "imported": false,
+    "reason": "Separate spin pilot, combined driver/status, duplicate reference, or archive packaging not required by this monitoring-only import",
+    "sha256": "40b72494d622550110768ac040fe4379bc50ff98327139472836d6b6cce7fef7"
+  },
+  "SOURCES.json": {
+    "bytes": 2630,
+    "imported": true,
+    "reason": "Monitoring provenance or excerpt",
+    "sha256": "074b537023347c494d96518b0fb774e35b55f06deab8c8a0936fb0caaa7576a0"
+  },
+  "STATUS.md": {
+    "bytes": 2946,
+    "imported": false,
+    "reason": "Separate spin pilot, combined driver/status, duplicate reference, or archive packaging not required by this monitoring-only import",
+    "sha256": "f4a07e19a13846f19c041cfcb085d38fbf8ba004c6953a1e0be89ce14b4c6625"
+  },
+  "THEOREM.md": {
+    "bytes": 17140,
+    "imported": true,
+    "reason": "Monitoring provenance or excerpt",
+    "sha256": "cf325ee4a70521aca929dd8bd00d34cd1f2446c795d61d268bbd68116572c7cf"
+  },
+  "check_consolidation.py": {
+    "bytes": 10041,
+    "imported": true,
+    "reason": "Monitoring provenance or excerpt",
+    "sha256": "08304f06c1cd12514c34221f89bb1f7b3480f34f878d201ba298ec46fe5d44c8"
+  },
+  "environment.json": {
+    "bytes": 213,
+    "imported": true,
+    "reason": "Monitoring provenance or excerpt",
+    "sha256": "c35632a477054c211642a84cd88ee0c32f014347c24bfc1c53502bd3ff55bc57"
+  },
+  "evidence/REGRESSIONS.json": {
+    "bytes": 1294,
+    "imported": false,
+    "reason": "Separate spin pilot, combined driver/status, duplicate reference, or archive packaging not required by this monitoring-only import",
+    "sha256": "2fcd3d7149bda9983d6520c05a6ce12ab9b2445aa081f9fbeb7f4cf20fc02dff"
+  },
+  "evidence/first.json": {
+    "bytes": 11856,
+    "imported": true,
+    "reason": "Monitoring provenance or excerpt",
+    "sha256": "d4c3956435b43d9e02fc790673786c1923f7fca1955b723f1ce0326516173b6d"
+  },
+  "evidence/monitoring_baseline.json": {
+    "bytes": 4599,
+    "imported": true,
+    "reason": "Monitoring provenance or excerpt",
+    "sha256": "fa63c1dbd11b206dbe27ef15453ddabe3ed1a508c45bcf7c44eeb402e6043037"
+  },
+  "evidence/monitoring_baseline.log": {
+    "bytes": 900,
+    "imported": true,
+    "reason": "Monitoring provenance or excerpt",
+    "sha256": "9a8af798aa8a7d816c44b2fe86b8fa1a52806a900e1ecda51db78836b2bae7df"
+  },
+  "evidence/monitoring_followup.json": {
+    "bytes": 11033,
+    "imported": true,
+    "reason": "Monitoring provenance or excerpt",
+    "sha256": "8752f3f0c055e3d492e3490a457b5df5e22def833dc7d7993c46f0b9c5006df8"
+  },
+  "evidence/monitoring_followup.log": {
+    "bytes": 1001,
+    "imported": true,
+    "reason": "Monitoring provenance or excerpt",
+    "sha256": "6e36769e46bf80136098f206dd11e4287fd3bc30f3dad34963e4510819a17312"
+  },
+  "evidence/optical_audit.json": {
+    "bytes": 16712,
+    "imported": true,
+    "reason": "Monitoring provenance or excerpt",
+    "sha256": "b754c88bc7353ff41dfe3946c5e395f9186abe995081266ea3f060ebc88d9c1e"
+  },
+  "evidence/optical_audit.log": {
+    "bytes": 844,
+    "imported": true,
+    "reason": "Monitoring provenance or excerpt",
+    "sha256": "97acd9a8f7fa26be3b7bee6e2312b47dfa90cca2461203e03e28f62c75edc242"
+  },
+  "evidence/output_refusal.log": {
+    "bytes": 107,
+    "imported": true,
+    "reason": "Monitoring provenance or excerpt",
+    "sha256": "53ae64436e3dadc313fcfc8846138213c49ee4fdd5a5030e7a71122ce8c6b113"
+  },
+  "evidence/repeat.json": {
+    "bytes": 11856,
+    "imported": true,
+    "reason": "Monitoring provenance or excerpt",
+    "sha256": "d4c3956435b43d9e02fc790673786c1923f7fca1955b723f1ce0326516173b6d"
+  },
+  "evidence/repeat.log": {
+    "bytes": 658,
+    "imported": true,
+    "reason": "Monitoring provenance or excerpt",
+    "sha256": "4bbe3ec12419201440894c70a83aaddc9f0984dc4fa3a1f76a3276a16cb3ad0b"
+  },
+  "first.log": {
+    "bytes": 658,
+    "imported": true,
+    "reason": "Monitoring provenance or excerpt",
+    "sha256": "ccdfa0ad7b26a4f13d1ce50e9748a1bb9e0f8c60b696381263ce8d5c523710c3"
+  },
+  "package.py": {
+    "bytes": 7871,
+    "imported": false,
+    "reason": "Separate spin pilot, combined driver/status, duplicate reference, or archive packaging not required by this monitoring-only import",
+    "sha256": "4ed006c66d85d7d69528304915b1ee3eaf309ac69f423bb543178f9bfed64aef"
+  },
+  "prior/AUDIT.md": {
+    "bytes": 24299,
+    "imported": true,
+    "reason": "Monitoring provenance or excerpt",
+    "sha256": "6b4e054b6d3f99a2327469735304f62a347b7f1a148409a18cd0c763e58e1b9c"
+  },
+  "prior/MANIFEST.json": {
+    "bytes": 12098,
+    "imported": false,
+    "reason": "Separate spin pilot, combined driver/status, duplicate reference, or archive packaging not required by this monitoring-only import",
+    "sha256": "680ac71a15ef673697bbe43e822e8682da88fc5d07c9cd8592c8958c96205b16"
+  },
+  "prior/README.md": {
+    "bytes": 3481,
+    "imported": false,
+    "reason": "Separate spin pilot, combined driver/status, duplicate reference, or archive packaging not required by this monitoring-only import",
+    "sha256": "cd67f0ea3642074d2ef59143c8909a71ee7c94d3a78bf02ba643babf82bf104a"
+  },
+  "prior/RUN_RECORD.json": {
+    "bytes": 3518,
+    "imported": false,
+    "reason": "Separate spin pilot, combined driver/status, duplicate reference, or archive packaging not required by this monitoring-only import",
+    "sha256": "6ce68d5afd94edf27ada8204ecc6a59e59ae8daa18224c55b38abef190c4dcc4"
+  },
+  "prior/SOURCES.json": {
+    "bytes": 7003,
+    "imported": true,
+    "reason": "Monitoring provenance or excerpt",
+    "sha256": "7c9c01e7c258d62c7e5c58f813a8a72976781cb59c436ebb5c6a777c7f4120ce"
+  },
+  "prior/check_audit.py": {
+    "bytes": 14881,
+    "imported": true,
+    "reason": "Monitoring provenance or excerpt",
+    "sha256": "a33b2374e75cd891558980ccbc6e752065c644ec6ee81e8edd4850a2f6916a3b"
+  },
+  "prior/environment.json": {
+    "bytes": 213,
+    "imported": true,
+    "reason": "Monitoring provenance or excerpt",
+    "sha256": "405c5ac0778eebe49b5a8149bc34677442b9086474675cd3466107a858218286"
+  },
+  "prior/evidence/CHECK_RECORD.json": {
+    "bytes": 982,
+    "imported": false,
+    "reason": "Separate spin pilot, combined driver/status, duplicate reference, or archive packaging not required by this monitoring-only import",
+    "sha256": "0706bfd9cf0c3a7161bfee8b6cf6f6aee8786040ad5e06bfcbcbcbc3879d71c1"
+  },
+  "prior/evidence/audit_repeat.json": {
+    "bytes": 16712,
+    "imported": true,
+    "reason": "Monitoring provenance or excerpt",
+    "sha256": "b754c88bc7353ff41dfe3946c5e395f9186abe995081266ea3f060ebc88d9c1e"
+  },
+  "prior/evidence/audit_repeat.log": {
+    "bytes": 844,
+    "imported": true,
+    "reason": "Monitoring provenance or excerpt",
+    "sha256": "73d7d6e232fc3276051aa15b33b744f04c6c367a1d49530b5cc169e7b39d893d"
+  },
+  "prior/evidence/baseline_monitoring.json": {
+    "bytes": 4599,
+    "imported": true,
+    "reason": "Monitoring provenance or excerpt",
+    "sha256": "fa63c1dbd11b206dbe27ef15453ddabe3ed1a508c45bcf7c44eeb402e6043037"
+  },
+  "prior/evidence/baseline_monitoring.log": {
+    "bytes": 900,
+    "imported": true,
+    "reason": "Monitoring provenance or excerpt",
+    "sha256": "c2faf46fcd366418059301471d92e38c499cf98ddad0051c6ce76cb0d685e25f"
+  },
+  "prior/evidence/first.json": {
+    "bytes": 16712,
+    "imported": true,
+    "reason": "Monitoring provenance or excerpt",
+    "sha256": "b754c88bc7353ff41dfe3946c5e395f9186abe995081266ea3f060ebc88d9c1e"
+  },
+  "prior/evidence/first.log": {
+    "bytes": 844,
+    "imported": true,
+    "reason": "Monitoring provenance or excerpt",
+    "sha256": "8c908ef2155a5ddcf5f741e46249240cac8865870db06b683877b0e1a46d73e7"
+  },
+  "prior/evidence/output_refusal.log": {
+    "bytes": 89,
+    "imported": true,
+    "reason": "Monitoring provenance or excerpt",
+    "sha256": "53bb237d86a0d831c47fa45cb061bd37af03ad17e3226eb8fb3378928c1f6402"
+  },
+  "prior/evidence/prior_monitoring.json": {
+    "bytes": 11033,
+    "imported": true,
+    "reason": "Monitoring provenance or excerpt",
+    "sha256": "8752f3f0c055e3d492e3490a457b5df5e22def833dc7d7993c46f0b9c5006df8"
+  },
+  "prior/evidence/prior_monitoring.log": {
+    "bytes": 1001,
+    "imported": true,
+    "reason": "Monitoring provenance or excerpt",
+    "sha256": "a25bb2239ee369919da0f7e462667c7f17bb85448714df573f38bfc247f1f206"
+  },
+  "prior/evidence/verification.log": {
+    "bytes": 341,
+    "imported": true,
+    "reason": "Monitoring provenance or excerpt",
+    "sha256": "c4a45ee94c11cca5e999d9ff2e8335775c1dc762bc808cefe448e473b2facc14"
+  },
+  "prior/package.py": {
+    "bytes": 3362,
+    "imported": false,
+    "reason": "Separate spin pilot, combined driver/status, duplicate reference, or archive packaging not required by this monitoring-only import",
+    "sha256": "944e169b7ec8ef7d21a40965bad6fc167471cb98ae18831d36388672c3067b56"
+  },
+  "prior/prior/FOLLOWUP.md": {
+    "bytes": 26208,
+    "imported": true,
+    "reason": "Monitoring provenance or excerpt",
+    "sha256": "dff493a8d9fa38d84f136c6cc04133d8f33aa13b4236eddc9b9389d6f1e771fb"
+  },
+  "prior/prior/MANIFEST.json": {
+    "bytes": 9045,
+    "imported": false,
+    "reason": "Separate spin pilot, combined driver/status, duplicate reference, or archive packaging not required by this monitoring-only import",
+    "sha256": "052b699f7a3e175922768673c98c73f1389637d60b8c248d120da0ab52d43b18"
+  },
+  "prior/prior/README.md": {
+    "bytes": 3459,
+    "imported": false,
+    "reason": "Separate spin pilot, combined driver/status, duplicate reference, or archive packaging not required by this monitoring-only import",
+    "sha256": "12b2724da75cc753b65a4e29c9cf43e9eeef1274b208f01996df8b80b21c1179"
+  },
+  "prior/prior/RUN_RECORD.json": {
+    "bytes": 5034,
+    "imported": false,
+    "reason": "Separate spin pilot, combined driver/status, duplicate reference, or archive packaging not required by this monitoring-only import",
+    "sha256": "d9a8718782de68b975d63f462d6980902c871881a0d2880471f20858de904384"
+  },
+  "prior/prior/SOURCES.json": {
+    "bytes": 7133,
+    "imported": true,
+    "reason": "Monitoring provenance or excerpt",
+    "sha256": "4e509d5a2fd3424ba97631ffca65d42be7b897e0aff3436243010c07f67ae3d6"
+  },
+  "prior/prior/check_monitoring_followup.py": {
+    "bytes": 13599,
+    "imported": true,
+    "reason": "Monitoring provenance or excerpt",
+    "sha256": "a6cfe56485a7697b16016556e099bfdcea6a42b5bd86ac91870fe46e61930db2"
+  },
+  "prior/prior/check_spin_covariance.py": {
+    "bytes": 9890,
+    "imported": false,
+    "reason": "Separate spin pilot, combined driver/status, duplicate reference, or archive packaging not required by this monitoring-only import",
+    "sha256": "a2ea8079b14ba622d23298cbc5b7dd5d35e8e732347b47f01993851bb029599a"
+  },
+  "prior/prior/development/REPAIRS.md": {
+    "bytes": 2131,
+    "imported": true,
+    "reason": "Monitoring provenance or excerpt",
+    "sha256": "6f518f0e110151bd79e859beb6b6d4b50c0cc276492df3d52d012e644d62d3e5"
+  },
+  "prior/prior/development/enrich_monitor.py": {
+    "bytes": 6547,
+    "imported": false,
+    "reason": "Separate spin pilot, combined driver/status, duplicate reference, or archive packaging not required by this monitoring-only import",
+    "sha256": "7e60077d534a605c46d7719eef7896c52d28bd4cc32ef3df35ba72c6c24cda3a"
+  },
+  "prior/prior/development/exact_formula_enrichment.patch": {
+    "bytes": 9913,
+    "imported": true,
+    "reason": "Monitoring provenance or excerpt",
+    "sha256": "357aa7185785c464f83b0a53b4af88d55d4fad5f6c1b5787442c65b59ca62aa1"
+  },
+  "prior/prior/development/monitor_boundary.patch": {
+    "bytes": 579,
+    "imported": true,
+    "reason": "Monitoring provenance or excerpt",
+    "sha256": "df10674f307b31e75c6d39760387f98caa50def826ae459797731b15c12c61ca"
+  },
+  "prior/prior/development/monitor_enrichment_first.py": {
+    "bytes": 13594,
+    "imported": true,
+    "reason": "Monitoring provenance or excerpt",
+    "sha256": "8dd0acac4cc748e2406c0ba9e3e49bd9b611e383f4d873b56382cfe5a2f82725"
+  },
+  "prior/prior/development/monitor_enrichment_syntax_error.py": {
+    "bytes": 13595,
+    "imported": true,
+    "reason": "Monitoring provenance or excerpt",
+    "sha256": "4d93cc0904a55901e885a1752e759b30064b8e29c92d0d88d96e9f3aa9d38491"
+  },
+  "prior/prior/development/monitor_entropy_upper.py": {
+    "bytes": 10248,
+    "imported": true,
+    "reason": "Monitoring provenance or excerpt",
+    "sha256": "a0594d83d25abeccf610a79e2b3ef73b9e2dad6cc6f6bee62b492c0ee9a74aa0"
+  },
+  "prior/prior/development/monitor_final_changes.patch": {
+    "bytes": 9981,
+    "imported": true,
+    "reason": "Monitoring provenance or excerpt",
+    "sha256": "244562b2a0ee4908d6e8428a8ac6369d230280d68963165a9c0fed7199e32442"
+  },
+  "prior/prior/development/monitor_first.py": {
+    "bytes": 10255,
+    "imported": true,
+    "reason": "Monitoring provenance or excerpt",
+    "sha256": "bc9f15bd6ab9156669532e9469b0afacc04936e5d1613d8002def189aaaadae9"
+  },
+  "prior/prior/development/spin_scope_change.patch": {
+    "bytes": 842,
+    "imported": false,
+    "reason": "Separate spin pilot, combined driver/status, duplicate reference, or archive packaging not required by this monitoring-only import",
+    "sha256": "f801ebdda422e86b14312a331a258b50be541c548696239b5dae220a3c969483"
+  },
+  "prior/prior/development/spin_timed_out_16.py": {
+    "bytes": 9896,
+    "imported": false,
+    "reason": "Separate spin pilot, combined driver/status, duplicate reference, or archive packaging not required by this monitoring-only import",
+    "sha256": "f8920a426bc64022258682143044b98560eaaf14eca292778cdd2391b594cd85"
+  },
+  "prior/prior/environment.json": {
+    "bytes": 192,
+    "imported": true,
+    "reason": "Monitoring provenance or excerpt",
+    "sha256": "d943d83afd6af82ce9714be8eb7b58e12ffe9b80a630f066e12a93945cd1f69c"
+  },
+  "prior/prior/evidence/REGRESSIONS.json": {
+    "bytes": 1496,
+    "imported": false,
+    "reason": "Separate spin pilot, combined driver/status, duplicate reference, or archive packaging not required by this monitoring-only import",
+    "sha256": "8899fd889dc7ea34e91fabaf2d00795ade76b466903d2838286d92bde02d38a9"
+  },
+  "prior/prior/evidence/monitor_complete.log": {
+    "bytes": 393,
+    "imported": true,
+    "reason": "Monitoring provenance or excerpt",
+    "sha256": "b46fe386d6c7f0f409bfe6afd1f3c698f0203104d94e7d427f49017fe115b1c2"
+  },
+  "prior/prior/evidence/monitor_enriched.json": {
+    "bytes": 8347,
+    "imported": true,
+    "reason": "Monitoring provenance or excerpt",
+    "sha256": "d167d8fe872426d27dd75e9a1b5ce32cc3b05c12d6e745155896061d2efd9eb2"
+  },
+  "prior/prior/evidence/monitor_enriched.log": {
+    "bytes": 1661,
+    "imported": true,
+    "reason": "Monitoring provenance or excerpt",
+    "sha256": "98e73b87f5e3cbe73d4b1b4de5b49c4cfe0febe48e4db75e2d20d449349dbfdf"
+  },
+  "prior/prior/evidence/monitor_final.json": {
+    "bytes": 7886,
+    "imported": true,
+    "reason": "Monitoring provenance or excerpt",
+    "sha256": "7c0ed1bc8243ebc965dd857219f605138e0d7d31efd5978ac32ce1028a4a783b"
+  },
+  "prior/prior/evidence/monitor_final.log": {
+    "bytes": 874,
+    "imported": true,
+    "reason": "Monitoring provenance or excerpt",
+    "sha256": "0f06e5365becba0a72211831992d3871de698f38daeb60e266f6f1ed831a6ec5"
+  },
+  "prior/prior/evidence/monitor_first.json": {
+    "bytes": 5635,
+    "imported": true,
+    "reason": "Monitoring provenance or excerpt",
+    "sha256": "f682bd3b8c78d00f04640356392947555a9f0202a373a6435364a038533c963b"
+  },
+  "prior/prior/evidence/monitor_first.log": {
+    "bytes": 1886,
+    "imported": true,
+    "reason": "Monitoring provenance or excerpt",
+    "sha256": "7311cfc07b3930e4ec953556bf8c67682213c76b33719b28c32c3650936ddacd"
+  },
+  "prior/prior/evidence/monitor_repeat.json": {
+    "bytes": 11033,
+    "imported": true,
+    "reason": "Monitoring provenance or excerpt",
+    "sha256": "8752f3f0c055e3d492e3490a457b5df5e22def833dc7d7993c46f0b9c5006df8"
+  },
+  "prior/prior/evidence/monitor_repeat.log": {
+    "bytes": 1001,
+    "imported": true,
+    "reason": "Monitoring provenance or excerpt",
+    "sha256": "9c05d6d1c5ffc46832cba3b3088c4ed0c3453f09e0d56c68fc12e018ee0b1345"
+  },
+  "prior/prior/evidence/monitor_verified.json": {
+    "bytes": 11033,
+    "imported": true,
+    "reason": "Monitoring provenance or excerpt",
+    "sha256": "8752f3f0c055e3d492e3490a457b5df5e22def833dc7d7993c46f0b9c5006df8"
+  },
+  "prior/prior/evidence/monitor_verified.log": {
+    "bytes": 1001,
+    "imported": true,
+    "reason": "Monitoring provenance or excerpt",
+    "sha256": "6a07cb6d7a4fc1e7f23b07e4b33f676930e6aa575fec022e5f12e74c45737735"
+  },
+  "prior/prior/evidence/prior_monitor_rerun.json": {
+    "bytes": 4599,
+    "imported": true,
+    "reason": "Monitoring provenance or excerpt",
+    "sha256": "fa63c1dbd11b206dbe27ef15453ddabe3ed1a508c45bcf7c44eeb402e6043037"
+  },
+  "prior/prior/evidence/prior_monitor_rerun.log": {
+    "bytes": 900,
+    "imported": true,
+    "reason": "Monitoring provenance or excerpt",
+    "sha256": "f2474f33d8c314807cf15c28b6473d248105bc694b84667ba2962e1781aabc6b"
+  },
+  "prior/prior/evidence/prior_strip_rerun.json": {
+    "bytes": 5826,
+    "imported": false,
+    "reason": "Separate spin pilot, combined driver/status, duplicate reference, or archive packaging not required by this monitoring-only import",
+    "sha256": "b42a26081e3ca08d7a4a343d3ad4547f425d68e80772cca2b1012706ee43787a"
+  },
+  "prior/prior/evidence/prior_strip_rerun.log": {
+    "bytes": 590,
+    "imported": false,
+    "reason": "Separate spin pilot, combined driver/status, duplicate reference, or archive packaging not required by this monitoring-only import",
+    "sha256": "456c308deca1be13bf02d7dc3ccc77f82c221f69261d9a06f8344f3d6a6ea2c8"
+  },
+  "prior/prior/evidence/spin_bounded.json": {
+    "bytes": 9878,
+    "imported": false,
+    "reason": "Separate spin pilot, combined driver/status, duplicate reference, or archive packaging not required by this monitoring-only import",
+    "sha256": "613a2adb6e0d0054092bba31f239ed1637aa6e5e812bde986e50675d9fa12316"
+  },
+  "prior/prior/evidence/spin_bounded.log": {
+    "bytes": 674,
+    "imported": false,
+    "reason": "Separate spin pilot, combined driver/status, duplicate reference, or archive packaging not required by this monitoring-only import",
+    "sha256": "4f9aed240916ece26ec4b22ff0e823580afbc05e1cb119662842dc5a0564734a"
+  },
+  "prior/prior/evidence/spin_final.log": {
+    "bytes": 281,
+    "imported": false,
+    "reason": "Separate spin pilot, combined driver/status, duplicate reference, or archive packaging not required by this monitoring-only import",
+    "sha256": "7bccf04e9aaba04fc25a222c0a61a9bbb9928093f07076f0f2932d5f946df992"
+  },
+  "prior/prior/evidence/spin_first.log": {
+    "bytes": 281,
+    "imported": false,
+    "reason": "Separate spin pilot, combined driver/status, duplicate reference, or archive packaging not required by this monitoring-only import",
+    "sha256": "7bccf04e9aaba04fc25a222c0a61a9bbb9928093f07076f0f2932d5f946df992"
+  },
+  "prior/prior/evidence/spin_repeat.json": {
+    "bytes": 9877,
+    "imported": false,
+    "reason": "Separate spin pilot, combined driver/status, duplicate reference, or archive packaging not required by this monitoring-only import",
+    "sha256": "9bbc395d65409b7bb395aeb39405a922ebbdeb260f4609e30605c19d6121c0fb"
+  },
+  "prior/prior/evidence/spin_repeat.log": {
+    "bytes": 674,
+    "imported": false,
+    "reason": "Separate spin pilot, combined driver/status, duplicate reference, or archive packaging not required by this monitoring-only import",
+    "sha256": "2b522388da0fe0d3a26b49e3b4ffee41f8221486ddb8202bc8d91a7753fd56fb"
+  },
+  "prior/prior/evidence/spin_repeat_differences.json": {
+    "bytes": 204,
+    "imported": false,
+    "reason": "Separate spin pilot, combined driver/status, duplicate reference, or archive packaging not required by this monitoring-only import",
+    "sha256": "ab8ee3f32801bedb4498291ee8bbb965e21841f3ff532572ee44707929935744"
+  },
+  "prior/prior/finish_regressions.py": {
+    "bytes": 2307,
+    "imported": false,
+    "reason": "Separate spin pilot, combined driver/status, duplicate reference, or archive packaging not required by this monitoring-only import",
+    "sha256": "79f1c64cfa272f0977f0a54f3d0b2fb5f2721c9c375aa60dbe0fc1478e195487"
+  },
+  "prior/prior/package.py": {
+    "bytes": 6934,
+    "imported": false,
+    "reason": "Separate spin pilot, combined driver/status, duplicate reference, or archive packaging not required by this monitoring-only import",
+    "sha256": "4fe6723ebb7aeafadd13e136cac7d1acd926b958ed91c203d92bd6f6790f2afc"
+  },
+  "prior/prior/prior/MANIFEST.json": {
+    "bytes": 2266,
+    "imported": false,
+    "reason": "Separate spin pilot, combined driver/status, duplicate reference, or archive packaging not required by this monitoring-only import",
+    "sha256": "76b5c2b64920fae0e5cd64414e7b172b64879b89053fcd5d11b57b85ef4464ea"
+  },
+  "prior/prior/prior/README.md": {
+    "bytes": 3348,
+    "imported": false,
+    "reason": "Separate spin pilot, combined driver/status, duplicate reference, or archive packaging not required by this monitoring-only import",
+    "sha256": "b70249e9a075ccc4fe850ec95a3d96d23e8eea74bc170408f37a2ab84411c71b"
+  },
+  "prior/prior/prior/RESTART_NOTE.md": {
+    "bytes": 20291,
+    "imported": true,
+    "reason": "Monitoring provenance or excerpt",
+    "sha256": "2c027541d846211aff7b9588bbfdda0fa537c2f511e3469a6170e757f58081b8"
+  },
+  "prior/prior/prior/RUN_RECORD.json": {
+    "bytes": 1564,
+    "imported": false,
+    "reason": "Separate spin pilot, combined driver/status, duplicate reference, or archive packaging not required by this monitoring-only import",
+    "sha256": "a72563219e0cebe76c60d874a2a516b81afdd454db2f1f7a913ab39c0e07c7bc"
+  },
+  "prior/prior/prior/SOURCES.json": {
+    "bytes": 7398,
+    "imported": true,
+    "reason": "Monitoring provenance or excerpt",
+    "sha256": "e3f6c6452904f72547a2558c7434f73e0fda9eca45baca38b977b06b1182a3db"
+  },
+  "prior/prior/prior/check_monitoring.py": {
+    "bytes": 9981,
+    "imported": true,
+    "reason": "Monitoring provenance or excerpt",
+    "sha256": "b9614721fb2e71f8518970eeb3bff93980648d5ed2effbe725597bb1323e4e06"
+  },
+  "prior/prior/prior/check_strip.py": {
+    "bytes": 6613,
+    "imported": false,
+    "reason": "Separate spin pilot, combined driver/status, duplicate reference, or archive packaging not required by this monitoring-only import",
+    "sha256": "07b81a5e1f4b3777e3502ec7ecb9aaa7b5ab4d258f6d962061051f6efe687799"
+  },
+  "prior/prior/prior/environment.json": {
+    "bytes": 183,
+    "imported": true,
+    "reason": "Monitoring provenance or excerpt",
+    "sha256": "aac37fd93de09bae1ab7c0c636b84b144246b05b81530f2614bee7a0f143b2c4"
+  },
+  "prior/prior/prior/evidence/monitoring_first.json": {
+    "bytes": 4599,
+    "imported": true,
+    "reason": "Monitoring provenance or excerpt",
+    "sha256": "fa63c1dbd11b206dbe27ef15453ddabe3ed1a508c45bcf7c44eeb402e6043037"
+  },
+  "prior/prior/prior/evidence/monitoring_first.log": {
+    "bytes": 900,
+    "imported": true,
+    "reason": "Monitoring provenance or excerpt",
+    "sha256": "d768863690edf4e446dfd1631b0850ddf3cc4c770c42c1a2854e95abb72d2287"
+  },
+  "prior/prior/prior/evidence/monitoring_repeat.json": {
+    "bytes": 4599,
+    "imported": true,
+    "reason": "Monitoring provenance or excerpt",
+    "sha256": "fa63c1dbd11b206dbe27ef15453ddabe3ed1a508c45bcf7c44eeb402e6043037"
+  },
+  "prior/prior/prior/evidence/monitoring_repeat.log": {
+    "bytes": 900,
+    "imported": true,
+    "reason": "Monitoring provenance or excerpt",
+    "sha256": "e9f753dd875639abb5e86437e7aa4b1d76675f0f25e3d9722ecc071432dddb7a"
+  },
+  "prior/prior/prior/evidence/strip_first.json": {
+    "bytes": 5826,
+    "imported": false,
+    "reason": "Separate spin pilot, combined driver/status, duplicate reference, or archive packaging not required by this monitoring-only import",
+    "sha256": "b42a26081e3ca08d7a4a343d3ad4547f425d68e80772cca2b1012706ee43787a"
+  },
+  "prior/prior/prior/evidence/strip_first.log": {
+    "bytes": 590,
+    "imported": false,
+    "reason": "Separate spin pilot, combined driver/status, duplicate reference, or archive packaging not required by this monitoring-only import",
+    "sha256": "b8e490eab63c2d2c9142e620fec3dcc67d0359baf88eef7f472eb4649064109f"
+  },
+  "prior/prior/prior/evidence/strip_repeat.json": {
+    "bytes": 5826,
+    "imported": false,
+    "reason": "Separate spin pilot, combined driver/status, duplicate reference, or archive packaging not required by this monitoring-only import",
+    "sha256": "b42a26081e3ca08d7a4a343d3ad4547f425d68e80772cca2b1012706ee43787a"
+  },
+  "prior/prior/prior/evidence/strip_repeat.log": {
+    "bytes": 590,
+    "imported": false,
+    "reason": "Separate spin pilot, combined driver/status, duplicate reference, or archive packaging not required by this monitoring-only import",
+    "sha256": "546972b372339722d36fac1a3021cd4f8789c52f4c54298bd3dc8d508a97aa1f"
+  },
+  "prior/prior/prior/package.py": {
+    "bytes": 2131,
+    "imported": false,
+    "reason": "Separate spin pilot, combined driver/status, duplicate reference, or archive packaging not required by this monitoring-only import",
+    "sha256": "340ead285f544508a92d9fa82a95739caf2e301c53319f8045bb766672df1d2e"
+  },
+  "prior/prior/prior/probe_capacity.py": {
+    "bytes": 674,
+    "imported": false,
+    "reason": "Separate spin pilot, combined driver/status, duplicate reference, or archive packaging not required by this monitoring-only import",
+    "sha256": "272d78997d90ec84a1b0080c875b0a08f737bf70fe8574aedc9fbbf23a97a854"
+  },
+  "prior/prior/probe_exact_capacity.py": {
+    "bytes": 617,
+    "imported": false,
+    "reason": "Separate spin pilot, combined driver/status, duplicate reference, or archive packaging not required by this monitoring-only import",
+    "sha256": "0117c6234e9fbf310515202489c054fe4197622f812db5fcd67f51d9dc19e598"
+  },
+  "prior/prior/probe_monitor.py": {
+    "bytes": 699,
+    "imported": false,
+    "reason": "Separate spin pilot, combined driver/status, duplicate reference, or archive packaging not required by this monitoring-only import",
+    "sha256": "7c130995859b588b9a1045b817c1685a54613ffbf2f97b41503010c1ccfce00a"
+  },
+  "prior/prior/probe_spin.py": {
+    "bytes": 1639,
+    "imported": false,
+    "reason": "Separate spin pilot, combined driver/status, duplicate reference, or archive packaging not required by this monitoring-only import",
+    "sha256": "393fda3a1bf8c6bf5fb5ef44b0ced19d1d1e373d37190945fd9442a2ace81b54"
+  },
+  "prior/prior/run_regressions.py": {
+    "bytes": 1593,
+    "imported": false,
+    "reason": "Separate spin pilot, combined driver/status, duplicate reference, or archive packaging not required by this monitoring-only import",
+    "sha256": "b9c8c4e5b25eecf4a3d578a4dd2412ba99cf752cad52197008a16fc86262aa99"
+  },
+  "prior/run_checks.py": {
+    "bytes": 1613,
+    "imported": false,
+    "reason": "Separate spin pilot, combined driver/status, duplicate reference, or archive packaging not required by this monitoring-only import",
+    "sha256": "682fab15ea2637f963310bfa07878afc14f4b2a4fb0e6ab3d64087e90d26a780"
+  },
+  "run_verification.py": {
+    "bytes": 1629,
+    "imported": false,
+    "reason": "Separate spin pilot, combined driver/status, duplicate reference, or archive packaging not required by this monitoring-only import",
+    "sha256": "454d644cd7f13ed81185df8434e118016009b34cf56b4ef287a51597ed991d55"
+  }
+}

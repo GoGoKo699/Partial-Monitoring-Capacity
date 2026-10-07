@@ -1,0 +1,397 @@
+{
+  "base_commit": "9243513e6c8f5dee31977180743e3f6f44a9d613",
+  "base_tree": "e7c6a0e88fa17d1a93f172947b2132a709ee6a01",
+  "editorial_edits": {
+    "literature/PRIOR_ART.md": {
+      "operation": "Added dated import note; rerouted historical paths to preserved sources; active repository-status wording. No scientific equation, domain or claim changed.",
+      "source_path": "PRIOR_ART.md"
+    },
+    "research/PROOF_AUDIT.md": {
+      "operation": "Added dated import note; rerouted historical paths to preserved sources; active repository-status wording. No scientific equation, domain or claim changed.",
+      "source_path": "PROOF_AUDIT.md"
+    },
+    "research/THEOREM.md": {
+      "operation": "Added dated import note; rerouted historical paths to preserved sources; active repository-status wording. No scientific equation, domain or claim changed.",
+      "source_path": "THEOREM.md"
+    }
+  },
+  "files": {
+    "LICENSE": {
+      "bytes": 1065,
+      "sha256": "a92600540b1ab7a18301e2632a29334b3df227ad836e88df9967d69e3c86db66",
+      "source": "owner initial GitHub commit",
+      "source_blob": "e17a781bf47c4aadf18b68fc593846a1193b86c1"
+    },
+    "archive/excerpts/MONITORING_THRESHOLD.md": {
+      "bytes": 8871,
+      "sha256": "7f023c5e7ef18a6b8576379e3c34fe940b81c9bade59a1df1a6a97cb8c4a9d4d",
+      "source_character_range": [
+        755,
+        9612
+      ],
+      "source_line_range": [
+        9,
+        140
+      ],
+      "source_path": "prior/prior/prior/RESTART_NOTE.md",
+      "type": "verbatim monitoring-only excerpt"
+    },
+    "archive/excerpts/QUANTUM_RATE.md": {
+      "bytes": 12477,
+      "sha256": "a8008fe687d365a5694dfd932a7c84edcae6a752e79a1dd1299293d587fb56c8",
+      "source_character_range": [
+        959,
+        13432
+      ],
+      "source_line_range": [
+        9,
+        205
+      ],
+      "source_path": "prior/prior/FOLLOWUP.md",
+      "type": "verbatim monitoring-only excerpt"
+    },
+    "archive/original/PRIOR_ART.md": {
+      "bytes": 4761,
+      "sha256": "15d920b89c0a6756b5f1d6d351f95a4b910ff46b061ba6f6ed854a823dc83b8f",
+      "source_path": "PRIOR_ART.md"
+    },
+    "archive/original/PROOF_AUDIT.md": {
+      "bytes": 6414,
+      "sha256": "d052e6afada39f21f674286a6470cddefe5cf1a27fe54d3327a64b16baf3eb54",
+      "source_path": "PROOF_AUDIT.md"
+    },
+    "archive/original/SOURCES.json": {
+      "bytes": 2630,
+      "sha256": "074b537023347c494d96518b0fb774e35b55f06deab8c8a0936fb0caaa7576a0",
+      "source_path": "SOURCES.json"
+    },
+    "archive/original/THEOREM.md": {
+      "bytes": 17140,
+      "sha256": "cf325ee4a70521aca929dd8bd00d34cd1f2446c795d61d268bbd68116572c7cf",
+      "source_path": "THEOREM.md"
+    },
+    "archive/original/environment.json": {
+      "bytes": 213,
+      "sha256": "c35632a477054c211642a84cd88ee0c32f014347c24bfc1c53502bd3ff55bc57",
+      "source_path": "environment.json"
+    },
+    "archive/original/evidence/first.json": {
+      "bytes": 11856,
+      "sha256": "d4c3956435b43d9e02fc790673786c1923f7fca1955b723f1ce0326516173b6d",
+      "source_path": "evidence/first.json"
+    },
+    "archive/original/evidence/monitoring_baseline.json": {
+      "bytes": 4599,
+      "sha256": "fa63c1dbd11b206dbe27ef15453ddabe3ed1a508c45bcf7c44eeb402e6043037",
+      "source_path": "evidence/monitoring_baseline.json"
+    },
+    "archive/original/evidence/monitoring_baseline.log": {
+      "bytes": 900,
+      "sha256": "9a8af798aa8a7d816c44b2fe86b8fa1a52806a900e1ecda51db78836b2bae7df",
+      "source_path": "evidence/monitoring_baseline.log"
+    },
+    "archive/original/evidence/monitoring_followup.json": {
+      "bytes": 11033,
+      "sha256": "8752f3f0c055e3d492e3490a457b5df5e22def833dc7d7993c46f0b9c5006df8",
+      "source_path": "evidence/monitoring_followup.json"
+    },
+    "archive/original/evidence/monitoring_followup.log": {
+      "bytes": 1001,
+      "sha256": "6e36769e46bf80136098f206dd11e4287fd3bc30f3dad34963e4510819a17312",
+      "source_path": "evidence/monitoring_followup.log"
+    },
+    "archive/original/evidence/optical_audit.json": {
+      "bytes": 16712,
+      "sha256": "b754c88bc7353ff41dfe3946c5e395f9186abe995081266ea3f060ebc88d9c1e",
+      "source_path": "evidence/optical_audit.json"
+    },
+    "archive/original/evidence/optical_audit.log": {
+      "bytes": 844,
+      "sha256": "97acd9a8f7fa26be3b7bee6e2312b47dfa90cca2461203e03e28f62c75edc242",
+      "source_path": "evidence/optical_audit.log"
+    },
+    "archive/original/evidence/output_refusal.log": {
+      "bytes": 107,
+      "sha256": "53ae64436e3dadc313fcfc8846138213c49ee4fdd5a5030e7a71122ce8c6b113",
+      "source_path": "evidence/output_refusal.log"
+    },
+    "archive/original/evidence/repeat.json": {
+      "bytes": 11856,
+      "sha256": "d4c3956435b43d9e02fc790673786c1923f7fca1955b723f1ce0326516173b6d",
+      "source_path": "evidence/repeat.json"
+    },
+    "archive/original/evidence/repeat.log": {
+      "bytes": 658,
+      "sha256": "4bbe3ec12419201440894c70a83aaddc9f0984dc4fa3a1f76a3276a16cb3ad0b",
+      "source_path": "evidence/repeat.log"
+    },
+    "archive/original/first.log": {
+      "bytes": 658,
+      "sha256": "ccdfa0ad7b26a4f13d1ce50e9748a1bb9e0f8c60b696381263ce8d5c523710c3",
+      "source_path": "first.log"
+    },
+    "archive/original/prior/AUDIT.md": {
+      "bytes": 24299,
+      "sha256": "6b4e054b6d3f99a2327469735304f62a347b7f1a148409a18cd0c763e58e1b9c",
+      "source_path": "prior/AUDIT.md"
+    },
+    "archive/original/prior/SOURCES.json": {
+      "bytes": 7003,
+      "sha256": "7c9c01e7c258d62c7e5c58f813a8a72976781cb59c436ebb5c6a777c7f4120ce",
+      "source_path": "prior/SOURCES.json"
+    },
+    "archive/original/prior/environment.json": {
+      "bytes": 213,
+      "sha256": "405c5ac0778eebe49b5a8149bc34677442b9086474675cd3466107a858218286",
+      "source_path": "prior/environment.json"
+    },
+    "archive/original/prior/evidence/audit_repeat.json": {
+      "bytes": 16712,
+      "sha256": "b754c88bc7353ff41dfe3946c5e395f9186abe995081266ea3f060ebc88d9c1e",
+      "source_path": "prior/evidence/audit_repeat.json"
+    },
+    "archive/original/prior/evidence/audit_repeat.log": {
+      "bytes": 844,
+      "sha256": "73d7d6e232fc3276051aa15b33b744f04c6c367a1d49530b5cc169e7b39d893d",
+      "source_path": "prior/evidence/audit_repeat.log"
+    },
+    "archive/original/prior/evidence/baseline_monitoring.json": {
+      "bytes": 4599,
+      "sha256": "fa63c1dbd11b206dbe27ef15453ddabe3ed1a508c45bcf7c44eeb402e6043037",
+      "source_path": "prior/evidence/baseline_monitoring.json"
+    },
+    "archive/original/prior/evidence/baseline_monitoring.log": {
+      "bytes": 900,
+      "sha256": "c2faf46fcd366418059301471d92e38c499cf98ddad0051c6ce76cb0d685e25f",
+      "source_path": "prior/evidence/baseline_monitoring.log"
+    },
+    "archive/original/prior/evidence/first.json": {
+      "bytes": 16712,
+      "sha256": "b754c88bc7353ff41dfe3946c5e395f9186abe995081266ea3f060ebc88d9c1e",
+      "source_path": "prior/evidence/first.json"
+    },
+    "archive/original/prior/evidence/first.log": {
+      "bytes": 844,
+      "sha256": "8c908ef2155a5ddcf5f741e46249240cac8865870db06b683877b0e1a46d73e7",
+      "source_path": "prior/evidence/first.log"
+    },
+    "archive/original/prior/evidence/output_refusal.log": {
+      "bytes": 89,
+      "sha256": "53bb237d86a0d831c47fa45cb061bd37af03ad17e3226eb8fb3378928c1f6402",
+      "source_path": "prior/evidence/output_refusal.log"
+    },
+    "archive/original/prior/evidence/prior_monitoring.json": {
+      "bytes": 11033,
+      "sha256": "8752f3f0c055e3d492e3490a457b5df5e22def833dc7d7993c46f0b9c5006df8",
+      "source_path": "prior/evidence/prior_monitoring.json"
+    },
+    "archive/original/prior/evidence/prior_monitoring.log": {
+      "bytes": 1001,
+      "sha256": "a25bb2239ee369919da0f7e462667c7f17bb85448714df573f38bfc247f1f206",
+      "source_path": "prior/evidence/prior_monitoring.log"
+    },
+    "archive/original/prior/evidence/verification.log": {
+      "bytes": 341,
+      "sha256": "c4a45ee94c11cca5e999d9ff2e8335775c1dc762bc808cefe448e473b2facc14",
+      "source_path": "prior/evidence/verification.log"
+    },
+    "archive/original/prior/prior/SOURCES.json": {
+      "bytes": 7133,
+      "sha256": "4e509d5a2fd3424ba97631ffca65d42be7b897e0aff3436243010c07f67ae3d6",
+      "source_path": "prior/prior/SOURCES.json"
+    },
+    "archive/original/prior/prior/development/REPAIRS.md": {
+      "bytes": 2131,
+      "sha256": "6f518f0e110151bd79e859beb6b6d4b50c0cc276492df3d52d012e644d62d3e5",
+      "source_path": "prior/prior/development/REPAIRS.md"
+    },
+    "archive/original/prior/prior/development/exact_formula_enrichment.patch": {
+      "bytes": 9913,
+      "sha256": "357aa7185785c464f83b0a53b4af88d55d4fad5f6c1b5787442c65b59ca62aa1",
+      "source_path": "prior/prior/development/exact_formula_enrichment.patch"
+    },
+    "archive/original/prior/prior/development/monitor_boundary.patch": {
+      "bytes": 579,
+      "sha256": "df10674f307b31e75c6d39760387f98caa50def826ae459797731b15c12c61ca",
+      "source_path": "prior/prior/development/monitor_boundary.patch"
+    },
+    "archive/original/prior/prior/development/monitor_enrichment_first.py": {
+      "bytes": 13594,
+      "sha256": "8dd0acac4cc748e2406c0ba9e3e49bd9b611e383f4d873b56382cfe5a2f82725",
+      "source_path": "prior/prior/development/monitor_enrichment_first.py"
+    },
+    "archive/original/prior/prior/development/monitor_enrichment_syntax_error.py": {
+      "bytes": 13595,
+      "sha256": "4d93cc0904a55901e885a1752e759b30064b8e29c92d0d88d96e9f3aa9d38491",
+      "source_path": "prior/prior/development/monitor_enrichment_syntax_error.py"
+    },
+    "archive/original/prior/prior/development/monitor_entropy_upper.py": {
+      "bytes": 10248,
+      "sha256": "a0594d83d25abeccf610a79e2b3ef73b9e2dad6cc6f6bee62b492c0ee9a74aa0",
+      "source_path": "prior/prior/development/monitor_entropy_upper.py"
+    },
+    "archive/original/prior/prior/development/monitor_final_changes.patch": {
+      "bytes": 9981,
+      "sha256": "244562b2a0ee4908d6e8428a8ac6369d230280d68963165a9c0fed7199e32442",
+      "source_path": "prior/prior/development/monitor_final_changes.patch"
+    },
+    "archive/original/prior/prior/development/monitor_first.py": {
+      "bytes": 10255,
+      "sha256": "bc9f15bd6ab9156669532e9469b0afacc04936e5d1613d8002def189aaaadae9",
+      "source_path": "prior/prior/development/monitor_first.py"
+    },
+    "archive/original/prior/prior/environment.json": {
+      "bytes": 192,
+      "sha256": "d943d83afd6af82ce9714be8eb7b58e12ffe9b80a630f066e12a93945cd1f69c",
+      "source_path": "prior/prior/environment.json"
+    },
+    "archive/original/prior/prior/evidence/monitor_complete.log": {
+      "bytes": 393,
+      "sha256": "b46fe386d6c7f0f409bfe6afd1f3c698f0203104d94e7d427f49017fe115b1c2",
+      "source_path": "prior/prior/evidence/monitor_complete.log"
+    },
+    "archive/original/prior/prior/evidence/monitor_enriched.json": {
+      "bytes": 8347,
+      "sha256": "d167d8fe872426d27dd75e9a1b5ce32cc3b05c12d6e745155896061d2efd9eb2",
+      "source_path": "prior/prior/evidence/monitor_enriched.json"
+    },
+    "archive/original/prior/prior/evidence/monitor_enriched.log": {
+      "bytes": 1661,
+      "sha256": "98e73b87f5e3cbe73d4b1b4de5b49c4cfe0febe48e4db75e2d20d449349dbfdf",
+      "source_path": "prior/prior/evidence/monitor_enriched.log"
+    },
+    "archive/original/prior/prior/evidence/monitor_final.json": {
+      "bytes": 7886,
+      "sha256": "7c0ed1bc8243ebc965dd857219f605138e0d7d31efd5978ac32ce1028a4a783b",
+      "source_path": "prior/prior/evidence/monitor_final.json"
+    },
+    "archive/original/prior/prior/evidence/monitor_final.log": {
+      "bytes": 874,
+      "sha256": "0f06e5365becba0a72211831992d3871de698f38daeb60e266f6f1ed831a6ec5",
+      "source_path": "prior/prior/evidence/monitor_final.log"
+    },
+    "archive/original/prior/prior/evidence/monitor_first.json": {
+      "bytes": 5635,
+      "sha256": "f682bd3b8c78d00f04640356392947555a9f0202a373a6435364a038533c963b",
+      "source_path": "prior/prior/evidence/monitor_first.json"
+    },
+    "archive/original/prior/prior/evidence/monitor_first.log": {
+      "bytes": 1886,
+      "sha256": "7311cfc07b3930e4ec953556bf8c67682213c76b33719b28c32c3650936ddacd",
+      "source_path": "prior/prior/evidence/monitor_first.log"
+    },
+    "archive/original/prior/prior/evidence/monitor_repeat.json": {
+      "bytes": 11033,
+      "sha256": "8752f3f0c055e3d492e3490a457b5df5e22def833dc7d7993c46f0b9c5006df8",
+      "source_path": "prior/prior/evidence/monitor_repeat.json"
+    },
+    "archive/original/prior/prior/evidence/monitor_repeat.log": {
+      "bytes": 1001,
+      "sha256": "9c05d6d1c5ffc46832cba3b3088c4ed0c3453f09e0d56c68fc12e018ee0b1345",
+      "source_path": "prior/prior/evidence/monitor_repeat.log"
+    },
+    "archive/original/prior/prior/evidence/monitor_verified.json": {
+      "bytes": 11033,
+      "sha256": "8752f3f0c055e3d492e3490a457b5df5e22def833dc7d7993c46f0b9c5006df8",
+      "source_path": "prior/prior/evidence/monitor_verified.json"
+    },
+    "archive/original/prior/prior/evidence/monitor_verified.log": {
+      "bytes": 1001,
+      "sha256": "6a07cb6d7a4fc1e7f23b07e4b33f676930e6aa575fec022e5f12e74c45737735",
+      "source_path": "prior/prior/evidence/monitor_verified.log"
+    },
+    "archive/original/prior/prior/evidence/prior_monitor_rerun.json": {
+      "bytes": 4599,
+      "sha256": "fa63c1dbd11b206dbe27ef15453ddabe3ed1a508c45bcf7c44eeb402e6043037",
+      "source_path": "prior/prior/evidence/prior_monitor_rerun.json"
+    },
+    "archive/original/prior/prior/evidence/prior_monitor_rerun.log": {
+      "bytes": 900,
+      "sha256": "f2474f33d8c314807cf15c28b6473d248105bc694b84667ba2962e1781aabc6b",
+      "source_path": "prior/prior/evidence/prior_monitor_rerun.log"
+    },
+    "archive/original/prior/prior/prior/SOURCES.json": {
+      "bytes": 7398,
+      "sha256": "e3f6c6452904f72547a2558c7434f73e0fda9eca45baca38b977b06b1182a3db",
+      "source_path": "prior/prior/prior/SOURCES.json"
+    },
+    "archive/original/prior/prior/prior/environment.json": {
+      "bytes": 183,
+      "sha256": "aac37fd93de09bae1ab7c0c636b84b144246b05b81530f2614bee7a0f143b2c4",
+      "source_path": "prior/prior/prior/environment.json"
+    },
+    "archive/original/prior/prior/prior/evidence/monitoring_first.json": {
+      "bytes": 4599,
+      "sha256": "fa63c1dbd11b206dbe27ef15453ddabe3ed1a508c45bcf7c44eeb402e6043037",
+      "source_path": "prior/prior/prior/evidence/monitoring_first.json"
+    },
+    "archive/original/prior/prior/prior/evidence/monitoring_first.log": {
+      "bytes": 900,
+      "sha256": "d768863690edf4e446dfd1631b0850ddf3cc4c770c42c1a2854e95abb72d2287",
+      "source_path": "prior/prior/prior/evidence/monitoring_first.log"
+    },
+    "archive/original/prior/prior/prior/evidence/monitoring_repeat.json": {
+      "bytes": 4599,
+      "sha256": "fa63c1dbd11b206dbe27ef15453ddabe3ed1a508c45bcf7c44eeb402e6043037",
+      "source_path": "prior/prior/prior/evidence/monitoring_repeat.json"
+    },
+    "archive/original/prior/prior/prior/evidence/monitoring_repeat.log": {
+      "bytes": 900,
+      "sha256": "e9f753dd875639abb5e86437e7aa4b1d76675f0f25e3d9722ecc071432dddb7a",
+      "source_path": "prior/prior/prior/evidence/monitoring_repeat.log"
+    },
+    "checks/source/check_consolidation.py": {
+      "bytes": 10041,
+      "sha256": "08304f06c1cd12514c34221f89bb1f7b3480f34f878d201ba298ec46fe5d44c8",
+      "source_path": "check_consolidation.py"
+    },
+    "checks/source/prior/check_audit.py": {
+      "bytes": 14881,
+      "sha256": "a33b2374e75cd891558980ccbc6e752065c644ec6ee81e8edd4850a2f6916a3b",
+      "source_path": "prior/check_audit.py"
+    },
+    "checks/source/prior/prior/check_monitoring_followup.py": {
+      "bytes": 13599,
+      "sha256": "a6cfe56485a7697b16016556e099bfdcea6a42b5bd86ac91870fe46e61930db2",
+      "source_path": "prior/prior/check_monitoring_followup.py"
+    },
+    "checks/source/prior/prior/prior/check_monitoring.py": {
+      "bytes": 9981,
+      "sha256": "b9614721fb2e71f8518970eeb3bff93980648d5ed2effbe725597bb1323e4e06",
+      "source_path": "prior/prior/prior/check_monitoring.py"
+    },
+    "research/OPTICAL_AUDIT.md": {
+      "bytes": 24299,
+      "sha256": "6b4e054b6d3f99a2327469735304f62a347b7f1a148409a18cd0c763e58e1b9c",
+      "source_path": "prior/AUDIT.md"
+    },
+    "results/reference/consolidation.json": {
+      "bytes": 11856,
+      "sha256": "d4c3956435b43d9e02fc790673786c1923f7fca1955b723f1ce0326516173b6d",
+      "source_path": "evidence/first.json"
+    },
+    "results/reference/optical.json": {
+      "bytes": 16712,
+      "sha256": "b754c88bc7353ff41dfe3946c5e395f9186abe995081266ea3f060ebc88d9c1e",
+      "source_path": "prior/evidence/first.json"
+    },
+    "results/reference/qubit.json": {
+      "bytes": 11033,
+      "sha256": "8752f3f0c055e3d492e3490a457b5df5e22def833dc7d7993c46f0b9c5006df8",
+      "source_path": "prior/prior/evidence/monitor_verified.json"
+    },
+    "results/reference/threshold.json": {
+      "bytes": 4599,
+      "sha256": "fa63c1dbd11b206dbe27ef15453ddabe3ed1a508c45bcf7c44eeb402e6043037",
+      "source_path": "prior/prior/prior/evidence/monitoring_first.json"
+    }
+  },
+  "repository": "GoGoKo699/Partial-Monitoring-Capacity",
+  "scope": "Monitoring-only import. Full original ZIP remains a supplied conversation artifact; 110 members verified, not all copied. Spin code/data and the unrelated Cabart PDF are excluded.",
+  "source_zip": {
+    "bytes": 223310,
+    "members_verified": 110,
+    "name": "monitoring_theorem_consolidation_2026-10-06.zip",
+    "sha256": "fe6fc260a395a63556c01e774495461f04a1c4868809a4d59042a844d39baa6e"
+  }
+}
