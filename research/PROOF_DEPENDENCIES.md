@@ -132,7 +132,7 @@ For the qubit family with $a>b$, the left scalar branch has
 
 For $q\ge q_c=1/(1+a-b)$, $(1-b)q\ge1/2$ and $bq<1/2$, so the right branch is nonincreasing. This verifies the crossover/unique-root rule, including $b=0$ by limits. At $c=0$ the two cuts are identical. At $a=b=0,c=1$, the receiver has a fixed quantum state plus a classical record and zero quantum capacity; no attenuation ratio is used.
 
-For $a\le b$, reverse joint attenuation constructs a second receiver with the same reference marginal, even for coarse records and general encoders. Applying the same outcome-dependent decoder to both gives equal logical marginals. For a maximally entangled $d$-dimensional logical input, the two maximally entangled projectors satisfy $\|P+Q\|_\infty=1+1/d$, hence
+For $a\le b$, reverse joint attenuation constructs a second receiver with the same reference marginal, even for coarse records and general encoders. Applying the same outcome-dependent decoder to both gives equal logical marginals. For a maximally entangled logical input of dimension $`d`$, the two maximally entangled projectors satisfy $\|P+Q\|_\infty=1+1/d$, hence
 
 ```math
 2F_e\le1+1/d.
@@ -150,7 +150,7 @@ For the optical model, $N=0$ always gives zero capacity. For $R>0$ and $0<a<1$, 
 | [Ahmed–Smith–Wu, 2603.23417](https://arxiv.org/pdf/2603.23417) | Definitions II.2/III.1, Eq. (17), Propositions III.2–III.3 and relevant proofs. Led to the older state theorem; the attribution belongs to that older result. The weaker state conditions do not order helper measurements. |
 | [Tang–Zhu–Bai–Wang, 2609.28592](https://arxiv.org/pdf/2609.28592) | Theorems 4.1–4.2, Proposition 6.4 and proof, Appendix B. Formation-cost minimization and classical-capacity additivity do not give the shared entropy-difference maximum; ordinary entropy-function convexity is insufficient. |
 | [Relaying Quantum Information, 2507.06770v2](https://arxiv.org/pdf/2507.06770v2) | Operational definition, Theorems 2–4, Remarks 2–3 and Appendix C reductions. An active causal relay and achievable bounds do not supply the present measurement optimization. |
-| [Wilde–Qi, 1609.01997v2](https://arxiv.org/pdf/1609.01997v2) | Theorem 2 and its coding proof; Theorem 6 and its thermal-reference proof. These support the fixed-$K,m$ energy-constrained coding step and inherited entropy method. |
+| [Wilde–Qi, 1609.01997v2](https://arxiv.org/pdf/1609.01997v2) | Theorem 2 and its coding proof; Theorem 6 and its thermal-reference proof. These support the energy-constrained coding step at fixed $`K,m`$ and the inherited entropy method. |
 | [Winter, 1507.07775](https://arxiv.org/pdf/1507.07775) | Lemma 2 and proof. Its finite-reference continuity bound controls passage from finite partitions to the full classical record. |
 
 These are targeted primary-text checks, not exhaustive priority clearance or independent peer review. The analytical rederivation found no rate correction. The material change is the converse attribution, together with the explicit coding and measurable-limit details above. All 23 original diagnostic groups and the separate rational scalar certificate remain distinct from these analytical arguments.
