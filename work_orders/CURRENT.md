@@ -1,6 +1,6 @@
 # Current bounded task
 
-**7 October 2026.** The scientific prerequisite pass is recorded in [PROOF_DEPENDENCIES](../research/PROOF_DEPENDENCIES.md). Start there, then read [MODEL_AND_CLAIMS](../research/MODEL_AND_CLAIMS.md), [THEOREM](../research/THEOREM.md), [EXACT_PRODUCT_CAPACITY](../research/EXACT_PRODUCT_CAPACITY_2026-10-07.md) and [STATUS](../STATUS.md). The original import work order is [preserved as history](../archive/operations/2026-10-07-local-handoff/CURRENT.md).
+**7 October 2026.** The repository is furnished around the owner's selected tutorial: Preskill's *Quantum Shannon Theory*, Chapter 10, 2025 arXiv v5. Start with the [README](../README.md) and [four-bridge reading guide](../research/PRESKILL_READING_MAP.md). The completed scientific prerequisite pass remains in [PROOF_DEPENDENCIES](../research/PROOF_DEPENDENCIES.md); [STATUS](../STATUS.md) records revision-specific evidence. The original import work order is [preserved as history](../archive/operations/2026-10-07-local-handoff/CURRENT.md).
 
 ## Conclusion of the completed scientific pass
 
@@ -12,7 +12,9 @@ Lead with the exact qubit rate comparison: photon counting optimizes all predete
 
 ## One next task
 
-Present the existing fixed claims with the corrected attribution: established converse and assistance ingredients, the separate product optimum, and the optical energy extension. Keep every resource restriction and limit visible. The [physical picture](../research/PHYSICAL_PICTURE.md) and [Preskill reading map](../research/PRESKILL_READING_MAP.md) support the author's understanding of those claims.
+Work through the four checkpoints in the [Preskill reading guide](../research/PRESKILL_READING_MAP.md): construct the true flagged complement, distinguish the two cuts and two coding scales, explain the product chord bound, and separate the optical converse from cutoff-based achievability. The author can then identify a specific proof step that needs further explanation. The [physical picture](../research/PHYSICAL_PICTURE.md), [model map](../research/MODEL_AND_CLAIMS.md), [theorem](../research/THEOREM.md) and [exact product proof](../research/EXACT_PRODUCT_CAPACITY_2026-10-07.md) remain the supporting route.
+
+The README uses the owner's suggested presentation style, preserves the exact Purpose/contact notice, and points to the single tutorial. [llms.txt](../llms.txt) adds relevance questions and source links for assistants looking for this work. These are reader-facing changes; the rate formulas, resources and attribution boundaries are unchanged.
 
 There is no identified unresolved mathematical prerequisite within this claim package. Reopen research for a concrete proof or source objection. More digits, parameter sweeps, broad scouting, adaptive-helper capacity, optical product optimality, finite-block constructions and new environments are not prerequisites.
 

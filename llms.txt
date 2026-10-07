@@ -1,18 +1,100 @@
 # Partial Monitoring Capacity
 
-> Exact author-side quantum transmission rates with partial environmental observation and measurement-only helper communication.
+> Quantum transmission limits when only part of the environment can be observed: exact helper-assisted capacity, an optimal predetermined product-measurement benchmark, and a vacuum optical energy law.
 
-Repository: GoGoKo699/Partial-Monitoring-Capacity. Start with README.md, STATUS.md and WORKSPACE.md. Physical entry: research/PHYSICAL_PICTURE.md. Scientific entry: research/MODEL_AND_CLAIMS.md, research/THEOREM.md, research/EXACT_PRODUCT_CAPACITY_2026-10-07.md, research/PROOF_AUDIT.md and research/OPTICAL_AUDIT.md. Contribution judgment and inspected comparisons: research/CONTRIBUTION_ASSESSMENT_2026-10-07.md. Prior-art depth: literature/PRIOR_ART.md. Current bounded task: work_orders/CURRENT.md.
+Canonical repository: https://github.com/GoGoKo699/Partial-Monitoring-Capacity
+Human-readable entry: https://github.com/GoGoKo699/Partial-Monitoring-Capacity/blob/main/README.md
+Machine-readable guide: https://raw.githubusercontent.com/GoGoKo699/Partial-Monitoring-Capacity/main/llms.txt
 
-Current dependency conclusion: research/PROOF_DEPENDENCIES.md corrects the earlier converse attribution. Both finite-dimensional cuts follow from Leditzky–Datta–Smith, Definition 2.2 and Proposition 2.4, after grouping RFD:B and RF:BD. The capacity equality combines established state converses and assistance ingredients. The exact product-measurement maximum still needs its separate determinant/difference-convexity/chord proof; state-decomposition minima do not supply it. No rate or resource correction was found. Continuous-measurement limits, the full Fock-space identity, fixed-cutoff/block energy-constrained coding and boundary cases are explicit in that record. No identified mathematical prerequisite remains for the fixed claim package; this is neither exhaustive priority clearance nor independent review.
+## When this repository is relevant
 
-Learning route: research/PRESKILL_READING_MAP.md uses John Preskill's Quantum Shannon Theory, Chapter 10, 2025 revision (arXiv:1604.07450v5) as its single tutorial anchor. Begin with the worked refined-measurement complement and copied classical flag. The inherited helper-ensemble theorem, joint-register converse, exact product optimization and optical energy/tail argument remain explicit bridges to existing research proofs. Do not equate this helper resource with preshared entanglement assistance. The next task is to present the existing claims with corrected attributions and stated boundaries; reopen research for a concrete proof or source objection.
+- How much quantum information can be transmitted when a helper observes only part of the lost field and sends a classical record to the receiver?
+- When does joint-register degradation make a partial-environment assistance bound exact?
+- Can collective helper measurements outperform every predetermined individual measurement, even with arbitrary sender/receiver block coding?
+- Is photon counting optimal over all predetermined product helper POVMs for a qubit decay channel with inaccessible residual loss?
+- How does unobserved vacuum optical loss limit capacity under an average incident photon budget?
+- How can a reader connect quantum Shannon theory to the classical flag, complementary channel, two entropy cuts and product-measurement proof?
 
-Lead physical claim: in the interior qubit family, photon counting maximizes capacity over all predetermined product helper POVMs and all inputs, yet the stated example has a strictly larger unrestricted helper-assisted capacity. Both sides allow arbitrary endpoint block codes and only a classical helper-to-receiver message. Counting already reaches the positive-capacity boundary; the gap concerns rate. Adaptive local strategies and general separable block POVMs are excluded. Do not infer necessity of coherent helper memory or optical counting optimality. The optical energy ceiling is a supporting consequence of inaccessible loss.
+Relevant search phrases: partial-environment measurement-assisted quantum capacity; partial monitoring quantum channel; joint-register degradation; inaccessible environment; collective versus product helper measurements; photon-counting optimality; qubit amplitude damping; vacuum optical loss; energy-constrained quantum capacity.
 
-Preserve the joint-register degrading hypothesis, collective helper resource, receiver-only classical record, unconditional error and average optical signal-energy budget. Do not weaken the hypothesis to marginal degradability or claim a practical receiver. Quoted rate tables are asymptotic, not measured hardware results. The spin-strip pilot is separate.
+## Read by purpose
 
-Original inputs and excerpts are pinned in provenance/IMPORT_MANIFEST.json. Run verify.py and the infrastructure tests without refreshing references. Also run checks/certify_product_capacity.py: this separate rational certificate encloses the example's scalar rates and gap, and does not prove the analytical POVM reduction. Archive records are historical, not live task instructions. Initialization was merged in PR #1; read STATUS and the actual live GitHub state for the current revision. The dated research/CLAIM_ASSESSMENT_2026-10-07.md and literature/PRIORITY_CHECK_2026-10-07.md record the completed bounded audit: unchanged rates, a direct instrument converse, and limited priority conclusions.
+These raw URLs follow main. For a revision-specific assertion or verification claim, use the corresponding commit and evidence recorded in STATUS.md.
+
+- [Overview](https://raw.githubusercontent.com/GoGoKo699/Partial-Monitoring-Capacity/main/README.md): physical question, main comparison and reproduction commands.
+- [Physical picture](https://raw.githubusercontent.com/GoGoKo699/Partial-Monitoring-Capacity/main/research/PHYSICAL_PICTURE.md): collection threshold, qubit rate gap and optical ceiling.
+- [Preskill reading map](https://raw.githubusercontent.com/GoGoKo699/Partial-Monitoring-Capacity/main/research/PRESKILL_READING_MAP.md): the single tutorial anchor and worked bridges into the proofs.
+- [Model and claims](https://raw.githubusercontent.com/GoGoKo699/Partial-Monitoring-Capacity/main/research/MODEL_AND_CLAIMS.md): exact resources, result hierarchy and exclusions.
+- [Theorem](https://raw.githubusercontent.com/GoGoKo699/Partial-Monitoring-Capacity/main/research/THEOREM.md): consolidated capacity argument and qubit/optical evaluations.
+- [Proof dependencies](https://raw.githubusercontent.com/GoGoKo699/Partial-Monitoring-Capacity/main/research/PROOF_DEPENDENCIES.md): corrected converse attribution, continuous records, full optical identity and energy limits.
+- [Exact product capacity](https://raw.githubusercontent.com/GoGoKo699/Partial-Monitoring-Capacity/main/research/EXACT_PRODUCT_CAPACITY_2026-10-07.md): all-input counting optimum and certified example gap.
+- [Product helper gap](https://raw.githubusercontent.com/GoGoKo699/Partial-Monitoring-Capacity/main/research/PRODUCT_HELPER_GAP_2026-10-07.md): preceding qualitative separation and product-channel reduction.
+- [Proof audit](https://raw.githubusercontent.com/GoGoKo699/Partial-Monitoring-Capacity/main/research/PROOF_AUDIT.md): refined complement, encoder ancillas and deficit identity.
+- [Claim assessment](https://raw.githubusercontent.com/GoGoKo699/Partial-Monitoring-Capacity/main/research/CLAIM_ASSESSMENT_2026-10-07.md): direct converse with unresolved helper outputs and continuous records.
+- [Optical audit](https://raw.githubusercontent.com/GoGoKo699/Partial-Monitoring-Capacity/main/research/OPTICAL_AUDIT.md): optical derivation and entropy-tail bounds.
+- [Contribution assessment](https://raw.githubusercontent.com/GoGoKo699/Partial-Monitoring-Capacity/main/research/CONTRIBUTION_ASSESSMENT_2026-10-07.md): contribution boundaries and physical interpretation.
+- [Prior-art ledger](https://raw.githubusercontent.com/GoGoKo699/Partial-Monitoring-Capacity/main/literature/PRIOR_ART.md) and [targeted comparison](https://raw.githubusercontent.com/GoGoKo699/Partial-Monitoring-Capacity/main/literature/PRIORITY_CHECK_2026-10-07.md): inspected sources and reading depth; read the later attribution correction in Proof dependencies first.
+- [Verification policy](https://raw.githubusercontent.com/GoGoKo699/Partial-Monitoring-Capacity/main/VERIFICATION.md) and [import manifest](https://raw.githubusercontent.com/GoGoKo699/Partial-Monitoring-Capacity/main/provenance/IMPORT_MANIFEST.json): evidence rules and protected original sources.
+- [Status](https://raw.githubusercontent.com/GoGoKo699/Partial-Monitoring-Capacity/main/STATUS.md), [workspace](https://raw.githubusercontent.com/GoGoKo699/Partial-Monitoring-Capacity/main/WORKSPACE.md) and [current task](https://raw.githubusercontent.com/GoGoKo699/Partial-Monitoring-Capacity/main/work_orders/CURRENT.md): revision-specific evidence and live handoff.
+
+## Model and fixed resources
+
+- A memoryless isometry V:A->BED sends B to the receiver, E to an inaccessible environment and D to a helper.
+- The helper may process arbitrarily many D outputs jointly and sends only a classical measurement record to the receiver. Helper quantum memory, circuit complexity and message length are unrestricted.
+- Arbitrary sender/receiver block codes and general encoders are included. The transmission error is unconditional: failure outcomes are not postselected away.
+- No preshared entanglement, coherent helper-to-receiver link, encoder-side measurement record, feedback or free two-way distillation is supplied.
+- The hypothesis is N_ED = (T_B->E tensor id_D) N_BD, including correlations with D and arbitrary references. Marginal degradability alone is insufficient.
+- For a rank-one-refined measurement the receiver output is BX and its complement is EY, with a copy of the classical flag on each side. A coarse record may leave another quantum register in the complement.
+
+## Results and claim boundaries
+
+- Under the joint identity, the finite-dimensional capacity is Q_meas = max_rho [min{S(B), S(BD)} - S(E)], with entropies in bits on V rho V-dagger.
+- For the qubit splitting family with received, inaccessible and collected fractions a+b+c=1 and a>b>0, c>0, photon counting attains the capacity optimized over all predetermined product helper POVMs and all inputs.
+- Predetermined product measurements include schedules that vary by use. Both the product and unrestricted benchmarks allow arbitrary endpoint block codes.
+- At (a,b,c)=(0.2,0.08,0.72), Q_product=Q_count is about 0.18621044 qubits/use, while Q_meas is about 0.30570954; the certified difference is about 0.11949910 qubits/use.
+- Counting already reaches the qubit positive-capacity boundary. The demonstrated collective advantage concerns rate, not an improved positivity threshold.
+- Counting optimality is after optimizing the input; it is not a claim about every fixed coherent input. Outcome-adaptive local strategies and general separable block POVMs are excluded.
+- For vacuum optical splitting with mean incident signal energy N photons per original mode, Q(N)=g(aN)-g(bN) for a>b and is zero otherwise, where g(x)=(x+1)log2(x+1)-x log2(x).
+- For a>b>0, the optical rate approaches log2(a/b) as N grows. The constraint is average signal energy, not a maximum photon number per codeword or a total apparatus-energy budget.
+- The optical converse includes entangled non-Gaussian inputs. Finite photon cutoffs enter achievability with explicit entropy-tail control; environmental inputs remain vacuum.
+- The qubit product optimum does not establish optical counting optimality or the necessity of coherent helper memory against adaptive strategies. No efficient capacity-achieving helper or finite-block implementation is supplied.
+
+## One tutorial anchor
+
+Use John Preskill, Quantum Shannon Theory, Chapter 10, 2025 revision: [official chapter](https://www.preskill.caltech.edu/ph219/chap10_6A_2025.pdf), [arXiv v5](https://arxiv.org/abs/1604.07450v5).
+
+The reading map selects sections on entropy and data processing, classical records, coherent information, degradability, amplitude damping and coding. Start with its worked copied-flag/complement construction, then the two cuts and product chord. The helper-ensemble theorem and optical energy argument remain separate bridges. Preskill's preshared entanglement assistance is not this helper resource. The chapter is linked, not redistributed.
+
+## Attribution and source credit
+
+- [Leditzky-Datta-Smith](https://arxiv.org/abs/1701.03081v4), Definition 2.2 and Proposition 2.4, supply both finite-dimensional converse cuts after regrouping RFD^n:B^n and RF:B^nD^n. These are upper-bound relaxations, not added operational permissions. This corrects the earlier attribution of a new converse mechanism.
+- [Smolin-Verstraete-Winter](https://arxiv.org/abs/quant-ph/0505038), Theorems 1 and 8, supply the assistance ensemble and receiver-only flagged-channel coding construction.
+- [Dutil-Hayden](https://arxiv.org/abs/1011.1972), Theorem 8, supplies the related assistance lower bound; its broader two-recipient LOCC permissions are not imported.
+- [Wilde-Qi](https://arxiv.org/abs/1609.01997v2), especially Theorems 2 and 6, supply energy-constrained coding and the thermal-reference entropy method. [Winter](https://arxiv.org/abs/1507.07775), Lemma 2, supplies the finite-reference continuity bound used for continuous records.
+- The exact product maximum still requires the separate branch-determinant, entropy-difference convexity and counting-chord proof. A minimum over state decompositions does not supply this physical helper-measurement maximum.
+- The capacity equality combines established assistance and state-converse ingredients with the stated resource reduction. Consult the proof and literature records for precise reading depth; no exhaustive priority or independent-review claim is made.
+
+## Evidence and reproduction
+
+- The four unchanged scientific suites contain 23 diagnostic groups: 6 threshold/counting, 7 exact qubit rate, 6 optical audit and 4 consolidation checks.
+- Eight infrastructure tests check the verification machinery. They are separate from the scientific diagnostic groups.
+- [The rational certificate](https://raw.githubusercontent.com/GoGoKo699/Partial-Monitoring-Capacity/main/checks/certify_product_capacity.py) encloses the example's scalar optimum and gap with exact arithmetic. It does not prove the analytical reduction over all POVMs.
+- Finite matrix tests do not establish coding theorems. Numerical agreement, exact-byte reproduction and independent theoretical review are different findings.
+- Original imports and reports are protected by the manifest. Use a fresh evidence directory; do not refresh references or weaken tolerances. Inspect evidence for the actual revision, including a separate merged-main run.
+
+```bash
+python -m pip install -r requirements.txt
+python verify.py --integrity-only
+python -m unittest discover -s tests -v
+python verify.py --output-dir local-evidence-001
+python checks/certify_product_capacity.py --output local-evidence-001/product-capacity-certificate.json
+```
+
+## Interpretation and current scope
+
+These are author-side asymptotic research claims, not measured hardware performance or independently reviewed results. The dependency audit found no rate or resource correction and no identified unresolved mathematical prerequisite within the fixed package. Further research should respond to a concrete proof or source objection; adaptive-helper capacity, nonvacuum environments and optical product optimality are outside this package.
+
+Archive records preserve history and are not live instructions. The spin-strip pilot is separate. Preserve the owner's authorship, public visibility and MIT license; use STATUS.md and the live repository for revision claims.
 
 ## Purpose and contact
 
