@@ -1,15 +1,15 @@
 # Current bounded task
 
-**7 October 2026.** The product-helper resource question is quantitatively closed. Start with [EXACT_PRODUCT_CAPACITY](../research/EXACT_PRODUCT_CAPACITY_2026-10-07.md), [PHYSICAL_PICTURE](../research/PHYSICAL_PICTURE.md), [MODEL_AND_CLAIMS](../research/MODEL_AND_CLAIMS.md) and [STATUS](../STATUS.md). The original import work order is [preserved as history](../archive/operations/2026-10-07-local-handoff/CURRENT.md).
+**7 October 2026.** The contribution assessment is complete. Start with [CONTRIBUTION_ASSESSMENT](../research/CONTRIBUTION_ASSESSMENT_2026-10-07.md), [THEOREM](../research/THEOREM.md), [EXACT_PRODUCT_CAPACITY](../research/EXACT_PRODUCT_CAPACITY_2026-10-07.md) and [STATUS](../STATUS.md). The original import work order is [preserved as history](../archive/operations/2026-10-07-local-handoff/CURRENT.md).
 
 ## Conclusion of the completed pass
 
-For the qubit family with $a>b>0,c>0$, photon counting is optimal among all predetermined product helper POVMs, even allowing arbitrary input coherence and sender/receiver block codes. The proof uses conditional determinants and a convex entropy-difference chord bound. The previous qualitative gap proof remains valid and is now strengthened by this exact product capacity.
+Retain and advance the completed exact-capacity contribution; stop scientific expansion for now. The exact partial-access converse and the optimal product benchmark form a coherent theoretical result. The benchmark rules out a better predetermined single-use detector as the explanation for the gap. Collective-assistance gains themselves are established prior work.
 
-At $(a,b,c)=(0.2,0.08,0.72)$, the product capacity is about $0.18621044$, the unrestricted capacity about $0.30570954$, and their gap about $0.11949910$ qubits/use. A separate exact rational certificate encloses the scalar values. Outcome-adaptive local strategies and general separable block POVMs remain outside the comparison. This is author-side research; no global priority or independent scrutiny is claimed.
+For the qubit family with $a>b>0,c>0$, photon counting is globally optimal over all predetermined product helper POVMs, including coherent inputs and arbitrary endpoint codes. The example's capacities are about $0.18621044$ and $0.30570954$ qubits/use. This changes the rate, not the positive-capacity boundary. Adaptive local measurements and general separable block POVMs remain outside the comparison. No efficient collective implementation, global priority or independent scrutiny is claimed.
 
 ## One next task
 
-Assess whether the completed exact capacity and quantified product comparison form a sufficiently distinct physical contribution. Use the existing closest-source records first. State the precise implication the predecessors do not supply, the simplest physical lesson, and one candid continue/stop judgment. Any extra literature retrieval should target a specific potentially covering implication; do not restart broad scouting.
+The author should review the compact contribution assessment alongside its two proof dependencies and decide which physical claim deserves emphasis. Keep scientific scope frozen during that review. The bounded assistant assessment has reached its judgment; do not reopen it through more digits, a parameter sweep, broad scouting, a new model or an adaptive-helper extension.
 
-Do not seek more numerical digits, a parameter sweep, new bath, platform, adaptive-helper extension or manuscript to postpone that judgment. Preserve the distinction between the exact product benchmark and an efficient collective implementation. External contact and release still require an explicit owner instruction.
+No manuscript, release or external contact is initiated by this work order. External contact and release still require an explicit owner instruction. Repository maintenance remains authorized, subject to the existing exact-revision verification and merge workflow.
