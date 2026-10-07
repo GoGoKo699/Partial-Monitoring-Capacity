@@ -2,6 +2,8 @@
 
 **7 October 2026. Author-side analytical audit, not independent peer review.**
 
+**Subsequent dependency correction:** [PROOF_DEPENDENCIES](PROOF_DEPENDENCIES.md) supplies both finite-dimensional cuts from Leditzky–Datta–Smith's degradable-state theorem and makes the optical coding and measurable-limit details explicit. This narrows converse attribution; the direct proof below and all rates remain valid.
+
 **Verdict: the stated capacity equality survives.** No capacity formula, resource assumption or protected source is corrected. The most concrete remaining proof concern was treating arbitrary optical measurements through a blanket rank-one refinement. The converse admits a direct proof for coarse measurements, with the discarded encoder ancilla retained. This also clarifies why an unresolved helper register cannot invalidate the upper bounds.
 
 The claim remains the exact saturation of an inherited assistance lower bound under the **joint-register** identity. This assessment does not establish exhaustive priority; see the [targeted priority check](../literature/PRIORITY_CHECK_2026-10-07.md).
@@ -82,4 +84,4 @@ The potential resource objection is grouping the inaccessible $E$ with the refer
 
 Optical achievability still fixes a finite photon cutoff and helper block before coding, then increases the cutoff with the preserved entropy-tail bounds. The truncated thermal input is diagonal in photon number, so energy-typical coding can use its strict average-energy slack. Rank-one refinement remains relevant to the exact coherent-information expression and deficit identity; the direct converse above does not remove those qualifications.
 
-This bounded pass adds proof detail, not a new rate claim or numerical evidence. The next task is to decide the reader-facing exposition from this assessment and the priority check, rather than start another model or repeat the preserved checks.
+This bounded pass adds proof detail, not a new rate claim or numerical evidence. The current dependency conclusion and next task are in [PROOF_DEPENDENCIES](PROOF_DEPENDENCIES.md) and [CURRENT](../work_orders/CURRENT.md); this assessment's original proof remains available for the optical extension.

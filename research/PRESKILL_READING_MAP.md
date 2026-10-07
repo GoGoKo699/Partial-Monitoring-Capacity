@@ -62,6 +62,8 @@ The two classical entropies cancel, leaving $I_c=S(B|X)-S(E|X)$. They cancel bec
 
 ## 2. See why both entropy cuts use the same input
 
+The subsequent [dependency audit](PROOF_DEPENDENCIES.md) gives an additional route and corrected attribution: both finite-dimensional cuts follow from Leditzky–Datta–Smith's one-way distillation theorem for degradable states, using the groupings $RFD^n:B^n$ and $RF:B^nD^n$. The explicit channel proof below remains useful for understanding the resources and the separate product optimization.
+
 For a refined measured block channel, the first upper bound is
 
 ```math
@@ -120,4 +122,4 @@ The resulting optical rate is $g(aN)-g(bN)$ for $a>b$, and zero otherwise, with 
 
 ## Where to stop this pass
 
-Begin with the first checkpoint and explain it in your own words before moving through the two cuts and the product chord. The research claims, limitations and attributions remain in the linked proofs and [model map](MODEL_AND_CLAIMS.md). This guide adds a learning route, not a new result or independent proof review. The next task is to work through that first checkpoint with the author; no scientific expansion is needed.
+Begin with the first checkpoint and explain it in your own words before moving through the two cuts and the product chord. The research claims, limitations and corrected attributions remain in the linked proofs, [dependency record](PROOF_DEPENDENCIES.md) and [model map](MODEL_AND_CLAIMS.md). This guide adds a learning route, not a new result or independent proof review. The current work handoff is in [CURRENT](../work_orders/CURRENT.md); no scientific expansion is needed for these checkpoints.

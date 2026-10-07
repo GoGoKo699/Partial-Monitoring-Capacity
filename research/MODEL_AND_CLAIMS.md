@@ -1,6 +1,6 @@
 # Model, claim hierarchy and proof dependencies
 
-**Updated 7 October 2026.** This maps the supplied 6 October consolidation, the [bounded claim assessment](CLAIM_ASSESSMENT_2026-10-07.md), the [qualitative product helper separation](PRODUCT_HELPER_GAP_2026-10-07.md) and its [exact capacity resolution](EXACT_PRODUCT_CAPACITY_2026-10-07.md). The unrestricted capacity formulas and resources are unchanged.
+**Updated 7 October 2026.** This maps the supplied 6 October consolidation, the [bounded claim assessment](CLAIM_ASSESSMENT_2026-10-07.md), the [qualitative product helper separation](PRODUCT_HELPER_GAP_2026-10-07.md) and its [exact capacity resolution](EXACT_PRODUCT_CAPACITY_2026-10-07.md). The [proof-dependency audit](PROOF_DEPENDENCIES.md) corrects converse attribution and closes the identified coding and measurable-limit details. Capacity formulas and resources are unchanged.
 
 ## Fixed communication resource
 
@@ -14,7 +14,7 @@ The capacity is asymptotic entanglement transmission per original input. It is n
 
 | ID | Author-side statement | Proof route | Diagnostic suite |
 |---|---|---|---|
-| C1 | The joint-register degrading identity makes the minimum-cut assistance lower bound exact. | [THEOREM](THEOREM.md), Sections 1–2. | consolidation; qubit |
+| C1 | The joint-register degrading identity makes the minimum-cut assistance lower bound exact. | [THEOREM](THEOREM.md), Sections 1–2; both finite-dimensional cuts follow from established degradable-state theory via [the register reduction](PROOF_DEPENDENCIES.md). | consolidation; qubit |
 | C2 | Qubit splitting has an exact single-variable rate and positive capacity exactly when survival exceeds unobserved decay. | THEOREM, Section 3; [original rate excerpt](../archive/excerpts/QUANTUM_RATE.md). | threshold; qubit |
 | C3 | Vacuum optical splitting has capacity $g(aN)-g(bN)$ when $a>b$, and zero otherwise, under an average incident-energy constraint. | THEOREM, Section 4; [OPTICAL_AUDIT](OPTICAL_AUDIT.md), Section 4. | optical |
 | C4 | The optical rate deficit separates unused energy, thermal-reference contraction deficit and measurement deficit. | THEOREM, Section 5; [PROOF_AUDIT](PROOF_AUDIT.md). | consolidation |
@@ -32,6 +32,8 @@ The reader-facing lead combines C1 with C7: the exact unrestricted capacity and 
 
 **Joint simulation.** The map from $B$ to $E$ must leave $D$ and its correlations unchanged. A map reproducing only the inaccessible marginal is insufficient. The random-phase example in the supplied audit is a countercontrol, not a counterexample to the stated hypothesis.
 
+**Established state converse.** Leditzky–Datta–Smith, Definition 2.2 and Proposition 2.4, give both finite-dimensional upper bounds by grouping $RFD^n:B^n$ and $RF:B^nD^n$. This is a converse relaxation of the actual task, not permission for new communication or access. C1 is a synthesis of established assistance and state-converse ingredients; C7 still needs its separate measurement optimization.
+
 **Refined complement.** The measured channel has output $BX$ and a complementary output $EY$ with a copy of the classical outcome. Degradability applies to every refined block measurement. Deleting a record without changing the complement invalidates the coherent-information expression.
 
 **General helper instruments.** The [direct converse](CLAIM_ASSESSMENT_2026-10-07.md) retains the unresolved helper register and discarded encoder ancilla, proving the two upper bounds without rank-one refinement. Continuous optical records are handled by finite classical partitions. This does not make a coarse measured channel degradable or extend the exact deficit identity to coarse records.
@@ -40,7 +42,7 @@ The reader-facing lead combines C1 with C7: the exact unrestricted capacity and 
 
 **Achievability.** The assistance ensemble theorem selects a measurement on $D$. Grouping the inaccessible field with a mathematical reference does not grant access to either. Freeze the block measurement and use ordinary quantum coding over the resulting channel with a classical flag. No encoder-side outcome or two-way distillation is added.
 
-**Optical limit.** The converse includes arbitrary entangled non-Gaussian inputs under an average energy bound. Finite photon support is used only in achievability, first fixing the cutoff and coding limit, then increasing the cutoff with explicit entropy-tail control. The environmental inputs remain vacuum. A thermal average encoded state is not an uncoded thermal communication scheme.
+**Optical limit.** The converse includes arbitrary entangled non-Gaussian inputs under an average energy bound. The full Fock-space Weyl identity and fixed-cutoff/block application of Wilde–Qi's energy-constrained coding theorem are explicit in [PROOF_DEPENDENCIES](PROOF_DEPENDENCIES.md). Finite photon support is used only in achievability, first fixing the cutoff and coding limit, then increasing the cutoff with explicit entropy-tail control. The environmental inputs remain vacuum. A thermal average encoded state is not an uncoded thermal communication scheme.
 
 ## What is not proved here
 
