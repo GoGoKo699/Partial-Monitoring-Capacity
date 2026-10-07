@@ -44,6 +44,7 @@ For the qubit model with $a>b>0$ and $c>0$, [photon counting is optimal among al
 | File | Purpose |
 |---|---|
 | [Physical picture](research/PHYSICAL_PICTURE.md) | The physical question, one example, collection requirements, and contribution boundary. |
+| [Contribution assessment](research/CONTRIBUTION_ASSESSMENT_2026-10-07.md) | Continue/stop judgment, the two missing prior-work implications, and the limits of the physical claim. |
 | [Model and claims](research/MODEL_AND_CLAIMS.md) | Resource definition, result hierarchy, proof dependencies, and limitations. |
 | [Theorem](research/THEOREM.md) | Consolidated finite-dimensional proof and both physical examples. |
 | [Proof audit](research/PROOF_AUDIT.md) | Refined measurement complement, general encoders, and deficit identity. |

@@ -1,6 +1,6 @@
 # Status
 
-**7 October 2026 — qualitative product-helper separation merged; exact product capacity and gap now determined.**
+**7 October 2026 — exact capacities complete; contribution assessment recommends advancing the bounded result and stopping scientific expansion.**
 
 The repository is `GoGoKo699/Partial-Monitoring-Capacity`. [PR #1](https://github.com/GoGoKo699/Partial-Monitoring-Capacity/pull/1) merged the prepared monitoring-only import as `a9d953cd95410fc6add5c047e89133c8b7369ff8`, with source tree `4ca9e3b55b286ebd65fa20fbf7fe180ec776e14c`. Public visibility and the owner's MIT license are unchanged.
 
@@ -39,4 +39,8 @@ That qualitative result was merged in [PR #4](https://github.com/GoGoKo699/Parti
 
 Outcome-adaptive local strategies and general separable block POVMs are outside both product results. Collective gains in assistance are established; the additional claims and inspected reading depths are recorded without global priority or independent-review claims.
 
-[CURRENT](work_orders/CURRENT.md) sets one next task: assess the precise physical contribution of the completed exact-capacity results against the closest assistance results. Further numerical refinement is not required. No new model, manuscript, release or external contact is initiated here. Verification for this revision belongs to its own PR and separate merged-main workflow, not to the earlier receipts above.
+The exact product result was merged in [PR #5](https://github.com/GoGoKo699/Partial-Monitoring-Capacity/pull/5) as `b3f1f3df535bd029ed09cfd4ef94eb82c571d545`, tree `92ec9d98faaef772cf9919c07040be1d8fbc191e`. The [PR-head run](https://github.com/GoGoKo699/Partial-Monitoring-Capacity/actions/runs/37591456310) and separately inspected [merged-main run](https://github.com/GoGoKo699/Partial-Monitoring-Capacity/actions/runs/37591663446) passed eight infrastructure tests, all 23 scientific groups and the separate rational certificate. Each evidence archive matched all 104 tracked sources and 70 protected imports. The PR-head reports were byte-identical to references; main had the same 136 accepted floating-point differences as the preserved hosted profile. The exact certificate was byte-identical locally and in both hosted runs. The PR retains both receipts.
+
+[The completed contribution assessment](research/CONTRIBUTION_ASSESSMENT_2026-10-07.md) recommends retaining and advancing this finite package, while stopping numerical and model expansion. Known collective-assistance gains are not the novelty claim. The substantive additions are the partial-access matching converse and global counting optimality over all predetermined product helper POVMs. The latter excludes a better independent-use detector basis as the explanation for the demonstrated gap. Counting already reaches the same positive-capacity boundary; the gap concerns rate. No necessity claim against adaptive local strategies is made.
+
+[CURRENT](work_orders/CURRENT.md) sets one next task: author review of the contribution brief and its two proof dependencies, with scientific scope frozen. The bounded primary-source comparison found no directly covering implication in the inspected passages; it is not global priority clearance or independent review. No new model, manuscript, release or external contact is initiated here. Verification for this assessment revision belongs to its own PR and separate merged-main workflow, not to the earlier receipts above.
