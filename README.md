@@ -4,9 +4,11 @@
 
 A lossy quantum signal is divided among a receiver, an inaccessible environment, and a collected field. A helper may process the collected field coherently and measure it, but sends only a classical record to the receiver. This project determines the resulting asymptotic quantum transmission rate for a class of channels and evaluates it for qubit decay and vacuum optical loss.
 
-The central distinction is **received information versus permanently unobserved loss**. At fixed nonzero unobserved loss, increasing signal energy cannot remove the optical rate ceiling. Collecting more of the lost field can raise that ceiling. Collective quantum processing at the helper is an allowed resource; a practical receiver attaining the limit is not supplied.
+**Even the best predetermined individual measurements can leave transmission capacity unused.** In the qubit regime studied here, photon counting attains the highest rate over all helper measurements performed separately on each collected output according to a schedule fixed in advance. In the explicit example below, unrestricted joint measurements attain a higher rate at the same loss split while the helper still sends only a classical record. Both comparisons allow arbitrary sender/receiver block codes. Outcome-adaptive local strategies remain outside this benchmark.
 
-Start with [the physical picture](research/PHYSICAL_PICTURE.md): why the receiver can obtain only 20% of the signal and still transmit quantum information, and how the exact rate translates into a collection requirement.
+Collecting enough of the lost field first makes transmission possible; counting already reaches that positive-capacity boundary in the qubit model. The additional demonstrated benefit is a higher rate. A complementary optical consequence is that fixed nonzero inaccessible loss imposes an energy-independent rate ceiling. A practical collective helper attaining the limits is not supplied.
+
+Start with [the physical picture](research/PHYSICAL_PICTURE.md): when collecting loss enables transmission, why optimized predetermined individual measurements can leave capacity unused, and how inaccessible loss limits the optical rate.
 
 ## The result under study
 
@@ -35,7 +37,7 @@ g(aN)-g(bN),&a>b,\\
 \qquad g(x)=(x+1)\log_2(x+1)-x\log_2x.
 ```
 
-The positive-rate boundary is $a>b$. For $a>b>0$, increasing signal energy approaches the ceiling $\log_2(a/b)$. The input constraint is an average photon budget, not a maximum photon number per codeword or total apparatus-energy budget. The qubit example has its own single-variable entropy optimization; photon counting reaches its positivity boundary but need not attain its optimal rate.
+At a positive signal-energy budget, the optical positive-rate boundary is $a>b$. For $a>b>0$, increasing signal energy approaches the ceiling $\log_2(a/b)$. The input constraint is an average photon budget, not a maximum photon number per codeword or total apparatus-energy budget. The qubit example has its own single-variable entropy optimization; photon counting reaches its positivity boundary but need not attain its unrestricted helper-assisted rate.
 
 For the qubit model with $a>b>0$ and $c>0$, [photon counting is optimal among all predetermined product helper POVMs](research/EXACT_PRODUCT_CAPACITY_2026-10-07.md), even with arbitrary input coherence and sender/receiver block codes. At $(a,b,c)=(0.2,0.08,0.72)$, that capacity is about $0.18621044$ qubits/use, while unrestricted helper measurements attain about $0.30570954$. The gap is certified at about $0.11949910$ qubits/use. Outcome-adaptive local strategies remain outside this comparison.
 
@@ -55,7 +57,7 @@ For the qubit model with $a>b>0$ and $c>0$, [photon counting is optimal among al
 | [Prior art](literature/PRIOR_ART.md) and [targeted comparison](literature/PRIORITY_CHECK_2026-10-07.md) | Closest constructions, inherited ingredients, and actual reading depth. |
 | [Status](STATUS.md) and [workspace](WORKSPACE.md) | Current evidence, unresolved tasks, and handoff. |
 
-The theorem is an **author-side research claim**, not an independently reviewed result. Finite matrix tests check identities and evaluations; they do not prove coding theorems or establish global priority. No manuscript, release, or implemented code is included.
+The theorem is an **author-side research claim**, not an independently reviewed result. Finite matrix tests check identities and evaluations; they do not prove coding theorems or establish global priority. No manuscript, release, or implemented capacity-achieving communication scheme is included.
 
 ## Reproduce
 
