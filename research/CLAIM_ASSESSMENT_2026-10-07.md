@@ -76,7 +76,7 @@ I(R;B^nX_{\mathcal P})\uparrow I(R;B^nX).
 
 Because $R$ is finite dimensional, these quantities are bounded by $2\log_2d$, and $I(R\rangle Z)=I(R;Z)-S(R)$. Both cuts pass to the limit. This uses neither a rank-one density kernel for a continuous POVM nor subtraction of divergent classical entropies. It supplies the conventional measurable-limit interpretation stipulated in the original theorem.
 
-One can see the convergence directly: conditional averages of the trace-class state field $\rho_{RB^n}(x)$ over generating finite partitions converge in integrated trace norm. Apply the dimension-$d$ uniform continuity bound for $S(R|B^n)$ to those averages and integrate; its modulus vanishes with the trace-norm error. The entropy tool is [Winter, Lemma 2](https://arxiv.org/pdf/1507.07775), whose bound is independent of the conditioning-system dimension. The partition argument here is an application of that bound, not a claim that the cited paper states this monitoring theorem. Lemma 2 and its proof were inspected in primary parsed text.
+One can see the convergence directly: conditional averages of the trace-class state field $\rho_{RB^n}(x)$ over generating finite partitions converge in integrated trace norm. Apply the uniform continuity bound for $`S(R|B^n)`$ with reference dimension $`d`$ to those averages and integrate; its modulus vanishes with the trace-norm error. The entropy tool is [Winter, Lemma 2](https://arxiv.org/pdf/1507.07775), whose bound is independent of the conditioning-system dimension. The partition argument here is an application of that bound, not a claim that the cited paper states this monitoring theorem. Lemma 2 and its proof were inspected in primary parsed text.
 
 ## Receiver-only achievability
 

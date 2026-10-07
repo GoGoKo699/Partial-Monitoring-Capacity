@@ -27,3 +27,5 @@ Use a feature branch, review the exact diff, inspect checks for the actual PR re
 Keep work claim-driven. A limitation can delimit the theorem; it is not automatically an instruction to add a new model or resource. Prior-art searches should target an implication that could subsume the central result, not accumulate irrelevant references. Failed retrieval is not novelty evidence. Stop each bounded scientific pass with a concrete conclusion and one next task.
 
 Maintain the exact Purpose and contact notice in current reader-facing notices. No generated website or manuscript workflow is introduced in this initial import.
+
+For new or edited reader-facing math, use GitHub's explicit inline delimiters (for example, $`d`$) and fenced `math` blocks. Keep inline formulas separate from hyphenated prose: write “of dimension $`d`$” or “at fixed $`K,m`$”. Use `\mathrm{Tr}`, `\mathrm{id}` and `\mathrm{diag}` rather than `\operatorname`, which the observed GitHub renderer rejects. Apply formatting repairs to active editorial documents; preserve protected imports and archived originals.
