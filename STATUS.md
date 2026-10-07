@@ -1,6 +1,6 @@
 # Status
 
-**7 October 2026 — initialization merged and verified; bounded claim assessment completed.**
+**7 October 2026 — initialization and bounded claim assessment merged; physical reading guide completed.**
 
 The repository is `GoGoKo699/Partial-Monitoring-Capacity`. [PR #1](https://github.com/GoGoKo699/Partial-Monitoring-Capacity/pull/1) merged the prepared monitoring-only import as `a9d953cd95410fc6add5c047e89133c8b7369ff8`, with source tree `4ca9e3b55b286ebd65fa20fbf7fe180ec776e14c`. Public visibility and the owner's MIT license are unchanged.
 
@@ -21,10 +21,14 @@ The takeover verified 70 protected imports. The source catalog enumerates 109 fi
 
 ## Scientific conclusion
 
+The claim assessment was merged in [PR #2](https://github.com/GoGoKo699/Partial-Monitoring-Capacity/pull/2) as `aa60f70d99831b13e46b71e882f1674c4084604a`, tree `be2db6d2367a41ba4699eeaf3fe09d76a2ccb71c`. Its separate [merged-main run](https://github.com/GoGoKo699/Partial-Monitoring-Capacity/actions/runs/37585678407) passed eight infrastructure tests and all 23 scientific groups. The downloaded evidence matched all 100 source files; all four reports were byte-identical to references in that run. The PR record retains the exact verification receipt. Earlier initialization discrepancies above remain historical observations of different runs.
+
 [The targeted assessment](research/CLAIM_ASSESSMENT_2026-10-07.md) finds no correction to the central equality or its physical evaluations. Its direct converse retains both discarded encoder ancillas and unresolved helper outputs. Finite partitions of a continuous classical record avoid relying on a rank-one refinement theorem in the optical converse. Rank-one refinement remains explicit for the exact coherent-information and deficit identities.
 
 [The priority comparison](literature/PRIORITY_CHECK_2026-10-07.md) identifies close precedents for the entropy method and for partial environmental access. None of the inspected theorem passages directly supplies the same conditional capacity equality. This is a bounded author-side assessment, not exhaustive priority clearance or independent peer review.
 
 ## Next work
 
-The import and requested central-implication audit are complete. [CURRENT](work_orders/CURRENT.md) records one next task: prepare a compact explanation of the physical distinction and the exact contribution using the established theorem. No new model, manuscript, release or external contact is initiated here.
+[The physical picture](research/PHYSICAL_PICTURE.md) completes the requested exposition: observed versus unobserved loss, the energy ceiling at fixed loss fractions, and the collection needed for a target rate. The threshold and rate formulas are unchanged. The guide explicitly distinguishes allowing collective processing from proving it necessary.
+
+[CURRENT](work_orders/CURRENT.md) records a possible bounded follow-up in the same qubit model: determine whether a general individual-use helper measurement can attain the unrestricted optimum. This is an unresolved resource question, not a prerequisite for the established capacity theorem. No new model, manuscript, release or external contact is initiated here.

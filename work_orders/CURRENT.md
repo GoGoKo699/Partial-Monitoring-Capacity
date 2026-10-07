@@ -1,6 +1,6 @@
 # Current bounded task
 
-**7 October 2026.** The initialization operation and central-implication assessment are complete. See [STATUS](../STATUS.md), [claim assessment](../research/CLAIM_ASSESSMENT_2026-10-07.md) and [priority comparison](../literature/PRIORITY_CHECK_2026-10-07.md). The previous work order is [preserved as history](../archive/operations/2026-10-07-local-handoff/CURRENT.md).
+**7 October 2026.** The initialization, central-implication assessment and requested physical reading guide are complete. Start with [PHYSICAL_PICTURE](../research/PHYSICAL_PICTURE.md), then [STATUS](../STATUS.md), [claim assessment](../research/CLAIM_ASSESSMENT_2026-10-07.md) and [priority comparison](../literature/PRIORITY_CHECK_2026-10-07.md). The original import work order is [preserved as history](../archive/operations/2026-10-07-local-handoff/CURRENT.md).
 
 ## Conclusion of the completed pass
 
@@ -10,6 +10,8 @@ The inspected symmetric-side-channel and relay theorems do not directly subsume 
 
 ## One next task
 
-Prepare a compact reader-facing explanation of the physical distinction: a classical record from collected loss can help, while permanently unobserved loss sets the threshold and optical energy ceiling. Connect that story to the joint-register condition, the two entropy cuts and one existing qubit/optical example. State exactly what is inherited and what implication is proposed.
+Determine whether fixed, nonadaptive product helper POVMs can attain the unrestricted capacity in the existing qubit example $(a,b,c)=(0.2,0.08,0.72)$. The encoder and decoder may still use block codes; only the helper measurement is restricted to a product across channel uses. Allow all single-use POVMs, not just photon counting. Outcome-adaptive helper strategies are outside this specific benchmark.
 
-Use the current results and source ledger. The stopping point is one clear reading route, not a new model, additional simulation campaign, manuscript or indefinite audit sequence. Reopen a settled proof step only for a specific mathematical or source-based objection. External contact and release still require an explicit owner instruction.
+First identify the correct single-use optimization and its coding interpretation. Seek either an attaining measurement or an analytical strict upper bound. A comparison against counting alone cannot settle this question. Any separation must be compared with the already known regularized assistance phenomena before claiming a new contribution.
+
+This is a bounded resource question within the same channel, not a prerequisite for the established theorem and not a claim that collective processing has already been proved necessary. Stop with an attainment, a certified gap, or one precise unresolved obstruction. Do not introduce a new bath, platform, broad numerical campaign or manuscript. External contact and release still require an explicit owner instruction.
