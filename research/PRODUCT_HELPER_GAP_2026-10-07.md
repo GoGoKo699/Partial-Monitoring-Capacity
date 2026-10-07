@@ -33,7 +33,7 @@ Refining a single-use POVM into rank-one effects gives the receiver additional c
 
 ```math
 W_x=(I_{BE}\otimes m_x)V,\qquad
-\mathcal N_M(\rho)=\sum_x\operatorname{Tr}_E(W_x\rho W_x^\dagger)\otimes|x\rangle\langle x|.
+\mathcal N_M(\rho)=\sum_x\mathrm{Tr}_E(W_x\rho W_x^\dagger)\otimes|x\rangle\langle x|.
 ```
 
 A complementary output is $EY$, with the same classical flag. The joint-register identity gives the degrading map $\mathcal A_{b/a}\otimes\mathrm{id}_{X\to Y}$, where $\mathcal A_t$ denotes amplitude damping with survival $t$. Therefore every refined measured channel is degradable and
@@ -83,7 +83,7 @@ Consequently it suffices to optimize over five weights, five unit Bloch vectors 
 
 ## 3. Strict entropy contraction and the unique unrestricted input
 
-The linear action of $\mathcal A_t$ on differences of qubit Bloch vectors is $\operatorname{diag}(\sqrt t,\sqrt t,t)$. For $0<t<1$,
+The linear action of $\mathcal A_t$ on differences of qubit Bloch vectors is $\mathrm{diag}(\sqrt t,\sqrt t,t)$. For $0<t<1$,
 
 ```math
 \|\mathcal A_t(\omega)-\mathcal A_t(\sigma)\|_1
@@ -118,7 +118,7 @@ f'_+(q_*)=-\frac{23}{25}\log_2\frac{23}{5}-\frac2{25}\log_2 13<0.
 Concavity of each cut establishes the unique maximum
 
 ```math
-\rho_*=\operatorname{diag}(3/28,25/28),\qquad
+\rho_*=\mathrm{diag}(3/28,25/28),\qquad
 D_a(\rho_*)=D_{1-b}(\rho_*)=Q_{\rm meas}.
 ```
 
@@ -134,7 +134,7 @@ p=(1-cq)|u|^2+cq|v|^2,\qquad
 (\sigma_B)_{01}=q\sqrt{ac}\,vu^*.
 ```
 
-The average receiver state is $\bar B=\operatorname{diag}(1-aq,aq)$. Suppose $\sigma_B=p\bar B$. Its excited population requires $p=|u|^2$, while its off-diagonal entry requires $vu^*=0$. If $u=0$, then $p=cq|v|^2>0$, contradicting $p=|u|^2$. If $u\ne0$, then $v=0$ and $p=(1-cq)|u|^2\ne|u|^2$. Thus no nonzero rank-one outcome has $B_x=\bar B$.
+The average receiver state is $\bar B=\mathrm{diag}(1-aq,aq)$. Suppose $\sigma_B=p\bar B$. Its excited population requires $p=|u|^2$, while its off-diagonal entry requires $vu^*=0$. If $u=0$, then $p=cq|v|^2>0$, contradicting $p=|u|^2$. If $u\ne0$, then $v=0$ and $p=(1-cq)|u|^2\ne|u|^2$. Thus no nonzero rank-one outcome has $B_x=\bar B$.
 
 The receiver ensemble is therefore nonconstant. Since $E_x=\mathcal A_{b/a}(B_x)$, strict Holevo contraction gives
 

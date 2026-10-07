@@ -16,7 +16,7 @@ The joint-register identity holds with reference $F$ and commutes with this filt
 
 ```math
 \rho_{FGE^n|x}
-=(\operatorname{id}_{FG}\otimes\mathcal T^{\otimes n})
+=(\mathrm{id}_{FG}\otimes\mathcal T^{\otimes n})
   (\rho_{FGB^n|x}).
 ```
 

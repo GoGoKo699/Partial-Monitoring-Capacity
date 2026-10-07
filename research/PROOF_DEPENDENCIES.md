@@ -18,7 +18,7 @@ First take a finite helper record. Purify an arbitrary encoded input as $RFA^n$,
 
 ```math
 \omega_{RFD^nE^n}
-=(\operatorname{id}_{RFD^n}\otimes\mathcal T^{\otimes n})
+=(\mathrm{id}_{RFD^n}\otimes\mathcal T^{\otimes n})
   (\omega_{RFD^nB^n}).
 ```
 
@@ -30,7 +30,7 @@ I(R\rangle\widehat B)
 =S(B^n)-S(E^n).
 ```
 
-**Second cut.** Take $L=RF$, $K=B^nD^n$, again with purifier $E^n$. Its degrading map is $\mathcal T^{\otimes n}\circ\operatorname{Tr}_{D^n}$. Discarding $F$ acts on $L$; the helper measurement and decoding now belong to $K$'s local operation. The same proposition yields
+**Second cut.** Take $L=RF$, $K=B^nD^n$, again with purifier $E^n$. Its degrading map is $\mathcal T^{\otimes n}\circ\mathrm{Tr}_{D^n}$. Discarding $F$ acts on $L$; the helper measurement and decoding now belong to $K$'s local operation. The same proposition yields
 
 ```math
 I(R\rangle\widehat B)\le S(B^nD^n)-S(E^n).
@@ -54,7 +54,7 @@ The explicit refined-channel proof remains useful: it identifies the real comple
 
 The same source's Proposition 2.7 establishes convexity for suitable mixtures under its tensor-product hypothesis; Theorem 2.8 then gives an upper bound through a **minimum** over degradable/antidegradable decompositions. The helper problem instead maximizes a shared branch-entropy difference over physically allowed measurements. That minimum controls a state-distillation bound and supplies no ordering of the physically allowed helper measurement averages. The [exact product proof](EXACT_PRODUCT_CAPACITY_2026-10-07.md) still needs its determinant calculation, difference-convexity inequality and counting chord bound.
 
-For completeness, the continuous-outcome extension can be stated without an uncountable orthogonal-flag isometry. For a qubit POVM $M$, use its finite trace measure $\mu(S)=\operatorname{Tr}M(S)$, with $\mu(\Omega)=2$. Its positive matrix density admits spectral refinement into rows $m_j(x)$. For fixed input, define the branch probabilities relative to $\mu$ and replace each sum in the chord proof by $\int\sum_j\,d\mu(x)$. The determinant and Rayleigh bounds hold pointwise, and completeness gives $\int\sum_j p_j(x)r_j(x)\,d\mu(x)=1$. Qubit conditional entropies are bounded, so the integrals are well defined. Branches with zero probability contribute zero.
+For completeness, the continuous-outcome extension can be stated without an uncountable orthogonal-flag isometry. For a qubit POVM $M$, use its finite trace measure $\mu(S)=\mathrm{Tr}M(S)$, with $\mu(\Omega)=2$. Its positive matrix density admits spectral refinement into rows $m_j(x)$. For fixed input, define the branch probabilities relative to $\mu$ and replace each sum in the chord proof by $\int\sum_j\,d\mu(x)$. The determinant and Rayleigh bounds hold pointwise, and completeness gives $\int\sum_j p_j(x)r_j(x)\,d\mu(x)=1$. Qubit conditional entropies are bounded, so the integrals are well defined. Branches with zero probability contribute zero.
 
 For predetermined measurements on different uses, the additivity difference is the contraction of total correlation from receiver outputs to complementary outputs. Both total correlations are finite by data processing from the finite-dimensional input. One may cancel the common classical correlation term using conditional entropies, without assigning a differential entropy to the outcome. General encoder ancillas are covered by the same conditional weak-monotonicity argument as in the direct proof.
 
@@ -107,7 +107,7 @@ Next fix a helper block of $m$ modes and a finite-outcome assistance measurement
 ```math
 H_{K,m}=\sum_{j=1}^{m}\hat n_j,
 \qquad
-\operatorname{Tr}[H_{K,m}(\tau_N^{(K)})^{\otimes m}]=mN_K<mN.
+\mathrm{Tr}[H_{K,m}(\tau_N^{(K)})^{\otimes m}]=mN_K<mN.
 ```
 
 [Wilde–Qi, Theorem 2](https://arxiv.org/abs/1609.01997v2), applied to this fixed finite channel with budget $mN$, supplies energy-constrained codes achieving its coherent information. The finite input and output spaces satisfy its Gibbs and finite-output-entropy conditions. Divide the rate by $m$. The helper POVM can be extended outside the supported subspace by an additional outcome that never occurs for these codes. This explicitly supplies the energy constraint; it is not an inference that an arbitrary unconstrained code happens to meet it.
