@@ -43,9 +43,12 @@ For the qubit model with $a>b>0$ and $c>0$, [photon counting is optimal among al
 
 ## Reading route
 
+For a guided path into the proofs, use [the Preskill reading map](research/PRESKILL_READING_MAP.md). It pairs selected sections of *Quantum Shannon Theory* (2025 revision) with the classical-record construction, the two entropy cuts and the exact product optimum, then separates the additional optical energy argument.
+
 | File | Purpose |
 |---|---|
 | [Physical picture](research/PHYSICAL_PICTURE.md) | The physical question, one example, collection requirements, and contribution boundary. |
+| [Preskill reading map](research/PRESKILL_READING_MAP.md) | One tutorial anchor, a worked flag/complement explanation, and bridges into the existing proofs. |
 | [Contribution assessment](research/CONTRIBUTION_ASSESSMENT_2026-10-07.md) | Continue/stop judgment, the two missing prior-work implications, and the limits of the physical claim. |
 | [Model and claims](research/MODEL_AND_CLAIMS.md) | Resource definition, result hierarchy, proof dependencies, and limitations. |
 | [Theorem](research/THEOREM.md) | Consolidated finite-dimensional proof and both physical examples. |

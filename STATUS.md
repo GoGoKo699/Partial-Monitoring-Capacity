@@ -1,6 +1,6 @@
 # Status
 
-**7 October 2026 — exact capacities complete; reader guides now lead with the optimal-product versus unrestricted qubit rate comparison. Scientific scope remains frozen.**
+**7 October 2026 — exact capacities complete; the Preskill reading map now connects one tutorial anchor to the existing proofs. Scientific scope remains frozen.**
 
 The repository is `GoGoKo699/Partial-Monitoring-Capacity`. [PR #1](https://github.com/GoGoKo699/Partial-Monitoring-Capacity/pull/1) merged the prepared monitoring-only import as `a9d953cd95410fc6add5c047e89133c8b7369ff8`, with source tree `4ca9e3b55b286ebd65fa20fbf7fe180ec776e14c`. Public visibility and the owner's MIT license are unchanged.
 
@@ -47,4 +47,8 @@ The assessment was merged in [PR #6](https://github.com/GoGoKo699/Partial-Monito
 
 The reader-facing emphasis is now selected and integrated into the existing README, [physical picture](research/PHYSICAL_PICTURE.md), claim map and LLM guide. Lead with the exact qubit comparison between optimal predetermined product measurements and unrestricted assistance; use the positivity threshold and optical energy ceiling as supporting consequences. This is an exposition pass, with no change to scientific statements, proofs or evidence requirements. The dated contribution assessment retains its original decision context.
 
-[CURRENT](work_orders/CURRENT.md) sets one next task: a guided reading of the two existing proof dependencies, beginning with the joint-register condition and measured-channel complement. The bounded primary-source comparison remains neither global priority clearance nor independent review. Scientific expansion stays stopped. No new model, manuscript, release or external contact is initiated here. Verification for this exposition revision belongs to its own PR and separate merged-main workflow, not to the earlier receipts above.
+The physical emphasis was merged in [PR #7](https://github.com/GoGoKo699/Partial-Monitoring-Capacity/pull/7) as `a0e4679bf9890b4714be09d78d30867fb42da23b`, tree `4804bcc3b7d6bc238d6cd970c75bc6a0fc87dc35`. Its [PR-head run](https://github.com/GoGoKo699/Partial-Monitoring-Capacity/actions/runs/37612329457) and separate [merged-main run](https://github.com/GoGoKo699/Partial-Monitoring-Capacity/actions/runs/37612504233) passed eight infrastructure tests, all 23 scientific groups and the rational certificate. Each downloaded archive matched all 105 tracked sources and 70 protected imports. Both runs reproduced all four reference reports byte for byte; the exact certificate was also byte-identical locally and hosted. Full receipts are retained in that PR.
+
+The [Preskill reading map](research/PRESKILL_READING_MAP.md) adds the approved single tutorial anchor, selected sections and a worked explanation of the copied classical flag and actual complement. It explicitly bridges the remaining helper-ensemble, joint-register converse, product-optimization and optical-limit dependencies to the existing proofs. It changes no rates, resource assumptions or protected sources. The chapter is linked, not redistributed.
+
+[CURRENT](work_orders/CURRENT.md) sets one next task: work through the guide's first flag/complement checkpoint with the author. The bounded primary-source comparison remains neither global priority clearance nor independent review. Scientific expansion stays stopped. No new model, manuscript, release or external contact is initiated here. Verification for this learning-guide revision belongs to its own PR and separate merged-main workflow, not to the earlier receipts above.
