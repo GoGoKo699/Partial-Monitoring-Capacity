@@ -1,6 +1,6 @@
 # How much loss can remain unobserved?
 
-**Reading guide, 7 October 2026.** This explains the existing theorem and its algebraic consequences. It adds no capacity formula or implementation claim.
+**Reading guide, 7 October 2026.** This explains the existing theorem, its algebraic consequences and the subsequent product-measurement separation. It adds no implementation claim.
 
 A quantum signal leaks into two places outside the receiver: a field we can collect and a field we cannot access. A helper measures the collected field and sends the receiver a classical record. The question is how much unknown quantum information can be transmitted reliably when some loss is still hidden.
 
@@ -61,6 +61,8 @@ This follows directly from the continuous increasing rate and its ceiling. When 
 
 The general result applies when the receiver can simulate the inaccessible output while preserving every correlation with the helper. That **joint-register** requirement is stronger than reproducing the inaccessible marginal alone. It gives two upper bounds for the same input: $S(B)-S(E)$, which remains valid after classical helper assistance, and $S(BD)-S(E)$, obtained by hypothetically giving the receiver the collected field coherently. A known assistance construction attains their minimum asymptotically. The proposed contribution is the matching converse and resulting exact optimization under this condition.
 
-The helper resources include quantum storage, phase references and arbitrary joint measurements. Photon counting reaches the positive-rate boundary in the qubit example but gives about $0.1862$ qubits per use, below the unrestricted value $0.3057$. **That comparison does not prove that all individual-use measurements are suboptimal.** No efficient measurement attaining the general optimum is supplied.
+The helper resources include quantum storage, phase references and arbitrary joint measurements. Photon counting reaches the positive-rate boundary in the qubit example but gives about $0.1862$ qubits per use, below the unrestricted value $0.3057$. That comparison alone does not bound other single-use measurements.
+
+[A separate analytical proof](PRODUCT_HELPER_GAP_2026-10-07.md) now shows a strict gap for **every predetermined product helper POVM**, even when the sender and receiver use arbitrary block codes. Measuring each collected output separately according to a schedule fixed in advance cannot approach the unrestricted optimum. The proof does not give the gap's size or settle measurements chosen adaptively from earlier outcomes. Collective gains in assistance have known precedents; the result here includes residual inaccessible loss and optimizes the entire stated product class. No efficient measurement attaining the general optimum is supplied.
 
 Environment-assisted communication, partial environmental access and the assistance lower bound have established predecessors. Read [the model](MODEL_AND_CLAIMS.md) for exact resources, [the theorem](THEOREM.md) for the proof and evaluations, and [the targeted comparison](../literature/PRIORITY_CHECK_2026-10-07.md) for the inherited ingredients and precise proposed contribution. Independent scrutiny and exhaustive priority remain open.

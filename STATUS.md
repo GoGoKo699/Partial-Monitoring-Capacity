@@ -1,6 +1,6 @@
 # Status
 
-**7 October 2026 — initialization and bounded claim assessment merged; physical reading guide completed.**
+**7 October 2026 — initialization, bounded claim assessment and physical guide merged; product-helper separation established analytically.**
 
 The repository is `GoGoKo699/Partial-Monitoring-Capacity`. [PR #1](https://github.com/GoGoKo699/Partial-Monitoring-Capacity/pull/1) merged the prepared monitoring-only import as `a9d953cd95410fc6add5c047e89133c8b7369ff8`, with source tree `4ca9e3b55b286ebd65fa20fbf7fe180ec776e14c`. Public visibility and the owner's MIT license are unchanged.
 
@@ -29,6 +29,10 @@ The claim assessment was merged in [PR #2](https://github.com/GoGoKo699/Partial-
 
 ## Next work
 
-[The physical picture](research/PHYSICAL_PICTURE.md) completes the requested exposition: observed versus unobserved loss, the energy ceiling at fixed loss fractions, and the collection needed for a target rate. The threshold and rate formulas are unchanged. The guide explicitly distinguishes allowing collective processing from proving it necessary.
+[The physical picture](research/PHYSICAL_PICTURE.md) was added in [PR #3](https://github.com/GoGoKo699/Partial-Monitoring-Capacity/pull/3), merged as `8737a23d8ab3768be39711a7272f3d9fad1c58b2`, tree `8844c211a5fddae2f61d44729cb07937def6f78b`. Its separately inspected [merged-main run](https://github.com/GoGoKo699/Partial-Monitoring-Capacity/actions/runs/37586858469) passed eight infrastructure tests and all 23 scientific groups, matched all 101 source files, and reproduced the four reference reports byte for byte. Its PR-head run had the previously recorded 136 accepted floating-point differences; the PR retains both outcomes.
 
-[CURRENT](work_orders/CURRENT.md) records a possible bounded follow-up in the same qubit model: determine whether a general individual-use helper measurement can attain the unrestricted optimum. This is an unresolved resource question, not a prerequisite for the established capacity theorem. No new model, manuscript, release or external contact is initiated here.
+[The subsequent product-helper proof](research/PRODUCT_HELPER_GAP_2026-10-07.md) resolves the resource question at $(a,b,c)=(0.2,0.08,0.72)$: the supremum over all predetermined product helper POVMs is strictly below $Q_{\rm meas}=h_2(5/28)-h_2(1/14)\simeq0.30570954$ qubits/use. This includes varying per-use POVMs, continuous records and arbitrary sender/receiver block codes. Compactness is essential: it makes the gap uniform over the full product class. Photon counting remains a lower bound, not a proved optimizer.
+
+The argument supplies no numerical gap and does not cover outcome-adaptive local measurement choices or general separable block POVMs. Collective assistance gains are known from prior work; the record identifies the additional partial-access claim without claiming global priority. The original 23 groups do not certify this new analytical proof.
+
+[CURRENT](work_orders/CURRENT.md) sets one next task: a certified numerical upper bound on this same product-helper capacity. No new model, manuscript, release or external contact is initiated here. Verification for this revision belongs to its own PR and separate merged-main workflow, not to the earlier receipts above.

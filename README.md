@@ -37,6 +37,8 @@ g(aN)-g(bN),&a>b,\\
 
 The positive-rate boundary is $a>b$. For $a>b>0$, increasing signal energy approaches the ceiling $\log_2(a/b)$. The input constraint is an average photon budget, not a maximum photon number per codeword or total apparatus-energy budget. The qubit example has its own single-variable entropy optimization; photon counting reaches its positivity boundary but need not attain its optimal rate.
 
+For the qubit split $(a,b,c)=(0.2,0.08,0.72)$, [a further analytical result](research/PRODUCT_HELPER_GAP_2026-10-07.md) proves a strict capacity gap between all predetermined product helper POVMs and unrestricted helper measurements, even with block encoding and decoding. The gap's numerical size and the outcome-adaptive local benchmark remain open.
+
 ## Reading route
 
 | File | Purpose |
@@ -46,6 +48,7 @@ The positive-rate boundary is $a>b$. For $a>b>0$, increasing signal energy appro
 | [Theorem](research/THEOREM.md) | Consolidated finite-dimensional proof and both physical examples. |
 | [Proof audit](research/PROOF_AUDIT.md) | Refined measurement complement, general encoders, and deficit identity. |
 | [Current claim assessment](research/CLAIM_ASSESSMENT_2026-10-07.md) | Direct converse for unresolved helper outputs and continuous records; unchanged rates. |
+| [Product helper gap](research/PRODUCT_HELPER_GAP_2026-10-07.md) | All-input product capacity reduction and analytical strict separation in the qubit example. |
 | [Optical audit](research/OPTICAL_AUDIT.md) | Preserved optical derivation, including the finite-support entropy bounds. |
 | [Prior art](literature/PRIOR_ART.md) and [targeted comparison](literature/PRIORITY_CHECK_2026-10-07.md) | Closest constructions, inherited ingredients, and actual reading depth. |
 | [Status](STATUS.md) and [workspace](WORKSPACE.md) | Current evidence, unresolved tasks, and handoff. |
