@@ -66,7 +66,7 @@ Completeness gives $`J^\dagger J=I_A`$. Tracing out $`EY`$ gives the receiver ou
 \end{aligned}
 ```
 
-Here $`p_x=\operatorname{Tr}(W_x\rho W_x^\dagger)`$, with normalized conditional states when $`p_x>0`$. The orthogonal labels remove cross terms. They copy a classical outcome, not an unknown quantum state.
+Here $`p_x=\mathrm{Tr}(W_x\rho W_x^\dagger)`$, with normalized conditional states when $`p_x>0`$. The orthogonal labels remove cross terms. They copy a classical outcome, not an unknown quantum state.
 
 Applying the helper row to the joint identity commutes with $`\mathcal T`$, which acts only on $`B`$. Hence $`\mathcal T(\rho_{B|x})=\rho_{E|x}`$. Acting with $`\mathcal T`$ and relabeling $`X`$ as $`Y`$ simulates the complement: the refined measured channel is degradable. It grants no access to the physical $`E`$. For a measurement on $`D^n`$, use $`V^{\otimes n}`$ and $`\mathcal T^{\otimes n}`$.
 
