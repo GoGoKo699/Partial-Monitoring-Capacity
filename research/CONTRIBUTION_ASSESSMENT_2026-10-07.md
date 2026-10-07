@@ -8,7 +8,7 @@ This is an author-side assessment of the results through [the exact product-capa
 
 A signal is split between the receiver, permanently inaccessible loss, and a collected field. The helper measures the collected field and sends only a classical record to the receiver. For the stated vacuum-loss models, transmission becomes possible when the received fraction exceeds the inaccessible fraction. In the qubit model, photon counting already reaches that positive-capacity boundary.
 
-Above that boundary, the question becomes how much rate an individual detector can recover. For the qubit family with $a>b>0$ and $c>0$, optimizing every predetermined single-use helper POVM cannot beat photon counting, even with coherent inputs and arbitrary sender/receiver block codes. The larger unrestricted capacity therefore cannot be obtained merely by selecting a better independent-use detector basis.
+Above that boundary, the question becomes how much rate an individual detector can recover. For the qubit family with $a>b>0$ and $c>0$, optimizing every predetermined single-use helper POVM cannot beat photon counting, even with coherent inputs and arbitrary sender/receiver block codes. In the example below, the larger unrestricted capacity therefore cannot be obtained merely by selecting a better independent-use detector basis.
 
 | Qubit example: $(a,b,c)=(0.2,0.08,0.72)$ | Capacity, qubits/use |
 |---|---:|
@@ -18,7 +18,7 @@ Above that boundary, the question becomes how much rate an individual detector c
 
 The approximately 64% increase illustrates the exact comparison; its size is not the novelty argument. These are asymptotic rates, not single-photon recovery probabilities. Collective processing improves the rate in this example, not the positive-capacity boundary. Adaptive local measurements and general separable block POVMs remain outside the product benchmark, so necessity of coherent helper memory has not been established.
 
-The optical evaluation adds a complementary lesson: at fixed inaccessible loss $b>0$, more signal energy approaches the ceiling $\log_2(a/b)$; reducing that loss can raise the ceiling. This is an exact consequence of the capacity theorem for vacuum splitting, not an independent discovery about all monitored noise. The qubit product-optimality theorem has not been proved for the optical model.
+The optical evaluation adds a complementary lesson: at fixed splitting fractions $a>b>0$, more signal energy approaches the ceiling $\log_2(a/b)$; reducing that loss can raise the ceiling. This is an exact consequence of the capacity theorem for vacuum splitting, not an independent discovery about all monitored noise. The qubit product-optimality theorem has not been proved for the optical model.
 
 ## The two substantive implications
 
