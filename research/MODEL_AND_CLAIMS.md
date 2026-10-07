@@ -22,6 +22,8 @@ The capacity is asymptotic entanglement transmission per original input. It is n
 
 C2 and C3 are evaluations of one capacity principle, not unrelated new projects. The threshold is not an assertion that the channel becomes entanglement-breaking. The fidelity ceiling is unconditional and is not the same metric as average state fidelity.
 
+[The physical picture](PHYSICAL_PICTURE.md) translates the optical law into a collection requirement at a chosen target rate. This is an algebraic consequence of C3. Counting being suboptimal in C2 does not establish a strict advantage over every individual-use helper measurement; collective measurement necessity remains unresolved here.
+
 ## Dependencies that must remain visible
 
 **Joint simulation.** The map from $B$ to $E$ must leave $D$ and its correlations unchanged. A map reproducing only the inaccessible marginal is insufficient. The random-phase example in the supplied audit is a countercontrol, not a counterexample to the stated hypothesis.

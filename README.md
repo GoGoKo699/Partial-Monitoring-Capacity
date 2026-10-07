@@ -4,7 +4,9 @@
 
 A lossy quantum signal is divided among a receiver, an inaccessible environment, and a collected field. A helper may process the collected field coherently and measure it, but sends only a classical record to the receiver. This project determines the resulting asymptotic quantum transmission rate for a class of channels and evaluates it for qubit decay and vacuum optical loss.
 
-The central distinction is **received information versus permanently unobserved loss**. Improving a detector or adding signal energy cannot necessarily remove that loss. Collective quantum processing at the helper is an allowed resource; a practical receiver attaining the limit is not supplied.
+The central distinction is **received information versus permanently unobserved loss**. At fixed nonzero unobserved loss, increasing signal energy cannot remove the optical rate ceiling. Collecting more of the lost field can raise that ceiling. Collective quantum processing at the helper is an allowed resource; a practical receiver attaining the limit is not supplied.
+
+Start with [the physical picture](research/PHYSICAL_PICTURE.md): why the receiver can obtain only 20% of the signal and still transmit quantum information, and how the exact rate translates into a collection requirement.
 
 ## The result under study
 
@@ -39,6 +41,7 @@ The positive-rate boundary is $a>b$. For $a>b>0$, increasing signal energy appro
 
 | File | Purpose |
 |---|---|
+| [Physical picture](research/PHYSICAL_PICTURE.md) | The physical question, one example, collection requirements, and contribution boundary. |
 | [Model and claims](research/MODEL_AND_CLAIMS.md) | Resource definition, result hierarchy, proof dependencies, and limitations. |
 | [Theorem](research/THEOREM.md) | Consolidated finite-dimensional proof and both physical examples. |
 | [Proof audit](research/PROOF_AUDIT.md) | Refined measurement complement, general encoders, and deficit identity. |

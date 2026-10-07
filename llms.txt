@@ -2,7 +2,7 @@
 
 > Exact author-side quantum transmission rates with partial environmental observation and measurement-only helper communication.
 
-Repository: GoGoKo699/Partial-Monitoring-Capacity. Start with README.md, STATUS.md and WORKSPACE.md. Scientific entry: research/MODEL_AND_CLAIMS.md, research/THEOREM.md, research/PROOF_AUDIT.md and research/OPTICAL_AUDIT.md. Prior-art depth: literature/PRIOR_ART.md. Current bounded task: work_orders/CURRENT.md.
+Repository: GoGoKo699/Partial-Monitoring-Capacity. Start with README.md, STATUS.md and WORKSPACE.md. Physical entry: research/PHYSICAL_PICTURE.md. Scientific entry: research/MODEL_AND_CLAIMS.md, research/THEOREM.md, research/PROOF_AUDIT.md and research/OPTICAL_AUDIT.md. Prior-art depth: literature/PRIOR_ART.md. Current bounded task: work_orders/CURRENT.md.
 
 Preserve the joint-register degrading hypothesis, collective helper resource, receiver-only classical record, unconditional error and average optical signal-energy budget. Do not weaken the hypothesis to marginal degradability or claim a practical receiver. Quoted rate tables are asymptotic, not measured hardware results. The spin-strip pilot is separate.
 

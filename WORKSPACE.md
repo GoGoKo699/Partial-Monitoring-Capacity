@@ -14,7 +14,7 @@ The current scientific pass is recorded in [CLAIM_ASSESSMENT](research/CLAIM_ASS
 
 ## Continuing work
 
-Read [MODEL_AND_CLAIMS](research/MODEL_AND_CLAIMS.md), [THEOREM](research/THEOREM.md), the two dated assessments and [CURRENT](work_orders/CURRENT.md). The current work order has one bounded next task; do not restart broad scouting or repeat settled audits without a concrete objection.
+Read [PHYSICAL_PICTURE](research/PHYSICAL_PICTURE.md), [MODEL_AND_CLAIMS](research/MODEL_AND_CLAIMS.md), [THEOREM](research/THEOREM.md), the two dated assessments and [CURRENT](work_orders/CURRENT.md). The physical guide is complete. The current work order has one bounded resource question in the same model; do not restart broad scouting or repeat settled audits without a concrete objection.
 
 Use a feature branch and the existing verification workflow. Inspect the actual PR revision, downloaded reports, source hashes and all differences before merge. Merge with the expected head SHA, then inspect the separate run on actual merged main. Local success alone does not establish hosted success. Preserve original scripts, reports, tolerances and historical records.
 
