@@ -6,6 +6,8 @@
 
 **Subsequent resource result:** the [product helper gap](PRODUCT_HELPER_GAP_2026-10-07.md) proves a strict separation from all predetermined product helper POVMs in the qubit example below, including arbitrary sender/receiver block coding. Its proof and scope are separate from the original counting comparison; the unrestricted formulas remain unchanged.
 
+**Exact product benchmark:** [EXACT_PRODUCT_CAPACITY](EXACT_PRODUCT_CAPACITY_2026-10-07.md) subsequently proves counting optimality over all predetermined product helper POVMs for the qubit family with $a>b>0,c>0$. The example's collective-minus-product gap is certified at approximately $0.11949910$ qubits/use. Adaptive local strategies remain outside that comparison.
+
 **Consolidated author-side theorem and proof, 6 October 2026.** This is a compact research account, not an independently reviewed manuscript. The main proof is given here; the explicit optical entropy-tail enclosure and the finite-message projector calculation remain in the preserved prior proof notes identified below. It consolidates the supplied monitoring results; no channel, capacity formula, or resource assumption has been replaced. The spin-strip pilot is a separate project and contributes no premise here.
 
 ## 1. Physical question and communication model

@@ -37,7 +37,7 @@ g(aN)-g(bN),&a>b,\\
 
 The positive-rate boundary is $a>b$. For $a>b>0$, increasing signal energy approaches the ceiling $\log_2(a/b)$. The input constraint is an average photon budget, not a maximum photon number per codeword or total apparatus-energy budget. The qubit example has its own single-variable entropy optimization; photon counting reaches its positivity boundary but need not attain its optimal rate.
 
-For the qubit split $(a,b,c)=(0.2,0.08,0.72)$, [a further analytical result](research/PRODUCT_HELPER_GAP_2026-10-07.md) proves a strict capacity gap between all predetermined product helper POVMs and unrestricted helper measurements, even with block encoding and decoding. The gap's numerical size and the outcome-adaptive local benchmark remain open.
+For the qubit model with $a>b>0$ and $c>0$, [photon counting is optimal among all predetermined product helper POVMs](research/EXACT_PRODUCT_CAPACITY_2026-10-07.md), even with arbitrary input coherence and sender/receiver block codes. At $(a,b,c)=(0.2,0.08,0.72)$, that capacity is about $0.18621044$ qubits/use, while unrestricted helper measurements attain about $0.30570954$. The gap is certified at about $0.11949910$ qubits/use. Outcome-adaptive local strategies remain outside this comparison.
 
 ## Reading route
 
@@ -49,6 +49,7 @@ For the qubit split $(a,b,c)=(0.2,0.08,0.72)$, [a further analytical result](res
 | [Proof audit](research/PROOF_AUDIT.md) | Refined measurement complement, general encoders, and deficit identity. |
 | [Current claim assessment](research/CLAIM_ASSESSMENT_2026-10-07.md) | Direct converse for unresolved helper outputs and continuous records; unchanged rates. |
 | [Product helper gap](research/PRODUCT_HELPER_GAP_2026-10-07.md) | All-input product capacity reduction and analytical strict separation in the qubit example. |
+| [Exact product capacity](research/EXACT_PRODUCT_CAPACITY_2026-10-07.md) | Optimality of photon counting over all predetermined product POVMs, with an exact-arithmetic rate and gap certificate. |
 | [Optical audit](research/OPTICAL_AUDIT.md) | Preserved optical derivation, including the finite-support entropy bounds. |
 | [Prior art](literature/PRIOR_ART.md) and [targeted comparison](literature/PRIORITY_CHECK_2026-10-07.md) | Closest constructions, inherited ingredients, and actual reading depth. |
 | [Status](STATUS.md) and [workspace](WORKSPACE.md) | Current evidence, unresolved tasks, and handoff. |
@@ -64,9 +65,10 @@ python -m pip install -r requirements.txt
 python verify.py --integrity-only
 python -m unittest discover -s tests -v
 python verify.py --output-dir local-evidence-001
+python checks/certify_product_capacity.py --output local-evidence-001/product-capacity-certificate.json
 ```
 
-There are **23 monitoring check groups** in four unchanged suites: 6 threshold/counting, 7 exact qubit rate, 6 optical audit, and 4 consolidation checks. The runner stores raw logs, numerical comparisons, environment details and source hashes. It never refreshes the original reports. [Verification policy](VERIFICATION.md) distinguishes assertions, numerical agreement, and exact-byte reproduction.
+There are **23 monitoring check groups** in four unchanged suites: 6 threshold/counting, 7 exact qubit rate, 6 optical audit, and 4 consolidation checks. The separate product-capacity certificate uses exact rational arithmetic to enclose the scalar optimum and gap. The runner stores raw logs, numerical comparisons, environment details and source hashes. It never refreshes the original reports. [Verification policy](VERIFICATION.md) distinguishes assertions, numerical agreement, and exact-byte reproduction.
 
 The source import is monitoring-only. Shared pilot notes are included only as explicitly identified monitoring excerpts; the spin/strip code and data remain outside this repository. No unrelated publication PDF is included. [Provenance](provenance/IMPORT_MANIFEST.json) records every protected copy and the exclusions from the supplied archive.
 

@@ -2,6 +2,8 @@
 
 **7 October 2026. Author-side analytical result.** This resolves the bounded resource question for the existing qubit example. It supplements [THEOREM](THEOREM.md), without changing its capacity formula or communication resources. It is not independent scientific review.
 
+**Subsequent result:** [EXACT_PRODUCT_CAPACITY](EXACT_PRODUCT_CAPACITY_2026-10-07.md) proves that counting is optimal over this entire product class and certifies the gap's size. The qualitative proof below remains valid; its original unresolved questions at the end record the earlier pass.
+
 ## Statement and scope
 
 For the qubit isometry
@@ -144,7 +146,7 @@ I_c(\rho_*,\mathcal N_M)
 
 for every finite rank-one POVM. For any other input, the common-cut bound already gives $I_c(\rho,\mathcal N_M)\le f(\rho)<Q_{\rm meas}$. The joint input/POVM maximum exists by Section 2 and hence is strictly smaller than $Q_{\rm meas}$. This proves the proposition, including the uniform gap over use-varying predetermined product measurements.
 
-## What this adds, and what remains open
+## Original conclusion and next task (now completed)
 
 Collective gains in assistance are established [SVW05, Section III, Example 4]. That paper's Theorem 8 also supplies the fixed-block-measurement coding construction. [DJ10, concluding paragraph] expressly compares fixed-basis detected-jump capacity with unrestricted environment-assisted amplitude damping. Neither inspected passage optimizes all product POVMs with the present residual inaccessible output. The additional result here is the stated separation at $b=0.08$, despite unrestricted sender/receiver block coding. This targeted comparison is not exhaustive priority clearance.
 

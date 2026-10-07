@@ -29,6 +29,8 @@ jobs:
         run: python -m unittest discover -s tests -v
       - name: Verify original sources and all 23 monitoring groups
         run: python verify.py --output-dir verification-artifacts
+      - name: Certify the exact product capacity with rational arithmetic
+        run: python checks/certify_product_capacity.py --output verification-artifacts/product-capacity-certificate.json
       - name: Check no source changes
         if: always()
         run: git diff --exit-code && git diff --cached --exit-code

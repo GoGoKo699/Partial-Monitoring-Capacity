@@ -1,6 +1,6 @@
 # Model, claim hierarchy and proof dependencies
 
-**Updated 7 October 2026.** This maps the supplied 6 October consolidation, the [bounded claim assessment](CLAIM_ASSESSMENT_2026-10-07.md) and the [product helper separation](PRODUCT_HELPER_GAP_2026-10-07.md). The unrestricted capacity formulas and resources are unchanged.
+**Updated 7 October 2026.** This maps the supplied 6 October consolidation, the [bounded claim assessment](CLAIM_ASSESSMENT_2026-10-07.md), the [qualitative product helper separation](PRODUCT_HELPER_GAP_2026-10-07.md) and its [exact capacity resolution](EXACT_PRODUCT_CAPACITY_2026-10-07.md). The unrestricted capacity formulas and resources are unchanged.
 
 ## Fixed communication resource
 
@@ -20,10 +20,11 @@ The capacity is asymptotic entanglement transmission per original input. It is n
 | C4 | The optical rate deficit separates unused energy, thermal-reference contraction deficit and measurement deficit. | THEOREM, Section 5; [PROOF_AUDIT](PROOF_AUDIT.md). | consolidation |
 | C5 | Antidegradability gives $F_e\le(d+1)/(2d)$ for a $d$-dimensional logical message on the zero-capacity side. | [rate excerpt](../archive/excerpts/QUANTUM_RATE.md), Section A3. | qubit |
 | C6 | At $(a,b,c)=(0.2,0.08,0.72)$, all predetermined product helper POVMs have capacity strictly below the unrestricted optimum, despite arbitrary sender/receiver block coding. | [Product helper gap](PRODUCT_HELPER_GAP_2026-10-07.md): degradable-channel additivity, compactness and strict entropy contraction. | Analytical result; original suites do not certify this proof. |
+| C7 | For the qubit family with $a>b>0,c>0$, photon counting attains the capacity optimized over all predetermined product helper POVMs and all inputs. | [Exact product capacity](EXACT_PRODUCT_CAPACITY_2026-10-07.md): branch determinants, convex entropy difference and a counting chord bound. | Separate exact-arithmetic certificate for the example's scalar rate and gap; the analytical proof remains a dependency. |
 
 C2 and C3 are evaluations of one capacity principle, not unrelated new projects. The threshold is not an assertion that the channel becomes entanglement-breaking. The fidelity ceiling is unconditional and is not the same metric as average state fidelity.
 
-[The physical picture](PHYSICAL_PICTURE.md) translates the optical law into a collection requirement at a chosen target rate. This is an algebraic consequence of C3. C6 is a separate proof beyond the counting comparison in C2. It allows every single-use POVM and predetermined use-varying schedules, but does not cover outcome-adaptive local strategies or general separable block POVMs. The product capacity and the gap's numerical size remain unknown.
+[The physical picture](PHYSICAL_PICTURE.md) translates the optical law into a collection requirement at a chosen target rate. This is an algebraic consequence of C3. C7 strengthens C6 to an exact product benchmark and certifies the example's gap at approximately $0.11949910$ qubits/use. Every single-use POVM and predetermined use-varying schedule is included; outcome-adaptive local strategies and general separable block POVMs remain outside the claim. C7 is a qubit result, not an optical measurement-optimality theorem.
 
 ## Dependencies that must remain visible
 

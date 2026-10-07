@@ -16,6 +16,18 @@ An assertion pass, numerical agreement and byte equality are separate report fie
 
 For cross-environment comparisons, finite float values use relative tolerance **1e-9** and absolute tolerance **2e-11**. This policy was fixed before the initialization runs. It is additional to, not a replacement for, each original suite's assertions. Types, shapes, dictionary keys, strings, Boolean values and integers must match exactly; nonfinite values are rejected. A discrepancy is not permission to refresh a reference or weaken an original test.
 
+## Exact product-capacity certificate
+
+The [counting-optimality proof](research/EXACT_PRODUCT_CAPACITY_2026-10-07.md) has one additional arithmetic certificate, counted separately from the original 23 groups and eight infrastructure tests. After the runner creates its new evidence directory, run:
+
+```bash
+python checks/certify_product_capacity.py --output NEW_DIRECTORY/product-capacity-certificate.json
+```
+
+The standard-library script uses integer/rational arithmetic only: an exact polynomial derivative-sign bracket, strict concavity, a tangent upper bound and logarithm series with explicit remainder bounds. It encloses the product rate, unrestricted rate and their difference for the fixed example, and records its own source hash. It creates its destination exclusively and neither reads nor changes original reference reports. This certifies the scalar evaluation conditional on the analytical POVM-optimality theorem, not the theorem itself.
+
+The hosted workflow runs this as a dedicated step and includes its JSON in the existing evidence artifact. Inspect that step and the certificate in addition to the unchanged baseline report. Numerical agreement in the four historical suites cannot substitute for this exact-arithmetic certificate.
+
 ## Local versus hosted
 
 The initial chat could read GitHub but had no write action, and its attempted local clone failed DNS. The takeover subsequently completed PR #1 and inspected its actual merged-main run; [STATUS](STATUS.md) and the [verification receipt](provenance/TAKEOVER_VERIFICATION_2026-10-07.json) record exact revisions and outcomes. A local commit or workflow file alone never establishes remote verification for a later change.

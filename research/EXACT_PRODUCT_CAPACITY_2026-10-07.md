@@ -1,0 +1,184 @@
+# Exact product-helper capacity: photon counting is optimal
+
+**7 October 2026. Author-side analytical result.** The previous [strict-gap proof](PRODUCT_HELPER_GAP_2026-10-07.md) left the size of the gap and the best product measurement open. Both are resolved here for the existing qubit model. The unrestricted capacity theorem is unchanged.
+
+## Result and physical meaning
+
+For the splitting isometry in [THEOREM](THEOREM.md), let $a+b+c=1$, $a>b>0$ and $c>0$. The product benchmark allows every single-use helper POVM, with the measurements chosen in advance and permitted to vary across uses. Sender and receiver may still use arbitrary block codes. There is no sender feedback or postselection. Then
+
+```math
+\boxed{Q_{\rm prod}=Q_{\rm count}=\max_{0\le q\le1}F(q),}
+```
+
+where
+
+```math
+F(q)=(1-cq)\left[
+h_2\!\left(\frac{aq}{1-cq}\right)
+-h_2\!\left(\frac{bq}{1-cq}\right)\right].
+```
+
+Photon counting in the helper's vacuum/excitation basis attains this value with a diagonal average input. No other predetermined product POVM improves it, even when paired with coherent input states and collective encoding/decoding. The theorem concerns the same qubit family; it does not extend to the optical model.
+
+For $(a,b,c)=(1/5,2/25,18/25)$, the exact-arithmetic certificate described below gives
+
+```math
+0.18621044456570<Q_{\rm prod}<0.18621044456572,
+```
+
+```math
+0.11949909857428<Q_{\rm meas}-Q_{\rm prod}<0.11949909857432.
+```
+
+Thus unrestricted helper processing permits about 64% more asymptotic quantum transmission than the best predetermined product measurement in this example. These are capacities per original use, not single-photon recovery probabilities. Outcome-adaptive local strategies, general separable block POVMs and the implementation cost of a collective helper remain outside the comparison.
+
+## 1. Reduce every branch to one scalar
+
+The [product-helper proof](PRODUCT_HELPER_GAP_2026-10-07.md), Section 1, establishes
+
+```math
+Q_{\rm prod}=\sup_{\rho,M}\sum_xp_x[S(B_x)-S(E_x)].
+```
+
+Rank-one refinement can only help; every refined measured channel is degradable. Product-channel additivity covers use-varying measurements and arbitrary correlated inputs. The earlier argument also covers continuous records. The following bound holds for every input/measurement pair and is attained by a two-outcome measurement, so no compactness argument is needed for the new equality.
+
+Write
+
+```math
+\rho=\begin{pmatrix}1-q&z\\z^*&q\end{pmatrix},\qquad
+d=\det\rho=q(1-q)-|z|^2\ge0.
+```
+
+The case $q=0$ has zero coherent information. For $q>0$ and a nonzero helper row $m_x=(u_x,v_x)$, put $r_x=|u_x|^2/p_x$. Direct expansion of the conditional $2\times2$ matrices gives
+
+```math
+\det B_x=a r_x^2(d+bq^2),\qquad
+\det E_x=b r_x^2(d+aq^2).
+```
+
+The input-coherence terms cancel in these determinants except through $d$. The helper marginal is
+
+```math
+\rho_D=\begin{pmatrix}1-cq&\sqrt c\,z\\\sqrt c\,z^*&cq\end{pmatrix},
+\qquad \det\rho_D=c[d+(a+b)q^2]>0.
+```
+
+The Rayleigh quotient for $|u_x|^2/(m_x\rho_Dm_x^\dagger)$ and POVM completeness imply
+
+```math
+0\le r_x\le R=(\rho_D^{-1})_{00}
+=\frac q{d+(a+b)q^2},\qquad
+\sum_xp_xr_x=\sum_x|u_x|^2=1.
+```
+
+Define the qubit entropy function
+
+```math
+e(C)=h_2\!\left(\frac{1+\sqrt{1-C^2}}2\right),\qquad
+\alpha=2\sqrt{a(d+bq^2)},\quad
+\beta=2\sqrt{b(d+aq^2)}.
+```
+
+Since the entropy of a qubit state is $e(2\sqrt{\det\rho})$, each branch contributes $f(r_x)=e(\alpha r_x)-e(\beta r_x)$. Here $\alpha\ge\beta$ because $\alpha^2-\beta^2=4(a-b)d\ge0$.
+
+## 2. The entropy difference is convex
+
+Ordinary convexity of $e$ does not justify subtracting two copies of it. The stronger fact needed here follows directly by differentiation. For $0<C<1$,
+
+```math
+e''(C)=\frac1{\ln2}\int_0^1
+\frac{t^2\,dt}{1-t^2+C^2t^2}.
+```
+
+Consequently, on the common physical interval,
+
+```math
+f''(r)=\frac{\alpha^2-\beta^2}{\ln2}
+\int_0^1\frac{t^2(1-t^2)\,dt}
+{(1-t^2+\alpha^2r^2t^2)(1-t^2+\beta^2r^2t^2)}\ge0.
+```
+
+The endpoints follow by continuity. To check the domain explicitly, let $\eta=d/q^2$. Then
+
+```math
+\alpha R=\frac{2\sqrt{a(\eta+b)}}{\eta+a+b}\le1,
+\qquad
+\beta R=\frac{2\sqrt{b(\eta+a)}}{\eta+a+b}\le1.
+```
+
+For the first inequality the difference of the squared denominator and numerator is $(\eta+b-a)^2$; for the second it is $(\eta+a-b)^2$. Thus $f$ is convex throughout $[0,R]$, with $f(0)=0$. Its chord bounds every branch:
+
+```math
+\sum_xp_xf(r_x)\le\sum_xp_x\frac{r_x}{R}f(R)
+=\frac{f(R)}R.
+```
+
+This uses only completeness and the scalar range; it applies to arbitrary finite or continuous POVMs.
+
+## 3. The chord is bounded by counting with another diagonal input
+
+Set $\widetilde q=1/(1+\eta)$. Since $d\le q(1-q)$, one has $q\le\widetilde q\le1$. At the chord endpoint,
+
+```math
+\frac{f(R)}R
+=q(\eta+a+b)\left[
+h_2\!\left(\frac a{\eta+a+b}\right)
+-h_2\!\left(\frac b{\eta+a+b}\right)\right]
+=\frac q{\widetilde q}F(\widetilde q).
+```
+
+For $a>b$, $F$ is nonnegative: it is the coherent information of a degradable counting channel, concave in the diagonal input and zero at both pure endpoints. Equivalently, $e$ is increasing and the determinant difference above is nonnegative. Therefore
+
+```math
+I_c(\rho,\mathcal N_M)
+\le\frac q{\widetilde q}F(\widetilde q)
+\le F(\widetilde q)\le\max_sF(s).
+```
+
+This includes pure inputs $d=0$, where both conditional entropies coincide and the value is zero. For a diagonal input, $\widetilde q=q$. Photon counting has exactly $r=R$ for the vacuum outcome and $r=0$ for the collected-excitation outcome, so it saturates the chord. Optimizing its diagonal input proves the claimed equality. No assumption that a general fixed POVM is phase covariant was used.
+
+## 4. A small exact-arithmetic certificate
+
+Let $u(q)=1-(1-b)q$ and $v(q)=1-(1-a)q$. The counting objective can also be written
+
+```math
+F(q)=-u\log_2u-aq\log_2(aq)+v\log_2v+bq\log_2(bq),
+```
+
+with
+
+```math
+F''(q)=-\frac{a-b}{\ln2\,q\,u(q)\,v(q)}<0.
+```
+
+Its derivative tends to $+\infty$ at zero and equals $\log_2(b/a)<0$ at one. Thus there is one maximizing root. At the example's rational parameters, the derivative sign is exactly the sign of
+
+```math
+20(1-23q/25)^{23}-q^3(1-4q/5)^{20}.
+```
+
+Rational evaluation brackets the root between $0.5583443480550842$ and $0.5583443480550843$. Concavity gives a lower bound from $F(q_-)$ and an upper bound from its tangent over $[q_-,q_+]$. The certificate evaluates every logarithm using rational range reduction and the series
+
+```math
+\ln x=2\sum_{k=0}^{N-1}\frac{t^{2k+1}}{2k+1}+R_N,
+\qquad t=\frac{x-1}{x+1},\qquad
+|R_N|\le\frac{2|t|^{2N+1}}{(2N+1)(1-t^2)}.
+```
+
+After reducing to $1\le x\le2$, $|t|\le1/3$. Forty terms and exact rational arithmetic certify the displayed capacity and gap intervals. No floating-point optimizer or tolerance is a correctness premise.
+
+Run [the certificate](../checks/certify_product_capacity.py) after the unchanged original verification runner:
+
+```bash
+python checks/certify_product_capacity.py --output NEW_EVIDENCE_DIRECTORY/product-capacity-certificate.json
+```
+
+The dedicated workflow step includes its output in the downloaded evidence. The original 23 scientific groups and reference reports remain unchanged and separately counted. This arithmetic certifies the scalar evaluation conditional on the analytical theorem; it does not replace proof review.
+
+## Attribution and remaining boundary
+
+The entropy function $e(C)$ and its ordinary convexity are established in Wootters, [quant-ph/9709029](https://arxiv.org/pdf/quant-ph/9709029), Eq. (8) and following paragraph, PDF page 4. The difference-convexity calculation needed here is derived above. Laustsen, Verstraete and van Enk, [quant-ph/0206192](https://arxiv.org/pdf/quant-ph/0206192), Section 2, Eqs. (5), (9), (24), distinguish entropy assistance from their optimized concurrence-assistance objective; those formulas cannot simply replace this entropy-difference optimization. These primary passages were inspected.
+
+The prior [product-helper comparison](PRODUCT_HELPER_GAP_2026-10-07.md) records the detected-jump capacity and collective-assistance predecessors. The additional statement here is all-input optimality of counting over every predetermined product helper POVM with an inaccessible residual output. No inspected passage directly supplies that implication; this is a targeted comparison, not exhaustive priority clearance or independent scientific review.
+
+The product-measurement resource question is now quantitatively closed. A concrete next decision is whether the existing exact capacity and quantified comparison form a sufficiently distinct physical contribution when checked against the closest assistance results. Further digits, parameter sweeps or an adaptive-helper extension are not prerequisites for that assessment.
