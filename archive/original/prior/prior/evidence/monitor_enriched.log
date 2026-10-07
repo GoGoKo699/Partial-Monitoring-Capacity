@@ -1,0 +1,21 @@
+test_bosonic_vacuum_extension_all_fock_coherences (__main__.Checks.test_bosonic_vacuum_extension_all_fock_coherences) ... ok
+test_concavity_and_phase_twirl_for_entropy_bound (__main__.Checks.test_concavity_and_phase_twirl_for_entropy_bound) ... ok
+test_counted_achievability_under_arbitrary_positive_energy_budget (__main__.Checks.test_counted_achievability_under_arbitrary_positive_energy_budget) ... ok
+test_exact_capacity_limits_and_threshold_slopes (__main__.Checks.test_exact_capacity_limits_and_threshold_slopes) ... FAIL
+test_message_fidelity_operator_bound (__main__.Checks.test_message_fidelity_operator_bound) ... ok
+test_reverse_simulation_and_classical_information_penalty (__main__.Checks.test_reverse_simulation_and_classical_information_penalty) ... ok
+test_two_cut_entropy_formula_and_corrected_partial_rate (__main__.Checks.test_two_cut_entropy_formula_and_corrected_partial_rate) ... ok
+
+======================================================================
+FAIL: test_exact_capacity_limits_and_threshold_slopes (__main__.Checks.test_exact_capacity_limits_and_threshold_slopes)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/revised_followup_2026-10-06/check_monitoring_followup.py", line 147, in test_exact_capacity_limits_and_threshold_slopes
+    self.assertLess(abs(edge[-1]['upper_over_epsilon']-slope_upper),1e-5)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 1.96583362903624e-05 not less than 1e-05
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.364s
+
+FAILED (failures=1)

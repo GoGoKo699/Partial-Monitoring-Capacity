@@ -1,0 +1,361 @@
+{
+  "bosonic_extension": {
+    "proof": "Coherent-input dyads or passive dilation prove the identity on full Fock space; exact finite excitation sectors are only tests.",
+    "rows": [
+      {
+        "a": 0.1,
+        "b": 0.2,
+        "c": 0.7,
+        "matrix_unit_error": 6.009258394948638e-17,
+        "max_input_photons": 2
+      },
+      {
+        "a": 0.2,
+        "b": 0.2,
+        "c": 0.6,
+        "matrix_unit_error": 0.0,
+        "max_input_photons": 2
+      },
+      {
+        "a": 0.4,
+        "b": 0.1,
+        "c": 0.5,
+        "matrix_unit_error": 6.206335383118183e-17,
+        "max_input_photons": 2
+      },
+      {
+        "a": 0.1,
+        "b": 0.2,
+        "c": 0.7,
+        "matrix_unit_error": 7.384427692206413e-17,
+        "max_input_photons": 3
+      },
+      {
+        "a": 0.2,
+        "b": 0.2,
+        "c": 0.6,
+        "matrix_unit_error": 0.0,
+        "max_input_photons": 3
+      },
+      {
+        "a": 0.4,
+        "b": 0.1,
+        "c": 0.5,
+        "matrix_unit_error": 6.834017936133213e-17,
+        "max_input_photons": 3
+      },
+      {
+        "a": 0.1,
+        "b": 0.2,
+        "c": 0.7,
+        "matrix_unit_error": 8.349377505439573e-17,
+        "max_input_photons": 4
+      },
+      {
+        "a": 0.2,
+        "b": 0.2,
+        "c": 0.6,
+        "matrix_unit_error": 0.0,
+        "max_input_photons": 4
+      },
+      {
+        "a": 0.4,
+        "b": 0.1,
+        "c": 0.5,
+        "matrix_unit_error": 9.957132364919834e-17,
+        "max_input_photons": 4
+      }
+    ],
+    "scope": "Vacuum passive splitting and helper output measurement; excludes prepared nonvacuum bath inputs, two-way assistance and in-flight feedback."
+  },
+  "collective_helper_entropy_bound": [
+    {
+      "a": 0.2,
+      "b": 0.08,
+      "c": 0.72,
+      "classical_record_penalty": 0.07106607985080249,
+      "coherent_information": 0.1487091606369835,
+      "entropy_difference": 0.21977524048778602,
+      "exact_capacity_per_use": 0.3057095431400101,
+      "helper_outcomes": 4,
+      "proof_boundary": "Attainment uses the cited asymptotic assistance/coding theorem, not this finite POVM test.",
+      "second_cut": 0.7198458264023448,
+      "uses": 1
+    },
+    {
+      "a": 0.2,
+      "b": 0.08,
+      "c": 0.72,
+      "classical_record_penalty": 0.19459059034976195,
+      "coherent_information": 0.2388380494237547,
+      "entropy_difference": 0.43342863977351664,
+      "exact_capacity_per_use": 0.3057095431400101,
+      "helper_outcomes": 8,
+      "proof_boundary": "Attainment uses the cited asymptotic assistance/coding theorem, not this finite POVM test.",
+      "second_cut": 0.8609448969023427,
+      "uses": 2
+    },
+    {
+      "a": 0.6,
+      "b": 0.1,
+      "c": 0.3,
+      "classical_record_penalty": 0.041664458779703,
+      "coherent_information": 0.2717427884217172,
+      "entropy_difference": 0.3134072472014202,
+      "exact_capacity_per_use": 0.6178199390151808,
+      "helper_outcomes": 4,
+      "proof_boundary": "Attainment uses the cited asymptotic assistance/coding theorem, not this finite POVM test.",
+      "second_cut": 0.393142604057679,
+      "uses": 1
+    },
+    {
+      "a": 0.6,
+      "b": 0.1,
+      "c": 0.3,
+      "classical_record_penalty": 0.1276087411852968,
+      "coherent_information": 0.6875016758475567,
+      "entropy_difference": 0.8151104170328536,
+      "exact_capacity_per_use": 0.6178199390151808,
+      "helper_outcomes": 8,
+      "proof_boundary": "Attainment uses the cited asymptotic assistance/coding theorem, not this finite POVM test.",
+      "second_cut": 0.9322246780935282,
+      "uses": 2
+    },
+    {
+      "a": 0.2,
+      "b": 0.0,
+      "c": 0.8,
+      "classical_record_penalty": 0.26166012112659026,
+      "coherent_information": 0.2294211614325839,
+      "entropy_difference": 0.49108128255917416,
+      "exact_capacity_per_use": 0.6500224216483541,
+      "helper_outcomes": 4,
+      "proof_boundary": "Attainment uses the cited asymptotic assistance/coding theorem, not this finite POVM test.",
+      "second_cut": 0.6924432036896965,
+      "uses": 1
+    },
+    {
+      "a": 0.2,
+      "b": 0.0,
+      "c": 0.8,
+      "classical_record_penalty": 0.2277900117316549,
+      "coherent_information": 0.5199237371461404,
+      "entropy_difference": 0.7477137488777953,
+      "exact_capacity_per_use": 0.6500224216483541,
+      "helper_outcomes": 8,
+      "proof_boundary": "Attainment uses the cited asymptotic assistance/coding theorem, not this finite POVM test.",
+      "second_cut": 1.298526581621011,
+      "uses": 2
+    },
+    {
+      "a": 0.4,
+      "b": 0.4,
+      "c": 0.2,
+      "classical_record_penalty": 0.0,
+      "coherent_information": 0.0,
+      "entropy_difference": 0.0,
+      "exact_capacity_per_use": 0.0,
+      "helper_outcomes": 4,
+      "proof_boundary": "Attainment uses the cited asymptotic assistance/coding theorem, not this finite POVM test.",
+      "second_cut": 0.0739698238160762,
+      "uses": 1
+    },
+    {
+      "a": 0.4,
+      "b": 0.4,
+      "c": 0.2,
+      "classical_record_penalty": 0.0,
+      "coherent_information": 0.0,
+      "entropy_difference": 0.0,
+      "exact_capacity_per_use": 0.0,
+      "helper_outcomes": 8,
+      "proof_boundary": "Attainment uses the cited asymptotic assistance/coding theorem, not this finite POVM test.",
+      "second_cut": 0.24047063731644935,
+      "uses": 2
+    }
+  ],
+  "entropy_reduction": "100 deterministic random tests of proven degraded-entropy concavity and phase twirling; finite tests not their proof.",
+  "exact_rate_formula": {
+    "boundary": "The formula is analytically proved using register-preserving degradation plus established asymptotic assistance. Its scalar optimization is numerical; no finite-size helper or practical decoder is supplied.",
+    "edge_checks": [
+      {
+        "epsilon": 0.01,
+        "lower_over_epsilon": 1.2945783152305212,
+        "upper_over_epsilon": 1.9980822324250247
+      },
+      {
+        "epsilon": 0.001,
+        "lower_over_epsilon": 1.2945030901974075,
+        "upper_over_epsilon": 1.9998038479049907
+      },
+      {
+        "epsilon": 0.0001,
+        "lower_over_epsilon": 1.2945023381027987,
+        "upper_over_epsilon": 1.9999803416637096
+      },
+      {
+        "epsilon": 1e-05,
+        "lower_over_epsilon": 1.2945023305954706,
+        "upper_over_epsilon": 1.9999980337526144
+      }
+    ],
+    "lower_slope": 1.2945023305022685,
+    "rows": [
+      {
+        "collection": 0.75,
+        "counting_capacity": 0.0,
+        "counting_optimum_population": null,
+        "decay": 0.8,
+        "exact_monitored_capacity": 0.0,
+        "monitored_optimum_population": 0.0
+      },
+      {
+        "collection": 0.751,
+        "counting_capacity": 0.0010365928716693507,
+        "counting_optimum_population": 0.5225171490988666,
+        "decay": 0.8,
+        "exact_monitored_capacity": 0.0016027590776976908,
+        "monitored_optimum_population": 0.9992006394884093
+      },
+      {
+        "collection": 0.76,
+        "counting_capacity": 0.01045665261574924,
+        "counting_optimum_population": 0.5241755329857415,
+        "decay": 0.8,
+        "exact_monitored_capacity": 0.016275558699213377,
+        "monitored_optimum_population": 0.9920634920634921
+      },
+      {
+        "collection": 0.8,
+        "counting_capacity": 0.05448701673636602,
+        "counting_optimum_population": 0.5321308896728304,
+        "decay": 0.8,
+        "exact_monitored_capacity": 0.08689189450883716,
+        "monitored_optimum_population": 0.9615384615384615
+      },
+      {
+        "collection": 0.9,
+        "counting_capacity": 0.18621044456570957,
+        "counting_optimum_population": 0.558344347837029,
+        "decay": 0.8,
+        "exact_monitored_capacity": 0.3057095431400101,
+        "monitored_optimum_population": 0.8928571428571429
+      },
+      {
+        "collection": 1.0,
+        "counting_capacity": 0.4056852313758246,
+        "counting_optimum_population": 0.6188428479940575,
+        "decay": 0.8,
+        "exact_monitored_capacity": 0.6500224216483541,
+        "monitored_optimum_population": 0.8333333333333334
+      }
+    ],
+    "threshold_path": "a=.2+epsilon/2, b=.2-epsilon/2, c=.6",
+    "upper_slope": 2.0
+  },
+  "finite_energy_positivity": [
+    {
+      "achievable_coherent_information": 0.00010302592848899746,
+      "chosen_population": 5e-05,
+      "mean_excitation_budget": 0.0001
+    },
+    {
+      "achievable_coherent_information": 0.0008309100918809211,
+      "chosen_population": 0.0005,
+      "mean_excitation_budget": 0.001
+    },
+    {
+      "achievable_coherent_information": 0.006312586165429103,
+      "chosen_population": 0.005,
+      "mean_excitation_budget": 0.01
+    },
+    {
+      "achievable_coherent_information": 0.01141767960577239,
+      "chosen_population": 0.01,
+      "mean_excitation_budget": 0.1
+    }
+  ],
+  "finite_message_ceiling": {
+    "rows": [
+      {
+        "entanglement_fidelity_ceiling": 0.75,
+        "message_dimension": 2,
+        "projector_sum_norm": 1.4999999999999998
+      },
+      {
+        "entanglement_fidelity_ceiling": 0.6666666666666666,
+        "message_dimension": 3,
+        "projector_sum_norm": 1.333333333333334
+      },
+      {
+        "entanglement_fidelity_ceiling": 0.625,
+        "message_dimension": 4,
+        "projector_sum_norm": 1.25
+      },
+      {
+        "entanglement_fidelity_ceiling": 0.5833333333333334,
+        "message_dimension": 6,
+        "projector_sum_norm": 1.1666666666666676
+      }
+    ],
+    "scope": "Standard two-extension/no-cloning ceiling applied to each arbitrary block helper channel; no finite-block code achieves this bound asserted."
+  },
+  "status": "PASS",
+  "test_groups": 7,
+  "two_cut_identity_and_rate_control": [
+    {
+      "a": 0.2,
+      "b": 0.08,
+      "c": 0.72,
+      "earlier_loose_bound": 0.31271697067592497,
+      "exact_capacity": 0.3057095431400101,
+      "grid_lower": 0.30565799421383694,
+      "optimal_population": 0.8928571428571429
+    },
+    {
+      "a": 0.2,
+      "b": 0.16,
+      "c": 0.64,
+      "earlier_loose_bound": 0.08742361195188852,
+      "exact_capacity": 0.08689189450883694,
+      "grid_lower": 0.08689110333593797,
+      "optimal_population": 0.9615384615384615
+    },
+    {
+      "a": 0.8,
+      "b": 0.2,
+      "c": 0.0,
+      "earlier_loose_bound": 0.5062152409272129,
+      "exact_capacity": 0.5062152409272127,
+      "grid_lower": 0.5062152342684798,
+      "optimal_population": 0.4489365395126268
+    },
+    {
+      "a": 0.2,
+      "b": 0.0,
+      "c": 0.8,
+      "earlier_loose_bound": 0.6500224216483541,
+      "exact_capacity": 0.6500224216483541,
+      "grid_lower": 0.649867603356445,
+      "optimal_population": 0.8333333333333334
+    },
+    {
+      "a": 1.0,
+      "b": 0.0,
+      "c": 0.0,
+      "earlier_loose_bound": 1.0,
+      "exact_capacity": 1.0,
+      "grid_lower": 1.0,
+      "optimal_population": 0.5
+    },
+    {
+      "a": 0.5,
+      "b": 0.5,
+      "c": 0.0,
+      "earlier_loose_bound": 0.0,
+      "exact_capacity": 0.0,
+      "grid_lower": 0.0,
+      "optimal_population": 0.0
+    }
+  ]
+}

@@ -1,0 +1,413 @@
+{
+  "general_encoder_check": {
+    "antidegradable_scope_control": -0.5890818020921137,
+    "records": [
+      {
+        "actual_message_coherent_information": -0.1250110661767491,
+        "ancilla_conditional_entropy": 0.26914990488929497,
+        "purified_input_coherent_information": 0.14413883871254587,
+        "trial": 0,
+        "weights": [
+          0.2,
+          0.08,
+          0.72
+        ]
+      },
+      {
+        "actual_message_coherent_information": -0.529347361983816,
+        "ancilla_conditional_entropy": 0.6198942039869964,
+        "purified_input_coherent_information": 0.09054684200318033,
+        "trial": 1,
+        "weights": [
+          0.2,
+          0.08,
+          0.72
+        ]
+      },
+      {
+        "actual_message_coherent_information": -0.24374245170595332,
+        "ancilla_conditional_entropy": 0.3249745904778549,
+        "purified_input_coherent_information": 0.08123213877190155,
+        "trial": 2,
+        "weights": [
+          0.2,
+          0.08,
+          0.72
+        ]
+      },
+      {
+        "actual_message_coherent_information": -0.20453121768315274,
+        "ancilla_conditional_entropy": 0.38659085140406835,
+        "purified_input_coherent_information": 0.1820596337209156,
+        "trial": 0,
+        "weights": [
+          0.6,
+          0.3,
+          0.1
+        ]
+      },
+      {
+        "actual_message_coherent_information": -0.4597445539692868,
+        "ancilla_conditional_entropy": 0.6919961301330864,
+        "purified_input_coherent_information": 0.23225157616379946,
+        "trial": 1,
+        "weights": [
+          0.6,
+          0.3,
+          0.1
+        ]
+      },
+      {
+        "actual_message_coherent_information": -0.46529891663720546,
+        "ancilla_conditional_entropy": 0.5918705149429866,
+        "purified_input_coherent_information": 0.12657159830578119,
+        "trial": 2,
+        "weights": [
+          0.6,
+          0.3,
+          0.1
+        ]
+      },
+      {
+        "actual_message_coherent_information": -0.17124839747597384,
+        "ancilla_conditional_entropy": 0.17124839747597384,
+        "purified_input_coherent_information": 0.0,
+        "trial": 0,
+        "weights": [
+          0.3,
+          0.3,
+          0.4
+        ]
+      },
+      {
+        "actual_message_coherent_information": -0.35131369235742754,
+        "ancilla_conditional_entropy": 0.35131369235742754,
+        "purified_input_coherent_information": 0.0,
+        "trial": 1,
+        "weights": [
+          0.3,
+          0.3,
+          0.4
+        ]
+      },
+      {
+        "actual_message_coherent_information": -0.35160652165995887,
+        "ancilla_conditional_entropy": 0.35160652165995887,
+        "purified_input_coherent_information": 0.0,
+        "trial": 2,
+        "weights": [
+          0.3,
+          0.3,
+          0.4
+        ]
+      },
+      {
+        "actual_message_coherent_information": -0.17502978004432848,
+        "ancilla_conditional_entropy": 0.40006644665441543,
+        "purified_input_coherent_information": 0.22503666661008698,
+        "trial": 0,
+        "weights": [
+          0.2,
+          0.0,
+          0.8
+        ]
+      },
+      {
+        "actual_message_coherent_information": -0.12737228264821165,
+        "ancilla_conditional_entropy": 0.3972373393373133,
+        "purified_input_coherent_information": 0.26986505668910166,
+        "trial": 1,
+        "weights": [
+          0.2,
+          0.0,
+          0.8
+        ]
+      },
+      {
+        "actual_message_coherent_information": -0.26062274952788034,
+        "ancilla_conditional_entropy": 0.5140152383805457,
+        "purified_input_coherent_information": 0.2533924888526654,
+        "trial": 2,
+        "weights": [
+          0.2,
+          0.0,
+          0.8
+        ]
+      }
+    ],
+    "scope": "Tests the weak-monotonicity proof for a discarded encoding ancilla F. It does not simulate coding or assume all encoders are isometries."
+  },
+  "qubit_evaluation_rule": {
+    "checked_weights": 56,
+    "scope": "An evaluation corollary of the unchanged qubit theorem, not an independently optimized helper measurement or a new physical model.",
+    "selected_records": [
+      {
+        "a": 0.2,
+        "b": 0.08,
+        "mode": "entropy-crossover",
+        "q": 0.8928571428571429,
+        "rate": 0.3057095431400101
+      },
+      {
+        "a": 0.2,
+        "b": 0.0,
+        "mode": "entropy-crossover",
+        "q": 0.8333333333333334,
+        "rate": 0.6500224216483541
+      },
+      {
+        "a": 1.0,
+        "b": 0.0,
+        "mode": "entropy-crossover",
+        "q": 0.5,
+        "rate": 1.0
+      },
+      {
+        "a": 0.6,
+        "b": 0.4,
+        "mode": "stationary-left-cut",
+        "q": 0.43692790183689956,
+        "rate": 0.16147986490085064
+      },
+      {
+        "a": 0.8,
+        "b": 0.1,
+        "mode": "stationary-left-cut",
+        "q": 0.5122251607248887,
+        "rate": 0.6848172787364835
+      },
+      {
+        "a": 0.49,
+        "b": 0.48,
+        "mode": "stationary-left-cut",
+        "q": 0.44909982524601405,
+        "rate": 0.00828339277745016
+      },
+      {
+        "a": 0.5471972349442047,
+        "b": 0.19356409347629872,
+        "mode": "stationary-left-cut",
+        "q": 0.5988345558950677,
+        "rate": 0.3950418114576334
+      },
+      {
+        "a": 0.09466050675104282,
+        "b": 0.024007433052941896,
+        "mode": "entropy-crossover",
+        "q": 0.934009367334966,
+        "rate": 0.27631511963639355
+      },
+      {
+        "a": 0.4476583661543597,
+        "b": 0.23129177649076704,
+        "mode": "stationary-left-cut",
+        "q": 0.6465989430021669,
+        "rate": 0.2592961438946215
+      },
+      {
+        "a": 0.32786369658995307,
+        "b": 0.18284611539727985,
+        "mode": "stationary-left-cut",
+        "q": 0.8581992567577093,
+        "rate": 0.2304278885956107
+      }
+    ]
+  },
+  "refined_helper_channel": {
+    "checks": [
+      {
+        "coherent_information": 0.12540788664848357,
+        "complementary_simulation_error": 1.44379259111376e-17,
+        "outcomes": 6,
+        "stinespring_dimension": 144,
+        "weights": [
+          0.2,
+          0.08,
+          0.72
+        ]
+      },
+      {
+        "coherent_information": 0.029798152063932992,
+        "complementary_simulation_error": 6.37357816903868e-17,
+        "outcomes": 6,
+        "stinespring_dimension": 144,
+        "weights": [
+          0.6,
+          0.3,
+          0.1
+        ]
+      },
+      {
+        "coherent_information": 0.0,
+        "complementary_simulation_error": 0.0,
+        "outcomes": 6,
+        "stinespring_dimension": 144,
+        "weights": [
+          0.3,
+          0.3,
+          0.4
+        ]
+      },
+      {
+        "coherent_information": 0.1422020924705958,
+        "complementary_simulation_error": 0.0,
+        "outcomes": 6,
+        "stinespring_dimension": 144,
+        "weights": [
+          0.2,
+          0.0,
+          0.8
+        ]
+      }
+    ],
+    "scope": "A genuine flagged complement includes a copy of the classical outcome; arbitrary rank-one POVMs remain degradable."
+  },
+  "scope": "Finite proof-audit identities; original capacity formulas unchanged. Not independent scientific review.",
+  "status": "PASS",
+  "test_groups": 4,
+  "three_nonnegative_penalties": {
+    "coarse_record_control": {
+      "correct_unmonitored_coherent_information": -0.5019550008653875,
+      "counted_coherent_information": 0.18430229670810191,
+      "incorrect_inaccessible_only_subtraction": 0.22670340450686646
+    },
+    "records": [
+      {
+        "budget": 2.234483873324337,
+        "coherent_information": 0.33778060948578614,
+        "input_mean": 1.5344838733243369,
+        "measurement": "count",
+        "measurement_penalty": 0.08940655712045864,
+        "nonthermal_penalty": 0.041435469463008134,
+        "rate_gap": 0.22894480017668362,
+        "unused_energy_penalty": 0.09810277359321684,
+        "weights": [
+          0.2,
+          0.08,
+          0.72
+        ]
+      },
+      {
+        "budget": 2.234483873324337,
+        "coherent_information": 0.2238509521004971,
+        "input_mean": 1.5344838733243369,
+        "measurement": "fourier",
+        "measurement_penalty": 0.20333621450574768,
+        "nonthermal_penalty": 0.041435469463008134,
+        "rate_gap": 0.34287445756197266,
+        "unused_energy_penalty": 0.09810277359321684,
+        "weights": [
+          0.2,
+          0.08,
+          0.72
+        ]
+      },
+      {
+        "budget": 2.234483873324337,
+        "coherent_information": 0.3020317269456568,
+        "input_mean": 1.5344838733243369,
+        "measurement": "overcomplete",
+        "measurement_penalty": 0.125155439660588,
+        "nonthermal_penalty": 0.041435469463008134,
+        "rate_gap": 0.264693682716813,
+        "unused_energy_penalty": 0.09810277359321684,
+        "weights": [
+          0.2,
+          0.08,
+          0.72
+        ]
+      },
+      {
+        "budget": 2.82220988111418,
+        "coherent_information": 0.5538401434751488,
+        "input_mean": 2.1222098811141796,
+        "measurement": "count",
+        "measurement_penalty": 0.11967013581266239,
+        "nonthermal_penalty": 0.32425884924423753,
+        "rate_gap": 0.5334780001818371,
+        "unused_energy_penalty": 0.08954901512493718,
+        "weights": [
+          0.6,
+          0.2,
+          0.2
+        ]
+      },
+      {
+        "budget": 2.82220988111418,
+        "coherent_information": 0.49508061927710634,
+        "input_mean": 2.1222098811141796,
+        "measurement": "fourier",
+        "measurement_penalty": 0.17842966001070482,
+        "nonthermal_penalty": 0.32425884924423753,
+        "rate_gap": 0.5922375243798795,
+        "unused_energy_penalty": 0.08954901512493718,
+        "weights": [
+          0.6,
+          0.2,
+          0.2
+        ]
+      },
+      {
+        "budget": 2.82220988111418,
+        "coherent_information": 0.5352530234717596,
+        "input_mean": 2.1222098811141796,
+        "measurement": "overcomplete",
+        "measurement_penalty": 0.13825725581605153,
+        "nonthermal_penalty": 0.32425884924423753,
+        "rate_gap": 0.5520651201852262,
+        "unused_energy_penalty": 0.08954901512493718,
+        "weights": [
+          0.6,
+          0.2,
+          0.2
+        ]
+      },
+      {
+        "budget": 2.5747171481336224,
+        "coherent_information": 0.7959981710713746,
+        "input_mean": 1.8747171481336227,
+        "measurement": "count",
+        "measurement_penalty": 0.3224881808315467,
+        "nonthermal_penalty": 0.043765142057932485,
+        "rate_gap": 0.6049183880587159,
+        "unused_energy_penalty": 0.2386650651692368,
+        "weights": [
+          0.2,
+          0.0,
+          0.8
+        ]
+      },
+      {
+        "budget": 2.5747171481336224,
+        "coherent_information": 0.4475328199354933,
+        "input_mean": 1.8747171481336227,
+        "measurement": "fourier",
+        "measurement_penalty": 0.6709535319674278,
+        "nonthermal_penalty": 0.043765142057932485,
+        "rate_gap": 0.9533837391945972,
+        "unused_energy_penalty": 0.2386650651692368,
+        "weights": [
+          0.2,
+          0.0,
+          0.8
+        ]
+      },
+      {
+        "budget": 2.5747171481336224,
+        "coherent_information": 0.8213508398939324,
+        "input_mean": 1.8747171481336227,
+        "measurement": "overcomplete",
+        "measurement_penalty": 0.2971355120089888,
+        "nonthermal_penalty": 0.043765142057932485,
+        "rate_gap": 0.5795657192361581,
+        "unused_energy_penalty": 0.2386650651692368,
+        "weights": [
+          0.2,
+          0.0,
+          0.8
+        ]
+      }
+    ],
+    "scope": "The decomposition concerns coherent information for a fixed refined helper measurement, not the achieved fidelity of a finite code. Coarse outcomes leave additional quantum information in the complement."
+  }
+}

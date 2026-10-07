@@ -1,0 +1,556 @@
+{
+  "arbitrary_input_entropy_bound": {
+    "proof": "The infinite thermal reference is evaluated through log tau, never replaced by a renormalized finite thermal matrix. Relative-entropy contraction gives the all-input/all-use analytical inequality.",
+    "records": [
+      {
+        "a": 0.2,
+        "b": 0.08,
+        "entropy_difference": 0.4340074749169065,
+        "local_cut": 4,
+        "mean_per_mode": 1.5908986134597,
+        "modes": 1,
+        "relative_entropy_gap": 0.04366849186374666,
+        "upper_bound": 0.4776759667806535
+      },
+      {
+        "a": 0.7,
+        "b": 0.2,
+        "entropy_difference": 0.5837567629862641,
+        "local_cut": 4,
+        "mean_per_mode": 2.011654319243344,
+        "modes": 1,
+        "relative_entropy_gap": 0.5616832361168975,
+        "upper_bound": 1.1454399991031616
+      },
+      {
+        "a": 0.2,
+        "b": 0.0,
+        "entropy_difference": 1.056529058625096,
+        "local_cut": 4,
+        "mean_per_mode": 1.830475254322471,
+        "modes": 1,
+        "relative_entropy_gap": 0.08902435897915795,
+        "upper_bound": 1.1455534176042539
+      },
+      {
+        "a": 0.2,
+        "b": 0.08,
+        "entropy_difference": 0.8565437291414202,
+        "local_cut": 3,
+        "mean_per_mode": 1.407059798020352,
+        "modes": 2,
+        "relative_entropy_gap": 0.03796313242292215,
+        "upper_bound": 0.8945068615643417
+      },
+      {
+        "a": 0.7,
+        "b": 0.2,
+        "entropy_difference": 1.577532289110836,
+        "local_cut": 3,
+        "mean_per_mode": 1.4637233428113428,
+        "modes": 2,
+        "relative_entropy_gap": 0.47583301543701295,
+        "upper_bound": 2.0533653045478486
+      },
+      {
+        "a": 0.2,
+        "b": 0.0,
+        "entropy_difference": 2.034575218770102,
+        "local_cut": 3,
+        "mean_per_mode": 1.5962189837867817,
+        "modes": 2,
+        "relative_entropy_gap": 0.07181896683385691,
+        "upper_bound": 2.1063941856039583
+      }
+    ]
+  },
+  "closed_energy_law": {
+    "curvature": "(b-a)/(ln(2)*N*(1+a*N)*(1+b*N))",
+    "large_energy": [
+      {
+        "a": 0.2,
+        "b": 0.08,
+        "energy": [
+          1.0,
+          10.0,
+          1000.0,
+          1000000.0
+        ],
+        "rates": [
+          0.3686045934162037,
+          0.9709505944546684,
+          1.316549329354097,
+          1.3219226848125203
+        ],
+        "unbounded_energy_supremum": 1.3219280948873624
+      },
+      {
+        "a": 0.4,
+        "b": 0.1,
+        "energy": [
+          1.0,
+          10.0,
+          1000.0,
+          1000000.0
+        ],
+        "rates": [
+          0.724922110379619,
+          1.6096404744368118,
+          1.9946123180743633,
+          1.9999945899161382
+        ],
+        "unbounded_energy_supremum": 2.0
+      },
+      {
+        "a": 0.51,
+        "b": 0.49,
+        "energy": [
+          1.0,
+          10.0,
+          1000.0,
+          1000000.0
+        ],
+        "rates": [
+          0.03170096010323786,
+          0.05261276000863502,
+          0.0576578438522386,
+          0.05771544012547025
+        ],
+        "unbounded_energy_supremum": 0.057715497856287434
+      }
+    ],
+    "resource_boundary": "Input photon budget only. Helper collective quantum processing, phase reference and classical messages are allowed; no nonvacuum incoming environment, quantum helper-to-receiver transmission, or two-way distillation.",
+    "table": [
+      {
+        "coherent_collection_capacity": 0.3187256086866601,
+        "collection": 0.5,
+        "decay": 0.8,
+        "mean_input": 1.0,
+        "measurement_assisted_capacity": 0.0,
+        "unmonitored_capacity": 0.0
+      },
+      {
+        "coherent_collection_capacity": 0.5320689756394796,
+        "collection": 0.5,
+        "decay": 0.8,
+        "mean_input": 10.0,
+        "measurement_assisted_capacity": 0.0,
+        "unmonitored_capacity": 0.0
+      },
+      {
+        "coherent_collection_capacity": 1.0039100017307754,
+        "collection": 0.75,
+        "decay": 0.8,
+        "mean_input": 1.0,
+        "measurement_assisted_capacity": 0.0,
+        "unmonitored_capacity": 0.0
+      },
+      {
+        "coherent_collection_capacity": 1.7744375108173425,
+        "collection": 0.75,
+        "decay": 0.8,
+        "mean_input": 10.0,
+        "measurement_assisted_capacity": 0.0,
+        "unmonitored_capacity": 0.0
+      },
+      {
+        "coherent_collection_capacity": 1.1585494096627618,
+        "collection": 0.8,
+        "decay": 0.8,
+        "mean_input": 1.0,
+        "measurement_assisted_capacity": 0.10862514140476609,
+        "unmonitored_capacity": 0.0
+      },
+      {
+        "coherent_collection_capacity": 2.0965255872613655,
+        "collection": 0.8,
+        "decay": 0.8,
+        "mean_input": 10.0,
+        "measurement_assisted_capacity": 0.25567232988399136,
+        "unmonitored_capacity": 0.0
+      },
+      {
+        "coherent_collection_capacity": 1.5061724994756225,
+        "collection": 0.9,
+        "decay": 0.8,
+        "mean_input": 1.0,
+        "measurement_assisted_capacity": 0.3686045934162038,
+        "unmonitored_capacity": 0.0
+      },
+      {
+        "coherent_collection_capacity": 2.936103489788575,
+        "collection": 0.9,
+        "decay": 0.8,
+        "mean_input": 10.0,
+        "measurement_assisted_capacity": 0.970950594454669,
+        "unmonitored_capacity": 0.0
+      },
+      {
+        "coherent_collection_capacity": 2.0,
+        "collection": 1.0,
+        "decay": 0.8,
+        "mean_input": 1.0,
+        "measurement_assisted_capacity": 0.780026905978025,
+        "unmonitored_capacity": 0.0
+      },
+      {
+        "coherent_collection_capacity": 4.834466856136647,
+        "collection": 1.0,
+        "decay": 0.8,
+        "mean_input": 10.0,
+        "measurement_assisted_capacity": 2.7548875021634687,
+        "unmonitored_capacity": 0.0
+      }
+    ]
+  },
+  "energy_constrained_achievability": {
+    "boundary": "The displayed finite-input rate uses established block assistance and subsequent channel coding. No finite-block receiver is simulated. Truncation is an analytical achievability step, not a physical restriction in the converse.",
+    "records": [
+      {
+        "capacity": 0.3686045934162037,
+        "cutoffs": [
+          {
+            "analytic_lower_enclosure": 0.10285697245362396,
+            "cut": 4,
+            "distance_to_infinite_formula": 0.03790509274017356,
+            "finite_input_min_cut_rate": 0.33069950067603016,
+            "mean_input": 0.8387096774193549,
+            "thermal_tail": 0.03125
+          },
+          {
+            "analytic_lower_enclosure": 0.36650062502855757,
+            "cut": 12,
+            "distance_to_infinite_formula": 0.00034619208163927384,
+            "finite_input_min_cut_rate": 0.36825840133456444,
+            "mean_input": 0.9984128921987546,
+            "thermal_tail": 0.0001220703125
+          },
+          {
+            "analytic_lower_enclosure": 0.3686045933949808,
+            "cut": 40,
+            "distance_to_infinite_formula": 4.038436252074007e-12,
+            "finite_input_min_cut_rate": 0.3686045934121653,
+            "mean_input": 0.9999999999813554,
+            "thermal_tail": 4.547473508864641e-13
+          },
+          {
+            "analytic_lower_enclosure": 0.3686045934162037,
+            "cut": 120,
+            "distance_to_infinite_formula": -5.551115123125783e-17,
+            "finite_input_min_cut_rate": 0.3686045934162038,
+            "mean_input": 1.0,
+            "thermal_tail": 3.76158192263132e-37
+          }
+        ],
+        "mean_budget": 1.0,
+        "weights": [
+          0.2,
+          0.08,
+          0.72
+        ]
+      },
+      {
+        "capacity": 1.6196458957980562,
+        "cutoffs": [
+          {
+            "analytic_lower_enclosure": 0.0,
+            "cut": 4,
+            "distance_to_infinite_formula": 0.4444388706860576,
+            "finite_input_min_cut_rate": 1.1752070251119986,
+            "mean_input": 1.4443021766965427,
+            "thermal_tail": 0.2373046875
+          },
+          {
+            "analytic_lower_enclosure": 1.376787035779919,
+            "cut": 12,
+            "distance_to_infinite_formula": 0.06786431547450067,
+            "finite_input_min_cut_rate": 1.5517815803235555,
+            "mean_input": 2.683639712899767,
+            "thermal_tail": 0.023757264018058777
+          },
+          {
+            "analytic_lower_enclosure": 1.61947217909178,
+            "cut": 40,
+            "distance_to_infinite_formula": 5.541665355801584e-05,
+            "finite_input_min_cut_rate": 1.6195904791444982,
+            "mean_input": 2.9996907576738376,
+            "thermal_tail": 7.542438871228123e-06
+          },
+          {
+            "analytic_lower_enclosure": 1.6196458957980122,
+            "cut": 120,
+            "distance_to_infinite_formula": 1.5765166949677223e-14,
+            "finite_input_min_cut_rate": 1.6196458957980404,
+            "mean_input": 2.999999999999908,
+            "thermal_tail": 7.628038395642764e-16
+          }
+        ],
+        "mean_budget": 3.0,
+        "weights": [
+          0.6,
+          0.1,
+          0.3
+        ]
+      },
+      {
+        "capacity": 0.780026905978025,
+        "cutoffs": [
+          {
+            "analytic_lower_enclosure": 0.5275509725174395,
+            "cut": 4,
+            "distance_to_infinite_formula": 0.08806850257762233,
+            "finite_input_min_cut_rate": 0.6919584034004027,
+            "mean_input": 0.8387096774193549,
+            "thermal_tail": 0.03125
+          },
+          {
+            "analytic_lower_enclosure": 0.7779731661720615,
+            "cut": 12,
+            "distance_to_infinite_formula": 0.0008234338230791449,
+            "finite_input_min_cut_rate": 0.7792034721549459,
+            "mean_input": 0.9984128921987546,
+            "thermal_tail": 0.0001220703125
+          },
+          {
+            "analytic_lower_enclosure": 0.7800269059569892,
+            "cut": 40,
+            "distance_to_infinite_formula": 9.639289366702997e-12,
+            "finite_input_min_cut_rate": 0.7800269059683858,
+            "mean_input": 0.9999999999813554,
+            "thermal_tail": 4.547473508864641e-13
+          },
+          {
+            "analytic_lower_enclosure": 0.780026905978025,
+            "cut": 120,
+            "distance_to_infinite_formula": 1.1102230246251565e-16,
+            "finite_input_min_cut_rate": 0.7800269059780249,
+            "mean_input": 1.0,
+            "thermal_tail": 3.76158192263132e-37
+          }
+        ],
+        "mean_budget": 1.0,
+        "weights": [
+          0.2,
+          0.0,
+          0.8
+        ]
+      },
+      {
+        "capacity": 0.023298301937767385,
+        "cutoffs": [
+          {
+            "analytic_lower_enclosure": 0.02316954436242001,
+            "cut": 4,
+            "distance_to_infinite_formula": 5.4870717704769145e-06,
+            "finite_input_min_cut_rate": 0.023292814865996908,
+            "mean_input": 0.0999689537410742,
+            "thermal_tail": 6.209213230591552e-06
+          },
+          {
+            "analytic_lower_enclosure": 0.023298301936334392,
+            "cut": 12,
+            "distance_to_infinite_formula": 6.637745908477655e-14,
+            "finite_input_min_cut_rate": 0.023298301937701008,
+            "mean_input": 0.09999999999962343,
+            "thermal_tail": 2.896643797366881e-14
+          },
+          {
+            "analytic_lower_enclosure": 0.023298301937767385,
+            "cut": 40,
+            "distance_to_infinite_formula": -5.551115123125783e-17,
+            "finite_input_min_cut_rate": 0.02329830193776744,
+            "mean_input": 0.09999999999999999,
+            "thermal_tail": 2.0086298320163655e-43
+          },
+          {
+            "analytic_lower_enclosure": 0.023298301937767385,
+            "cut": 120,
+            "distance_to_infinite_formula": -5.551115123125783e-17,
+            "finite_input_min_cut_rate": 0.02329830193776744,
+            "mean_input": 0.09999999999999999,
+            "thermal_tail": 9.805846619786922e-127
+          }
+        ],
+        "mean_budget": 0.1,
+        "weights": [
+          0.2,
+          0.16,
+          0.64
+        ]
+      }
+    ]
+  },
+  "exact_finite_sectors": {
+    "boundary": "Finite total-excitation sectors are exact and closed. They verify identities, not the infinite-dimensional capacity by cutoff extrapolation.",
+    "records": [
+      {
+        "conditional_outcomes": 6,
+        "cut": 2,
+        "identity_error": 7.599723615883779e-17,
+        "input_mean": 1.0360726657656256
+      },
+      {
+        "conditional_outcomes": 8,
+        "cut": 3,
+        "identity_error": 3.630711654554525e-17,
+        "input_mean": 1.54238888293302
+      },
+      {
+        "conditional_outcomes": 10,
+        "cut": 4,
+        "identity_error": 4.9802844258793667e-17,
+        "input_mean": 1.7772133378676525
+      }
+    ]
+  },
+  "groups": 6,
+  "hypothesis_countercontrol": {
+    "explanation": "E is a replacement of B marginally; no map on B alone can create the missing D off-diagonal blocks. This is an inherited random-unitary correction mechanism, not a new effect.",
+    "helper_corrected_capacity": 1,
+    "maximum_false_marginal_cut": 0,
+    "rows": [
+      {
+        "first_cut_without_required_hypothesis": 0.0,
+        "input_entropy": 1.0,
+        "recovery_error": 1.5700924586837752e-16
+      },
+      {
+        "first_cut_without_required_hypothesis": -0.16358847069923488,
+        "input_entropy": 0.5428338560715311,
+        "recovery_error": 1.3597399555105182e-16
+      },
+      {
+        "first_cut_without_required_hypothesis": -0.9999999999999999,
+        "input_entropy": -0.0,
+        "recovery_error": 2.220446049250313e-16
+      }
+    ]
+  },
+  "receiver_only_flag_audit": {
+    "boundary": "The exact capacity achievability is from an ensemble theorem and constrained channel coding, not these finite random measurements.",
+    "records": [
+      {
+        "branch_simulation_error": 2.2263388730604003e-16,
+        "coherent_information": 0.09601212281691465,
+        "outcomes": 6,
+        "two_cut_slacks": [
+          0.016221465561526927,
+          0.3861725860602979
+        ],
+        "uses": 1,
+        "weights": [
+          0.2,
+          0.08,
+          0.72
+        ]
+      },
+      {
+        "branch_simulation_error": 2.281558310827021e-16,
+        "coherent_information": 0.2108890644162755,
+        "outcomes": 12,
+        "two_cut_slacks": [
+          0.11265709825107853,
+          0.7296438856632386
+        ],
+        "uses": 2,
+        "weights": [
+          0.2,
+          0.08,
+          0.72
+        ]
+      },
+      {
+        "branch_simulation_error": 1.1102230246251565e-16,
+        "coherent_information": 0.06194640163460467,
+        "outcomes": 6,
+        "two_cut_slacks": [
+          0.3784035234381814,
+          0.05234870808880733
+        ],
+        "uses": 1,
+        "weights": [
+          0.4,
+          0.1,
+          0.5
+        ]
+      },
+      {
+        "branch_simulation_error": 2.244171741327437e-16,
+        "coherent_information": 0.47786703867349417,
+        "outcomes": 12,
+        "two_cut_slacks": [
+          0.2522874896089155,
+          0.47592169912641696
+        ],
+        "uses": 2,
+        "weights": [
+          0.4,
+          0.1,
+          0.5
+        ]
+      },
+      {
+        "branch_simulation_error": 1.1102230246251565e-16,
+        "coherent_information": 0.15033438705573487,
+        "outcomes": 6,
+        "two_cut_slacks": [
+          0.03852701722389415,
+          0.3444459483707162
+        ],
+        "uses": 1,
+        "weights": [
+          0.2,
+          0.0,
+          0.8
+        ]
+      },
+      {
+        "branch_simulation_error": 1.1102230246251565e-16,
+        "coherent_information": 0.558127372265194,
+        "outcomes": 12,
+        "two_cut_slacks": [
+          0.4038343793312721,
+          0.9340086743702769
+        ],
+        "uses": 2,
+        "weights": [
+          0.2,
+          0.0,
+          0.8
+        ]
+      },
+      {
+        "branch_simulation_error": 0.0,
+        "coherent_information": 0.0,
+        "outcomes": 6,
+        "two_cut_slacks": [
+          0.0,
+          0.03200045384430106
+        ],
+        "uses": 1,
+        "weights": [
+          0.3,
+          0.3,
+          0.4
+        ]
+      },
+      {
+        "branch_simulation_error": 0.0,
+        "coherent_information": 0.0,
+        "outcomes": 12,
+        "two_cut_slacks": [
+          0.0,
+          0.46016172857502124
+        ],
+        "uses": 2,
+        "weights": [
+          0.3,
+          0.3,
+          0.4
+        ]
+      }
+    ]
+  },
+  "scope": "Author-side analytical-theorem checks, not priority certification or independent peer review.",
+  "status": "PASS"
+}

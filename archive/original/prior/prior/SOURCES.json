@@ -1,0 +1,101 @@
+{
+  "date": "2026-10-06",
+  "basis": "Two active pilots from the supplied revised restart; no older research line reopened.",
+  "primary_records": [
+    {
+      "key": "SVW05",
+      "description_and_reading_scope": "[SVW05] J. A. Smolin, F. Verstraete and A. Winter, *Entanglement of assistance and multipartite state distillation*, PRA72,052317 (2005), [author paper](https://arxiv.org/abs/quant-ph/0505038). Theorem 1's regularized entropy minimum and Theorem 8's full-environment capacity, including its measured flagged-channel coding construction, were read. These establish the inherited assistance ingredient and justify not granting operations on E.",
+      "urls": [
+        "https://arxiv.org/abs/quant-ph/0505038"
+      ]
+    },
+    {
+      "key": "DH11",
+      "description_and_reading_scope": "[DH11] N. Dutil and P. Hayden, *Assisted Entanglement Distillation*, [author paper](https://arxiv.org/abs/1011.1972). Theorem 8, its minimum-cut coherent-information lower bound and surrounding protocol definitions were read. Its generic recipients have LOCC options broader than our communication task; we use the source for prior-art attribution, with the receiver-only flagged-channel argument given separately. No full 25-page proof/appendix audit.",
+      "urls": [
+        "https://arxiv.org/abs/1011.1972"
+      ]
+    },
+    {
+      "key": "G10",
+      "description_and_reading_scope": "[G10] M. Grassl, Z. Ji, Z. Wei and B. Zeng, *Quantum Capacity Approaching Codes for the Detected-Jump Channel*, PRA82,062324 (2010), [author paper](https://arxiv.org/abs/1008.3350). Detected-jump channel/capacity and detector assumption passages read; The incoming note's exact perfect-detection construction remains the comparison, not a new loss experiment.",
+      "urls": [
+        "https://arxiv.org/abs/1008.3350"
+      ]
+    },
+    {
+      "key": "A03",
+      "description_and_reading_scope": "[A03] G. Alber et al., *Detected-jump-error-correcting quantum codes, quantum error designs, and quantum computation*, PRA68,012316 (2003), [author paper](https://arxiv.org/abs/quant-ph/0208140). Model, recovery assumptions and Section VI imperfect labels, delay and dead-time subsections read. No reproduced finite-code/Grover simulation.",
+      "urls": [
+        "https://arxiv.org/abs/quant-ph/0208140"
+      ]
+    },
+    {
+      "key": "W98",
+      "description_and_reading_scope": "[W98] R. F. Werner, *Optimal Cloning of Pure States*, PRA58,1827 (1998), [author paper](https://arxiv.org/abs/quant-ph/9804001). Standard cloning framework is contextual attribution; (A9) is proved by the explicit projector identity here. No claim that a given code attains the universal ceiling.",
+      "urls": [
+        "https://arxiv.org/abs/quant-ph/9804001"
+      ]
+    },
+    {
+      "key": "PDB21",
+      "description_and_reading_scope": "[PDB21] U. Pereg, C. Deppe and H. Boche, *Quantum Broadcast Channels with Cooperating Decoders: An Information-Theoretic Perspective on Quantum Repeaters*, [author paper](https://arxiv.org/abs/2011.09233). Abstract and Section VII conferencing distinctions examined. Not a full comparison of its 46-page rate regions or a proof that every relay theorem differs.",
+      "urls": [
+        "https://arxiv.org/abs/2011.09233"
+      ]
+    },
+    {
+      "key": "HK05",
+      "description_and_reading_scope": "[HK05] P. Hayden and C. King, *Correcting quantum channels by measuring the environment*, [author paper](https://arxiv.org/abs/quant-ph/0409026). Abstract/model and corrected-capacity interpretation checked; classical capacity must not be substituted for quantum capacity.",
+      "urls": [
+        "https://arxiv.org/abs/quant-ph/0409026"
+      ]
+    },
+    {
+      "key": "KFG20",
+      "description_and_reading_scope": "[KFG20] F. Kianvash, M. Fanizza and V. Giovannetti, *Bounding the quantum capacity with flagged extensions*, [author paper](https://arxiv.org/abs/2008.02461). Primary abstract, flag construction and amplitude-damping references screened; no whole-paper exclusion claim.",
+      "urls": [
+        "https://arxiv.org/abs/2008.02461"
+      ]
+    },
+    {
+      "key": "V26",
+      "description_and_reading_scope": "[V26] E. Voss, B. Li, Z. Wang and L. Jiang, *Passive Environment-Assisted Quantum Communication*, [author record](https://arxiv.org/abs/2602.21549). Abstract-level comparison only: manipulating nonvacuum incoming environment states changes the declared vacuum-splitter resource. No capacity from that different model is imported.",
+      "urls": [
+        "https://arxiv.org/abs/2602.21549"
+      ]
+    },
+    {
+      "key": "R24",
+      "description_and_reading_scope": "[R24] T. Roscilde, F. Caleca, A. Angelone and F. Mezzacapo, *Scalable spin squeezing from critical slowing down in short-range interacting systems*, PRL133,210401 (2024), [author paper](https://arxiv.org/abs/2404.12514). XXZ Hamiltonian, squeezing definition, rotor–spin-wave low-density premise, scaling discussion and finite short-range numerical scope inspected. no figure values taken as our finite data.",
+      "urls": [
+        "https://arxiv.org/abs/2404.12514"
+      ]
+    },
+    {
+      "key": "BHV06",
+      "description_and_reading_scope": "[BHV06] S. Bravyi, M. B. Hastings and F. Verstraete, *Lieb-Robinson Bounds and the Generation of Correlations and Topological Quantum Order*, PRL97,050401 (2006), [author paper](https://arxiv.org/abs/quant-ph/0603121). Locality/correlation argument and bounded-interaction assumptions read. The rectangle-volume count and uncertainty combination are the specialization here.",
+      "urls": [
+        "https://arxiv.org/abs/quant-ph/0603121"
+      ]
+    }
+  ],
+  "critical_attribution": "The minimum-cut assistance lower bound is already in Dutil-Hayden Theorem8. The new author-side claim is an exact capacity under register-preserving degradation, with a converse and receiver-only flagged-channel achievability argument. No new assistance protocol is claimed.",
+  "existing_source_reassessment": "Smolin-Verstraete-Winter Theorems1 and8 read at relevant proof passages. Original source ledger unchanged.",
+  "limits": [
+    "No exhaustive imperfect-monitoring, degraded-relay or partial-assistance bibliography review.",
+    "No independent outside proof audit.",
+    "No visual figure/table data used; primary mathematical text read.",
+    "No device implementation.",
+    "Bosonic result is a vacuum-splitter positivity boundary, not a complete energy-constrained capacity.",
+    "Spin result is a necessary speed/geometry bound and finite covariance, not a thermodynamic achievable exponent."
+  ],
+  "failed_or_unused_routes": [
+    "Files search for the restart returned no hits; its mounted Markdown and ZIP were read and hashed.",
+    "One guessed arXiv identifier led to unrelated combinatorics and was excluded; another failed.",
+    "Broad search hits about superdense coding, postselection, generated summaries and unrelated work are not technical support or negative novelty evidence."
+  ],
+  "protected_Cabart_attachment_used": false,
+  "repositories_accessed": false,
+  "third_party_PDFs_redistributed": false
+}

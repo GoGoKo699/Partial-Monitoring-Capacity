@@ -1,0 +1,2 @@
+usage: check_audit.py [-h] --output OUTPUT
+check_audit.py: error: Refuse existing output

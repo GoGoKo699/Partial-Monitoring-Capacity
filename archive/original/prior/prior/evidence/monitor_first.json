@@ -1,0 +1,211 @@
+{
+  "bosonic_extension": {
+    "proof": "Coherent-input dyads or passive dilation prove the identity on full Fock space; exact finite excitation sectors are only tests.",
+    "rows": [
+      {
+        "a": 0.1,
+        "b": 0.2,
+        "c": 0.7,
+        "matrix_unit_error": 6.009258394948638e-17,
+        "max_input_photons": 2
+      },
+      {
+        "a": 0.2,
+        "b": 0.2,
+        "c": 0.6,
+        "matrix_unit_error": 0.0,
+        "max_input_photons": 2
+      },
+      {
+        "a": 0.4,
+        "b": 0.1,
+        "c": 0.5,
+        "matrix_unit_error": 6.206335383118183e-17,
+        "max_input_photons": 2
+      },
+      {
+        "a": 0.1,
+        "b": 0.2,
+        "c": 0.7,
+        "matrix_unit_error": 7.384427692206413e-17,
+        "max_input_photons": 3
+      },
+      {
+        "a": 0.2,
+        "b": 0.2,
+        "c": 0.6,
+        "matrix_unit_error": 0.0,
+        "max_input_photons": 3
+      },
+      {
+        "a": 0.4,
+        "b": 0.1,
+        "c": 0.5,
+        "matrix_unit_error": 6.834017936133213e-17,
+        "max_input_photons": 3
+      },
+      {
+        "a": 0.1,
+        "b": 0.2,
+        "c": 0.7,
+        "matrix_unit_error": 8.349377505439573e-17,
+        "max_input_photons": 4
+      },
+      {
+        "a": 0.2,
+        "b": 0.2,
+        "c": 0.6,
+        "matrix_unit_error": 0.0,
+        "max_input_photons": 4
+      },
+      {
+        "a": 0.4,
+        "b": 0.1,
+        "c": 0.5,
+        "matrix_unit_error": 9.957132364919834e-17,
+        "max_input_photons": 4
+      }
+    ],
+    "scope": "Vacuum passive splitting and helper output measurement; excludes prepared nonvacuum bath inputs, two-way assistance and in-flight feedback."
+  },
+  "collective_helper_entropy_bound": [
+    {
+      "a": 0.2,
+      "b": 0.08,
+      "c": 0.72,
+      "classical_record_penalty": 0.07106607985080249,
+      "coherent_information": 0.1487091606369835,
+      "entropy_difference": 0.21977524048778602,
+      "helper_outcomes": 4,
+      "per_use_upper": 0.31271697067592497,
+      "uses": 1
+    },
+    {
+      "a": 0.2,
+      "b": 0.08,
+      "c": 0.72,
+      "classical_record_penalty": 0.19459059034976195,
+      "coherent_information": 0.2388380494237547,
+      "entropy_difference": 0.43342863977351664,
+      "helper_outcomes": 8,
+      "per_use_upper": 0.31271697067592497,
+      "uses": 2
+    },
+    {
+      "a": 0.6,
+      "b": 0.1,
+      "c": 0.3,
+      "classical_record_penalty": 0.041664458779703,
+      "coherent_information": 0.2717427884217172,
+      "entropy_difference": 0.3134072472014202,
+      "helper_outcomes": 4,
+      "per_use_upper": 0.6178199390151811,
+      "uses": 1
+    },
+    {
+      "a": 0.6,
+      "b": 0.1,
+      "c": 0.3,
+      "classical_record_penalty": 0.1276087411852968,
+      "coherent_information": 0.6875016758475567,
+      "entropy_difference": 0.8151104170328536,
+      "helper_outcomes": 8,
+      "per_use_upper": 0.6178199390151811,
+      "uses": 2
+    },
+    {
+      "a": 0.2,
+      "b": 0.0,
+      "c": 0.8,
+      "classical_record_penalty": 0.26166012112659026,
+      "coherent_information": 0.2294211614325839,
+      "entropy_difference": 0.49108128255917416,
+      "helper_outcomes": 4,
+      "per_use_upper": 0.6500224216483541,
+      "uses": 1
+    },
+    {
+      "a": 0.2,
+      "b": 0.0,
+      "c": 0.8,
+      "classical_record_penalty": 0.2277900117316549,
+      "coherent_information": 0.5199237371461404,
+      "entropy_difference": 0.7477137488777953,
+      "helper_outcomes": 8,
+      "per_use_upper": 0.6500224216483541,
+      "uses": 2
+    },
+    {
+      "a": 0.4,
+      "b": 0.4,
+      "c": 0.2,
+      "classical_record_penalty": 0.0,
+      "coherent_information": 0.0,
+      "entropy_difference": 0.0,
+      "helper_outcomes": 4,
+      "per_use_upper": 0.0,
+      "uses": 1
+    },
+    {
+      "a": 0.4,
+      "b": 0.4,
+      "c": 0.2,
+      "classical_record_penalty": 0.0,
+      "coherent_information": 0.0,
+      "entropy_difference": 0.0,
+      "helper_outcomes": 8,
+      "per_use_upper": 0.0,
+      "uses": 2
+    }
+  ],
+  "entropy_reduction": "100 deterministic random tests of proven degraded-entropy concavity and phase twirling; finite tests not their proof.",
+  "finite_energy_positivity": [
+    {
+      "achievable_coherent_information": 0.00010302592848899746,
+      "chosen_population": 5e-05,
+      "mean_excitation_budget": 0.0001
+    },
+    {
+      "achievable_coherent_information": 0.0008309100918809211,
+      "chosen_population": 0.0005,
+      "mean_excitation_budget": 0.001
+    },
+    {
+      "achievable_coherent_information": 0.006312586165429103,
+      "chosen_population": 0.005,
+      "mean_excitation_budget": 0.01
+    },
+    {
+      "achievable_coherent_information": 0.01141767960577239,
+      "chosen_population": 0.01,
+      "mean_excitation_budget": 0.1
+    }
+  ],
+  "finite_message_ceiling": {
+    "rows": [
+      {
+        "entanglement_fidelity_ceiling": 0.75,
+        "message_dimension": 2,
+        "projector_sum_norm": 1.4999999999999998
+      },
+      {
+        "entanglement_fidelity_ceiling": 0.6666666666666666,
+        "message_dimension": 3,
+        "projector_sum_norm": 1.333333333333334
+      },
+      {
+        "entanglement_fidelity_ceiling": 0.625,
+        "message_dimension": 4,
+        "projector_sum_norm": 1.25
+      },
+      {
+        "entanglement_fidelity_ceiling": 0.5833333333333334,
+        "message_dimension": 6,
+        "projector_sum_norm": 1.1666666666666676
+      }
+    ],
+    "scope": "Standard two-extension/no-cloning ceiling applied to each arbitrary block helper channel; no finite-block code achieves this bound asserted."
+  },
+  "status": "FAIL",
+  "test_groups": 6
+}

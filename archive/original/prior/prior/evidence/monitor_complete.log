@@ -1,0 +1,4 @@
+  File "/mnt/data/revised_followup_2026-10-06/check_monitoring_followup.py", line 124
+    exact_capacity_per_use=U,proof_boundary="Attainment uses the cited asymptotic assistance/coding theorem, not this finite POVM test.")))
+                                                                                                                                          ^
+SyntaxError: unmatched ')'

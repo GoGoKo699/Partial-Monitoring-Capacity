@@ -1,0 +1,9 @@
+test_actual_flagged_channel_and_complement_degrade (__main__.Checks.test_actual_flagged_channel_and_complement_degrade) ... ok
+test_discarded_encoder_ancilla_does_not_raise_the_converse (__main__.Checks.test_discarded_encoder_ancilla_does_not_raise_the_converse) ... ok
+test_qubit_formula_has_one_root_or_one_entropy_crossover (__main__.Checks.test_qubit_formula_has_one_root_or_one_entropy_crossover) ... ok
+test_rate_gap_decomposes_without_omitting_a_hidden_environment (__main__.Checks.test_rate_gap_decomposes_without_omitting_a_hidden_environment) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.148s
+
+OK

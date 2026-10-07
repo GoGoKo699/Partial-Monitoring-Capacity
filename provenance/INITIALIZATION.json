@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-07",
+  "repository": "GoGoKo699/Partial-Monitoring-Capacity",
+  "authorization": "Owner created the repository and explicitly authorized edits and merge, then workspace handoff.",
+  "base_commit": "9243513e6c8f5dee31977180743e3f6f44a9d613",
+  "base_tree": "e7c6a0e88fa17d1a93f172947b2132a709ee6a01",
+  "scope": "Monitoring-only repository initialization, editorial routing and verification infrastructure. No new scientific claim.",
+  "original_archive_sha256": "fe6fc260a395a63556c01e774495461f04a1c4868809a4d59042a844d39baa6e",
+  "source_members_verified": 110,
+  "protected_imports_and_excerpts": 70,
+  "scientific_code_changes": false,
+  "reference_report_changes": false,
+  "tolerance_changes": false,
+  "spin_or_strip_code_data_imported": false,
+  "unrelated_electronic_decoherence_pdf_imported": false,
+  "existing_MIT_license_preserved": true,
+  "public_visibility_changed": false,
+  "initial_local_verification": {
+    "status": "PASS",
+    "monitoring_groups": 23,
+    "all_reports_byte_identical": true,
+    "infrastructure_tests": 8,
+    "active_local_links": 35
+  },
+  "remote_status": "No mutation or PR/merge. Exposed GitHub actions are read-only; direct git clone failed DNS.",
+  "base_retrieval": "GitHub metadata, exact tree and two file contents read. Public signed commit reconstructed locally and its SHA checked exactly.",
+  "operational_errors": [
+    "Direct git clone failed: Could not resolve host github.com.",
+    "First local base reconstruction appended a newline absent from the owner README, so its tree hash correctly failed. Fetched exact README; retained no-newline bytes; second construction exactly matched owner tree and signed commit."
+  ],
+  "no_failed_scientific_assertion_in_initialization": true,
+  "pending": "Publish reviewed local feature branch, run hosted verification, inspect source-matched artifacts, merge, verify actual main, then complete claim-level workspace task."
+}

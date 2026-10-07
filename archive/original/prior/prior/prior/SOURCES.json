@@ -1,0 +1,106 @@
+{
+  "date": "2026-10-06",
+  "basis": "Two new public-primary-source pilots after a methodology revision. Sources are not attached/private-project seed material.",
+  "records": [
+    {
+      "id": "A1",
+      "authors": "Markus Grassl; Zhengfeng Ji; Zhaohui Wei; Bei Zeng",
+      "title": "Quantum-capacity-approaching codes for the detected-jump channel",
+      "publication": "Physical Review A 82,062324 (2010)",
+      "url": "https://arxiv.org/abs/1008.3350",
+      "read_url": "https://arxiv.org/pdf/1008.3350",
+      "read_depth": "Primary parsed Eqs.(1)-(8),(16), perfect detected-jump construction, and explicit final distinction from unrestricted environment assistance. No graphical capacity values imported.",
+      "use": "Inherited detected-jump model, degradability method and perfect-detection comparison. Partial physical collection and arbitrary collective helper measurement need a distinct implication.",
+      "limit": "No claim to have exhausted imperfect-collection or flagged-amplitude-damping literature."
+    },
+    {
+      "id": "A2",
+      "authors": "Toby S. Cubitt; Mary-Beth Ruskai; Graeme Smith",
+      "title": "The structure of degradable quantum channels",
+      "publication": "Journal of Mathematical Physics 49,102104 (2008)",
+      "url": "https://arxiv.org/abs/0802.1360",
+      "read_url": "https://arxiv.org/pdf/0802.1360",
+      "read_depth": "Primary introduction, channel/complement definitions, additivity and concavity attribution, antidegradability/no-cloning zero-capacity paragraph.",
+      "use": "Standard capacity consequences, not a newly discovered information-theoretic principle.",
+      "limit": "The complete classifications and appendices were not audited."
+    },
+    {
+      "id": "A3",
+      "authors": "John A. Smolin; Frank Verstraete; Andreas Winter",
+      "title": "Entanglement of assistance and multipartite state distillation",
+      "publication": "Physical Review A 72,052317 (2005)",
+      "url": "https://arxiv.org/abs/quant-ph/0505038",
+      "read_url": "https://arxiv.org/pdf/quant-ph/0505038",
+      "read_depth": "Primary environment-assistance result and metadata identified. The exact operational capacity convention is cross-checked in A4.",
+      "use": "Attribution for known whole-environment collective assistance.",
+      "limit": "Not an independent reproduction of the entire assistance proof or a theorem for access to only D."
+    },
+    {
+      "id": "A4",
+      "authors": "Andreas Winter; Dong Yang",
+      "title": "Potential capacities of quantum channels",
+      "publication": "IEEE Transactions on Information Theory62,1415-1424 (2016)",
+      "url": "https://arxiv.org/abs/1505.00907",
+      "read_url": "https://arxiv.org/pdf/1505.00907",
+      "read_depth": "Primary SectionII, Eqs.(5)-(9), and the full environment-to-receiver classical feedforward convention; author v5 metadata checked.",
+      "use": "Exact full-environment comparator and distinction between capacities.",
+      "limit": "The paper's potential-capacity classifications are not claimed audited."
+    },
+    {
+      "id": "A5",
+      "authors": "Bingzhi Zhang; Fangjun Hu; Runzhe Mo; Tianyang Chen; Hakan E. Tureci; Quntao Zhuang",
+      "title": "Scaling Laws of Quantum Information Lifetime in Monitored Quantum Dynamics",
+      "publication": "Physical Review X16,021027 (2026)",
+      "url": "https://arxiv.org/abs/2506.22755",
+      "doi": "10.1103/7717-1mw2",
+      "read_depth": "Primary abstract and publication metadata, and publisher model/scope passages on monitored many-body dynamics and partial-monitoring QMI transitions.",
+      "use": "Ensures that generic partial monitoring and information-lifetime transitions are not claimed new.",
+      "limit": "No reconstruction of their chaotic-system or experimental data; this does not certify lack of overlap with every source extension."
+    },
+    {
+      "id": "B1",
+      "authors": "Tommaso Roscilde; Filippo Caleca; Adriano Angelone; Fabio Mezzacapo",
+      "title": "Scalable spin squeezing from critical slowing down in short-range interacting systems",
+      "publication": "Physical Review Letters133,210401 (2024)",
+      "url": "https://arxiv.org/abs/2404.12514",
+      "read_url": "https://arxiv.org/pdf/2404.12514",
+      "read_depth": "Primary available v1 main model, U(1) symmetry, square geometry, critical magnetization, rotor squeezing/time scaling and rotor-spin-wave validity discussion.",
+      "use": "The independent question is geometric scaling in one critical strip, not invention of scalable short-range squeezing.",
+      "limit": "No source numerical plot/table values imported; no microscopic spectrum coefficient is silently equated to our declared continuum G. No full source many-body simulation reproduced."
+    },
+    {
+      "id": "B2",
+      "authors": "Arman Duha; Thomas Bilitewski",
+      "title": "Universal Spin Squeezing Dynamical Phase Transitions across Lattice Geometries, Dimensions, and Microscopic Couplings",
+      "publication": "arXiv:2605.13969v1,13 May2026",
+      "url": "https://arxiv.org/abs/2605.13969",
+      "read_url": "https://arxiv.org/html/2605.13969v1",
+      "read_depth": "Primary SectionsII-IV, bilayer Hamiltonian, interlayer/intralayer coupling ratio, separation-to-extent aspect ratio, and quadratic/nonlinear comparison; author metadata verified.",
+      "use": "Prevents a generic new-geometry claim. The source's bilayer geometry is distinguished from the single-strip critical question.",
+      "limit": "No quoted fit values or figure-data audit; not an exhaustive nonlinear stability-theorem comparison."
+    },
+    {
+      "id": "B3",
+      "authors": "L. Mathey; A. Polkovnikov",
+      "title": "Light cone dynamics and reverse Kibble-Zurek mechanism in two-dimensional superfluids following a quantum quench",
+      "publication": "Physical Review A81,033605 (2010)",
+      "url": "https://arxiv.org/abs/1001.0098",
+      "read_depth": "Primary abstract/publication record only.",
+      "use": "Established Gaussian phase/light-cone framework and importance of later vortex physics.",
+      "limit": "No assertion that this source derives the exact finite-width formula in the note."
+    }
+  ],
+  "exhaustive_priority": false,
+  "independent_review": false,
+  "model_matched_physical_premise_audit_complete": false,
+  "reading_and_access_limits": [
+    "Primary PDFs were read through parsed mathematical text; no unread figure or table value is used as numerical evidence.",
+    "An unavailable HTML version of the 2024 squeezing paper was not treated as a read newer version; available primary PDF v1 is the cited reading.",
+    "A requested HTML v3 route for the monitored-dynamics article failed; its accessible primary publisher/author records supplied the explicitly reported scope.",
+    "A stray incomplete arXiv identifier was requested during metadata checks and failed; it is not a source.",
+    "Search hits involving unrelated partial degradability, passive environmental input engineering, or secondary mirrors were not used to establish our theorem or its novelty.",
+    "The partial-detection searches did not establish a complete absence of predecessors. The most direct next check concerns imperfect detected jumps and collective measurements with inaccessible environment."
+  ],
+  "third_party_files_redistributed": false,
+  "protected_Cabart_paper_used": false
+}
