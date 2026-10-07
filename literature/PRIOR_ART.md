@@ -4,6 +4,8 @@
 
 **7 October follow-up:** see [PRIORITY_CHECK](PRIORITY_CHECK_2026-10-07.md) for the additional symmetric-side-channel, primitive-relay and partial-access recovery comparisons. The original dated reading record is preserved below.
 
+**Subsequent product-measurement pass:** [PRODUCT_HELPER_GAP](../research/PRODUCT_HELPER_GAP_2026-10-07.md) records the new separation, its Petz/degradable-channel dependencies, and the precise assistance-superadditivity and detected-jump passages reread for attribution. Collective-helper gains themselves are established precedent.
+
 **6 October 2026.** This is a targeted construction-level comparison, not an exhaustive search certificate. A similar title, an inaccessible passage, or a failed search is not evidence of novelty.
 
 ## The three proof anchors

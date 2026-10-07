@@ -1,17 +1,15 @@
 # Current bounded task
 
-**7 October 2026.** The initialization, central-implication assessment and requested physical reading guide are complete. Start with [PHYSICAL_PICTURE](../research/PHYSICAL_PICTURE.md), then [STATUS](../STATUS.md), [claim assessment](../research/CLAIM_ASSESSMENT_2026-10-07.md) and [priority comparison](../literature/PRIORITY_CHECK_2026-10-07.md). The original import work order is [preserved as history](../archive/operations/2026-10-07-local-handoff/CURRENT.md).
+**7 October 2026.** Initialization, the central-implication assessment, the physical guide and the qualitative product-helper separation are complete. Start with [PRODUCT_HELPER_GAP](../research/PRODUCT_HELPER_GAP_2026-10-07.md), [MODEL_AND_CLAIMS](../research/MODEL_AND_CLAIMS.md) and [STATUS](../STATUS.md). The original import work order is [preserved as history](../archive/operations/2026-10-07-local-handoff/CURRENT.md).
 
 ## Conclusion of the completed pass
 
-The capacity formula survives the targeted correctness check. A direct helper-instrument converse handles unresolved helper outputs and discarded encoder ancillas together; finite classical partitions cover normal optical measurements without a rank-one refinement premise. The fixed-measurement coding construction uses receiver-only communication. No rate or resource assumption was corrected.
+For the existing qubit split $(a,b,c)=(0.2,0.08,0.72)$, every predetermined product helper strategy has capacity strictly below the unrestricted value $h_2(5/28)-h_2(1/14)\simeq0.30570954$. All single-use POVMs, use-varying schedules and arbitrary sender/receiver block codes are included. Degradability gives the correct single-use optimization; a five-outcome compactness reduction and strict entropy contraction prove a uniform positive gap.
 
-The inspected symmetric-side-channel and relay theorems do not directly subsume the joint-register equality. Their entropy methods and the established history of partial environmental access must remain credited. Global priority and genuinely separate critical review remain open; another assistant pass is author-side work.
+The exact product capacity, a numerical gap bound and an optimal product POVM remain unknown. Counting supplies the existing $0.18621044$ lower bound, not a proved optimum. Outcome-adaptive local measurements and general separable block POVMs are not covered. Collective gains in assistance are established precedent; the proof records the specific partial-access separation. This remains author-side work.
 
 ## One next task
 
-Determine whether fixed, nonadaptive product helper POVMs can attain the unrestricted capacity in the existing qubit example $(a,b,c)=(0.2,0.08,0.72)$. The encoder and decoder may still use block codes; only the helper measurement is restricted to a product across channel uses. Allow all single-use POVMs, not just photon counting. Outcome-adaptive helper strategies are outside this specific benchmark.
+Obtain a certified numerical upper bound on the predetermined product-helper capacity in this same example, strictly below the unrestricted value. Prefer an analytical inequality. If finite optimization is needed, retain arbitrary input coherence and every single-use POVM; the proof's at-most-five-outcome reduction is available. A local numerical maximum is only a lower bound and cannot certify this task.
 
-First identify the correct single-use optimization and its coding interpretation. Seek either an attaining measurement or an analytical strict upper bound. A comparison against counting alone cannot settle this question. Any separation must be compared with the already known regularized assistance phenomena before claiming a new contribution.
-
-This is a bounded resource question within the same channel, not a prerequisite for the established theorem and not a claim that collective processing has already been proved necessary. Stop with an attainment, a certified gap, or one precise unresolved obstruction. Do not introduce a new bath, platform, broad numerical campaign or manuscript. External contact and release still require an explicit owner instruction.
+Keep the work bounded: no broad parameter sweep, new bath, platform, adaptive-helper extension or manuscript. Stop with an explicit certified gap or one precise obstruction to quantification. Do not repeat the already established qualitative separation as a new finding. External contact and release still require an explicit owner instruction.

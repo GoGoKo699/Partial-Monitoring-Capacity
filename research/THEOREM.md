@@ -4,6 +4,8 @@
 
 **7 October follow-up:** the [claim assessment](CLAIM_ASSESSMENT_2026-10-07.md) gives a direct converse for coarse instruments and continuous optical records. It retains unresolved helper outputs instead of requiring rank-one refinement for the upper bound. The formulas below are unchanged; the refined complement is still required for the exact identities. See also the [targeted priority comparison](../literature/PRIORITY_CHECK_2026-10-07.md).
 
+**Subsequent resource result:** the [product helper gap](PRODUCT_HELPER_GAP_2026-10-07.md) proves a strict separation from all predetermined product helper POVMs in the qubit example below, including arbitrary sender/receiver block coding. Its proof and scope are separate from the original counting comparison; the unrestricted formulas remain unchanged.
+
 **Consolidated author-side theorem and proof, 6 October 2026.** This is a compact research account, not an independently reviewed manuscript. The main proof is given here; the explicit optical entropy-tail enclosure and the finite-message projector calculation remain in the preserved prior proof notes identified below. It consolidates the supplied monitoring results; no channel, capacity formula, or resource assumption has been replaced. The spin-strip pilot is a separate project and contributes no premise here.
 
 ## 1. Physical question and communication model
