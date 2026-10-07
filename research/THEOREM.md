@@ -1,16 +1,14 @@
-> Imported 7 October 2026 from the supplied 6 October consolidation. Capacity claims and resources are unchanged; the subsequent converse-attribution correction is explicit below. See [import provenance](../provenance/IMPORT_MANIFEST.json).
-
 # Quantum transmission with partial environmental observation
 
-**Dependency correction, 7 October:** [PROOF_DEPENDENCIES](PROOF_DEPENDENCIES.md) shows that both finite-dimensional converse cuts follow from Leditzky–Datta–Smith [LDS17], Proposition 2.4, by regrouping registers. The direct proofs below remain valid; their converse inequality is an application of established degradable-state theory. The same record makes the continuous-measurement and optical coding steps explicit. Protected originals are unchanged.
-
-**7 October follow-up:** the [claim assessment](CLAIM_ASSESSMENT_2026-10-07.md) gives a direct converse for coarse instruments and continuous optical records. It retains unresolved helper outputs instead of requiring rank-one refinement for the upper bound. The formulas below are unchanged; the refined complement is still required for the exact identities. See also the [targeted priority comparison](../literature/PRIORITY_CHECK_2026-10-07.md).
-
-**Subsequent resource result:** the [product helper gap](PRODUCT_HELPER_GAP_2026-10-07.md) proves a strict separation from all predetermined product helper POVMs in the qubit example below, including arbitrary sender/receiver block coding. Its proof and scope are separate from the original counting comparison; the unrestricted formulas remain unchanged.
-
-**Exact product benchmark:** [EXACT_PRODUCT_CAPACITY](EXACT_PRODUCT_CAPACITY_2026-10-07.md) subsequently proves counting optimality over all predetermined product helper POVMs for the qubit family with $a>b>0,c>0$. The example's collective-minus-product gap is certified at approximately $0.11949910$ qubits/use. Adaptive local strategies remain outside that comparison.
-
-**Consolidated author-side theorem and proof, 6 October 2026.** This is a compact research account, not an independently reviewed manuscript. The main proof is given here; the explicit optical entropy-tail enclosure and the finite-message projector calculation remain in the preserved prior proof notes identified below. It consolidates the supplied monitoring results; no channel, capacity formula, or resource assumption has been replaced. The spin-strip pilot is a separate project and contributes no premise here.
+The joint-register identity makes an established assistance lower bound exact.
+Both finite-dimensional converse cuts follow from Leditzky–Datta–Smith [LDS17]
+through the [register reduction](PROOF_DEPENDENCIES.md). The
+[direct coarse-record converse](CLAIM_ASSESSMENT_2026-10-07.md) and
+[optical dependencies](PROOF_DEPENDENCIES.md#3-optical-identity-and-photon-budget-coding)
+supply the finite-energy extension. The separate
+[exact product optimum](EXACT_PRODUCT_CAPACITY_2026-10-07.md) establishes counting
+optimality and the qubit individual-versus-collective rate comparison. Adaptive
+local strategies remain outside the product benchmark.
 
 ## 1. Physical question and communication model
 
@@ -169,13 +167,13 @@ Equation (8) is not a finite-code fidelity formula and does not say that discard
 
 Likewise, replacing (1) by marginal degradability is invalid: the standard random-phase example with a key in D is perfectly correctable by reading the key although the inaccessible marginal is a fixed state. Its joint ED correlations cannot be obtained by acting on B with D untouched [GW03]. Neither example contradicts the theorem.
 
-## 6. The proposed contribution and its boundary
+## 6. Attribution and scope
 
 The main claim is **exact saturation of a known assistance lower bound under a register-preserving degradation condition**, with computable qubit and photon-budget examples. Its finite-dimensional converse is a resource-specific application of established degradable-state theory [LDS17]. Environment-assisted communication, the assistance minimum cut, coherent-information coding, thermal-reference extremality and the no-cloning bound are inherited.
 
 The [dependency correction](PROOF_DEPENDENCIES.md) supersedes the earlier assessment that the matching converse required an additional new inequality. The separate [exact product-capacity proof](EXACT_PRODUCT_CAPACITY_2026-10-07.md) still requires optimization over every predetermined single-use helper measurement and every input. The inspected state-decomposition minima do not supply that maximum. This bounded comparison is **not exhaustive priority clearance**.
 
-The assumptions do not include a detector-ready collective receiver, bounded helper memory, a restricted phase reference, finite-temperature noise, intermediate feedback, or a two-way secret-key protocol. Those are different claims, not prerequisites for the stipulated capacity theorem. No new extension is required for consolidation. Independent proof scrutiny and priority assessment remain open. Repository status is recorded in [STATUS](../STATUS.md).
+The theorem specifies asymptotic entanglement transmission with unrestricted helper processing, a receiver-only classical record and vacuum environmental inputs in the optical model. Its operational scope is given in [MODEL_AND_CLAIMS](MODEL_AND_CLAIMS.md); its evidence policy is in [VERIFICATION](../VERIFICATION.md).
 
 ### Sources
 

@@ -24,7 +24,7 @@ The original nested helper imports under checks/source are intentional to preser
 
 Use a feature branch, review the exact diff, inspect checks for the actual PR revision, and merge only after successful validation. After merge inspect the actual main revision and its evidence, then report exact IDs. Do not fabricate a review or claim another assistant pass is independent scientific scrutiny.
 
-Keep work claim-driven. A limitation can delimit the theorem; it is not automatically an instruction to add a new model or resource. Prior-art searches should target an implication that could subsume the central result, not accumulate irrelevant references. Failed retrieval is not novelty evidence. Stop each bounded scientific pass with a concrete conclusion and one next task.
+Keep work claim-driven. A limitation can delimit the theorem; it is not automatically an instruction to add a new model or resource. Prior-art searches should target an implication that could subsume the central result, not accumulate irrelevant references. Failed retrieval is not novelty evidence. Reader-facing documents describe results, proofs, resources and reproduction. Keep dated decisions, progress updates and task backlogs in historical records or PR receipts, rather than adding a "Next work" section to the scientific reading route.
 
 Maintain the exact Purpose and contact notice in current reader-facing notices. No generated website or manuscript workflow is introduced in this initial import.
 

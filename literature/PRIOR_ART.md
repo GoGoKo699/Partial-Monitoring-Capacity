@@ -1,20 +1,19 @@
-> Imported 7 October 2026 from the supplied 6 October consolidation. Editorial links only; scientific claims and qualifications are unchanged. See [import provenance](../provenance/IMPORT_MANIFEST.json).
+# Prior-art comparison at the theorem boundary
 
-# Prior-art comparison at the actual theorem boundary
-
-**Current attribution correction, 7 October:** [PROOF_DEPENDENCIES](../research/PROOF_DEPENDENCIES.md) derives both finite-dimensional converse cuts from Leditzky–Datta–Smith, Definition 2.2 and Proposition 2.4. This supersedes the 6 October record's description of the joint-preserving converse as the candidate's new step. The dated reading record below and protected original remain historical evidence; the exact product-measurement maximum remains a separate optimization.
-
-**7 October follow-up:** see [PRIORITY_CHECK](PRIORITY_CHECK_2026-10-07.md) for the additional symmetric-side-channel, primitive-relay and partial-access recovery comparisons. The original dated reading record is preserved below.
-
-**Subsequent product-measurement pass:** [PRODUCT_HELPER_GAP](../research/PRODUCT_HELPER_GAP_2026-10-07.md) records the new separation, its Petz/degradable-channel dependencies, and the precise assistance-superadditivity and detected-jump passages reread for attribution. Collective-helper gains themselves are established precedent.
-
-**Exact product-capacity follow-up:** [EXACT_PRODUCT_CAPACITY](../research/EXACT_PRODUCT_CAPACITY_2026-10-07.md) resolves counting optimality over all predetermined product POVMs. Its focused comparison identifies the established entropy–concurrence function and distinguishes concurrence-assistance optimization from the entropy-difference problem. The required difference-convexity inequality is derived explicitly; no exhaustive priority claim is made.
-
-**6 October 2026.** This is a targeted construction-level comparison, not an exhaustive search certificate. A similar title, an inaccessible passage, or a failed search is not evidence of novelty.
+The assistance and coding ingredients are established. Both finite-dimensional
+converse cuts follow from Leditzky–Datta–Smith through the
+[register reduction](../research/PROOF_DEPENDENCIES.md); the
+[exact product optimum](../research/EXACT_PRODUCT_CAPACITY_2026-10-07.md)
+requires the separate entropy-difference and chord argument. The
+[targeted comparison](PRIORITY_CHECK_2026-10-07.md) and
+[contribution assessment](../research/CONTRIBUTION_ASSESSMENT_2026-10-07.md)
+map these ingredients to the actual resources. The primary-source reading
+depths below delimit the comparison. The [original ledger](../archive/original/PRIOR_ART.md)
+preserves earlier attributions and retrieval history.
 
 ## The three proof anchors
 
-**Smolin–Verstraete–Winter (2005), Theorems 1 and 8.** Reread the pure-state assistance theorem and the proof that a chosen environment measurement defines a channel with a classical outcome register, to which quantum coding is applied. Figure 1 and Theorem 8 on PDF page 5 were also rendered successfully and inspected. That diagram already sends a classical measurement result only to Bob. Receiver-only signaling is therefore not itself new. What differs is that the present channel leaves an additional environment E inaccessible. The joint-preserving converse, not the classical side-channel diagram, is the candidate's new step. https://arxiv.org/abs/quant-ph/0505038
+**Smolin–Verstraete–Winter (2005), Theorems 1 and 8.** Reread the pure-state assistance theorem and the proof that a chosen environment measurement defines a channel with a classical outcome register, to which quantum coding is applied. Figure 1 and Theorem 8 on PDF page 5 were also rendered successfully and inspected. That diagram already sends a classical measurement result only to Bob. Receiver-only signaling is therefore not itself new. What differs is that the present channel leaves an additional environment E inaccessible. The joint-preserving converse follows from the degradable-state reduction in [PROOF_DEPENDENCIES](../research/PROOF_DEPENDENCIES.md); the separate product-measurement optimization is not supplied by this assistance theorem. https://arxiv.org/abs/quant-ph/0505038
 
 **Dutil–Hayden, Theorem 8.** The printed bound max{I(A>B), min[I(AC>B), I(A>BC)]} is the inherited minimum-cut assistance lower bound. Its operational task permits entanglement distillation between two recipients after the helper acts. The present construction uses the ensemble property and a fixed measured channel, not an added sender–receiver distillation channel. Relevant definitions and theorem/proof text were read. A requested image of PDF page 11 failed; no visual reading of that page is claimed. https://arxiv.org/abs/1011.1972
 

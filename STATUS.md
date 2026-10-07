@@ -1,68 +1,39 @@
-# Status
+# Results and verification record
 
-**7 October 2026 — the reader route now uses the selected Preskill chapter and four worked bridges. The scientific claims and corrected converse attribution are unchanged.**
+The repository contains an exact partial-environment measurement-assisted capacity
+theorem, its qubit and vacuum optical evaluations, and an exact benchmark for
+predetermined individual helper measurements.
 
-The repository is `GoGoKo699/Partial-Monitoring-Capacity`. [PR #1](https://github.com/GoGoKo699/Partial-Monitoring-Capacity/pull/1) merged the prepared monitoring-only import as `a9d953cd95410fc6add5c047e89133c8b7369ff8`, with source tree `4ca9e3b55b286ebd65fa20fbf7fe180ec776e14c`. Public visibility and the owner's MIT license are unchanged.
+| Result | Authoritative account |
+|---|---|
+| Unrestricted helper-assisted capacity under the joint-register identity | [Theorem](research/THEOREM.md) · [proof dependencies](research/PROOF_DEPENDENCIES.md) |
+| Photon counting optimizes all predetermined product helper POVMs in the interior qubit family | [Exact product capacity](research/EXACT_PRODUCT_CAPACITY_2026-10-07.md) · [product reduction](research/PRODUCT_HELPER_GAP_2026-10-07.md) |
+| Strict individual-versus-collective rate comparison | [Physical picture](research/PHYSICAL_PICTURE.md) · [contribution and predecessors](research/CONTRIBUTION_ASSESSMENT_2026-10-07.md) |
+| Vacuum optical energy law and all-input converse | [Optical dependencies](research/PROOF_DEPENDENCIES.md#3-optical-identity-and-photon-budget-coding) · [direct converse](research/CLAIM_ASSESSMENT_2026-10-07.md) |
+| Fixed resources and result boundaries | [Model and claims](research/MODEL_AND_CLAIMS.md) |
 
-The local handoff commit `c7fa61ec1c9157a8f608231399c11254d84f245a` and published feature commit `f8fd17de13160a0ca5c9a81ef3aa51a0a8674bd6` have the same source tree and initial parent. GitHub created a distinct commit because local Git push credentials were unavailable. These identities are not interchangeable. The original dated [local-only status](archive/operations/2026-10-07-local-handoff/STATUS.md), [workspace instructions](archive/operations/2026-10-07-local-handoff/WORKSPACE.md), and [work order](archive/operations/2026-10-07-local-handoff/CURRENT.md) remain historical records.
+## Reproducibility evidence
 
-## Verification actually inspected
+The [verification policy](VERIFICATION.md) defines the four preserved scientific
+suites, eight infrastructure tests and separate rational certificate. Numerical
+agreement, exact-byte reproduction and analytical proof are distinct findings.
 
-| Revision | Hosted run | Outcome |
-|---|---|---|
-| PR #1 head `f8fd17d` | [37584432025](https://github.com/GoGoKo699/Partial-Monitoring-Capacity/actions/runs/37584432025) | Eight infrastructure tests and all 23 scientific groups passed; all 94 source hashes matched the reviewed tree. |
-| Merged main `a9d953c` | [37584672815](https://github.com/GoGoKo699/Partial-Monitoring-Capacity/actions/runs/37584672815) | Separately inspected with the same successful checks and source match. |
+Every maintenance PR records the inspected head revision and a separate actual
+merged-main revision, their workflow runs, source-matched artifacts and all report
+differences. Use the [merged PR records](https://github.com/GoGoKo699/Partial-Monitoring-Capacity/pulls?q=is%3Apr+is%3Amerged)
+for revision-specific receipts and the [Actions runs](https://github.com/GoGoKo699/Partial-Monitoring-Capacity/actions)
+for their retained artifacts. A receipt for an earlier revision is not evidence for
+a later one.
 
-The hosted reports agree numerically but are **not byte-identical** to the original references. All 136 changed fields are finite floating-point differences within the existing policy; the largest absolute difference is `3.552713678800501e-15`. The two hosted runs produced identical scientific report bytes to each other. Local runs on the prepared, published and merged revisions reproduced all four reference reports byte for byte. Protected source files, reference reports and tolerances were not changed.
+The [initialization receipt](provenance/TAKEOVER_VERIFICATION_2026-10-07.json) retains
+the original source-matched takeover evidence. The
+[archived status and handoff](archive/editorial/2026-10-07-pre-release/README.md)
+preserve the subsequent chronology and the superseded qualitative product-gap route.
+[Import provenance](provenance/IMPORT_MANIFEST.json) pins all 70 protected imports.
 
-[The verification receipt](provenance/TAKEOVER_VERIFICATION_2026-10-07.json) retains commit/tree identities, source hashes, environments, reports, raw scientific execution logs and every hosted comparison difference. These receipts concern the initialization revisions above; later revisions require their own workflow evidence.
+## Reading and maintenance
 
-The takeover verified 70 protected imports. The source catalog enumerates 109 files; the initial record reports 110 ZIP members. The original ZIP was not recounted during takeover, so that historical total is not a new verification claim.
-
-## Scientific conclusion
-
-The claim assessment was merged in [PR #2](https://github.com/GoGoKo699/Partial-Monitoring-Capacity/pull/2) as `aa60f70d99831b13e46b71e882f1674c4084604a`, tree `be2db6d2367a41ba4699eeaf3fe09d76a2ccb71c`. Its separate [merged-main run](https://github.com/GoGoKo699/Partial-Monitoring-Capacity/actions/runs/37585678407) passed eight infrastructure tests and all 23 scientific groups. The downloaded evidence matched all 100 source files; all four reports were byte-identical to references in that run. The PR record retains the exact verification receipt. Earlier initialization discrepancies above remain historical observations of different runs.
-
-[The targeted assessment](research/CLAIM_ASSESSMENT_2026-10-07.md) finds no correction to the central equality or its physical evaluations. Its direct converse retains both discarded encoder ancillas and unresolved helper outputs. Finite partitions of a continuous classical record avoid relying on a rank-one refinement theorem in the optical converse. Rank-one refinement remains explicit for the exact coherent-information and deficit identities.
-
-[The priority comparison](literature/PRIORITY_CHECK_2026-10-07.md) initially identified close precedents without a covering implication. The subsequent [dependency audit](research/PROOF_DEPENDENCIES.md) corrects that attribution: both finite-dimensional converse cuts follow from an established degradable-state theorem after regrouping registers. The exact capacity formula is unchanged. This is a bounded author-side assessment, not exhaustive priority clearance or independent peer review.
-
-## Next work
-
-[The physical picture](research/PHYSICAL_PICTURE.md) was added in [PR #3](https://github.com/GoGoKo699/Partial-Monitoring-Capacity/pull/3), merged as `8737a23d8ab3768be39711a7272f3d9fad1c58b2`, tree `8844c211a5fddae2f61d44729cb07937def6f78b`. Its separately inspected [merged-main run](https://github.com/GoGoKo699/Partial-Monitoring-Capacity/actions/runs/37586858469) passed eight infrastructure tests and all 23 scientific groups, matched all 101 source files, and reproduced the four reference reports byte for byte. Its PR-head run had the previously recorded 136 accepted floating-point differences; the PR retains both outcomes.
-
-[The qualitative product-helper proof](research/PRODUCT_HELPER_GAP_2026-10-07.md) established that, at $(a,b,c)=(0.2,0.08,0.72)$, the supremum over all predetermined product helper POVMs is strictly below $Q_{\rm meas}=h_2(5/28)-h_2(1/14)\simeq0.30570954$ qubits/use. It included varying per-use POVMs, continuous records and arbitrary sender/receiver block codes. Compactness made that gap uniform over the full product class. That pass left counting optimality open; the subsequent exact result below resolves it.
-
-That qualitative result was merged in [PR #4](https://github.com/GoGoKo699/Partial-Monitoring-Capacity/pull/4) as `a0d31b8d5d812a334c43062db32f9970859e7406`, tree `322c93e0bcedd84bea0c51996d62fadacc3c6c60`. The PR-head run reproduced the four reference reports byte for byte. Its separately inspected [merged-main run](https://github.com/GoGoKo699/Partial-Monitoring-Capacity/actions/runs/37589216525) passed eight infrastructure tests and all 23 scientific groups, matched all 102 source files, and had the same 136 accepted floating-point differences as the preserved hosted profile. Both exact receipts are in the PR record.
-
-[The exact product-capacity proof](research/EXACT_PRODUCT_CAPACITY_2026-10-07.md) now shows that photon counting is optimal over every predetermined product helper POVM, including coherent inputs, for the same qubit family with $a>b>0,c>0$. In the example, the product capacity is enclosed by $(0.18621044456570,0.18621044456572)$ and the unrestricted-minus-product gap by $(0.11949909857428,0.11949909857432)$ qubits/use. A separate standard-library rational certificate verifies these scalar enclosures; it does not prove the analytical POVM reduction. The original 23 groups remain unchanged.
-
-Outcome-adaptive local strategies and general separable block POVMs are outside both product results. Collective gains in assistance are established; the additional claims and inspected reading depths are recorded without global priority or independent-review claims.
-
-The exact product result was merged in [PR #5](https://github.com/GoGoKo699/Partial-Monitoring-Capacity/pull/5) as `b3f1f3df535bd029ed09cfd4ef94eb82c571d545`, tree `92ec9d98faaef772cf9919c07040be1d8fbc191e`. The [PR-head run](https://github.com/GoGoKo699/Partial-Monitoring-Capacity/actions/runs/37591456310) and separately inspected [merged-main run](https://github.com/GoGoKo699/Partial-Monitoring-Capacity/actions/runs/37591663446) passed eight infrastructure tests, all 23 scientific groups and the separate rational certificate. Each evidence archive matched all 104 tracked sources and 70 protected imports. The PR-head reports were byte-identical to references; main had the same 136 accepted floating-point differences as the preserved hosted profile. The exact certificate was byte-identical locally and in both hosted runs. The PR retains both receipts.
-
-[The contribution assessment](research/CONTRIBUTION_ASSESSMENT_2026-10-07.md) retains this finite package while stopping numerical and model expansion. Its earlier converse attribution is narrowed by the dependency audit: the finite-dimensional upper bounds are applications of established state theory. Global counting optimality over all predetermined product helper POVMs remains a separate optimization. It excludes a better independent-use detector basis as the explanation for the demonstrated gap. Counting already reaches the same positive-capacity boundary; the gap concerns rate. No necessity claim against adaptive local strategies is made.
-
-The assessment was merged in [PR #6](https://github.com/GoGoKo699/Partial-Monitoring-Capacity/pull/6) as `eed8db5dd5e992dca170dc3c2064746410a25395`, tree `4f3ccee9bfe2fda057b961c2b85101579a1cfde7`. Its [PR-head run](https://github.com/GoGoKo699/Partial-Monitoring-Capacity/actions/runs/37593673331) and separate [merged-main run](https://github.com/GoGoKo699/Partial-Monitoring-Capacity/actions/runs/37593886730) passed eight infrastructure tests, 23 scientific groups and the rational certificate. Each downloaded archive matched all 105 tracked sources and 70 protected imports. Both hosted runs had the preserved 136-difference floating-point profile; the exact certificate remained byte-identical locally and hosted. Full receipts are in the PR record.
-
-The reader-facing emphasis is now selected and integrated into the existing README, [physical picture](research/PHYSICAL_PICTURE.md), claim map and LLM guide. Lead with the exact qubit comparison between optimal predetermined product measurements and unrestricted assistance; use the positivity threshold and optical energy ceiling as supporting consequences. This is an exposition pass, with no change to scientific statements, proofs or evidence requirements. The dated contribution assessment retains its original decision context.
-
-The physical emphasis was merged in [PR #7](https://github.com/GoGoKo699/Partial-Monitoring-Capacity/pull/7) as `a0e4679bf9890b4714be09d78d30867fb42da23b`, tree `4804bcc3b7d6bc238d6cd970c75bc6a0fc87dc35`. Its [PR-head run](https://github.com/GoGoKo699/Partial-Monitoring-Capacity/actions/runs/37612329457) and separate [merged-main run](https://github.com/GoGoKo699/Partial-Monitoring-Capacity/actions/runs/37612504233) passed eight infrastructure tests, all 23 scientific groups and the rational certificate. Each downloaded archive matched all 105 tracked sources and 70 protected imports. Both runs reproduced all four reference reports byte for byte; the exact certificate was also byte-identical locally and hosted. Full receipts are retained in that PR.
-
-The [Preskill reading map](research/PRESKILL_READING_MAP.md) adds the approved single tutorial anchor, selected sections and a worked explanation of the copied classical flag and actual complement. It explicitly bridges the remaining helper-ensemble, joint-register converse, product-optimization and optical-limit dependencies to the existing proofs. It changes no rates, resource assumptions or protected sources. The chapter is linked, not redistributed.
-
-The learning map was merged in [PR #8](https://github.com/GoGoKo699/Partial-Monitoring-Capacity/pull/8) as `66556130d6c308653f2e34f6730d2990efb3b30a`, tree `fa7dac2586173a771b8c7efbc4f53e9732661882`. Its [PR-head run](https://github.com/GoGoKo699/Partial-Monitoring-Capacity/actions/runs/37615596927) and separate [merged-main run](https://github.com/GoGoKo699/Partial-Monitoring-Capacity/actions/runs/37615808482) passed eight infrastructure tests, all 23 scientific groups and the rational certificate. Each downloaded archive matched all 106 tracked sources and 70 protected imports. The PR reports reproduced the references byte for byte; main had the preserved 136 accepted floating-point differences, with largest absolute difference `3.552713678800501e-15`. The exact certificate was byte-identical locally and in both hosted runs. Full receipts are retained in that PR.
-
-## Scientific prerequisite conclusion
-
-[PROOF_DEPENDENCIES](research/PROOF_DEPENDENCIES.md) supplies the explicit Leditzky–Datta–Smith register reduction for both finite-dimensional cuts, correcting the previous converse attribution while preserving its historical record. It also closes the operational continuity step, continuous product-POVM formulation, full Fock-space identity, fixed-cutoff/block energy-constrained coding, thermal-tail limits and boundary checks. The analytical pass found no rate or resource correction. The exact product optimum still requires the separate determinant, difference-convexity and chord argument.
-
-No unresolved mathematical prerequisite was identified within the fixed claim package. Research should reopen for a concrete proof or source objection. This conclusion is not global priority clearance or independent review. No new model, manuscript, release or external contact was initiated by that pass.
-
-The dependency audit was merged in [PR #9](https://github.com/GoGoKo699/Partial-Monitoring-Capacity/pull/9) as `3dd66807905b779ed416ada085d969da2ba23a01`, tree `2002d15da19b6b7c62a14a0e4533fb11afc210f3`. Its [PR-head run](https://github.com/GoGoKo699/Partial-Monitoring-Capacity/actions/runs/37621274201) and separate [merged-main run](https://github.com/GoGoKo699/Partial-Monitoring-Capacity/actions/runs/37621492461) passed eight infrastructure tests, all 23 scientific groups and the rational certificate. Each downloaded archive matched all 107 tracked sources and 70 protected imports. The PR reports reproduced the references byte for byte; main had the preserved 136 accepted floating-point differences, with largest absolute difference `3.552713678800501e-15`. The exact certificate was byte-identical locally and in both hosted runs. Full receipts are retained in that PR.
-
-## Tutorial-based reader route
-
-The owner selected Preskill's *Quantum Shannon Theory*, Chapter 10, 2025 arXiv v5, as the sole tutorial anchor and suggested [Collective-Emission-Interface-Limits](https://github.com/GoGoKo699/Collective-Emission-Interface-Limits) as a presentation reference. The README now opens with the physical question, a compact navigation table, explicit resources, the capacity comparison and the tutorial route. The [reading guide](research/PRESKILL_READING_MAP.md) develops four bridges: a worked counting example and actual complement; the established two-cut converse and matching construction; the all-input product chord bound; and the optical energy limit.
-
-[llms.txt](llms.txt) supplies relevance questions, search phrases, raw reading links and interpretation boundaries. The exact Purpose/contact notice is preserved. No rates, resource assumptions, protected files or reference reports are changed. [CURRENT](work_orders/CURRENT.md) sets the next bounded step: work through the four checkpoints and identify a specific explanation or proof objection to address. Verification of this furnishing revision belongs to its own PR and separate merged-main workflow, not to the earlier receipts above.
+Start with the [README](README.md) and [Preskill reading guide](research/PRESKILL_READING_MAP.md).
+[WORKSPACE](WORKSPACE.md) and the [maintenance checklist](work_orders/CURRENT.md)
+describe how to preserve and verify this repository. Historical decisions and work
+instructions belong to the archive, rather than the current scientific reading route.

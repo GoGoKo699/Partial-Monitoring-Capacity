@@ -30,7 +30,7 @@ The hosted workflow runs this as a dedicated step and includes its JSON in the e
 
 ## Local versus hosted
 
-The initial chat could read GitHub but had no write action, and its attempted local clone failed DNS. The takeover subsequently completed PR #1 and inspected its actual merged-main run; [STATUS](STATUS.md) and the [verification receipt](provenance/TAKEOVER_VERIFICATION_2026-10-07.json) record exact revisions and outcomes. A local commit or workflow file alone never establishes remote verification for a later change.
+Local and hosted evidence identify their actual revisions separately. [STATUS](STATUS.md) routes to PR receipts, workflow artifacts and the preserved [initialization receipt](provenance/TAKEOVER_VERIFICATION_2026-10-07.json). A local commit or workflow file alone never establishes remote verification for a later change.
 
 The hosted workflow checks out the PR head or push SHA, uses read-only repository permissions, installs the pinned dependencies, and uploads raw verification artifacts even after a failure. Review the artifact's commit, source hashes, protected-file checks, all original assertion outcomes and every report difference. After merging, inspect the actual merged-main run separately.
 

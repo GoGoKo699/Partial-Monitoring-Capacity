@@ -1,6 +1,6 @@
 # Proof dependencies and scope
 
-The capacity formulas and communication resources are unchanged. The finite-dimensional converse has a stronger prior-art reduction than the earlier comparison identified: both cuts follow from the established one-way distillation theorem for degradable states after regrouping registers. The exact product-measurement optimum remains a separate optimization. This record supplies that attribution correction and makes the continuous-measurement and optical coding dependencies explicit.
+Both finite-dimensional converse cuts follow from the established one-way distillation theorem for degradable states after regrouping registers. The exact product-measurement optimum requires a separate optimization. This record supplies the register reduction, preserves the attribution correction, and gives the continuous-measurement and optical coding arguments.
 
 ## 1. Finite-dimensional converse: a degradable-state reduction
 
@@ -142,7 +142,7 @@ This bounds unconditional entanglement fidelity, with every measurement outcome 
 
 For the optical model, $N=0$ always gives zero capacity. For $R>0$ and $0<a<1$, the target rate is attainable at some finite energy exactly when $b<a2^{-R}$. Equality with $b>0$ reaches the target only as an infinite-energy limit. At $b=0$, every finite target is attainable. These are consequences of the existing energy law, not further capacity theorems.
 
-## 5. Primary-source checks and the stopping boundary
+## 5. Primary-source comparisons
 
 | Source | Passages inspected and consequence |
 |---|---|
@@ -155,4 +155,4 @@ For the optical model, $N=0$ always gives zero capacity. For $R>0$ and $0<a<1$, 
 
 These are targeted primary-text checks, not exhaustive priority clearance or independent peer review. The analytical rederivation found no rate correction. The material change is the converse attribution, together with the explicit coding and measurable-limit details above. All 23 original diagnostic groups and the separate rational scalar certificate remain distinct from these analytical arguments.
 
-The fixed claim package has no identified unresolved mathematical prerequisite. Adaptive-helper capacity, optical product optimality, finite-block constructions, bounded helper resources and nonvacuum environments are outside it. Further work should present the existing claims with these dependencies and boundaries, reopening research only for a concrete proof or source objection.
+The capacity statements concern the resources in [MODEL_AND_CLAIMS](MODEL_AND_CLAIMS.md). The product optimum is a qubit result for predetermined measurements; the optical law uses vacuum environmental inputs and an average signal-energy constraint.

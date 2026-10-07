@@ -1,4 +1,4 @@
-# Monitoring provenance only
+# Provenance and development history
 
 The active theorem is in research/THEOREM.md. This archive retains selected original monitoring proof notes, source-reading records, reference runs and failed development attempts from the supplied 6 October consolidation.
 
@@ -11,3 +11,21 @@ Historical files may mention obsolete paths, preliminary loose bounds, other sou
 The four original scientific scripts used by verification are separately copied under checks/source with their required nested helper layout. The current runner executes only those named monitoring suites. It never executes historical failing scripts or old packaging/driver code.
 
 No publisher PDF, font, protected project source or account data is redistributed.
+
+## Editorial records and superseded proof routes
+
+The [pre-release snapshot](editorial/2026-10-07-pre-release/README.md) preserves
+five exact editorial records and their hashes from revision `574b240`. It includes
+the initialization/verification chronology, work instructions, contribution decision
+and the compactness/strict-contraction route to the qualitative product gap.
+The active [product reduction](../research/PRODUCT_HELPER_GAP_2026-10-07.md) retains
+the needed additivity bridge; the [exact chord proof](../research/EXACT_PRODUCT_CAPACITY_2026-10-07.md)
+supplies the stronger counting optimum. Historical open questions and work instructions
+are not current prerequisites.
+
+The [verbatim optical audit](imported/OPTICAL_AUDIT.md) is a protected historical
+source. Its entropy-tail calculations remain available; dated decisions and
+work instructions retain their original context.
+[The relocation record](../provenance/PATH_RELOCATIONS.json) documents its move
+from the former research path without changing its bytes or scientific hash.
+All 70 protected entries remain pinned by the import manifest.

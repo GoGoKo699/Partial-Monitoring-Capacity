@@ -1,0 +1,13 @@
+{
+  "source_commit": "574b2407b6c242e6379cbe162837ddba35d3bcba",
+  "relocations": [
+    {
+      "from": "research/OPTICAL_AUDIT.md",
+      "to": "archive/imported/OPTICAL_AUDIT.md",
+      "bytes": 24299,
+      "sha256": "6b4e054b6d3f99a2327469735304f62a347b7f1a148409a18cd0c763e58e1b9c",
+      "source_path": "prior/AUDIT.md",
+      "reason": "Separate the verbatim historical optical audit and its dated decisions from the active scientific reading route. Only the manifest path changes; protected content, source identity, byte count and scientific hash are unchanged."
+    }
+  ]
+}
