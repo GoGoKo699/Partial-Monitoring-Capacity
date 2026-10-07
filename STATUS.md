@@ -1,25 +1,30 @@
 # Status
 
-**7 October 2026 — local repository import prepared; remote publication pending.**
+**7 October 2026 — initialization merged and verified; bounded claim assessment completed.**
 
-The verified destination is `GoGoKo699/Partial-Monitoring-Capacity`, public, with the owner's existing MIT license. The live initial `main` revision read during this pass was `9243513e6c8f5dee31977180743e3f6f44a9d613` (tree `e7c6a0e88fa17d1a93f172947b2132a709ee6a01`). It contained only LICENSE and the title-only README.
+The repository is `GoGoKo699/Partial-Monitoring-Capacity`. [PR #1](https://github.com/GoGoKo699/Partial-Monitoring-Capacity/pull/1) merged the prepared monitoring-only import as `a9d953cd95410fc6add5c047e89133c8b7369ff8`, with source tree `4ca9e3b55b286ebd65fa20fbf7fe180ec776e14c`. Public visibility and the owner's MIT license are unchanged.
 
-The owner authorized edits and merging. The current session exposes GitHub reads but no mutation action; local Git could not resolve github.com. Consequently this document does not claim a remote commit, pull request, hosted workflow, or merge. The accompanying bundle contains a local feature branch rooted in the exact initial remote commit. **Workspace takeover must publish and validate that branch before recording a merged state.**
+The local handoff commit `c7fa61ec1c9157a8f608231399c11254d84f245a` and published feature commit `f8fd17de13160a0ca5c9a81ef3aa51a0a8674bd6` have the same source tree and initial parent. GitHub created a distinct commit because local Git push credentials were unavailable. These identities are not interchangeable. The original dated [local-only status](archive/operations/2026-10-07-local-handoff/STATUS.md), [workspace instructions](archive/operations/2026-10-07-local-handoff/WORKSPACE.md), and [work order](archive/operations/2026-10-07-local-handoff/CURRENT.md) remain historical records.
 
-## Scientific record
+## Verification actually inspected
 
-The supplied consolidation gives one author-side capacity theorem under joint-register degradation, plus qubit and optical evaluations, the optical deficit identity and finite-message controls. The central proof and assumptions have not changed during import. No new scientific claim is introduced by the repository infrastructure.
+| Revision | Hosted run | Outcome |
+|---|---|---|
+| PR #1 head `f8fd17d` | [37584432025](https://github.com/GoGoKo699/Partial-Monitoring-Capacity/actions/runs/37584432025) | Eight infrastructure tests and all 23 scientific groups passed; all 94 source hashes matched the reviewed tree. |
+| Merged main `a9d953c` | [37584672815](https://github.com/GoGoKo699/Partial-Monitoring-Capacity/actions/runs/37584672815) | Separately inspected with the same successful checks and source match. |
 
-The four original monitoring suites contain 23 groups. Original code and reports are immutable inputs. The input archive's 110 members were verified before selecting the monitoring-only import. Seventy copied files/excerpts are hash-protected. The spin-strip code and data were excluded; monitoring sections from the two shared pilot notes are explicitly marked verbatim excerpts. Their omission from this repository does not withdraw or advance the separate pilot.
+The hosted reports agree numerically but are **not byte-identical** to the original references. All 136 changed fields are finite floating-point differences within the existing policy; the largest absolute difference is `3.552713678800501e-15`. The two hosted runs produced identical scientific report bytes to each other. Local runs on the prepared, published and merged revisions reproduced all four reference reports byte for byte. Protected source files, reference reports and tolerances were not changed.
 
-The source ledger attributes assistance ensembles, coherent-information coding, thermal-reference methods and no-cloning/shareability to their predecessors. The candidate contribution remains the exact partial-access equality and physical evaluations. Independent review and exhaustive priority remain open.
+[The verification receipt](provenance/TAKEOVER_VERIFICATION_2026-10-07.json) retains commit/tree identities, source hashes, environments, reports, raw scientific execution logs and every hosted comparison difference. These receipts concern the initialization revisions above; later revisions require their own workflow evidence.
 
-## Operational evidence
+The takeover verified 70 protected imports. The source catalog enumerates 109 files; the initial record reports 110 ZIP members. The original ZIP was not recounted during takeover, so that historical total is not a new verification claim.
 
-Fresh local results are supplied with the handoff under their exact source tree and commit. `verify.py` distinguishes passing assertions, numerical agreement and exact-byte reproduction. No hosted result exists at the time this status was written; do not infer one from the local reports or from a workflow file being present.
+## Scientific conclusion
 
-The GitHub initialization operation remains incomplete until a feature push, reviewed pull request, successful source-matched hosted verification and merge have actually occurred. Update this operational paragraph after those actions, preserving the dated original import record.
+[The targeted assessment](research/CLAIM_ASSESSMENT_2026-10-07.md) finds no correction to the central equality or its physical evaluations. Its direct converse retains both discarded encoder ancillas and unresolved helper outputs. Finite partitions of a continuous classical record avoid relying on a rank-one refinement theorem in the optical converse. Rank-one refinement remains explicit for the exact coherent-information and deficit identities.
+
+[The priority comparison](literature/PRIORITY_CHECK_2026-10-07.md) identifies close precedents for the entropy method and for partial environmental access. None of the inspected theorem passages directly supplies the same conditional capacity equality. This is a bounded author-side assessment, not exhaustive priority clearance or independent peer review.
 
 ## Next work
 
-[WORKSPACE](WORKSPACE.md) defines the publish/verify handoff. After that, [CURRENT](work_orders/CURRENT.md) calls for a targeted claim-level check of the central assistance equality and its closest predecessors. It does not authorize a new bath, feedback architecture, or indefinite audit sequence. No release or outside contact is part of initialization.
+The import and requested central-implication audit are complete. [CURRENT](work_orders/CURRENT.md) records one next task: prepare a compact explanation of the physical distinction and the exact contribution using the established theorem. No new model, manuscript, release or external contact is initiated here.

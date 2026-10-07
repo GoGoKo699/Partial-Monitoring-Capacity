@@ -42,8 +42,9 @@ The positive-rate boundary is $a>b$. For $a>b>0$, increasing signal energy appro
 | [Model and claims](research/MODEL_AND_CLAIMS.md) | Resource definition, result hierarchy, proof dependencies, and limitations. |
 | [Theorem](research/THEOREM.md) | Consolidated finite-dimensional proof and both physical examples. |
 | [Proof audit](research/PROOF_AUDIT.md) | Refined measurement complement, general encoders, and deficit identity. |
+| [Current claim assessment](research/CLAIM_ASSESSMENT_2026-10-07.md) | Direct converse for unresolved helper outputs and continuous records; unchanged rates. |
 | [Optical audit](research/OPTICAL_AUDIT.md) | Preserved optical derivation, including the finite-support entropy bounds. |
-| [Prior art](literature/PRIOR_ART.md) | Closest constructions, inherited ingredients, and actual reading depth. |
+| [Prior art](literature/PRIOR_ART.md) and [targeted comparison](literature/PRIORITY_CHECK_2026-10-07.md) | Closest constructions, inherited ingredients, and actual reading depth. |
 | [Status](STATUS.md) and [workspace](WORKSPACE.md) | Current evidence, unresolved tasks, and handoff. |
 
 The theorem is an **author-side research claim**, not an independently reviewed result. Finite matrix tests check identities and evaluations; they do not prove coding theorems or establish global priority. No manuscript, release, or implemented code is included.

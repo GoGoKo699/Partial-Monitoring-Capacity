@@ -2,6 +2,8 @@
 
 # What the consolidation added, and what it did not
 
+**7 October follow-up:** [CLAIM_ASSESSMENT](CLAIM_ASSESSMENT_2026-10-07.md) extends the converse presentation to unresolved helper outputs directly, including continuous records through finite partitions. It changes no capacity formula. This dated consolidation record remains below.
+
 **6 October 2026. Internal/author-side review, not an independent referee report.**
 
 ## Preserved central result

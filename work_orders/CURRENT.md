@@ -1,22 +1,15 @@
 # Current bounded task
 
-**7 October 2026.** First complete the actual push/PR/check/merge operation described in [WORKSPACE](../WORKSPACE.md). The current chat import is local only. Pin the real main revision and verification evidence before scientific edits.
+**7 October 2026.** The initialization operation and central-implication assessment are complete. See [STATUS](../STATUS.md), [claim assessment](../research/CLAIM_ASSESSMENT_2026-10-07.md) and [priority comparison](../literature/PRIORITY_CHECK_2026-10-07.md). The previous work order is [preserved as history](../archive/operations/2026-10-07-local-handoff/CURRENT.md).
 
-## Then assess the central implication
+## Conclusion of the completed pass
 
-The supplied theorem claims that a degrading map preserving the collected register makes the known assistance minimum-cut lower bound exact. Read the complete statement, not only the qubit formula. Check the chain under the declared receiver-only communication:
+The capacity formula survives the targeted correctness check. A direct helper-instrument converse handles unresolved helper outputs and discarded encoder ancillas together; finite classical partitions cover normal optical measurements without a rank-one refinement premise. The fixed-measurement coding construction uses receiver-only communication. No rate or resource assumption was corrected.
 
-1. The refined helper instrument has the actual flagged complement EY and remains degradable for every block measurement, not only counting.
-2. The two entropy cuts and their common-input concavity/subadditivity bound arbitrary correlated inputs and general encoding channels.
-3. The assistance ensemble is a measurement on D alone. Fixing it and coding over the resulting channel requires neither a physical operation on RE nor outcome-dependent operations by the encoder.
-4. In the optical case, the arbitrary-input converse and the finite-support achievability use different cutoff roles and the limits respect the average photon budget.
+The inspected symmetric-side-channel and relay theorems do not directly subsume the joint-register equality. Their entropy methods and the established history of partial environmental access must remain credited. Global priority and genuinely separate critical review remain open; another assistant pass is author-side work.
 
-Do not repeat the audit mechanically. Identify the strongest remaining concrete objection and settle it, or write a concise assessment that the stated implication survives, with assumptions and source support. Another author-side pass is not independent peer review.
+## One next task
 
-The closest prior-art target is a theorem already asserting this partial-access equality or a broader result that directly implies it under the same resources. Use the existing ledger and the supplied proof anchors. Familiar entropy techniques do not by themselves subsume the conclusion; neither does a failed search certify novelty.
+Prepare a compact reader-facing explanation of the physical distinction: a classical record from collected loss can help, while permanently unobserved loss sets the threshold and optical energy ceiling. Connect that story to the joint-register condition, the two entropy cuts and one existing qubit/optical example. State exactly what is inherited and what implication is proposed.
 
-## Expected stopping point
-
-Produce a claim-level verdict with a precise correction if needed, or a concise supported distinction from the closest covering candidate. Update the active claim map and status. Preserve original code, reports, excerpts and negative controls. Do not begin a new model to prolong work. No new receiver implementation, temperature extension, strong converse or broad code construction is a prerequisite silently added to this task.
-
-The remaining editorial decision can then be made from the central theorem rather than the number of checks. The owner retains decisions about external contact and release. No publication-target wording is needed in repository documents.
+Use the current results and source ledger. The stopping point is one clear reading route, not a new model, additional simulation campaign, manuscript or indefinite audit sequence. Reopen a settled proof step only for a specific mathematical or source-based objection. External contact and release still require an explicit owner instruction.
