@@ -1,6 +1,8 @@
-> Imported 7 October 2026 from the supplied 6 October consolidation. Editorial links only; scientific claims and qualifications are unchanged. See [import provenance](../provenance/IMPORT_MANIFEST.json).
+> Imported 7 October 2026 from the supplied 6 October consolidation. Capacity claims and resources are unchanged; the subsequent converse-attribution correction is explicit below. See [import provenance](../provenance/IMPORT_MANIFEST.json).
 
 # Quantum transmission with partial environmental observation
+
+**Dependency correction, 7 October:** [PROOF_DEPENDENCIES](PROOF_DEPENDENCIES.md) shows that both finite-dimensional converse cuts follow from Leditzky–Datta–Smith [LDS17], Proposition 2.4, by regrouping registers. The direct proofs below remain valid; their converse inequality is an application of established degradable-state theory. The same record makes the continuous-measurement and optical coding steps explicit. Protected originals are unchanged.
 
 **7 October follow-up:** the [claim assessment](CLAIM_ASSESSMENT_2026-10-07.md) gives a direct converse for coarse instruments and continuous optical records. It retains unresolved helper outputs instead of requiring rank-one refinement for the upper bound. The formulas below are unchanged; the refined complement is still required for the exact identities. See also the [targeted priority comparison](../literature/PRIORITY_CHECK_2026-10-07.md).
 
@@ -34,7 +36,7 @@ for a trace-preserving completely positive map T. This is equality on all input 
 
 $$\boxed{Q_{\mathrm{meas}}=\max_{\rho_A}\left[\min\{S(B),S(BD)\}-S(E)\right].}\tag{2}$$
 
-Entropies are in bits and evaluated on V rho V^dagger. The minimum-cut assistance lower bound is inherited from assistance theory [SVW05, DH11]. The result being advanced is its matching converse and one-use optimization under (1).
+Entropies are in bits and evaluated on V rho V^dagger. The minimum-cut assistance lower bound is inherited from assistance theory [SVW05, DH11]. The matching finite-dimensional upper bounds follow from the degradable-state theorem [LDS17] with register groupings RFD:B and RF:BD; common-input single-letterization gives (2). See [the explicit reduction](PROOF_DEPENDENCIES.md).
 
 ### Proof: measured channel and its actual complement
 
@@ -137,7 +139,7 @@ For achievability, truncate the thermal average input, not competing codes, at p
 
 $$N_K=N-\frac{(K+1)r^{K+1}}{1-r^{K+1}}<N.$$
 
-For fixed K, vacuum loss leaves finite output support; apply the finite-dimensional assistance construction and then channel coding using the strict energy slack. Only afterward let K grow. The discarded thermal tail has probability epsilon_K=r^(K+1) and conditional mean K+1+N. Entropy-of-mixture bounds enclose the output entropies and prove convergence to (7), rather than assuming entropy continuity from trace-distance convergence. The explicit bounds and their numerical checks are retained in [archived optical audit](../archive/original/prior/AUDIT.md), Section 4.3. The converse is never cutoff-restricted. Cases b=0, N=0 and vanishing port weights follow directly.
+For fixed K, vacuum loss leaves finite output support; apply the finite-dimensional assistance construction and then energy-constrained channel coding [WQ18, Theorem 2] to the fixed flagged block channel with its summed photon-number Hamiltonian and strict energy slack. Only afterward let K grow. The discarded thermal tail has probability epsilon_K=r^(K+1) and conditional mean K+1+N. Entropy-of-mixture bounds enclose the output entropies and prove convergence to (7), rather than assuming entropy continuity from trace-distance convergence. The full coding application and finite-cutoff minimum are explicit in [PROOF_DEPENDENCIES](PROOF_DEPENDENCIES.md); the original entropy bounds and numerical checks remain in [archived optical audit](../archive/original/prior/AUDIT.md), Section 4.3. The converse is never cutoff-restricted. Cases b=0, N=0 and vanishing port weights follow directly.
 
 For a=.2,b=.08,N=1, the capacity is .3686045934 qubits/mode. At N=10 it is .9709505945. For b>0 and a>b,
 
@@ -169,13 +171,15 @@ Likewise, replacing (1) by marginal degradability is invalid: the standard rando
 
 ## 6. The proposed contribution and its boundary
 
-The main claim is **exact saturation of a known assistance lower bound under a register-preserving degradation condition**, with computable qubit and photon-budget examples. We do not claim invention of environment-assisted communication, the assistance minimum cut, coherent-information coding, Gaussian extremality, or the no-cloning theorem.
+The main claim is **exact saturation of a known assistance lower bound under a register-preserving degradation condition**, with computable qubit and photon-budget examples. Its finite-dimensional converse is a resource-specific application of established degradable-state theory [LDS17]. Environment-assisted communication, the assistance minimum cut, coherent-information coding, thermal-reference extremality and the no-cloning bound are inherited.
 
-The inspected predecessors establish full-purification assistance [SVW05, BD13], a mixed-state assistance lower bound [DH11], ordinary energy-constrained channel coding/extremality [WQ18], and prepared-input environment assistance [OMW21]. They do not directly supply this theorem under the operational premises stated here. This is a construction-level distinction, **not exhaustive priority clearance**. A covering theorem elsewhere remains possible.
+The [dependency correction](PROOF_DEPENDENCIES.md) supersedes the earlier assessment that the matching converse required an additional new inequality. The separate [exact product-capacity proof](EXACT_PRODUCT_CAPACITY_2026-10-07.md) still requires optimization over every predetermined single-use helper measurement and every input. The inspected state-decomposition minima do not supply that maximum. This bounded comparison is **not exhaustive priority clearance**.
 
 The assumptions do not include a detector-ready collective receiver, bounded helper memory, a restricted phase reference, finite-temperature noise, intermediate feedback, or a two-way secret-key protocol. Those are different claims, not prerequisites for the stipulated capacity theorem. No new extension is required for consolidation. Independent proof scrutiny and priority assessment remain open. Repository status is recorded in [STATUS](../STATUS.md).
 
 ### Sources
+
+[LDS17] F. Leditzky, N. Datta and G. Smith, *Useful states and entanglement distillation*. https://arxiv.org/abs/1701.03081v4 — Definition 2.2 and Proposition 2.4, including the optimized single-copy one-way statement; supplies both finite-dimensional converse cuts through the register reduction above.
 
 [SVW05] J. A. Smolin, F. Verstraete and A. Winter, *Entanglement of assistance and multipartite state distillation*, PRA 72, 052317 (2005). https://arxiv.org/abs/quant-ph/0505038 — Theorems 1 and 8 and the ensemble/flagged-channel proofs.
 

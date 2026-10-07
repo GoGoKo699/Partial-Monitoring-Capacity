@@ -1,10 +1,10 @@
 # Targeted priority assessment: the central implication
 
-**7 October 2026.** This bounded author-side comparison checks whether an existing theorem directly implies the equality in [THEOREM](../research/THEOREM.md). It supplements the preserved [prior-art ledger](PRIOR_ART.md); it does not replace its dated reading record or certify exhaustive priority.
+**Updated 7 October 2026.** This bounded author-side comparison checks whether an existing theorem directly implies the equality in [THEOREM](../research/THEOREM.md). The subsequent [dependency audit](../research/PROOF_DEPENDENCIES.md) corrects its initial attribution: Leditzky–Datta–Smith, Definition 2.2 and Proposition 2.4, supplies both finite-dimensional converse cuts by regrouping registers. It supplements the preserved [prior-art ledger](PRIOR_ART.md), without certifying exhaustive priority.
 
 ## Verdict and exact comparison target
 
-No directly covering theorem was identified in the primary passages inspected below. The precise proposed contribution remains the implication
+The initial four-source comparison below did not identify a covering theorem. The later degradable-state reduction now supplies the converse mechanism for the implication
 
 ```math
 \mathcal N_{ED}=(\mathcal T_{B\to E}\otimes\mathrm{id}_D)\mathcal N_{BD}
@@ -14,9 +14,9 @@ Q_{\rm meas}=\max_{\rho_A}\min\{S(B)-S(E),S(BD)-S(E)\}.
 
 Here the helper receives the channel output $D$, may process it collectively, and sends only a classical outcome to the receiver $B$. The environment $E$ remains inaccessible. Neither preshared entanglement nor a coherent helper link is supplied. A covering result must recover this operational equality, including the optimization over collective measurements and correlated channel inputs.
 
-The closest additional technique precedent is the symmetric-side-channel theorem. Its mutual-information contraction argument deserves attribution; the channel identification required to turn it into the present equality is not supplied by that theorem. Partial environmental observation itself also has clear predecessors and is not the novelty claim.
+The decisive additional source is [Leditzky–Datta–Smith, 1701.03081v4](https://arxiv.org/pdf/1701.03081v4), Eqs. (2.1)–(2.4), Definition 2.2 and Proposition 2.4 with its proof. The register groupings $RFD^n:B^n$ and $RF:B^nD^n$ give the two block bounds for arbitrary encoded inputs. Common-input averaging and the inherited assistance construction complete the capacity consequence. The symmetric-side-channel result remains a technique precedent. Partial environmental observation itself also has clear predecessors.
 
-## Primary-source comparison
+## Earlier primary-source comparison
 
 | Candidate and primary source | Actual reading depth in this pass | Coverage and missing implication |
 |---|---|---|
@@ -27,8 +27,8 @@ The closest additional technique precedent is the symmetric-side-channel theorem
 
 ## What this establishes
 
-The distinction is a missing implication, not unfamiliar terminology: the inaccessible output must remain in the complement, every refined collective measurement must retain degradability, and both entropy cuts must reduce to a common single-use input. Familiar assistance bounds or entropy techniques alone do not assert those steps together under the specified resources.
+The required resource bookkeeping is real, but the register reduction shows that it does not require an independently new finite-dimensional converse inequality. The revised capacity attribution is a synthesis of known assistance and degradable-state results. The exact product-measurement maximum remains separate; the state-decomposition minima inspected in the later audit do not supply it.
 
 The search used both available search engines and targeted recent results as well as the established anchors. Search coverage remains incomplete. No failed retrieval, absent keyword, or different title is treated as novelty evidence. No independent theoretical review is claimed.
 
-This bounded priority pass ends here. The next task is to combine its conclusion with the claim-level correctness assessment and update the active status, without expanding the model or treating additional numerical checks as evidence of priority.
+The [dependency record](../research/PROOF_DEPENDENCIES.md) contains the correction, later primary-source reading depths and bounded stopping conclusion. The next task is in [CURRENT](../work_orders/CURRENT.md). Additional numerical checks are not evidence of priority.

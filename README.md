@@ -24,7 +24,7 @@ It must preserve the correlations with $D$ for every input, including reference-
 Q_{\rm meas}=\max_{\rho_A}\left[\min\{S(B),S(BD)\}-S(E)\right].
 ```
 
-The achievable assistance bound and coding tools are inherited. The proposed contribution is their exact saturation under the joint-register condition. [The theorem and proof](research/THEOREM.md) separates those attributions and states the resources precisely.
+The achievable assistance bound and coding tools are inherited. Both finite-dimensional converse cuts also follow from the established one-way distillation theorem for degradable states after regrouping registers. [The proof dependencies](research/PROOF_DEPENDENCIES.md) give this reduction and correct the earlier converse attribution. The resulting capacity formula and the separate product-measurement optimization are stated with their resources in [the theorem](research/THEOREM.md).
 
 For vacuum optical splitting, let $a,b,c$ be the received, unobserved-loss and collected fractions, with $a+b+c=1$. With mean incident signal energy $N$ photons per original mode,
 
@@ -49,7 +49,8 @@ For a guided path into the proofs, use [the Preskill reading map](research/PRESK
 |---|---|
 | [Physical picture](research/PHYSICAL_PICTURE.md) | The physical question, one example, collection requirements, and contribution boundary. |
 | [Preskill reading map](research/PRESKILL_READING_MAP.md) | One tutorial anchor, a worked flag/complement explanation, and bridges into the existing proofs. |
-| [Contribution assessment](research/CONTRIBUTION_ASSESSMENT_2026-10-07.md) | Continue/stop judgment, the two missing prior-work implications, and the limits of the physical claim. |
+| [Proof dependencies](research/PROOF_DEPENDENCIES.md) | Corrected converse attribution, continuous measurements, full optical identity, energy-constrained coding and boundary checks. |
+| [Contribution assessment](research/CONTRIBUTION_ASSESSMENT_2026-10-07.md) | Established converse ingredients, the separate product optimization, and the limits of the physical claim. |
 | [Model and claims](research/MODEL_AND_CLAIMS.md) | Resource definition, result hierarchy, proof dependencies, and limitations. |
 | [Theorem](research/THEOREM.md) | Consolidated finite-dimensional proof and both physical examples. |
 | [Proof audit](research/PROOF_AUDIT.md) | Refined measurement complement, general encoders, and deficit identity. |

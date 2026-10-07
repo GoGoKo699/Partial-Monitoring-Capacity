@@ -1,8 +1,8 @@
 # Contribution assessment: exact limits and the detector benchmark
 
-**7 October 2026. Decision: retain and advance the completed contribution; stop scientific expansion for now.** The exact product optimum strengthens the result materially. The contribution is a precise capacity theorem and resource comparison in a restricted, physically motivated channel class. It is not the discovery that environmental observation or collective assistance can help.
+**Updated 7 October 2026. Decision: retain the exact capacity and resource comparison with narrower converse attribution.** The [proof-dependency audit](PROOF_DEPENDENCIES.md) shows that both finite-dimensional converse cuts follow from an established degradable-state theorem. The exact product optimum remains a separate optimization. The contribution is a precise capacity consequence and resource comparison in a restricted, physically motivated channel class; environmental observation and collective-assistance gains are established.
 
-This is an author-side assessment of the results through [the exact product-capacity proof](EXACT_PRODUCT_CAPACITY_2026-10-07.md). Parallel assistant critiques informed it; they are not independent scientific review. The focused source checks below do not establish global priority.
+This is an author-side assessment of the results through [the exact product-capacity proof](EXACT_PRODUCT_CAPACITY_2026-10-07.md) and the subsequent dependency audit. The latter explicitly links the earlier assessment to this correction. Parallel assistant critiques informed it; they are not independent scientific review. The focused source checks below do not establish global priority.
 
 ## The physical lesson
 
@@ -20,9 +20,9 @@ The approximately 64% increase illustrates the exact comparison; its size is not
 
 The optical evaluation adds a complementary lesson: at fixed splitting fractions $a>b>0$, more signal energy approaches the ceiling $\log_2(a/b)$; reducing that loss can raise the ceiling. This is an exact consequence of the capacity theorem for vacuum splitting, not an independent discovery about all monitored noise. The qubit product-optimality theorem has not been proved for the optical model.
 
-## The two substantive implications
+## The capacity consequence and separate measurement optimization
 
-**Exact partial-access converse.** Under the joint channel identity
+**Exact partial-access capacity.** Under the joint channel identity
 
 ```math
 \mathcal N_{ED}=(\mathcal T_{B\to E}\otimes\mathrm{id}_D)\mathcal N_{BD},
@@ -30,7 +30,7 @@ The optical evaluation adds a complementary lesson: at fixed splitting fractions
 Q_{\rm meas}=\max_\rho[\min\{S(B),S(BD)\}-S(E)].
 ```
 
-The identity preserves the helper register and correlations with references. It permits an upper bound matching the inherited assistance lower bound while retaining inaccessible $E$, collective helper measurements and correlated encodings. Marginal simulation alone does not suffice. [The theorem](THEOREM.md) and [direct converse assessment](CLAIM_ASSESSMENT_2026-10-07.md) supply the channel and general-encoder arguments.
+The identity preserves the helper register and correlations with references. Leditzky–Datta–Smith's one-way distillation theorem for degradable states supplies both finite-dimensional upper bounds using the groupings $RFD^n:B^n$ and $RF:B^nD^n$. Common-input single-letterization and the inherited assistance lower bound give the capacity formula. Marginal simulation alone does not suffice. [The dependency record](PROOF_DEPENDENCIES.md) gives the reduction; [the theorem](THEOREM.md) and [direct converse assessment](CLAIM_ASSESSMENT_2026-10-07.md) retain the explicit arguments and optical extension.
 
 **Exact product optimum.** For the interior qubit family,
 
@@ -48,6 +48,7 @@ The earlier [priority comparison](../literature/PRIORITY_CHECK_2026-10-07.md) re
 
 | Primary result and inspected passage | Inherited content and missing implication |
 |---|---|
+| [Leditzky–Datta–Smith, 1701.03081v4](https://arxiv.org/pdf/1701.03081v4), Eqs. (2.1)–(2.4), Definition 2.2, Proposition 2.4 and proof; Proposition 2.7 and Theorem 2.8 | Supplies both finite-dimensional converse cuts by the explicit register reduction. Its minimum-over-decompositions distillation bound does not order the helper measurement averages or supply the product optimum. This corrects the earlier converse attribution. |
 | [Smolin–Verstraete–Winter, quant-ph/0505038](https://arxiv.org/pdf/quant-ph/0505038), Theorems 1 and 8; Section III, Example 4 | Assistance regularization, measurement followed by ordinary channel coding, receiver-only signaling, and collective gains are established. Full-environment assistance does not itself retain an inaccessible output in the present matching converse. |
 | [Dutil–Hayden, 1011.1972](https://arxiv.org/pdf/1011.1972), operational task, Propositions 5–6 and Theorem 8 | The mixed-state assistance min-cut lower bound is inherited. Its recipient-LOCC task permits two-way distillation. The inspected results do not supply this receiver-only channel equality; one must not identify two-way distillable entanglement with coherent information merely from degradability. |
 | [Grassl–Ji–Wei–Zeng, 1008.3350](https://arxiv.org/pdf/1008.3350), Eqs. (5)–(8), (16), and concluding paragraph | Perfect-detection counting has a degradable flagged capacity; its rate below full environment assistance is explicitly recognized. This does not optimize every product POVM with residual inaccessible loss. Persistence of some counting gap for small positive residual loss is unsurprising by continuity; the exact partial-access and all-POVM optima are the additions. |
@@ -57,12 +58,12 @@ The earlier [priority comparison](../literature/PRIORITY_CHECK_2026-10-07.md) re
 | [Pollock–Wang–Chitambar, 2010.11431](https://arxiv.org/pdf/2010.11431), Section II.B and Theorem III.4 | Single-copy entropy assistance and its failure to saturate asymptotic cuts further establish the qualitative collective/local distinction. The assisted outputs there are pure bipartite states, not the present states retaining inaccessible $E$ and objective $S(B_x)-S(E_x)$. |
 | [Pereg, 2411.16263v2](https://arxiv.org/pdf/2411.16263v2), introduction, Definition 3, Theorems 3–5 | The Hadamard equality and measure-/assist-forward bounds concern classical messages, with an active relay input. They do not give this entanglement-transmission capacity. Definitions and results were inspected, not the full appendix proofs. |
 
-These checks used primary parsed text at the specified passages. No covering implication was found there. Different titles, failed searches and numerical tests are not evidence of novelty.
+These checks used primary parsed text at the specified passages. The degradable-state theorem covers the finite-dimensional converse mechanism; no inspected passage supplies the separate all-input product-measurement maximum. The [dependency record](PROOF_DEPENDENCIES.md) adds the later targeted comparisons and their exact reading depths. Different titles, failed searches and numerical tests are not evidence of novelty.
 
 ## Strongest objection and decision
 
-The serious objection is that the result combines familiar assistance and degradability in a clean splitting model. That objection has force: the lower bound and coding method are inherited; the central equality is a concise resource-specific synthesis, not a new coding mechanism. The joint-register hypothesis is restrictive. It nevertheless follows from ordinary attenuation over the vacuum-splitter region $a\ge b$, rather than from a new assistance resource.
+The serious objection is that the result combines familiar assistance and degradability in a clean splitting model. The new reduction confirms it at theorem level: the finite-dimensional converse cuts, lower bound and coding method are inherited ingredients. The central equality is a concise resource-specific synthesis. The joint-register hypothesis is restrictive, though it follows from ordinary attenuation over the vacuum-splitter region $a\ge b$.
 
 The exact product theorem answers a further question that this synthesis alone leaves open. It closes the explanation that counting was simply a poor detector choice, throughout the stated interior qubit family. Together, the two exact optimizations separate inaccessible-loss limitations from the limitations of predetermined independent-use readout. That is sufficient to retain and advance this bounded theoretical contribution. It does not establish broad significance by itself, an efficient collective receiver, or an experimental advantage at finite code length.
 
-**Stop additional numerical refinement, model extensions and broad scouting.** No extra digits or larger measurement class are needed to make this judgment. The one next task is the author's review of this brief alongside the two proofs, deciding which physical claim deserves emphasis. The scientific scope stays frozen during that review; this assessment initiates no manuscript, external contact or release.
+**Stop additional numerical refinement, model extensions and broad scouting.** The fixed claim package has no identified unresolved mathematical prerequisite after the dependency audit. The next task is to present the existing claims with the corrected attributions and explicit resource boundaries in [CURRENT](../work_orders/CURRENT.md). Reopen research for a concrete proof or source objection. No external contact or release is initiated here.

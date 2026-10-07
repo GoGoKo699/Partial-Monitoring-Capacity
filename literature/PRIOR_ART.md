@@ -2,6 +2,8 @@
 
 # Prior-art comparison at the actual theorem boundary
 
+**Current attribution correction, 7 October:** [PROOF_DEPENDENCIES](../research/PROOF_DEPENDENCIES.md) derives both finite-dimensional converse cuts from Leditzky–Datta–Smith, Definition 2.2 and Proposition 2.4. This supersedes the 6 October record's description of the joint-preserving converse as the candidate's new step. The dated reading record below and protected original remain historical evidence; the exact product-measurement maximum remains a separate optimization.
+
 **7 October follow-up:** see [PRIORITY_CHECK](PRIORITY_CHECK_2026-10-07.md) for the additional symmetric-side-channel, primitive-relay and partial-access recovery comparisons. The original dated reading record is preserved below.
 
 **Subsequent product-measurement pass:** [PRODUCT_HELPER_GAP](../research/PRODUCT_HELPER_GAP_2026-10-07.md) records the new separation, its Petz/degradable-channel dependencies, and the precise assistance-superadditivity and detected-jump passages reread for attribution. Collective-helper gains themselves are established precedent.

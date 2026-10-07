@@ -40,7 +40,7 @@ The [product-helper proof](PRODUCT_HELPER_GAP_2026-10-07.md), Section 1, establi
 Q_{\rm prod}=\sup_{\rho,M}\sum_xp_x[S(B_x)-S(E_x)].
 ```
 
-Rank-one refinement can only help; every refined measured channel is degradable. Product-channel additivity covers use-varying measurements and arbitrary correlated inputs. The earlier argument also covers continuous records. The following bound holds for every input/measurement pair and is attained by a two-outcome measurement, so no compactness argument is needed for the new equality.
+Rank-one refinement can only help; every refined measured channel is degradable. Product-channel additivity covers use-varying measurements and arbitrary correlated inputs. The earlier argument also covers continuous records; [PROOF_DEPENDENCIES, Section 2](PROOF_DEPENDENCIES.md) states the finite trace-measure formulation and finite total-correlation argument explicitly. The following bound holds for every input/measurement pair and is attained by a two-outcome measurement, so no compactness argument is needed for the new equality.
 
 Write
 
@@ -181,4 +181,4 @@ The entropy function $e(C)$ and its ordinary convexity are established in Wootte
 
 The prior [product-helper comparison](PRODUCT_HELPER_GAP_2026-10-07.md) records the detected-jump capacity and collective-assistance predecessors. The additional statement here is all-input optimality of counting over every predetermined product helper POVM with an inaccessible residual output. No inspected passage directly supplies that implication; this is a targeted comparison, not exhaustive priority clearance or independent scientific review.
 
-The product-measurement resource question is now quantitatively closed. A concrete next decision is whether the existing exact capacity and quantified comparison form a sufficiently distinct physical contribution when checked against the closest assistance results. Further digits, parameter sweeps or an adaptive-helper extension are not prerequisites for that assessment.
+The product-measurement resource question is now quantitatively closed in the stated class. The [subsequent dependency audit](PROOF_DEPENDENCIES.md) attributes the unrestricted finite-dimensional cuts to established degradable-state theory, whose state-decomposition minimum does not supply this helper-measurement maximum. The current stopping conclusion and next task are in [CURRENT](../work_orders/CURRENT.md). Further digits, parameter sweeps or an adaptive-helper extension are not prerequisites.
