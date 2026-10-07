@@ -14,8 +14,10 @@ The current scientific pass is recorded in [CLAIM_ASSESSMENT](research/CLAIM_ASS
 
 ## Continuing work
 
-Read [PHYSICAL_PICTURE](research/PHYSICAL_PICTURE.md), [MODEL_AND_CLAIMS](research/MODEL_AND_CLAIMS.md), [THEOREM](research/THEOREM.md), the two dated assessments, [PRODUCT_HELPER_GAP](research/PRODUCT_HELPER_GAP_2026-10-07.md) and [CURRENT](work_orders/CURRENT.md). The physical guide and qualitative strict gap are complete. The current work order seeks a certified numerical upper bound in the same example. Do not restart the qualitative proof or broaden the measurement benchmark without a concrete reason.
+Read [PHYSICAL_PICTURE](research/PHYSICAL_PICTURE.md), [MODEL_AND_CLAIMS](research/MODEL_AND_CLAIMS.md), [THEOREM](research/THEOREM.md), the two dated assessments, [PRODUCT_HELPER_GAP](research/PRODUCT_HELPER_GAP_2026-10-07.md), [EXACT_PRODUCT_CAPACITY](research/EXACT_PRODUCT_CAPACITY_2026-10-07.md) and [CURRENT](work_orders/CURRENT.md). The product capacity is exactly the counting optimum, and the example's gap has an exact-arithmetic certificate. The next task is a bounded contribution assessment, not more digits, a repeated gap proof or a larger measurement benchmark.
 
 Use a feature branch and the existing verification workflow. Inspect the actual PR revision, downloaded reports, source hashes and all differences before merge. Merge with the expected head SHA, then inspect the separate run on actual merged main. Local success alone does not establish hosted success. Preserve original scripts, reports, tolerances and historical records.
+
+The workflow now also runs [the rational product-capacity certificate](checks/certify_product_capacity.py). Inspect its dedicated step, source hash and output separately from the original 23 groups; see [VERIFICATION](VERIFICATION.md).
 
 The science remains one conditional capacity theorem with qubit and vacuum optical evaluations. No finite-temperature model, new platform, efficient collective helper, experiment or manuscript is a hidden prerequisite. The separate spin-strip work remains outside this repository.

@@ -6,6 +6,8 @@
 
 **Subsequent product-measurement pass:** [PRODUCT_HELPER_GAP](../research/PRODUCT_HELPER_GAP_2026-10-07.md) records the new separation, its Petz/degradable-channel dependencies, and the precise assistance-superadditivity and detected-jump passages reread for attribution. Collective-helper gains themselves are established precedent.
 
+**Exact product-capacity follow-up:** [EXACT_PRODUCT_CAPACITY](../research/EXACT_PRODUCT_CAPACITY_2026-10-07.md) resolves counting optimality over all predetermined product POVMs. Its focused comparison identifies the established entropy–concurrence function and distinguishes concurrence-assistance optimization from the entropy-difference problem. The required difference-convexity inequality is derived explicitly; no exhaustive priority claim is made.
+
 **6 October 2026.** This is a targeted construction-level comparison, not an exhaustive search certificate. A similar title, an inaccessible passage, or a failed search is not evidence of novelty.
 
 ## The three proof anchors
