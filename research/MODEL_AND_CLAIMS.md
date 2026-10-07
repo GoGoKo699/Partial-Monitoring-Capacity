@@ -1,6 +1,9 @@
 # Model, claim hierarchy and proof dependencies
 
-**Updated 7 October 2026.** This maps the supplied 6 October consolidation, the [bounded claim assessment](CLAIM_ASSESSMENT_2026-10-07.md), the [qualitative product helper separation](PRODUCT_HELPER_GAP_2026-10-07.md) and its [exact capacity resolution](EXACT_PRODUCT_CAPACITY_2026-10-07.md). The [proof-dependency audit](PROOF_DEPENDENCIES.md) corrects converse attribution and closes the identified coding and measurable-limit details. Capacity formulas and resources are unchanged.
+The [capacity theorem](THEOREM.md) and [exact product optimum](EXACT_PRODUCT_CAPACITY_2026-10-07.md)
+give the unrestricted and predetermined individual-measurement rates. The
+[dependency record](PROOF_DEPENDENCIES.md) supplies the established converse
+attribution, optical coding and continuous-record arguments.
 
 ## Fixed communication resource
 
@@ -16,15 +19,15 @@ The capacity is asymptotic entanglement transmission per original input. It is n
 |---|---|---|---|
 | C1 | The joint-register degrading identity makes the minimum-cut assistance lower bound exact. | [THEOREM](THEOREM.md), Sections 1–2; both finite-dimensional cuts follow from established degradable-state theory via [the register reduction](PROOF_DEPENDENCIES.md). | consolidation; qubit |
 | C2 | Qubit splitting has an exact single-variable rate and positive capacity exactly when survival exceeds unobserved decay. | THEOREM, Section 3; [original rate excerpt](../archive/excerpts/QUANTUM_RATE.md). | threshold; qubit |
-| C3 | Vacuum optical splitting has capacity $g(aN)-g(bN)$ when $a>b$, and zero otherwise, under an average incident-energy constraint. | THEOREM, Section 4; [OPTICAL_AUDIT](OPTICAL_AUDIT.md), Section 4. | optical |
+| C3 | Vacuum optical splitting has capacity $g(aN)-g(bN)$ when $a>b$, and zero otherwise, under an average incident-energy constraint. | THEOREM, Section 4; [optical dependencies](PROOF_DEPENDENCIES.md#3-optical-identity-and-photon-budget-coding) and [preserved tail calculation](../archive/imported/OPTICAL_AUDIT.md), Sections 4.2–4.3. | optical |
 | C4 | The optical rate deficit separates unused energy, thermal-reference contraction deficit and measurement deficit. | THEOREM, Section 5; [PROOF_AUDIT](PROOF_AUDIT.md). | consolidation |
 | C5 | Antidegradability gives $F_e\le(d+1)/(2d)$ for a logical message of dimension $`d`$ on the zero-capacity side. | [rate excerpt](../archive/excerpts/QUANTUM_RATE.md), Section A3. | qubit |
-| C6 | At $(a,b,c)=(0.2,0.08,0.72)$, all predetermined product helper POVMs have capacity strictly below the unrestricted optimum, despite arbitrary sender/receiver block coding. | [Product helper gap](PRODUCT_HELPER_GAP_2026-10-07.md): degradable-channel additivity, compactness and strict entropy contraction. | Analytical result; original suites do not certify this proof. |
+| C6 | At $`(a,b,c)=(0.2,0.08,0.72)`$, all predetermined product helper POVMs have capacity strictly below the unrestricted optimum, despite arbitrary sender/receiver block coding. | Corollary of C1 and C7; the [earlier qualitative proof](../archive/editorial/2026-10-07-pre-release/research/PRODUCT_HELPER_GAP_2026-10-07.md) is retained as history. | Separate rational certificate for the scalar gap; analytical capacity proofs supply the comparison. |
 | C7 | For the qubit family with $a>b>0,c>0$, photon counting attains the capacity optimized over all predetermined product helper POVMs and all inputs. | [Exact product capacity](EXACT_PRODUCT_CAPACITY_2026-10-07.md): branch determinants, convex entropy difference and a counting chord bound. | Separate exact-arithmetic certificate for the example's scalar rate and gap; the analytical proof remains a dependency. |
 
 C2 and C3 are evaluations of one capacity principle, not unrelated new projects. The threshold is not an assertion that the channel becomes entanglement-breaking. The fidelity ceiling is unconditional and is not the same metric as average state fidelity.
 
-The reader-facing lead combines C1 with C7: the exact unrestricted capacity and the optimal predetermined product benchmark give a strict rate separation at the stated qubit split. C6 records the preceding qualitative proof, now strengthened by C7. C3 supplies the complementary optical energy/loss law; C4 and C5 remain supporting results. This ordering changes emphasis, not claims or proof dependencies.
+The central comparison combines C1 with C7: the exact unrestricted capacity and the optimal predetermined product benchmark give a strict rate separation at the stated qubit split. C6 is the example corollary of these two exact results. C3 supplies the complementary optical energy/loss law; C4 and C5 remain supporting results.
 
 [The physical picture](PHYSICAL_PICTURE.md) translates the optical law into a collection requirement at a chosen target rate. This is an algebraic consequence of C3. C7 strengthens C6 to an exact product benchmark and certifies the example's gap at approximately $0.11949910$ qubits/use. Every single-use POVM and predetermined use-varying schedule is included; outcome-adaptive local strategies and general separable block POVMs remain outside the claim. C7 is a qubit result, not an optical measurement-optimality theorem.
 
@@ -44,8 +47,15 @@ The reader-facing lead combines C1 with C7: the exact unrestricted capacity and 
 
 **Optical limit.** The converse includes arbitrary entangled non-Gaussian inputs under an average energy bound. The full Fock-space Weyl identity and fixed-cutoff/block application of Wilde–Qi's energy-constrained coding theorem are explicit in [PROOF_DEPENDENCIES](PROOF_DEPENDENCIES.md). Finite photon support is used only in achievability, first fixing the cutoff and coding limit, then increasing the cutoff with explicit entropy-tail control. The environmental inputs remain vacuum. A thermal average encoded state is not an uncoded thermal communication scheme.
 
-## What is not proved here
+## Scope and interpretation
 
-There is no efficient helper measurement, finite-block code attaining capacity, strong-converse exponent, limited-message tradeoff, finite-temperature capacity, calibration robustness theorem or detector implementation. The supplied results do not need those extensions to define their claim. Exhaustive priority and genuinely separate critical review remain incomplete.
+The results are asymptotic capacities with unrestricted helper resources. The product
+benchmark is predetermined and excludes adaptive local strategies and separable block
+POVMs. Counting optimality is after input optimization and applies to the qubit family.
+The optical law assumes vacuum environmental inputs and an average signal-energy bound.
+The fidelity ceiling is unconditional; no strong-converse exponent is asserted.
 
-The targeted assessment found no rate correction. Reproduction in a second environment is not independent theoretical review. Current reading depths are in [PRIOR_ART](../literature/PRIOR_ART.md) and the [dated priority check](../literature/PRIORITY_CHECK_2026-10-07.md); the next bounded task is in [CURRENT](../work_orders/CURRENT.md).
+[The contribution comparison](CONTRIBUTION_ASSESSMENT_2026-10-07.md) and
+[source ledger](../literature/PRIOR_ART.md) specify inherited results and reading depths.
+[VERIFICATION](../VERIFICATION.md) explains the distinction between analytical claims,
+diagnostic reproduction and review.

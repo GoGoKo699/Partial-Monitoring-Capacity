@@ -360,7 +360,7 @@
       "sha256": "b9614721fb2e71f8518970eeb3bff93980648d5ed2effbe725597bb1323e4e06",
       "source_path": "prior/prior/prior/check_monitoring.py"
     },
-    "research/OPTICAL_AUDIT.md": {
+    "archive/imported/OPTICAL_AUDIT.md": {
       "bytes": 24299,
       "sha256": "6b4e054b6d3f99a2327469735304f62a347b7f1a148409a18cd0c763e58e1b9c",
       "source_path": "prior/AUDIT.md"

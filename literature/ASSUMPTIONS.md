@@ -1,6 +1,6 @@
 # Scope and source-support boundary
 
-The [proof-dependency audit](../research/PROOF_DEPENDENCIES.md) rechecks the supplied theorem's load-bearing steps and targeted primary sources. Capacity formulas and resource assumptions are unchanged; both finite-dimensional converse cuts are now explicitly attributed to established degradable-state theory.
+The [proof-dependency record](../research/PROOF_DEPENDENCIES.md) gives the theorem's supporting arguments and targeted primary-source comparisons. Both finite-dimensional converse cuts follow from established degradable-state theory.
 
 | Load-bearing item | Present basis | What is not inferred |
 |---|---|---|

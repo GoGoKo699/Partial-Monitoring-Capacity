@@ -1,10 +1,14 @@
-# Targeted priority assessment: the central implication
+# Prior-work comparison: the capacity implication
 
-**Updated 7 October 2026.** This bounded author-side comparison checks whether an existing theorem directly implies the equality in [THEOREM](../research/THEOREM.md). The subsequent [dependency audit](../research/PROOF_DEPENDENCIES.md) corrects its initial attribution: Leditzky–Datta–Smith, Definition 2.2 and Proposition 2.4, supplies both finite-dimensional converse cuts by regrouping registers. It supplements the preserved [prior-art ledger](PRIOR_ART.md), without certifying exhaustive priority.
+This source comparison checks the operational equality in
+[THEOREM](../research/THEOREM.md). Leditzky–Datta–Smith, Definition 2.2 and
+Proposition 2.4, supplies both finite-dimensional converse cuts by regrouping
+registers, as derived in [PROOF_DEPENDENCIES](../research/PROOF_DEPENDENCIES.md).
+The [source ledger](PRIOR_ART.md) records the inspected passages and reading depths.
 
-## Verdict and exact comparison target
+## Exact comparison target
 
-The initial four-source comparison below did not identify a covering theorem. The later degradable-state reduction now supplies the converse mechanism for the implication
+The degradable-state reduction supplies the converse mechanism for the implication
 
 ```math
 \mathcal N_{ED}=(\mathcal T_{B\to E}\otimes\mathrm{id}_D)\mathcal N_{BD}
@@ -16,7 +20,7 @@ Here the helper receives the channel output $D$, may process it collectively, an
 
 The decisive additional source is [Leditzky–Datta–Smith, 1701.03081v4](https://arxiv.org/pdf/1701.03081v4), Eqs. (2.1)–(2.4), Definition 2.2 and Proposition 2.4 with its proof. The register groupings $RFD^n:B^n$ and $RF:B^nD^n$ give the two block bounds for arbitrary encoded inputs. Common-input averaging and the inherited assistance construction complete the capacity consequence. The symmetric-side-channel result remains a technique precedent. Partial environmental observation itself also has clear predecessors.
 
-## Earlier primary-source comparison
+## Related primary-source results
 
 | Candidate and primary source | Actual reading depth in this pass | Coverage and missing implication |
 |---|---|---|
@@ -31,4 +35,4 @@ The required resource bookkeeping is real, but the register reduction shows that
 
 The search used both available search engines and targeted recent results as well as the established anchors. Search coverage remains incomplete. No failed retrieval, absent keyword, or different title is treated as novelty evidence. No independent theoretical review is claimed.
 
-The [dependency record](../research/PROOF_DEPENDENCIES.md) contains the correction, later primary-source reading depths and bounded stopping conclusion. The next task is in [CURRENT](../work_orders/CURRENT.md). Additional numerical checks are not evidence of priority.
+The [dependency record](../research/PROOF_DEPENDENCIES.md) preserves the attribution correction and specifies the additional primary-source reading depths. Numerical checks are not evidence of priority.

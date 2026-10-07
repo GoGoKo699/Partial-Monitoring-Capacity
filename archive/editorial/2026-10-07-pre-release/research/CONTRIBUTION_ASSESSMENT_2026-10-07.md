@@ -1,12 +1,8 @@
-# Contribution: exact capacity and the detector benchmark
+# Contribution assessment: exact limits and the detector benchmark
 
-The contribution combines a capacity consequence of established assistance and
-degradable-state results with a separate exact optimization over predetermined
-product helper measurements. The [dependency record](PROOF_DEPENDENCIES.md)
-gives the converse attribution; the [exact product proof](EXACT_PRODUCT_CAPACITY_2026-10-07.md)
-supplies the measurement optimization. Environmental observation and collective
-assistance have established predecessors, distinguished below at their actual
-resource and proof boundaries.
+**Updated 7 October 2026. Decision: retain the exact capacity and resource comparison with narrower converse attribution.** The [proof-dependency audit](PROOF_DEPENDENCIES.md) shows that both finite-dimensional converse cuts follow from an established degradable-state theorem. The exact product optimum remains a separate optimization. The contribution is a precise capacity consequence and resource comparison in a restricted, physically motivated channel class; environmental observation and collective-assistance gains are established.
+
+This is an author-side assessment of the results through [the exact product-capacity proof](EXACT_PRODUCT_CAPACITY_2026-10-07.md) and the subsequent dependency audit. The latter explicitly links the earlier assessment to this correction. Parallel assistant critiques informed it; they are not independent scientific review. The focused source checks below do not establish global priority.
 
 ## The physical lesson
 
@@ -64,8 +60,10 @@ The earlier [priority comparison](../literature/PRIORITY_CHECK_2026-10-07.md) re
 
 These checks used primary parsed text at the specified passages. The degradable-state theorem covers the finite-dimensional converse mechanism; no inspected passage supplies the separate all-input product-measurement maximum. The [dependency record](PROOF_DEPENDENCIES.md) adds the later targeted comparisons and their exact reading depths. Different titles, failed searches and numerical tests are not evidence of novelty.
 
-## What the exact comparison establishes
+## Strongest objection and decision
 
 The serious objection is that the result combines familiar assistance and degradability in a clean splitting model. The new reduction confirms it at theorem level: the finite-dimensional converse cuts, lower bound and coding method are inherited ingredients. The central equality is a concise resource-specific synthesis. The joint-register hypothesis is restrictive, though it follows from ordinary attenuation over the vacuum-splitter region $a\ge b$.
 
-The exact product theorem answers a further question that this synthesis alone leaves open. It closes the explanation that counting was simply a poor detector choice, throughout the stated interior qubit family. Together, the two exact optimizations separate inaccessible-loss limitations from the limitations of predetermined independent-use readout. These are asymptotic rate statements with unrestricted helper processing; they do not specify an efficient collective receiver or finite-code experimental performance.
+The exact product theorem answers a further question that this synthesis alone leaves open. It closes the explanation that counting was simply a poor detector choice, throughout the stated interior qubit family. Together, the two exact optimizations separate inaccessible-loss limitations from the limitations of predetermined independent-use readout. That is sufficient to retain and advance this bounded theoretical contribution. It does not establish broad significance by itself, an efficient collective receiver, or an experimental advantage at finite code length.
+
+**Stop additional numerical refinement, model extensions and broad scouting.** The fixed claim package has no identified unresolved mathematical prerequisite after the dependency audit. The next task is to present the existing claims with the corrected attributions and explicit resource boundaries in [CURRENT](../work_orders/CURRENT.md). Reopen research for a concrete proof or source objection. No external contact or release is initiated here.

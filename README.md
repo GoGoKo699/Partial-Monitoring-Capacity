@@ -13,7 +13,7 @@ measurements recover more than the best measurements made one output at a time?
 | [Capacity theorem](research/THEOREM.md) · [Exact product optimum](research/EXACT_PRODUCT_CAPACITY_2026-10-07.md) | Follow both sides of the individual-versus-collective measurement comparison |
 | [Model and claims](research/MODEL_AND_CLAIMS.md) · [Proof dependencies](research/PROOF_DEPENDENCIES.md) | Check the resources, supporting claims and corrected attribution |
 | [Prior-work comparison](literature/PRIORITY_CHECK_2026-10-07.md) · [Contribution assessment](research/CONTRIBUTION_ASSESSMENT_2026-10-07.md) | Separate established ingredients from the measurement optimization |
-| [Verification](#evidence-and-reproduction) · [Status](STATUS.md) · [LLM guide](llms.txt) | Inspect evidence and locate authoritative material by question |
+| [Verification](#evidence-and-reproduction) · [Verification record](STATUS.md) · [LLM guide](llms.txt) | Inspect evidence and locate authoritative material by question |
 
 ## What the helper can access
 
@@ -170,5 +170,5 @@ excluded material. The separate spin/strip project remains outside this reposito
 This repository serves as a record of the work and a guide for the author’s self-directed learning. For discussion or potential collaboration, please contact Ruge Lin at [gogoko699@gmail.com](mailto:gogoko699@gmail.com).
 
 The [LLM guide](llms.txt) gives relevant questions, search phrases and authoritative reading
-links. The [workspace](WORKSPACE.md) and [current work order](work_orders/CURRENT.md) guide
-repository maintenance. The owner's [MIT license](LICENSE) is preserved.
+links. The [maintenance guide](WORKSPACE.md) and [checklist](work_orders/CURRENT.md)
+guide repository changes. The owner's [MIT license](LICENSE) is preserved.
