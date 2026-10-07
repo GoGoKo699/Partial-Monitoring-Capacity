@@ -2,22 +2,20 @@
 
 **Target:** `GoGoKo699/Partial-Monitoring-Capacity`.
 
-**Permission:** the owner authorized modifying the repository and merging. Preserve its existing visibility and license. Work in this repository only.
+**Authority:** the owner authorized modifying this repository and merging after checks. Preserve visibility, license and scientific scope; do not contact others or change other projects.
 
-## First finish the pending publication operation
+## Start from the live repository
 
-This initialization was prepared locally because the chat exposed no GitHub write action and the container could not resolve github.com. **There is no merged initialization PR yet.** The external handoff package contains an exact Git bundle, a reviewable patch, local verification reports and IMPORT_HANDOFF.md. The bundle is rooted at the verified initial remote commit `9243513e6c8f5dee31977180743e3f6f44a9d613`.
+Initialization was completed through [PR #1](https://github.com/GoGoKo699/Partial-Monitoring-Capacity/pull/1), merged as `a9d953cd95410fc6add5c047e89133c8b7369ff8`. Its actual merged-main workflow and downloaded source-matched evidence passed. See [STATUS](STATUS.md) and the [verification receipt](provenance/TAKEOVER_VERIFICATION_2026-10-07.json).
 
-In a write-enabled workspace, read the live remote `main`, branch list and open PRs first. Import the bundle's `initialize/monitoring-workspace` branch. If remote main has moved, inspect those changes and reconcile without forcing or overwriting them. Do not duplicate an initialization already published by another session.
+The earlier [local-only handoff](archive/operations/2026-10-07-local-handoff/WORKSPACE.md) is historical. Do not reimport its bundle or duplicate its initialization branch. Read live main, open PRs and repository instructions before editing, and reconcile any newer work without forcing a ref.
 
-Run the source-integrity, infrastructure and all four scientific suites in fresh output directories. Review the diff, push only the feature branch and open a PR against main. Inspect the actual workflow results and their evidence. Merge through the repository's permitted strategy without bypassing checks. Fetch merged main and validate that revision; record the PR, merge SHA, source tree and outcomes in STATUS.md or a follow-up record.
+The current scientific pass is recorded in [CLAIM_ASSESSMENT](research/CLAIM_ASSESSMENT_2026-10-07.md) and [PRIORITY_CHECK](literature/PRIORITY_CHECK_2026-10-07.md). It strengthens the converse presentation without changing rates or adding resources. It does not replace independent scrutiny.
 
-The prepared `.github/workflows/verify.yml` is read-only with respect to repository contents. It uploads raw reports and their source hash list on success or failure. A workflow file is not evidence that any hosted execution has occurred. Local success does not substitute for remote verification.
+## Continuing work
 
-## Then enter the scientific work
+Read [MODEL_AND_CLAIMS](research/MODEL_AND_CLAIMS.md), [THEOREM](research/THEOREM.md), the two dated assessments and [CURRENT](work_orders/CURRENT.md). The current work order has one bounded next task; do not restart broad scouting or repeat settled audits without a concrete objection.
 
-Read [MODEL_AND_CLAIMS](research/MODEL_AND_CLAIMS.md), [THEOREM](research/THEOREM.md), [PROOF_AUDIT](research/PROOF_AUDIT.md), [PRIOR_ART](literature/PRIOR_ART.md) and [CURRENT](work_orders/CURRENT.md).
+Use a feature branch and the existing verification workflow. Inspect the actual PR revision, downloaded reports, source hashes and all differences before merge. Merge with the expected head SHA, then inspect the separate run on actual merged main. Local success alone does not establish hosted success. Preserve original scripts, reports, tolerances and historical records.
 
-This is one consolidated theorem with two solved physical examples, not a request to restart broad scouting. The next pass is a targeted correctness/priority assessment of the equality and its actual resource assumptions. It should not automatically become finite-temperature theory, finite-code design, an experiment or a new helper architecture.
-
-The unchanged archive and monitoring-only excerpts are provenance. Their historical status and earlier loose bounds do not override the active consolidated claim. The spin pilot remains outside this repository. No reviewer has been contacted, and no independent referee report is implied by the local tests.
+The science remains one conditional capacity theorem with qubit and vacuum optical evaluations. No finite-temperature model, new platform, efficient collective helper, experiment or manuscript is a hidden prerequisite. The separate spin-strip work remains outside this repository.

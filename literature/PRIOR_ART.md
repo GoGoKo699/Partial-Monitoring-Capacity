@@ -2,6 +2,8 @@
 
 # Prior-art comparison at the actual theorem boundary
 
+**7 October follow-up:** see [PRIORITY_CHECK](PRIORITY_CHECK_2026-10-07.md) for the additional symmetric-side-channel, primitive-relay and partial-access recovery comparisons. The original dated reading record is preserved below.
+
 **6 October 2026.** This is a targeted construction-level comparison, not an exhaustive search certificate. A similar title, an inaccessible passage, or a failed search is not evidence of novelty.
 
 ## The three proof anchors

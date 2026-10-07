@@ -1,0 +1,1766 @@
+{
+  "date": "2026-10-07",
+  "hosted_comparison_profile": {
+    "consolidation": {
+      "byte_identical": false,
+      "differences": [
+        {
+          "absolute_difference": 1.6375789613221059e-15,
+          "accepted": true,
+          "kind": "float",
+          "observed": -0.12501106617674745,
+          "path": "$.general_encoder_check.records[0].actual_message_coherent_information",
+          "reference": -0.1250110661767491
+        },
+        {
+          "absolute_difference": 1.609823385706477e-15,
+          "accepted": true,
+          "kind": "float",
+          "observed": 0.26914990488929336,
+          "path": "$.general_encoder_check.records[0].ancilla_conditional_entropy",
+          "reference": 0.26914990488929497
+        },
+        {
+          "absolute_difference": 5.551115123125783e-17,
+          "accepted": true,
+          "kind": "float",
+          "observed": 0.14413883871254593,
+          "path": "$.general_encoder_check.records[0].purified_input_coherent_information",
+          "reference": 0.14413883871254587
+        },
+        {
+          "absolute_difference": 3.3306690738754696e-16,
+          "accepted": true,
+          "kind": "float",
+          "observed": -0.5293473619838157,
+          "path": "$.general_encoder_check.records[1].actual_message_coherent_information",
+          "reference": -0.529347361983816
+        },
+        {
+          "absolute_difference": 2.220446049250313e-16,
+          "accepted": true,
+          "kind": "float",
+          "observed": 0.6198942039869961,
+          "path": "$.general_encoder_check.records[1].ancilla_conditional_entropy",
+          "reference": 0.6198942039869964
+        },
+        {
+          "absolute_difference": 1.1102230246251565e-16,
+          "accepted": true,
+          "kind": "float",
+          "observed": 0.09054684200318044,
+          "path": "$.general_encoder_check.records[1].purified_input_coherent_information",
+          "reference": 0.09054684200318033
+        },
+        {
+          "absolute_difference": 4.163336342344337e-16,
+          "accepted": true,
+          "kind": "float",
+          "observed": -0.24374245170595374,
+          "path": "$.general_encoder_check.records[2].actual_message_coherent_information",
+          "reference": -0.24374245170595332
+        },
+        {
+          "absolute_difference": 4.996003610813204e-16,
+          "accepted": true,
+          "kind": "float",
+          "observed": 0.3249745904778554,
+          "path": "$.general_encoder_check.records[2].ancilla_conditional_entropy",
+          "reference": 0.3249745904778549
+        },
+        {
+          "absolute_difference": 6.938893903907228e-17,
+          "accepted": true,
+          "kind": "float",
+          "observed": 0.08123213877190162,
+          "path": "$.general_encoder_check.records[2].purified_input_coherent_information",
+          "reference": 0.08123213877190155
+        },
+        {
+          "absolute_difference": 6.38378239159465e-16,
+          "accepted": true,
+          "kind": "float",
+          "observed": -0.20453121768315338,
+          "path": "$.general_encoder_check.records[3].actual_message_coherent_information",
+          "reference": -0.20453121768315274
+        },
+        {
+          "absolute_difference": 6.106226635438361e-16,
+          "accepted": true,
+          "kind": "float",
+          "observed": 0.38659085140406896,
+          "path": "$.general_encoder_check.records[3].ancilla_conditional_entropy",
+          "reference": 0.38659085140406835
+        },
+        {
+          "absolute_difference": 5.551115123125783e-17,
+          "accepted": true,
+          "kind": "float",
+          "observed": 0.18205963372091555,
+          "path": "$.general_encoder_check.records[3].purified_input_coherent_information",
+          "reference": 0.1820596337209156
+        },
+        {
+          "absolute_difference": 4.440892098500626e-16,
+          "accepted": true,
+          "kind": "float",
+          "observed": -0.45974455396928726,
+          "path": "$.general_encoder_check.records[4].actual_message_coherent_information",
+          "reference": -0.4597445539692868
+        },
+        {
+          "absolute_difference": 4.440892098500626e-16,
+          "accepted": true,
+          "kind": "float",
+          "observed": 0.6919961301330868,
+          "path": "$.general_encoder_check.records[4].ancilla_conditional_entropy",
+          "reference": 0.6919961301330864
+        },
+        {
+          "absolute_difference": 8.326672684688674e-17,
+          "accepted": true,
+          "kind": "float",
+          "observed": 0.23225157616379954,
+          "path": "$.general_encoder_check.records[4].purified_input_coherent_information",
+          "reference": 0.23225157616379946
+        },
+        {
+          "absolute_difference": 4.440892098500626e-16,
+          "accepted": true,
+          "kind": "float",
+          "observed": -0.4652989166372059,
+          "path": "$.general_encoder_check.records[5].actual_message_coherent_information",
+          "reference": -0.46529891663720546
+        },
+        {
+          "absolute_difference": 6.661338147750939e-16,
+          "accepted": true,
+          "kind": "float",
+          "observed": 0.5918705149429873,
+          "path": "$.general_encoder_check.records[5].ancilla_conditional_entropy",
+          "reference": 0.5918705149429866
+        },
+        {
+          "absolute_difference": 1.1102230246251565e-16,
+          "accepted": true,
+          "kind": "float",
+          "observed": 0.1265715983057813,
+          "path": "$.general_encoder_check.records[5].purified_input_coherent_information",
+          "reference": 0.12657159830578119
+        },
+        {
+          "absolute_difference": 5.551115123125783e-17,
+          "accepted": true,
+          "kind": "float",
+          "observed": -0.17124839747597378,
+          "path": "$.general_encoder_check.records[6].actual_message_coherent_information",
+          "reference": -0.17124839747597384
+        },
+        {
+          "absolute_difference": 5.551115123125783e-17,
+          "accepted": true,
+          "kind": "float",
+          "observed": 0.17124839747597378,
+          "path": "$.general_encoder_check.records[6].ancilla_conditional_entropy",
+          "reference": 0.17124839747597384
+        },
+        {
+          "absolute_difference": 1.1102230246251565e-16,
+          "accepted": true,
+          "kind": "float",
+          "observed": -0.35131369235742743,
+          "path": "$.general_encoder_check.records[7].actual_message_coherent_information",
+          "reference": -0.35131369235742754
+        },
+        {
+          "absolute_difference": 1.1102230246251565e-16,
+          "accepted": true,
+          "kind": "float",
+          "observed": 0.35131369235742743,
+          "path": "$.general_encoder_check.records[7].ancilla_conditional_entropy",
+          "reference": 0.35131369235742754
+        },
+        {
+          "absolute_difference": 2.220446049250313e-16,
+          "accepted": true,
+          "kind": "float",
+          "observed": -0.3516065216599591,
+          "path": "$.general_encoder_check.records[8].actual_message_coherent_information",
+          "reference": -0.35160652165995887
+        },
+        {
+          "absolute_difference": 2.220446049250313e-16,
+          "accepted": true,
+          "kind": "float",
+          "observed": 0.3516065216599591,
+          "path": "$.general_encoder_check.records[8].ancilla_conditional_entropy",
+          "reference": 0.35160652165995887
+        },
+        {
+          "absolute_difference": 8.326672684688674e-17,
+          "accepted": true,
+          "kind": "float",
+          "observed": -0.17502978004432856,
+          "path": "$.general_encoder_check.records[9].actual_message_coherent_information",
+          "reference": -0.17502978004432848
+        },
+        {
+          "absolute_difference": 1.1102230246251565e-16,
+          "accepted": true,
+          "kind": "float",
+          "observed": 0.40006644665441554,
+          "path": "$.general_encoder_check.records[9].ancilla_conditional_entropy",
+          "reference": 0.40006644665441543
+        },
+        {
+          "absolute_difference": 5.551115123125783e-17,
+          "accepted": true,
+          "kind": "float",
+          "observed": 0.22503666661008703,
+          "path": "$.general_encoder_check.records[9].purified_input_coherent_information",
+          "reference": 0.22503666661008698
+        },
+        {
+          "absolute_difference": 8.326672684688674e-17,
+          "accepted": true,
+          "kind": "float",
+          "observed": -0.12737228264821174,
+          "path": "$.general_encoder_check.records[10].actual_message_coherent_information",
+          "reference": -0.12737228264821165
+        },
+        {
+          "absolute_difference": 1.1102230246251565e-16,
+          "accepted": true,
+          "kind": "float",
+          "observed": 0.26986505668910155,
+          "path": "$.general_encoder_check.records[10].purified_input_coherent_information",
+          "reference": 0.26986505668910166
+        },
+        {
+          "absolute_difference": 8.326672684688674e-16,
+          "accepted": true,
+          "kind": "float",
+          "observed": -0.2606227495278795,
+          "path": "$.general_encoder_check.records[11].actual_message_coherent_information",
+          "reference": -0.26062274952788034
+        },
+        {
+          "absolute_difference": 7.771561172376096e-16,
+          "accepted": true,
+          "kind": "float",
+          "observed": 0.514015238380545,
+          "path": "$.general_encoder_check.records[11].ancilla_conditional_entropy",
+          "reference": 0.5140152383805457
+        },
+        {
+          "absolute_difference": 1.1102230246251565e-16,
+          "accepted": true,
+          "kind": "float",
+          "observed": 0.2533924888526655,
+          "path": "$.general_encoder_check.records[11].purified_input_coherent_information",
+          "reference": 0.2533924888526654
+        },
+        {
+          "absolute_difference": 4.440892098500626e-16,
+          "accepted": true,
+          "kind": "float",
+          "observed": 0.125407886648484,
+          "path": "$.refined_helper_channel.checks[0].coherent_information",
+          "reference": 0.12540788664848357
+        },
+        {
+          "absolute_difference": 3.335099670541013e-18,
+          "accepted": true,
+          "kind": "float",
+          "observed": 1.7773025581678613e-17,
+          "path": "$.refined_helper_channel.checks[0].complementary_simulation_error",
+          "reference": 1.44379259111376e-17
+        },
+        {
+          "absolute_difference": 4.440892098500626e-16,
+          "accepted": true,
+          "kind": "float",
+          "observed": 0.029798152063933436,
+          "path": "$.refined_helper_channel.checks[1].coherent_information",
+          "reference": 0.029798152063932992
+        },
+        {
+          "absolute_difference": 1.8725168159934107e-18,
+          "accepted": true,
+          "kind": "float",
+          "observed": 6.560829850638021e-17,
+          "path": "$.refined_helper_channel.checks[1].complementary_simulation_error",
+          "reference": 6.37357816903868e-17
+        },
+        {
+          "absolute_difference": 3.552713678800501e-15,
+          "accepted": true,
+          "kind": "float",
+          "observed": 0.14220209247059934,
+          "path": "$.refined_helper_channel.checks[3].coherent_information",
+          "reference": 0.1422020924705958
+        },
+        {
+          "absolute_difference": 2.220446049250313e-16,
+          "accepted": true,
+          "kind": "float",
+          "observed": 0.3377806094857859,
+          "path": "$.three_nonnegative_penalties.records[0].coherent_information",
+          "reference": 0.33778060948578614
+        },
+        {
+          "absolute_difference": 2.220446049250313e-16,
+          "accepted": true,
+          "kind": "float",
+          "observed": 0.08940655712045886,
+          "path": "$.three_nonnegative_penalties.records[0].measurement_penalty",
+          "reference": 0.08940655712045864
+        },
+        {
+          "absolute_difference": 2.220446049250313e-16,
+          "accepted": true,
+          "kind": "float",
+          "observed": 0.22894480017668384,
+          "path": "$.three_nonnegative_penalties.records[0].rate_gap",
+          "reference": 0.22894480017668362
+        },
+        {
+          "absolute_difference": 1.1102230246251565e-16,
+          "accepted": true,
+          "kind": "float",
+          "observed": 0.2238509521004972,
+          "path": "$.three_nonnegative_penalties.records[1].coherent_information",
+          "reference": 0.2238509521004971
+        },
+        {
+          "absolute_difference": 1.1102230246251565e-16,
+          "accepted": true,
+          "kind": "float",
+          "observed": 0.20333621450574757,
+          "path": "$.three_nonnegative_penalties.records[1].measurement_penalty",
+          "reference": 0.20333621450574768
+        },
+        {
+          "absolute_difference": 1.1102230246251565e-16,
+          "accepted": true,
+          "kind": "float",
+          "observed": 0.34287445756197255,
+          "path": "$.three_nonnegative_penalties.records[1].rate_gap",
+          "reference": 0.34287445756197266
+        },
+        {
+          "absolute_difference": 4.440892098500626e-16,
+          "accepted": true,
+          "kind": "float",
+          "observed": 0.5538401434751483,
+          "path": "$.three_nonnegative_penalties.records[3].coherent_information",
+          "reference": 0.5538401434751488
+        },
+        {
+          "absolute_difference": 4.440892098500626e-16,
+          "accepted": true,
+          "kind": "float",
+          "observed": 0.11967013581266284,
+          "path": "$.three_nonnegative_penalties.records[3].measurement_penalty",
+          "reference": 0.11967013581266239
+        },
+        {
+          "absolute_difference": 4.440892098500626e-16,
+          "accepted": true,
+          "kind": "float",
+          "observed": 0.5334780001818376,
+          "path": "$.three_nonnegative_penalties.records[3].rate_gap",
+          "reference": 0.5334780001818371
+        },
+        {
+          "absolute_difference": 2.220446049250313e-16,
+          "accepted": true,
+          "kind": "float",
+          "observed": 0.5352530234717598,
+          "path": "$.three_nonnegative_penalties.records[5].coherent_information",
+          "reference": 0.5352530234717596
+        },
+        {
+          "absolute_difference": 2.220446049250313e-16,
+          "accepted": true,
+          "kind": "float",
+          "observed": 0.1382572558160513,
+          "path": "$.three_nonnegative_penalties.records[5].measurement_penalty",
+          "reference": 0.13825725581605153
+        },
+        {
+          "absolute_difference": 2.220446049250313e-16,
+          "accepted": true,
+          "kind": "float",
+          "observed": 0.552065120185226,
+          "path": "$.three_nonnegative_penalties.records[5].rate_gap",
+          "reference": 0.5520651201852262
+        },
+        {
+          "absolute_difference": 1.1102230246251565e-16,
+          "accepted": true,
+          "kind": "float",
+          "observed": 0.7959981710713747,
+          "path": "$.three_nonnegative_penalties.records[6].coherent_information",
+          "reference": 0.7959981710713746
+        },
+        {
+          "absolute_difference": 1.1102230246251565e-16,
+          "accepted": true,
+          "kind": "float",
+          "observed": 0.3224881808315468,
+          "path": "$.three_nonnegative_penalties.records[6].measurement_penalty",
+          "reference": 0.3224881808315467
+        },
+        {
+          "absolute_difference": 2.220446049250313e-16,
+          "accepted": true,
+          "kind": "float",
+          "observed": 0.04376514205793226,
+          "path": "$.three_nonnegative_penalties.records[6].nonthermal_penalty",
+          "reference": 0.043765142057932485
+        },
+        {
+          "absolute_difference": 1.1102230246251565e-16,
+          "accepted": true,
+          "kind": "float",
+          "observed": 0.6049183880587158,
+          "path": "$.three_nonnegative_penalties.records[6].rate_gap",
+          "reference": 0.6049183880587159
+        },
+        {
+          "absolute_difference": 2.7755575615628914e-16,
+          "accepted": true,
+          "kind": "float",
+          "observed": 0.44753281993549304,
+          "path": "$.three_nonnegative_penalties.records[7].coherent_information",
+          "reference": 0.4475328199354933
+        },
+        {
+          "absolute_difference": 5.551115123125783e-16,
+          "accepted": true,
+          "kind": "float",
+          "observed": 0.6709535319674284,
+          "path": "$.three_nonnegative_penalties.records[7].measurement_penalty",
+          "reference": 0.6709535319674278
+        },
+        {
+          "absolute_difference": 2.220446049250313e-16,
+          "accepted": true,
+          "kind": "float",
+          "observed": 0.04376514205793226,
+          "path": "$.three_nonnegative_penalties.records[7].nonthermal_penalty",
+          "reference": 0.043765142057932485
+        },
+        {
+          "absolute_difference": 2.220446049250313e-16,
+          "accepted": true,
+          "kind": "float",
+          "observed": 0.9533837391945974,
+          "path": "$.three_nonnegative_penalties.records[7].rate_gap",
+          "reference": 0.9533837391945972
+        },
+        {
+          "absolute_difference": 2.220446049250313e-16,
+          "accepted": true,
+          "kind": "float",
+          "observed": 0.297135512008989,
+          "path": "$.three_nonnegative_penalties.records[8].measurement_penalty",
+          "reference": 0.2971355120089888
+        },
+        {
+          "absolute_difference": 2.220446049250313e-16,
+          "accepted": true,
+          "kind": "float",
+          "observed": 0.04376514205793226,
+          "path": "$.three_nonnegative_penalties.records[8].nonthermal_penalty",
+          "reference": 0.043765142057932485
+        }
+      ],
+      "numerical_agreement": true,
+      "observed_sha256": "16cd1e9b5d4ddec1ed139a3741e72adbd6ffb460c7f53e4b59f677891f0d5083",
+      "reference_sha256": "d4c3956435b43d9e02fc790673786c1923f7fca1955b723f1ce0326516173b6d"
+    },
+    "optical": {
+      "byte_identical": false,
+      "differences": [
+        {
+          "absolute_difference": 2.220446049250313e-16,
+          "accepted": true,
+          "kind": "float",
+          "observed": 1.5908986134596999,
+          "path": "$.arbitrary_input_entropy_bound.records[0].mean_per_mode",
+          "reference": 1.5908986134597
+        },
+        {
+          "absolute_difference": 2.220446049250313e-16,
+          "accepted": true,
+          "kind": "float",
+          "observed": 0.04366849186374688,
+          "path": "$.arbitrary_input_entropy_bound.records[0].relative_entropy_gap",
+          "reference": 0.04366849186374666
+        },
+        {
+          "absolute_difference": 2.220446049250313e-16,
+          "accepted": true,
+          "kind": "float",
+          "observed": 0.47767596678065327,
+          "path": "$.arbitrary_input_entropy_bound.records[0].upper_bound",
+          "reference": 0.4776759667806535
+        },
+        {
+          "absolute_difference": 2.220446049250313e-16,
+          "accepted": true,
+          "kind": "float",
+          "observed": 0.5837567629862643,
+          "path": "$.arbitrary_input_entropy_bound.records[1].entropy_difference",
+          "reference": 0.5837567629862641
+        },
+        {
+          "absolute_difference": 2.220446049250313e-16,
+          "accepted": true,
+          "kind": "float",
+          "observed": 0.5616832361168973,
+          "path": "$.arbitrary_input_entropy_bound.records[1].relative_entropy_gap",
+          "reference": 0.5616832361168975
+        },
+        {
+          "absolute_difference": 4.440892098500626e-16,
+          "accepted": true,
+          "kind": "float",
+          "observed": 1.0565290586250964,
+          "path": "$.arbitrary_input_entropy_bound.records[2].entropy_difference",
+          "reference": 1.056529058625096
+        },
+        {
+          "absolute_difference": 4.440892098500626e-16,
+          "accepted": true,
+          "kind": "float",
+          "observed": 0.0890243589791575,
+          "path": "$.arbitrary_input_entropy_bound.records[2].relative_entropy_gap",
+          "reference": 0.08902435897915795
+        },
+        {
+          "absolute_difference": 2.220446049250313e-16,
+          "accepted": true,
+          "kind": "float",
+          "observed": 0.8565437291414204,
+          "path": "$.arbitrary_input_entropy_bound.records[3].entropy_difference",
+          "reference": 0.8565437291414202
+        },
+        {
+          "absolute_difference": 2.220446049250313e-16,
+          "accepted": true,
+          "kind": "float",
+          "observed": 1.4070597980203519,
+          "path": "$.arbitrary_input_entropy_bound.records[3].mean_per_mode",
+          "reference": 1.407059798020352
+        },
+        {
+          "absolute_difference": 8.881784197001252e-16,
+          "accepted": true,
+          "kind": "float",
+          "observed": 0.037963132422921264,
+          "path": "$.arbitrary_input_entropy_bound.records[3].relative_entropy_gap",
+          "reference": 0.03796313242292215
+        },
+        {
+          "absolute_difference": 8.881784197001252e-16,
+          "accepted": true,
+          "kind": "float",
+          "observed": 1.577532289110837,
+          "path": "$.arbitrary_input_entropy_bound.records[4].entropy_difference",
+          "reference": 1.577532289110836
+        },
+        {
+          "absolute_difference": 8.881784197001252e-16,
+          "accepted": true,
+          "kind": "float",
+          "observed": 0.47583301543701206,
+          "path": "$.arbitrary_input_entropy_bound.records[4].relative_entropy_gap",
+          "reference": 0.47583301543701295
+        },
+        {
+          "absolute_difference": 8.881784197001252e-16,
+          "accepted": true,
+          "kind": "float",
+          "observed": 2.034575218770101,
+          "path": "$.arbitrary_input_entropy_bound.records[5].entropy_difference",
+          "reference": 2.034575218770102
+        },
+        {
+          "absolute_difference": 8.881784197001252e-16,
+          "accepted": true,
+          "kind": "float",
+          "observed": 0.0718189668338578,
+          "path": "$.arbitrary_input_entropy_bound.records[5].relative_entropy_gap",
+          "reference": 0.07181896683385691
+        },
+        {
+          "absolute_difference": 1.1102230246251565e-16,
+          "accepted": true,
+          "kind": "float",
+          "observed": 0.9984128921987547,
+          "path": "$.energy_constrained_achievability.records[0].cutoffs[1].mean_input",
+          "reference": 0.9984128921987546
+        },
+        {
+          "absolute_difference": 1.1102230246251565e-16,
+          "accepted": true,
+          "kind": "float",
+          "observed": 0.9999999999813552,
+          "path": "$.energy_constrained_achievability.records[0].cutoffs[2].mean_input",
+          "reference": 0.9999999999813554
+        },
+        {
+          "absolute_difference": 1.1102230246251565e-16,
+          "accepted": true,
+          "kind": "float",
+          "observed": 0.9999999999999999,
+          "path": "$.energy_constrained_achievability.records[0].cutoffs[3].mean_input",
+          "reference": 1.0
+        },
+        {
+          "absolute_difference": 4.440892098500626e-16,
+          "accepted": true,
+          "kind": "float",
+          "observed": 2.999690757673838,
+          "path": "$.energy_constrained_achievability.records[1].cutoffs[2].mean_input",
+          "reference": 2.9996907576738376
+        },
+        {
+          "absolute_difference": 1.1102230246251565e-16,
+          "accepted": true,
+          "kind": "float",
+          "observed": 0.9984128921987547,
+          "path": "$.energy_constrained_achievability.records[2].cutoffs[1].mean_input",
+          "reference": 0.9984128921987546
+        },
+        {
+          "absolute_difference": 1.1102230246251565e-16,
+          "accepted": true,
+          "kind": "float",
+          "observed": 0.9999999999813552,
+          "path": "$.energy_constrained_achievability.records[2].cutoffs[2].mean_input",
+          "reference": 0.9999999999813554
+        },
+        {
+          "absolute_difference": 1.1102230246251565e-16,
+          "accepted": true,
+          "kind": "float",
+          "observed": 0.9999999999999999,
+          "path": "$.energy_constrained_achievability.records[2].cutoffs[3].mean_input",
+          "reference": 1.0
+        },
+        {
+          "absolute_difference": 1.3877787807814457e-17,
+          "accepted": true,
+          "kind": "float",
+          "observed": 0.1,
+          "path": "$.energy_constrained_achievability.records[3].cutoffs[2].mean_input",
+          "reference": 0.09999999999999999
+        },
+        {
+          "absolute_difference": 1.3877787807814457e-17,
+          "accepted": true,
+          "kind": "float",
+          "observed": 0.1,
+          "path": "$.energy_constrained_achievability.records[3].cutoffs[3].mean_input",
+          "reference": 0.09999999999999999
+        },
+        {
+          "absolute_difference": 3.672255402634699e-18,
+          "accepted": true,
+          "kind": "float",
+          "observed": 7.232498075620309e-17,
+          "path": "$.exact_finite_sectors.records[0].identity_error",
+          "reference": 7.599723615883779e-17
+        },
+        {
+          "absolute_difference": 5.601696074493385e-19,
+          "accepted": true,
+          "kind": "float",
+          "observed": 4.924267465134433e-17,
+          "path": "$.exact_finite_sectors.records[2].identity_error",
+          "reference": 4.9802844258793667e-17
+        },
+        {
+          "absolute_difference": 1.6049553061151118e-17,
+          "accepted": true,
+          "kind": "float",
+          "observed": 1.5202354861220294e-16,
+          "path": "$.hypothesis_countercontrol.rows[1].recovery_error",
+          "reference": 1.3597399555105182e-16
+        },
+        {
+          "absolute_difference": 3.077136527726139e-19,
+          "accepted": true,
+          "kind": "float",
+          "observed": 2.2294160095881264e-16,
+          "path": "$.receiver_only_flag_audit.records[0].branch_simulation_error",
+          "reference": 2.2263388730604003e-16
+        },
+        {
+          "absolute_difference": 1.3877787807814457e-17,
+          "accepted": true,
+          "kind": "float",
+          "observed": 0.09601212281691467,
+          "path": "$.receiver_only_flag_audit.records[0].coherent_information",
+          "reference": 0.09601212281691465
+        },
+        {
+          "absolute_difference": 1.3877787807814457e-17,
+          "accepted": true,
+          "kind": "float",
+          "observed": 0.01622146556152694,
+          "path": "$.receiver_only_flag_audit.records[0].two_cut_slacks[0]",
+          "reference": 0.016221465561526927
+        },
+        {
+          "absolute_difference": 1.6653345369377348e-16,
+          "accepted": true,
+          "kind": "float",
+          "observed": 0.38617258606029775,
+          "path": "$.receiver_only_flag_audit.records[0].two_cut_slacks[1]",
+          "reference": 0.3861725860602979
+        },
+        {
+          "absolute_difference": 3.3914870283854936e-18,
+          "accepted": true,
+          "kind": "float",
+          "observed": 2.247643440543166e-16,
+          "path": "$.receiver_only_flag_audit.records[1].branch_simulation_error",
+          "reference": 2.281558310827021e-16
+        },
+        {
+          "absolute_difference": 2.7755575615628914e-17,
+          "accepted": true,
+          "kind": "float",
+          "observed": 0.21088906441627553,
+          "path": "$.receiver_only_flag_audit.records[1].coherent_information",
+          "reference": 0.2108890644162755
+        },
+        {
+          "absolute_difference": 2.7755575615628914e-17,
+          "accepted": true,
+          "kind": "float",
+          "observed": 0.1126570982510785,
+          "path": "$.receiver_only_flag_audit.records[1].two_cut_slacks[0]",
+          "reference": 0.11265709825107853
+        },
+        {
+          "absolute_difference": 4.440892098500626e-16,
+          "accepted": true,
+          "kind": "float",
+          "observed": 0.729643885663239,
+          "path": "$.receiver_only_flag_audit.records[1].two_cut_slacks[1]",
+          "reference": 0.7296438856632386
+        },
+        {
+          "absolute_difference": 2.0816681711721685e-17,
+          "accepted": true,
+          "kind": "float",
+          "observed": 0.06194640163460469,
+          "path": "$.receiver_only_flag_audit.records[2].coherent_information",
+          "reference": 0.06194640163460467
+        },
+        {
+          "absolute_difference": 2.0816681711721685e-17,
+          "accepted": true,
+          "kind": "float",
+          "observed": 0.05234870808880731,
+          "path": "$.receiver_only_flag_audit.records[2].two_cut_slacks[1]",
+          "reference": 0.05234870808880733
+        },
+        {
+          "absolute_difference": 2.1688008404533086e-18,
+          "accepted": true,
+          "kind": "float",
+          "observed": 2.26585974973197e-16,
+          "path": "$.receiver_only_flag_audit.records[3].branch_simulation_error",
+          "reference": 2.244171741327437e-16
+        },
+        {
+          "absolute_difference": 1.1102230246251565e-16,
+          "accepted": true,
+          "kind": "float",
+          "observed": 0.4778670386734943,
+          "path": "$.receiver_only_flag_audit.records[3].coherent_information",
+          "reference": 0.47786703867349417
+        },
+        {
+          "absolute_difference": 3.3306690738754696e-16,
+          "accepted": true,
+          "kind": "float",
+          "observed": 0.25228748960891517,
+          "path": "$.receiver_only_flag_audit.records[3].two_cut_slacks[0]",
+          "reference": 0.2522874896089155
+        },
+        {
+          "absolute_difference": 3.3306690738754696e-16,
+          "accepted": true,
+          "kind": "float",
+          "observed": 0.4759216991264173,
+          "path": "$.receiver_only_flag_audit.records[3].two_cut_slacks[1]",
+          "reference": 0.47592169912641696
+        },
+        {
+          "absolute_difference": 1.1102230246251565e-16,
+          "accepted": true,
+          "kind": "float",
+          "observed": 2.220446049250313e-16,
+          "path": "$.receiver_only_flag_audit.records[4].branch_simulation_error",
+          "reference": 1.1102230246251565e-16
+        },
+        {
+          "absolute_difference": 1.1102230246251565e-16,
+          "accepted": true,
+          "kind": "float",
+          "observed": 0.15033438705573476,
+          "path": "$.receiver_only_flag_audit.records[4].coherent_information",
+          "reference": 0.15033438705573487
+        },
+        {
+          "absolute_difference": 1.1102230246251565e-16,
+          "accepted": true,
+          "kind": "float",
+          "observed": 0.03852701722389426,
+          "path": "$.receiver_only_flag_audit.records[4].two_cut_slacks[0]",
+          "reference": 0.03852701722389415
+        },
+        {
+          "absolute_difference": 2.7755575615628914e-16,
+          "accepted": true,
+          "kind": "float",
+          "observed": 0.3444459483707159,
+          "path": "$.receiver_only_flag_audit.records[4].two_cut_slacks[1]",
+          "reference": 0.3444459483707162
+        },
+        {
+          "absolute_difference": 2.220446049250313e-16,
+          "accepted": true,
+          "kind": "float",
+          "observed": 0.5581273722651943,
+          "path": "$.receiver_only_flag_audit.records[5].coherent_information",
+          "reference": 0.558127372265194
+        },
+        {
+          "absolute_difference": 2.220446049250313e-16,
+          "accepted": true,
+          "kind": "float",
+          "observed": 0.9340086743702767,
+          "path": "$.receiver_only_flag_audit.records[5].two_cut_slacks[1]",
+          "reference": 0.9340086743702769
+        },
+        {
+          "absolute_difference": 1.1150923931644345e-16,
+          "accepted": true,
+          "kind": "float",
+          "observed": 1.1150923931644345e-16,
+          "path": "$.receiver_only_flag_audit.records[7].branch_simulation_error",
+          "reference": 0.0
+        },
+        {
+          "absolute_difference": 3.16545460493993e-17,
+          "accepted": true,
+          "kind": "float",
+          "observed": 3.16545460493993e-17,
+          "path": "$.receiver_only_flag_audit.records[7].coherent_information",
+          "reference": 0.0
+        },
+        {
+          "absolute_difference": 3.16545460493993e-17,
+          "accepted": true,
+          "kind": "float",
+          "observed": -3.16545460493993e-17,
+          "path": "$.receiver_only_flag_audit.records[7].two_cut_slacks[0]",
+          "reference": 0.0
+        },
+        {
+          "absolute_difference": 2.275957200481571e-15,
+          "accepted": true,
+          "kind": "float",
+          "observed": 0.46016172857501897,
+          "path": "$.receiver_only_flag_audit.records[7].two_cut_slacks[1]",
+          "reference": 0.46016172857502124
+        }
+      ],
+      "numerical_agreement": true,
+      "observed_sha256": "77c1f3249d4a36d71e7b032c2e3b4f8868444c5ab0376bf34c97017fc062e603",
+      "reference_sha256": "b754c88bc7353ff41dfe3946c5e395f9186abe995081266ea3f060ebc88d9c1e"
+    },
+    "qubit": {
+      "byte_identical": false,
+      "differences": [
+        {
+          "absolute_difference": 1.6653345369377348e-16,
+          "accepted": true,
+          "kind": "float",
+          "observed": 0.07106607985080265,
+          "path": "$.collective_helper_entropy_bound[0].classical_record_penalty",
+          "reference": 0.07106607985080249
+        },
+        {
+          "absolute_difference": 2.7755575615628914e-17,
+          "accepted": true,
+          "kind": "float",
+          "observed": 0.14870916063698353,
+          "path": "$.collective_helper_entropy_bound[0].coherent_information",
+          "reference": 0.1487091606369835
+        },
+        {
+          "absolute_difference": 1.942890293094024e-16,
+          "accepted": true,
+          "kind": "float",
+          "observed": 0.2197752404877862,
+          "path": "$.collective_helper_entropy_bound[0].entropy_difference",
+          "reference": 0.21977524048778602
+        },
+        {
+          "absolute_difference": 1.6653345369377348e-16,
+          "accepted": true,
+          "kind": "float",
+          "observed": 0.19459059034976212,
+          "path": "$.collective_helper_entropy_bound[1].classical_record_penalty",
+          "reference": 0.19459059034976195
+        },
+        {
+          "absolute_difference": 2.220446049250313e-16,
+          "accepted": true,
+          "kind": "float",
+          "observed": 0.23883804942375447,
+          "path": "$.collective_helper_entropy_bound[1].coherent_information",
+          "reference": 0.2388380494237547
+        },
+        {
+          "absolute_difference": 2.220446049250313e-16,
+          "accepted": true,
+          "kind": "float",
+          "observed": 0.8609448969023424,
+          "path": "$.collective_helper_entropy_bound[1].second_cut",
+          "reference": 0.8609448969023427
+        },
+        {
+          "absolute_difference": 9.71445146547012e-17,
+          "accepted": true,
+          "kind": "float",
+          "observed": 0.0416644587797029,
+          "path": "$.collective_helper_entropy_bound[2].classical_record_penalty",
+          "reference": 0.041664458779703
+        },
+        {
+          "absolute_difference": 1.1102230246251565e-16,
+          "accepted": true,
+          "kind": "float",
+          "observed": 0.2717427884217173,
+          "path": "$.collective_helper_entropy_bound[2].coherent_information",
+          "reference": 0.2717427884217172
+        },
+        {
+          "absolute_difference": 1.6653345369377348e-15,
+          "accepted": true,
+          "kind": "float",
+          "observed": 0.39314260405768064,
+          "path": "$.collective_helper_entropy_bound[2].second_cut",
+          "reference": 0.393142604057679
+        },
+        {
+          "absolute_difference": 1.1102230246251565e-16,
+          "accepted": true,
+          "kind": "float",
+          "observed": 0.12760874118529691,
+          "path": "$.collective_helper_entropy_bound[3].classical_record_penalty",
+          "reference": 0.1276087411852968
+        },
+        {
+          "absolute_difference": 1.1102230246251565e-16,
+          "accepted": true,
+          "kind": "float",
+          "observed": 0.6875016758475566,
+          "path": "$.collective_helper_entropy_bound[3].coherent_information",
+          "reference": 0.6875016758475567
+        },
+        {
+          "absolute_difference": 8.881784197001252e-16,
+          "accepted": true,
+          "kind": "float",
+          "observed": 0.932224678093529,
+          "path": "$.collective_helper_entropy_bound[3].second_cut",
+          "reference": 0.9322246780935282
+        },
+        {
+          "absolute_difference": 5.551115123125783e-17,
+          "accepted": true,
+          "kind": "float",
+          "observed": 0.2616601211265903,
+          "path": "$.collective_helper_entropy_bound[4].classical_record_penalty",
+          "reference": 0.26166012112659026
+        },
+        {
+          "absolute_difference": 2.7755575615628914e-17,
+          "accepted": true,
+          "kind": "float",
+          "observed": 0.22942116143258387,
+          "path": "$.collective_helper_entropy_bound[4].coherent_information",
+          "reference": 0.2294211614325839
+        },
+        {
+          "absolute_difference": 1.1102230246251565e-16,
+          "accepted": true,
+          "kind": "float",
+          "observed": 0.6924432036896964,
+          "path": "$.collective_helper_entropy_bound[4].second_cut",
+          "reference": 0.6924432036896965
+        },
+        {
+          "absolute_difference": 1.942890293094024e-16,
+          "accepted": true,
+          "kind": "float",
+          "observed": 0.2277900117316547,
+          "path": "$.collective_helper_entropy_bound[5].classical_record_penalty",
+          "reference": 0.2277900117316549
+        },
+        {
+          "absolute_difference": 1.1102230246251565e-16,
+          "accepted": true,
+          "kind": "float",
+          "observed": 0.5199237371461405,
+          "path": "$.collective_helper_entropy_bound[5].coherent_information",
+          "reference": 0.5199237371461404
+        },
+        {
+          "absolute_difference": 2.220446049250313e-16,
+          "accepted": true,
+          "kind": "float",
+          "observed": 1.2985265816210112,
+          "path": "$.collective_helper_entropy_bound[5].second_cut",
+          "reference": 1.298526581621011
+        },
+        {
+          "absolute_difference": 2.8366222607627663e-18,
+          "accepted": true,
+          "kind": "float",
+          "observed": -2.8366222607627663e-18,
+          "path": "$.collective_helper_entropy_bound[7].coherent_information",
+          "reference": 0.0
+        },
+        {
+          "absolute_difference": 1.9984014443252818e-15,
+          "accepted": true,
+          "kind": "float",
+          "observed": 0.24047063731644736,
+          "path": "$.collective_helper_entropy_bound[7].second_cut",
+          "reference": 0.24047063731644935
+        },
+        {
+          "absolute_difference": 2.220446049250313e-16,
+          "accepted": true,
+          "kind": "float",
+          "observed": 1.5,
+          "path": "$.finite_message_ceiling.rows[0].projector_sum_norm",
+          "reference": 1.4999999999999998
+        },
+        {
+          "absolute_difference": 4.440892098500626e-16,
+          "accepted": true,
+          "kind": "float",
+          "observed": 1.2500000000000004,
+          "path": "$.finite_message_ceiling.rows[2].projector_sum_norm",
+          "reference": 1.25
+        },
+        {
+          "absolute_difference": 6.661338147750939e-16,
+          "accepted": true,
+          "kind": "float",
+          "observed": 1.166666666666667,
+          "path": "$.finite_message_ceiling.rows[3].projector_sum_norm",
+          "reference": 1.1666666666666676
+        }
+      ],
+      "numerical_agreement": true,
+      "observed_sha256": "e3697337ce4d435fe901e68bce812a3e48a731e95b50beb6190ac01acf22eaa3",
+      "reference_sha256": "8752f3f0c055e3d492e3490a457b5df5e22def833dc7d7993c46f0b9c5006df8"
+    },
+    "threshold": {
+      "byte_identical": false,
+      "differences": [
+        {
+          "absolute_difference": 4.329420845853068e-19,
+          "accepted": true,
+          "kind": "float",
+          "observed": 2.222613395836815e-16,
+          "path": "$.degradability.maximum_error",
+          "reference": 2.226942816682668e-16
+        },
+        {
+          "absolute_difference": 6.819031653135558e-18,
+          "accepted": true,
+          "kind": "float",
+          "observed": 3.917631442010773e-17,
+          "path": "$.universal_monitoring_converse.rows[0].measurement_branch_error",
+          "reference": 4.599534607324329e-17
+        },
+        {
+          "absolute_difference": 5.0614213278619325e-18,
+          "accepted": true,
+          "kind": "float",
+          "observed": 1.8935742917045007e-17,
+          "path": "$.universal_monitoring_converse.rows[1].measurement_branch_error",
+          "reference": 2.399716424490694e-17
+        },
+        {
+          "absolute_difference": 9.56511563860576e-19,
+          "accepted": true,
+          "kind": "float",
+          "observed": 1.562492954176506e-17,
+          "path": "$.universal_monitoring_converse.rows[5].measurement_branch_error",
+          "reference": 1.4668417977904485e-17
+        }
+      ],
+      "numerical_agreement": true,
+      "observed_sha256": "fae05971c16338aedfbaef8d934d26c504d84b8e64dc7cff9255e68565fc46d7",
+      "reference_sha256": "fa63c1dbd11b206dbe27ef15453ddabe3ed1a508c45bcf7c44eeb402e6043037"
+    }
+  },
+  "hosted_observations_and_comparison_profiles_identical_across_runs": true,
+  "hosted_runs": [
+    {
+      "artifact_id": 11465223267,
+      "artifact_sha256": "a7901d480e04e4f068e92a9c5d15ff16e5106cda318808b614d8b94bba0f8ffd",
+      "environment": {
+        "blas_threads": 1,
+        "dependencies": {
+          "mpmath": "1.3.0",
+          "numpy": "2.3.5",
+          "scipy": "1.17.0",
+          "sympy": "1.14.0"
+        },
+        "platform": "linux",
+        "python": "3.13.5 (main, Jun 12 2025, 03:51:07) [GCC 13.3.0]",
+        "started_utc": "2026-10-07T06:58:09.629711+00:00"
+      },
+      "execution_logs": {
+        "consolidation": "test_actual_flagged_channel_and_complement_degrade (__main__.Checks.test_actual_flagged_channel_and_complement_degrade) ... ok\ntest_discarded_encoder_ancilla_does_not_raise_the_converse (__main__.Checks.test_discarded_encoder_ancilla_does_not_raise_the_converse) ... ok\ntest_qubit_formula_has_one_root_or_one_entropy_crossover (__main__.Checks.test_qubit_formula_has_one_root_or_one_entropy_crossover) ... ok\ntest_rate_gap_decomposes_without_omitting_a_hidden_environment (__main__.Checks.test_rate_gap_decomposes_without_omitting_a_hidden_environment) ... ok\n\n----------------------------------------------------------------------\nRan 4 tests in 0.172s\n\nOK\n",
+        "optical": "test_energy_law_limits_and_resource_comparators (__main__.Checks.test_energy_law_limits_and_resource_comparators) ... ok\ntest_flagged_receiver_channel_and_two_converse_cuts (__main__.Checks.test_flagged_receiver_channel_and_two_converse_cuts) ... ok\ntest_marginal_degradation_is_insufficient (__main__.Checks.test_marginal_degradation_is_insufficient) ... ok\ntest_passive_fock_identity_and_conditioning (__main__.Checks.test_passive_fock_identity_and_conditioning) ... ok\ntest_thermal_cutoff_achievability_with_charged_energy (__main__.Checks.test_thermal_cutoff_achievability_with_charged_energy) ... ok\ntest_thermal_extremality_for_nongaussian_entangled_inputs (__main__.Checks.test_thermal_extremality_for_nongaussian_entangled_inputs) ... ok\n\n----------------------------------------------------------------------\nRan 6 tests in 0.315s\n\nOK\n",
+        "qubit": "test_bosonic_vacuum_extension_all_fock_coherences (__main__.Checks.test_bosonic_vacuum_extension_all_fock_coherences) ... ok\ntest_concavity_and_phase_twirl_for_entropy_bound (__main__.Checks.test_concavity_and_phase_twirl_for_entropy_bound) ... ok\ntest_counted_achievability_under_arbitrary_positive_energy_budget (__main__.Checks.test_counted_achievability_under_arbitrary_positive_energy_budget) ... ok\ntest_exact_capacity_limits_and_threshold_slopes (__main__.Checks.test_exact_capacity_limits_and_threshold_slopes) ... ok\ntest_message_fidelity_operator_bound (__main__.Checks.test_message_fidelity_operator_bound) ... ok\ntest_reverse_simulation_and_classical_information_penalty (__main__.Checks.test_reverse_simulation_and_classical_information_penalty) ... ok\ntest_two_cut_entropy_formula_and_corrected_partial_rate (__main__.Checks.test_two_cut_entropy_formula_and_corrected_partial_rate) ... ok\n\n----------------------------------------------------------------------\nRan 7 tests in 0.605s\n\nOK\n",
+        "threshold": "test_capacity_formula_and_phase_twirl (__main__.MonitoringChecks.test_capacity_formula_and_phase_twirl) ... ok\ntest_degradability_and_antidegradability (__main__.MonitoringChecks.test_degradability_and_antidegradability) ... ok\ntest_flagged_channel_and_complement_exact (__main__.MonitoringChecks.test_flagged_channel_and_complement_exact) ... ok\ntest_lifetime_boundary_and_click_information_not_global_optimum (__main__.MonitoringChecks.test_lifetime_boundary_and_click_information_not_global_optimum) ... ok\ntest_quantum_access_control_and_residual_entanglement (__main__.MonitoringChecks.test_quantum_access_control_and_residual_entanglement) ... ok\ntest_register_preserving_converse_before_any_measurement (__main__.MonitoringChecks.test_register_preserving_converse_before_any_measurement) ... ok\n\n----------------------------------------------------------------------\nRan 6 tests in 0.080s\n\nOK\n"
+      },
+      "kind": "pull_request",
+      "report": {
+        "after": {
+          "active_links_checked": 35,
+          "broken_links": [],
+          "forbidden_files": [],
+          "imports": {
+            "failures": [],
+            "protected_files": 70,
+            "status": "PASS"
+          },
+          "separate_pilot_files": [],
+          "status": "PASS"
+        },
+        "all_reports_byte_identical": false,
+        "before": {
+          "active_links_checked": 35,
+          "broken_links": [],
+          "forbidden_files": [],
+          "imports": {
+            "failures": [],
+            "protected_files": 70,
+            "status": "PASS"
+          },
+          "separate_pilot_files": [],
+          "status": "PASS"
+        },
+        "commit": "f8fd17de13160a0ca5c9a81ef3aa51a0a8674bd6",
+        "comparison_policy": {
+          "absolute_tolerance": 2e-11,
+          "nonfinite": "reject",
+          "other_fields": "exact type, value, and structure",
+          "relative_tolerance": 1e-09
+        },
+        "expected_scientific_groups": 23,
+        "index_tree": "4ca9e3b55b286ebd65fa20fbf7fe180ec776e14c",
+        "repository": "GoGoKo699/Partial-Monitoring-Capacity",
+        "runs": [
+          {
+            "assertions_passed": true,
+            "byte_identical": false,
+            "difference_count": 4,
+            "exit_code": 0,
+            "expected_groups": 6,
+            "name": "threshold",
+            "numerical_agreement": true,
+            "observed_groups": 6,
+            "seconds": 1.1570902400000023
+          },
+          {
+            "assertions_passed": true,
+            "byte_identical": false,
+            "difference_count": 23,
+            "exit_code": 0,
+            "expected_groups": 7,
+            "name": "qubit",
+            "numerical_agreement": true,
+            "observed_groups": 7,
+            "seconds": 1.7074180689999992
+          },
+          {
+            "assertions_passed": true,
+            "byte_identical": false,
+            "difference_count": 50,
+            "exit_code": 0,
+            "expected_groups": 6,
+            "name": "optical",
+            "numerical_agreement": true,
+            "observed_groups": 6,
+            "seconds": 1.809402990999999
+          },
+          {
+            "assertions_passed": true,
+            "byte_identical": false,
+            "difference_count": 59,
+            "exit_code": 0,
+            "expected_groups": 4,
+            "name": "consolidation",
+            "numerical_agreement": true,
+            "observed_groups": 4,
+            "seconds": 1.6854374490000055
+          }
+        ],
+        "source_files": 94,
+        "source_unchanged": true,
+        "status": "PASS"
+      },
+      "run_id": 37584432025,
+      "source_hashes_match_reviewed_tree": true,
+      "url": "https://github.com/GoGoKo699/Partial-Monitoring-Capacity/actions/runs/37584432025"
+    },
+    {
+      "artifact_id": 11466291995,
+      "artifact_sha256": "fdaa41124c9e80852807a5410c01142ac842ed417524a83810775e7ff3af639d",
+      "environment": {
+        "blas_threads": 1,
+        "dependencies": {
+          "mpmath": "1.3.0",
+          "numpy": "2.3.5",
+          "scipy": "1.17.0",
+          "sympy": "1.14.0"
+        },
+        "platform": "linux",
+        "python": "3.13.5 (main, Jun 12 2025, 03:51:07) [GCC 13.3.0]",
+        "started_utc": "2026-10-07T07:00:43.174030+00:00"
+      },
+      "execution_logs": {
+        "consolidation": "test_actual_flagged_channel_and_complement_degrade (__main__.Checks.test_actual_flagged_channel_and_complement_degrade) ... ok\ntest_discarded_encoder_ancilla_does_not_raise_the_converse (__main__.Checks.test_discarded_encoder_ancilla_does_not_raise_the_converse) ... ok\ntest_qubit_formula_has_one_root_or_one_entropy_crossover (__main__.Checks.test_qubit_formula_has_one_root_or_one_entropy_crossover) ... ok\ntest_rate_gap_decomposes_without_omitting_a_hidden_environment (__main__.Checks.test_rate_gap_decomposes_without_omitting_a_hidden_environment) ... ok\n\n----------------------------------------------------------------------\nRan 4 tests in 0.172s\n\nOK\n",
+        "optical": "test_energy_law_limits_and_resource_comparators (__main__.Checks.test_energy_law_limits_and_resource_comparators) ... ok\ntest_flagged_receiver_channel_and_two_converse_cuts (__main__.Checks.test_flagged_receiver_channel_and_two_converse_cuts) ... ok\ntest_marginal_degradation_is_insufficient (__main__.Checks.test_marginal_degradation_is_insufficient) ... ok\ntest_passive_fock_identity_and_conditioning (__main__.Checks.test_passive_fock_identity_and_conditioning) ... ok\ntest_thermal_cutoff_achievability_with_charged_energy (__main__.Checks.test_thermal_cutoff_achievability_with_charged_energy) ... ok\ntest_thermal_extremality_for_nongaussian_entangled_inputs (__main__.Checks.test_thermal_extremality_for_nongaussian_entangled_inputs) ... ok\n\n----------------------------------------------------------------------\nRan 6 tests in 0.299s\n\nOK\n",
+        "qubit": "test_bosonic_vacuum_extension_all_fock_coherences (__main__.Checks.test_bosonic_vacuum_extension_all_fock_coherences) ... ok\ntest_concavity_and_phase_twirl_for_entropy_bound (__main__.Checks.test_concavity_and_phase_twirl_for_entropy_bound) ... ok\ntest_counted_achievability_under_arbitrary_positive_energy_budget (__main__.Checks.test_counted_achievability_under_arbitrary_positive_energy_budget) ... ok\ntest_exact_capacity_limits_and_threshold_slopes (__main__.Checks.test_exact_capacity_limits_and_threshold_slopes) ... ok\ntest_message_fidelity_operator_bound (__main__.Checks.test_message_fidelity_operator_bound) ... ok\ntest_reverse_simulation_and_classical_information_penalty (__main__.Checks.test_reverse_simulation_and_classical_information_penalty) ... ok\ntest_two_cut_entropy_formula_and_corrected_partial_rate (__main__.Checks.test_two_cut_entropy_formula_and_corrected_partial_rate) ... ok\n\n----------------------------------------------------------------------\nRan 7 tests in 0.600s\n\nOK\n",
+        "threshold": "test_capacity_formula_and_phase_twirl (__main__.MonitoringChecks.test_capacity_formula_and_phase_twirl) ... ok\ntest_degradability_and_antidegradability (__main__.MonitoringChecks.test_degradability_and_antidegradability) ... ok\ntest_flagged_channel_and_complement_exact (__main__.MonitoringChecks.test_flagged_channel_and_complement_exact) ... ok\ntest_lifetime_boundary_and_click_information_not_global_optimum (__main__.MonitoringChecks.test_lifetime_boundary_and_click_information_not_global_optimum) ... ok\ntest_quantum_access_control_and_residual_entanglement (__main__.MonitoringChecks.test_quantum_access_control_and_residual_entanglement) ... ok\ntest_register_preserving_converse_before_any_measurement (__main__.MonitoringChecks.test_register_preserving_converse_before_any_measurement) ... ok\n\n----------------------------------------------------------------------\nRan 6 tests in 0.081s\n\nOK\n"
+      },
+      "kind": "merged_main_push",
+      "report": {
+        "after": {
+          "active_links_checked": 35,
+          "broken_links": [],
+          "forbidden_files": [],
+          "imports": {
+            "failures": [],
+            "protected_files": 70,
+            "status": "PASS"
+          },
+          "separate_pilot_files": [],
+          "status": "PASS"
+        },
+        "all_reports_byte_identical": false,
+        "before": {
+          "active_links_checked": 35,
+          "broken_links": [],
+          "forbidden_files": [],
+          "imports": {
+            "failures": [],
+            "protected_files": 70,
+            "status": "PASS"
+          },
+          "separate_pilot_files": [],
+          "status": "PASS"
+        },
+        "commit": "a9d953cd95410fc6add5c047e89133c8b7369ff8",
+        "comparison_policy": {
+          "absolute_tolerance": 2e-11,
+          "nonfinite": "reject",
+          "other_fields": "exact type, value, and structure",
+          "relative_tolerance": 1e-09
+        },
+        "expected_scientific_groups": 23,
+        "index_tree": "4ca9e3b55b286ebd65fa20fbf7fe180ec776e14c",
+        "repository": "GoGoKo699/Partial-Monitoring-Capacity",
+        "runs": [
+          {
+            "assertions_passed": true,
+            "byte_identical": false,
+            "difference_count": 4,
+            "exit_code": 0,
+            "expected_groups": 6,
+            "name": "threshold",
+            "numerical_agreement": true,
+            "observed_groups": 6,
+            "seconds": 1.2064284
+          },
+          {
+            "assertions_passed": true,
+            "byte_identical": false,
+            "difference_count": 23,
+            "exit_code": 0,
+            "expected_groups": 7,
+            "name": "qubit",
+            "numerical_agreement": true,
+            "observed_groups": 7,
+            "seconds": 1.683359920000001
+          },
+          {
+            "assertions_passed": true,
+            "byte_identical": false,
+            "difference_count": 50,
+            "exit_code": 0,
+            "expected_groups": 6,
+            "name": "optical",
+            "numerical_agreement": true,
+            "observed_groups": 6,
+            "seconds": 1.7721379799999966
+          },
+          {
+            "assertions_passed": true,
+            "byte_identical": false,
+            "difference_count": 59,
+            "exit_code": 0,
+            "expected_groups": 4,
+            "name": "consolidation",
+            "numerical_agreement": true,
+            "observed_groups": 4,
+            "seconds": 1.636779752999999
+          }
+        ],
+        "source_files": 94,
+        "source_unchanged": true,
+        "status": "PASS"
+      },
+      "run_id": 37584672815,
+      "source_hashes_match_reviewed_tree": true,
+      "url": "https://github.com/GoGoKo699/Partial-Monitoring-Capacity/actions/runs/37584672815"
+    }
+  ],
+  "local_runs": [
+    {
+      "directory_at_time_of_run": "local-evidence-workspace-001",
+      "environment": {
+        "blas_threads": 1,
+        "dependencies": {
+          "mpmath": "1.3.0",
+          "numpy": "2.3.5",
+          "scipy": "1.17.0",
+          "sympy": "1.14.0"
+        },
+        "platform": "linux",
+        "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+        "started_utc": "2026-10-07T06:55:25.641269+00:00"
+      },
+      "report": {
+        "after": {
+          "active_links_checked": 35,
+          "broken_links": [],
+          "forbidden_files": [],
+          "imports": {
+            "failures": [],
+            "protected_files": 70,
+            "status": "PASS"
+          },
+          "separate_pilot_files": [],
+          "status": "PASS"
+        },
+        "all_reports_byte_identical": true,
+        "before": {
+          "active_links_checked": 35,
+          "broken_links": [],
+          "forbidden_files": [],
+          "imports": {
+            "failures": [],
+            "protected_files": 70,
+            "status": "PASS"
+          },
+          "separate_pilot_files": [],
+          "status": "PASS"
+        },
+        "commit": "c7fa61ec1c9157a8f608231399c11254d84f245a",
+        "comparison_policy": {
+          "absolute_tolerance": 2e-11,
+          "nonfinite": "reject",
+          "other_fields": "exact type, value, and structure",
+          "relative_tolerance": 1e-09
+        },
+        "expected_scientific_groups": 23,
+        "index_tree": "4ca9e3b55b286ebd65fa20fbf7fe180ec776e14c",
+        "repository": "GoGoKo699/Partial-Monitoring-Capacity",
+        "runs": [
+          {
+            "assertions_passed": true,
+            "byte_identical": true,
+            "difference_count": 0,
+            "exit_code": 0,
+            "expected_groups": 6,
+            "name": "threshold",
+            "numerical_agreement": true,
+            "observed_groups": 6,
+            "seconds": 0.9560402079999903
+          },
+          {
+            "assertions_passed": true,
+            "byte_identical": true,
+            "difference_count": 0,
+            "exit_code": 0,
+            "expected_groups": 7,
+            "name": "qubit",
+            "numerical_agreement": true,
+            "observed_groups": 7,
+            "seconds": 1.3042054950000193
+          },
+          {
+            "assertions_passed": true,
+            "byte_identical": true,
+            "difference_count": 0,
+            "exit_code": 0,
+            "expected_groups": 6,
+            "name": "optical",
+            "numerical_agreement": true,
+            "observed_groups": 6,
+            "seconds": 1.6718088170000556
+          },
+          {
+            "assertions_passed": true,
+            "byte_identical": true,
+            "difference_count": 0,
+            "exit_code": 0,
+            "expected_groups": 4,
+            "name": "consolidation",
+            "numerical_agreement": true,
+            "observed_groups": 4,
+            "seconds": 1.6114051460000383
+          }
+        ],
+        "source_files": 94,
+        "source_unchanged": true,
+        "status": "PASS"
+      }
+    },
+    {
+      "directory_at_time_of_run": "local-evidence-published-import-001",
+      "environment": {
+        "blas_threads": 1,
+        "dependencies": {
+          "mpmath": "1.3.0",
+          "numpy": "2.3.5",
+          "scipy": "1.17.0",
+          "sympy": "1.14.0"
+        },
+        "platform": "linux",
+        "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+        "started_utc": "2026-10-07T06:58:04.656333+00:00"
+      },
+      "report": {
+        "after": {
+          "active_links_checked": 35,
+          "broken_links": [],
+          "forbidden_files": [],
+          "imports": {
+            "failures": [],
+            "protected_files": 70,
+            "status": "PASS"
+          },
+          "separate_pilot_files": [],
+          "status": "PASS"
+        },
+        "all_reports_byte_identical": true,
+        "before": {
+          "active_links_checked": 35,
+          "broken_links": [],
+          "forbidden_files": [],
+          "imports": {
+            "failures": [],
+            "protected_files": 70,
+            "status": "PASS"
+          },
+          "separate_pilot_files": [],
+          "status": "PASS"
+        },
+        "commit": "f8fd17de13160a0ca5c9a81ef3aa51a0a8674bd6",
+        "comparison_policy": {
+          "absolute_tolerance": 2e-11,
+          "nonfinite": "reject",
+          "other_fields": "exact type, value, and structure",
+          "relative_tolerance": 1e-09
+        },
+        "expected_scientific_groups": 23,
+        "index_tree": "4ca9e3b55b286ebd65fa20fbf7fe180ec776e14c",
+        "repository": "GoGoKo699/Partial-Monitoring-Capacity",
+        "runs": [
+          {
+            "assertions_passed": true,
+            "byte_identical": true,
+            "difference_count": 0,
+            "exit_code": 0,
+            "expected_groups": 6,
+            "name": "threshold",
+            "numerical_agreement": true,
+            "observed_groups": 6,
+            "seconds": 0.9691469289998622
+          },
+          {
+            "assertions_passed": true,
+            "byte_identical": true,
+            "difference_count": 0,
+            "exit_code": 0,
+            "expected_groups": 7,
+            "name": "qubit",
+            "numerical_agreement": true,
+            "observed_groups": 7,
+            "seconds": 1.2481957159998274
+          },
+          {
+            "assertions_passed": true,
+            "byte_identical": true,
+            "difference_count": 0,
+            "exit_code": 0,
+            "expected_groups": 6,
+            "name": "optical",
+            "numerical_agreement": true,
+            "observed_groups": 6,
+            "seconds": 2.0794814989999395
+          },
+          {
+            "assertions_passed": true,
+            "byte_identical": true,
+            "difference_count": 0,
+            "exit_code": 0,
+            "expected_groups": 4,
+            "name": "consolidation",
+            "numerical_agreement": true,
+            "observed_groups": 4,
+            "seconds": 1.7277264980000382
+          }
+        ],
+        "source_files": 94,
+        "source_unchanged": true,
+        "status": "PASS"
+      }
+    },
+    {
+      "directory_at_time_of_run": "local-evidence-merged-import-001",
+      "environment": {
+        "blas_threads": 1,
+        "dependencies": {
+          "mpmath": "1.3.0",
+          "numpy": "2.3.5",
+          "scipy": "1.17.0",
+          "sympy": "1.14.0"
+        },
+        "platform": "linux",
+        "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+        "started_utc": "2026-10-07T07:00:20.218051+00:00"
+      },
+      "report": {
+        "after": {
+          "active_links_checked": 35,
+          "broken_links": [],
+          "forbidden_files": [],
+          "imports": {
+            "failures": [],
+            "protected_files": 70,
+            "status": "PASS"
+          },
+          "separate_pilot_files": [],
+          "status": "PASS"
+        },
+        "all_reports_byte_identical": true,
+        "before": {
+          "active_links_checked": 35,
+          "broken_links": [],
+          "forbidden_files": [],
+          "imports": {
+            "failures": [],
+            "protected_files": 70,
+            "status": "PASS"
+          },
+          "separate_pilot_files": [],
+          "status": "PASS"
+        },
+        "commit": "a9d953cd95410fc6add5c047e89133c8b7369ff8",
+        "comparison_policy": {
+          "absolute_tolerance": 2e-11,
+          "nonfinite": "reject",
+          "other_fields": "exact type, value, and structure",
+          "relative_tolerance": 1e-09
+        },
+        "expected_scientific_groups": 23,
+        "index_tree": "4ca9e3b55b286ebd65fa20fbf7fe180ec776e14c",
+        "repository": "GoGoKo699/Partial-Monitoring-Capacity",
+        "runs": [
+          {
+            "assertions_passed": true,
+            "byte_identical": true,
+            "difference_count": 0,
+            "exit_code": 0,
+            "expected_groups": 6,
+            "name": "threshold",
+            "numerical_agreement": true,
+            "observed_groups": 6,
+            "seconds": 1.0008094669999537
+          },
+          {
+            "assertions_passed": true,
+            "byte_identical": true,
+            "difference_count": 0,
+            "exit_code": 0,
+            "expected_groups": 7,
+            "name": "qubit",
+            "numerical_agreement": true,
+            "observed_groups": 7,
+            "seconds": 1.2392486670000835
+          },
+          {
+            "assertions_passed": true,
+            "byte_identical": true,
+            "difference_count": 0,
+            "exit_code": 0,
+            "expected_groups": 6,
+            "name": "optical",
+            "numerical_agreement": true,
+            "observed_groups": 6,
+            "seconds": 1.6656749900000705
+          },
+          {
+            "assertions_passed": true,
+            "byte_identical": true,
+            "difference_count": 0,
+            "exit_code": 0,
+            "expected_groups": 4,
+            "name": "consolidation",
+            "numerical_agreement": true,
+            "observed_groups": 4,
+            "seconds": 1.5422746029998962
+          }
+        ],
+        "source_files": 94,
+        "source_unchanged": true,
+        "status": "PASS"
+      }
+    }
+  ],
+  "merge_commit": "a9d953cd95410fc6add5c047e89133c8b7369ff8",
+  "prepared_local_commit": "c7fa61ec1c9157a8f608231399c11254d84f245a",
+  "published_import_commit": "f8fd17de13160a0ca5c9a81ef3aa51a0a8674bd6",
+  "purpose": "Source-matched inspection of PR 1 and actual merged-main verification; author-side reproducibility evidence only.",
+  "repository": "GoGoKo699/Partial-Monitoring-Capacity",
+  "review_notes": [
+    "No protected source, reference or tolerance was changed.",
+    "All 136 changed hosted fields are finite floating-point differences accepted by the pre-existing policy; maximum absolute difference is 3.552713678800501e-15.",
+    "Local runs use Python 3.12.14; hosted runs use 3.13.5.",
+    "Direct Git push lacked credentials; GitHub API created the same tree with a distinct commit identity.",
+    "SOURCE_CATALOG enumerates 109 files. The initial import records 110 ZIP members; the original ZIP was not recounted in this takeover. No new 110-member verification is claimed."
+  ],
+  "source_sha256": {
+    ".github/workflows/verify.yml": "d887ae8918c1c6670822aad742a40ba3cd6edd0592d6482c6e41a71286b1eb7f",
+    ".gitignore": "dfb26fe50cae295ca4ac024ecb8c160d6f9a10e7f281bddd4edc098cadb84acd",
+    ".python-version": "e72b03ed5b70312f2782f2b05055c55b24670e126d50e24c4f2c559bf288f810",
+    "AGENTS.md": "011ea855c958dc73786ef16c13dd7bc3be89939797e34ac1ef540f2e866056a2",
+    "LICENSE": "a92600540b1ab7a18301e2632a29334b3df227ad836e88df9967d69e3c86db66",
+    "README.md": "f1545a6ed49e2c63386ef3c0b243ddf671a14c94d24b2d963d95c67786e365a8",
+    "STATUS.md": "ad8f7b6e5b1567faf8b64751075719e813691dc5729a2cdcb6021f6a5aad50d2",
+    "VERIFICATION.md": "7fd52a56f5cd2015471b7cbd4755c0df486d997491f8167a5c77844ffc63ccc3",
+    "WORKSPACE.md": "88ff5fcde197f94830df922057ee20222eca1719141cfb9808ef0eea211a5f68",
+    "archive/README.md": "8a2afc247d420b75e233a26313d920579253420ae03695a02bc8e14c24a41ed0",
+    "archive/excerpts/MONITORING_THRESHOLD.md": "7f023c5e7ef18a6b8576379e3c34fe940b81c9bade59a1df1a6a97cb8c4a9d4d",
+    "archive/excerpts/QUANTUM_RATE.md": "a8008fe687d365a5694dfd932a7c84edcae6a752e79a1dd1299293d587fb56c8",
+    "archive/original/PRIOR_ART.md": "15d920b89c0a6756b5f1d6d351f95a4b910ff46b061ba6f6ed854a823dc83b8f",
+    "archive/original/PROOF_AUDIT.md": "d052e6afada39f21f674286a6470cddefe5cf1a27fe54d3327a64b16baf3eb54",
+    "archive/original/SOURCES.json": "074b537023347c494d96518b0fb774e35b55f06deab8c8a0936fb0caaa7576a0",
+    "archive/original/THEOREM.md": "cf325ee4a70521aca929dd8bd00d34cd1f2446c795d61d268bbd68116572c7cf",
+    "archive/original/environment.json": "c35632a477054c211642a84cd88ee0c32f014347c24bfc1c53502bd3ff55bc57",
+    "archive/original/evidence/first.json": "d4c3956435b43d9e02fc790673786c1923f7fca1955b723f1ce0326516173b6d",
+    "archive/original/evidence/monitoring_baseline.json": "fa63c1dbd11b206dbe27ef15453ddabe3ed1a508c45bcf7c44eeb402e6043037",
+    "archive/original/evidence/monitoring_baseline.log": "9a8af798aa8a7d816c44b2fe86b8fa1a52806a900e1ecda51db78836b2bae7df",
+    "archive/original/evidence/monitoring_followup.json": "8752f3f0c055e3d492e3490a457b5df5e22def833dc7d7993c46f0b9c5006df8",
+    "archive/original/evidence/monitoring_followup.log": "6e36769e46bf80136098f206dd11e4287fd3bc30f3dad34963e4510819a17312",
+    "archive/original/evidence/optical_audit.json": "b754c88bc7353ff41dfe3946c5e395f9186abe995081266ea3f060ebc88d9c1e",
+    "archive/original/evidence/optical_audit.log": "97acd9a8f7fa26be3b7bee6e2312b47dfa90cca2461203e03e28f62c75edc242",
+    "archive/original/evidence/output_refusal.log": "53ae64436e3dadc313fcfc8846138213c49ee4fdd5a5030e7a71122ce8c6b113",
+    "archive/original/evidence/repeat.json": "d4c3956435b43d9e02fc790673786c1923f7fca1955b723f1ce0326516173b6d",
+    "archive/original/evidence/repeat.log": "4bbe3ec12419201440894c70a83aaddc9f0984dc4fa3a1f76a3276a16cb3ad0b",
+    "archive/original/first.log": "ccdfa0ad7b26a4f13d1ce50e9748a1bb9e0f8c60b696381263ce8d5c523710c3",
+    "archive/original/prior/AUDIT.md": "6b4e054b6d3f99a2327469735304f62a347b7f1a148409a18cd0c763e58e1b9c",
+    "archive/original/prior/SOURCES.json": "7c9c01e7c258d62c7e5c58f813a8a72976781cb59c436ebb5c6a777c7f4120ce",
+    "archive/original/prior/environment.json": "405c5ac0778eebe49b5a8149bc34677442b9086474675cd3466107a858218286",
+    "archive/original/prior/evidence/audit_repeat.json": "b754c88bc7353ff41dfe3946c5e395f9186abe995081266ea3f060ebc88d9c1e",
+    "archive/original/prior/evidence/audit_repeat.log": "73d7d6e232fc3276051aa15b33b744f04c6c367a1d49530b5cc169e7b39d893d",
+    "archive/original/prior/evidence/baseline_monitoring.json": "fa63c1dbd11b206dbe27ef15453ddabe3ed1a508c45bcf7c44eeb402e6043037",
+    "archive/original/prior/evidence/baseline_monitoring.log": "c2faf46fcd366418059301471d92e38c499cf98ddad0051c6ce76cb0d685e25f",
+    "archive/original/prior/evidence/first.json": "b754c88bc7353ff41dfe3946c5e395f9186abe995081266ea3f060ebc88d9c1e",
+    "archive/original/prior/evidence/first.log": "8c908ef2155a5ddcf5f741e46249240cac8865870db06b683877b0e1a46d73e7",
+    "archive/original/prior/evidence/output_refusal.log": "53bb237d86a0d831c47fa45cb061bd37af03ad17e3226eb8fb3378928c1f6402",
+    "archive/original/prior/evidence/prior_monitoring.json": "8752f3f0c055e3d492e3490a457b5df5e22def833dc7d7993c46f0b9c5006df8",
+    "archive/original/prior/evidence/prior_monitoring.log": "a25bb2239ee369919da0f7e462667c7f17bb85448714df573f38bfc247f1f206",
+    "archive/original/prior/evidence/verification.log": "c4a45ee94c11cca5e999d9ff2e8335775c1dc762bc808cefe448e473b2facc14",
+    "archive/original/prior/prior/SOURCES.json": "4e509d5a2fd3424ba97631ffca65d42be7b897e0aff3436243010c07f67ae3d6",
+    "archive/original/prior/prior/development/REPAIRS.md": "6f518f0e110151bd79e859beb6b6d4b50c0cc276492df3d52d012e644d62d3e5",
+    "archive/original/prior/prior/development/exact_formula_enrichment.patch": "357aa7185785c464f83b0a53b4af88d55d4fad5f6c1b5787442c65b59ca62aa1",
+    "archive/original/prior/prior/development/monitor_boundary.patch": "df10674f307b31e75c6d39760387f98caa50def826ae459797731b15c12c61ca",
+    "archive/original/prior/prior/development/monitor_enrichment_first.py": "8dd0acac4cc748e2406c0ba9e3e49bd9b611e383f4d873b56382cfe5a2f82725",
+    "archive/original/prior/prior/development/monitor_enrichment_syntax_error.py": "4d93cc0904a55901e885a1752e759b30064b8e29c92d0d88d96e9f3aa9d38491",
+    "archive/original/prior/prior/development/monitor_entropy_upper.py": "a0594d83d25abeccf610a79e2b3ef73b9e2dad6cc6f6bee62b492c0ee9a74aa0",
+    "archive/original/prior/prior/development/monitor_final_changes.patch": "244562b2a0ee4908d6e8428a8ac6369d230280d68963165a9c0fed7199e32442",
+    "archive/original/prior/prior/development/monitor_first.py": "bc9f15bd6ab9156669532e9469b0afacc04936e5d1613d8002def189aaaadae9",
+    "archive/original/prior/prior/environment.json": "d943d83afd6af82ce9714be8eb7b58e12ffe9b80a630f066e12a93945cd1f69c",
+    "archive/original/prior/prior/evidence/monitor_complete.log": "b46fe386d6c7f0f409bfe6afd1f3c698f0203104d94e7d427f49017fe115b1c2",
+    "archive/original/prior/prior/evidence/monitor_enriched.json": "d167d8fe872426d27dd75e9a1b5ce32cc3b05c12d6e745155896061d2efd9eb2",
+    "archive/original/prior/prior/evidence/monitor_enriched.log": "98e73b87f5e3cbe73d4b1b4de5b49c4cfe0febe48e4db75e2d20d449349dbfdf",
+    "archive/original/prior/prior/evidence/monitor_final.json": "7c0ed1bc8243ebc965dd857219f605138e0d7d31efd5978ac32ce1028a4a783b",
+    "archive/original/prior/prior/evidence/monitor_final.log": "0f06e5365becba0a72211831992d3871de698f38daeb60e266f6f1ed831a6ec5",
+    "archive/original/prior/prior/evidence/monitor_first.json": "f682bd3b8c78d00f04640356392947555a9f0202a373a6435364a038533c963b",
+    "archive/original/prior/prior/evidence/monitor_first.log": "7311cfc07b3930e4ec953556bf8c67682213c76b33719b28c32c3650936ddacd",
+    "archive/original/prior/prior/evidence/monitor_repeat.json": "8752f3f0c055e3d492e3490a457b5df5e22def833dc7d7993c46f0b9c5006df8",
+    "archive/original/prior/prior/evidence/monitor_repeat.log": "9c05d6d1c5ffc46832cba3b3088c4ed0c3453f09e0d56c68fc12e018ee0b1345",
+    "archive/original/prior/prior/evidence/monitor_verified.json": "8752f3f0c055e3d492e3490a457b5df5e22def833dc7d7993c46f0b9c5006df8",
+    "archive/original/prior/prior/evidence/monitor_verified.log": "6a07cb6d7a4fc1e7f23b07e4b33f676930e6aa575fec022e5f12e74c45737735",
+    "archive/original/prior/prior/evidence/prior_monitor_rerun.json": "fa63c1dbd11b206dbe27ef15453ddabe3ed1a508c45bcf7c44eeb402e6043037",
+    "archive/original/prior/prior/evidence/prior_monitor_rerun.log": "f2474f33d8c314807cf15c28b6473d248105bc694b84667ba2962e1781aabc6b",
+    "archive/original/prior/prior/prior/SOURCES.json": "e3f6c6452904f72547a2558c7434f73e0fda9eca45baca38b977b06b1182a3db",
+    "archive/original/prior/prior/prior/environment.json": "aac37fd93de09bae1ab7c0c636b84b144246b05b81530f2614bee7a0f143b2c4",
+    "archive/original/prior/prior/prior/evidence/monitoring_first.json": "fa63c1dbd11b206dbe27ef15453ddabe3ed1a508c45bcf7c44eeb402e6043037",
+    "archive/original/prior/prior/prior/evidence/monitoring_first.log": "d768863690edf4e446dfd1631b0850ddf3cc4c770c42c1a2854e95abb72d2287",
+    "archive/original/prior/prior/prior/evidence/monitoring_repeat.json": "fa63c1dbd11b206dbe27ef15453ddabe3ed1a508c45bcf7c44eeb402e6043037",
+    "archive/original/prior/prior/prior/evidence/monitoring_repeat.log": "e9f753dd875639abb5e86437e7aa4b1d76675f0f25e3d9722ecc071432dddb7a",
+    "checks/README.md": "0ad8ce452dfc8784fadcb5950219437ce5a45b5e34633182138de75301296aec",
+    "checks/source/check_consolidation.py": "08304f06c1cd12514c34221f89bb1f7b3480f34f878d201ba298ec46fe5d44c8",
+    "checks/source/prior/check_audit.py": "a33b2374e75cd891558980ccbc6e752065c644ec6ee81e8edd4850a2f6916a3b",
+    "checks/source/prior/prior/check_monitoring_followup.py": "a6cfe56485a7697b16016556e099bfdcea6a42b5bd86ac91870fe46e61930db2",
+    "checks/source/prior/prior/prior/check_monitoring.py": "b9614721fb2e71f8518970eeb3bff93980648d5ed2effbe725597bb1323e4e06",
+    "literature/ASSUMPTIONS.md": "646d606dacf030742f9718226fd4cc358b7a47af1828388ff8e9247350e3bcfc",
+    "literature/PRIOR_ART.md": "e01ea39e82a95a30460882350c85930f7c8ef32168be6875e12bb858ff97ebef",
+    "llms.txt": "cddb9d8c209233ab1f71e011056772a2ccaca170a7c6339b232085dc55216fc7",
+    "provenance/IMPORT_MANIFEST.json": "66673a157109d9d5b1358ebffaf0c58698921f6631f288e202ab13e849cf8bbf",
+    "provenance/INITIALIZATION.json": "dbb0e7b9c42621defc92d016e341a7c5f5edf0811fc00562f1503c4c6f3df22f",
+    "provenance/REMOTE_BASE.json": "742bb7f7f30c02fba796599f9e826ffb51007ffc5a1547a13543fd9c341ae9d9",
+    "provenance/SOURCE_CATALOG.json": "354a0b292f5395178f0f9aa0e4b1863bd485829ce89617c2f951e06247e7eec4",
+    "requirements.txt": "68a798d14ab7ceac5f914897b07fd7053ddfd40acabcd6c79e6ba7677e874b13",
+    "research/MODEL_AND_CLAIMS.md": "3fe558a77013f4b3755926dd6e089af6b457cd50bee7b1cd6e21f4ae37a15fcc",
+    "research/OPTICAL_AUDIT.md": "6b4e054b6d3f99a2327469735304f62a347b7f1a148409a18cd0c763e58e1b9c",
+    "research/PROOF_AUDIT.md": "4cb091d3b6c9f31542f9560a33658513085c2fc3f628de9bac0c0f6f021b5ca3",
+    "research/THEOREM.md": "2f59402a9365aa04b06a8c0ba0ec2000dc6f8ab75d0b5a3f3237c11f454dc640",
+    "results/reference/consolidation.json": "d4c3956435b43d9e02fc790673786c1923f7fca1955b723f1ce0326516173b6d",
+    "results/reference/optical.json": "b754c88bc7353ff41dfe3946c5e395f9186abe995081266ea3f060ebc88d9c1e",
+    "results/reference/qubit.json": "8752f3f0c055e3d492e3490a457b5df5e22def833dc7d7993c46f0b9c5006df8",
+    "results/reference/threshold.json": "fa63c1dbd11b206dbe27ef15453ddabe3ed1a508c45bcf7c44eeb402e6043037",
+    "tests/test_repository.py": "8c0d6e2788023217f4c79d695dd1716395b032a9dc43f53c565789f9d165c93b",
+    "verify.py": "675139d14e9ed70dc04938ab6a5cb77ecdbb8993fe2d4fc87156d05cce32f73a",
+    "work_orders/CURRENT.md": "2d3d838b93f3d6641b203349e096e47baa0125a4b8374cd983db0ebf3e15fd43"
+  },
+  "source_tree": "4ca9e3b55b286ebd65fa20fbf7fe180ec776e14c"
+}

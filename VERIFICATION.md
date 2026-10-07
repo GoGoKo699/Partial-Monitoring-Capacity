@@ -18,7 +18,7 @@ For cross-environment comparisons, finite float values use relative tolerance **
 
 ## Local versus hosted
 
-The initial chat could read GitHub but had no write action, and its attempted local clone failed DNS. Local commits and this workflow file do not establish a remote push, PR, CI run or merge. The workspace must perform those actions and inspect their actual outcomes.
+The initial chat could read GitHub but had no write action, and its attempted local clone failed DNS. The takeover subsequently completed PR #1 and inspected its actual merged-main run; [STATUS](STATUS.md) and the [verification receipt](provenance/TAKEOVER_VERIFICATION_2026-10-07.json) record exact revisions and outcomes. A local commit or workflow file alone never establishes remote verification for a later change.
 
 The hosted workflow checks out the PR head or push SHA, uses read-only repository permissions, installs the pinned dependencies, and uploads raw verification artifacts even after a failure. Review the artifact's commit, source hashes, protected-file checks, all original assertion outcomes and every report difference. After merging, inspect the actual merged-main run separately.
 

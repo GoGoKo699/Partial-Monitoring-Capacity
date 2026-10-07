@@ -1,6 +1,6 @@
 # Model, claim hierarchy and proof dependencies
 
-**Repository import, 7 October 2026.** This maps the supplied 6 October consolidation; it adds no scientific result.
+**Updated 7 October 2026.** This maps the supplied 6 October consolidation and the [bounded claim assessment](CLAIM_ASSESSMENT_2026-10-07.md). The capacity formulas and resources are unchanged.
 
 ## Fixed communication resource
 
@@ -28,6 +28,8 @@ C2 and C3 are evaluations of one capacity principle, not unrelated new projects.
 
 **Refined complement.** The measured channel has output $BX$ and a complementary output $EY$ with a copy of the classical outcome. Degradability applies to every refined block measurement. Deleting a record without changing the complement invalidates the coherent-information expression.
 
+**General helper instruments.** The [direct converse](CLAIM_ASSESSMENT_2026-10-07.md) retains the unresolved helper register and discarded encoder ancilla, proving the two upper bounds without rank-one refinement. Continuous optical records are handled by finite classical partitions. This does not make a coarse measured channel degradable or extend the exact deficit identity to coarse records.
+
 **Two cuts and single-letterization.** The two upper bounds, concavity and many-use subadditivity must use the same input density matrix after marginal averaging. General encoding ancillas are covered by the explicit conditional-entropy argument, not a restriction to an isometric encoder.
 
 **Achievability.** The assistance ensemble theorem selects a measurement on $D$. Grouping the inaccessible field with a mathematical reference does not grant access to either. Freeze the block measurement and use ordinary quantum coding over the resulting channel with a classical flag. No encoder-side outcome or two-way distillation is added.
@@ -38,4 +40,4 @@ C2 and C3 are evaluations of one capacity principle, not unrelated new projects.
 
 There is no efficient helper measurement, finite-block code attaining capacity, strong-converse exponent, limited-message tradeoff, finite-temperature capacity, calibration robustness theorem or detector implementation. The supplied results do not need those extensions to define their claim. Exhaustive priority and genuinely separate critical review remain incomplete.
 
-The import preserves the stated proof status. Reproduction in a second environment is not independent theoretical review. Current reading depths are in [PRIOR_ART](../literature/PRIOR_ART.md); the next bounded task is in [CURRENT](../work_orders/CURRENT.md).
+The targeted assessment found no rate correction. Reproduction in a second environment is not independent theoretical review. Current reading depths are in [PRIOR_ART](../literature/PRIOR_ART.md) and the [dated priority check](../literature/PRIORITY_CHECK_2026-10-07.md); the next bounded task is in [CURRENT](../work_orders/CURRENT.md).

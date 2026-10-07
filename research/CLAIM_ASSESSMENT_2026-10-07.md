@@ -1,0 +1,85 @@
+# Central implication: targeted assessment
+
+**7 October 2026. Author-side analytical audit, not independent peer review.**
+
+**Verdict: the stated capacity equality survives.** No capacity formula, resource assumption or protected source is corrected. The most concrete remaining proof concern was treating arbitrary optical measurements through a blanket rank-one refinement. The converse admits a direct proof for coarse measurements, with the discarded encoder ancilla retained. This also clarifies why an unresolved helper register cannot invalidate the upper bounds.
+
+The claim remains the exact saturation of an inherited assistance lower bound under the **joint-register** identity. This assessment does not establish exhaustive priority; see the [targeted priority check](../literature/PRIORITY_CHECK_2026-10-07.md).
+
+## Direct converse with an unresolved helper register
+
+Take any block code with a finite-dimensional message reference $R$, and dilate its encoder to a pure state on $RFA^n$. Here $F$ is discarded by the encoder. First suppose the helper sends a finite record $X$. Write its POVM effects on $D^n$ as $Q_x$. For proof purposes use the filter $\sqrt{Q_x}:D^n\to G$, with $G$ a copy of $D^n$. Tracing $G$ gives the same receiver/reference state as the specified measurement, regardless of its physical implementation. Conditional on a nonzero-probability outcome, $RFB^nE^nG$ is pure.
+
+The joint-register identity holds with reference $F$ and commutes with this filter. Therefore
+
+```math
+\rho_{FGE^n|x}
+=(\operatorname{id}_{FG}\otimes\mathcal T^{\otimes n})
+  (\rho_{FGB^n|x}).
+```
+
+Apply the degrading map to the actual $B^n$ in this conditional state, obtaining $E'^n$. The resulting extension has identical $FGE^n$ and $FGE'^n$ marginals. Weak monotonicity gives
+
+```math
+2S(FG|E^n,x)
+=S(FG|E^n,x)+S(FG|E'^n,x)\ge0.
+```
+
+Conditional purity and averaging now yield
+
+```math
+\begin{aligned}
+I(R\rangle B^nX)
+ &=S(B^n|X)-S(FGE^n|X)\\
+ &\le S(B^n|X)-S(E^n|X)\\
+ &\le S(B^n)-S(E^n).
+\end{aligned}
+```
+
+The last inequality is $I(X;E^n)\le I(X;B^n)$, again from the conditional degrading relation. This argument does **not** assert that a coarse measured channel is degradable. The residual register $G$ remains accounted for.
+
+For the second cut, processing $B^nD^n$ into $B^nX$ cannot increase coherent information. Before that processing, purity gives
+
+```math
+I(RF\rangle B^nD^n)-I(R\rangle B^nD^n)=S(F|E^n)\ge0.
+```
+
+The final inequality follows by the same extension argument: the marginal degrading relation with reference $F$ supplies identical $FE^n$ and $FE'^n$ marginals. Hence
+
+```math
+I(R\rangle B^nX)\le S(B^nD^n)-S(E^n).
+```
+
+Both cuts use the same encoded input. The existing concavity, product-map subadditivity and common-marginal averaging in [THEOREM, Section 2](THEOREM.md) therefore apply to general encoders. The usual transmission converse follows after decoder data processing and continuity on the finite message system.
+
+## Finite energy and continuous records
+
+For an optical code with message dimension $d$ and average signal budget $N$, concavity, conditional purity and the thermal entropy bound imply
+
+```math
+\begin{aligned}
+S(FGE^n|X)&=S(RB^n|X)\le\log_2d+n g(aN),\\
+S(E^n|X)&\le n g(bN),\\
+S(FG|X)&\le S(FGE^n|X)+S(E^n|X)<\infty.
+\end{aligned}
+```
+
+Thus the conditional entropies used in weak monotonicity are finite; no energy bound on the proof register $G$ is required. For the second cut, $S(F)=S(RA^n)\le\log_2d+n g(N)$, and all physical output entropies are finite. These statements concern arbitrary competing codes, without a photon cutoff.
+
+For continuous records, use the usual normal cq description on a standard Borel outcome space. Apply the finite-record proof to nested finite partitions $X_{\mathcal P}$ generating that space. Monotonicity and the relative-entropy approximation over these partitions give
+
+```math
+I(R;B^nX_{\mathcal P})\uparrow I(R;B^nX).
+```
+
+Because $R$ is finite dimensional, these quantities are bounded by $2\log_2d$, and $I(R\rangle Z)=I(R;Z)-S(R)$. Both cuts pass to the limit. This uses neither a rank-one density kernel for a continuous POVM nor subtraction of divergent classical entropies. It supplies the conventional measurable-limit interpretation stipulated in the original theorem.
+
+One can see the convergence directly: conditional averages of the trace-class state field $\rho_{RB^n}(x)$ over generating finite partitions converge in integrated trace norm. Apply the dimension-$d$ uniform continuity bound for $S(R|B^n)$ to those averages and integrate; its modulus vanishes with the trace-norm error. The entropy tool is [Winter, Lemma 2](https://arxiv.org/pdf/1507.07775), whose bound is independent of the conditioning-system dimension. The partition argument here is an application of that bound, not a claim that the cited paper states this monitoring theorem. Lemma 2 and its proof were inspected in primary parsed text.
+
+## Receiver-only achievability
+
+The potential resource objection is grouping the inaccessible $E$ with the reference $R$. [Smolin–Verstraete–Winter](https://arxiv.org/pdf/quant-ph/0505038), Section III and Theorem 1, supply an entropy ensemble generated by a measurement on the helper alone. Only this ensemble property is used for $B|(RE)|D$; no operation on $RE$ is performed. Theorem 8 explicitly fixes such a measurement into a flagged channel and then invokes ordinary quantum coding. The present construction retains $E$'s entropy subtraction and sends the flag only to the decoder.
+
+Optical achievability still fixes a finite photon cutoff and helper block before coding, then increases the cutoff with the preserved entropy-tail bounds. The truncated thermal input is diagonal in photon number, so energy-typical coding can use its strict average-energy slack. Rank-one refinement remains relevant to the exact coherent-information expression and deficit identity; the direct converse above does not remove those qualifications.
+
+This bounded pass adds proof detail, not a new rate claim or numerical evidence. The next task is to decide the reader-facing exposition from this assessment and the priority check, rather than start another model or repeat the preserved checks.
