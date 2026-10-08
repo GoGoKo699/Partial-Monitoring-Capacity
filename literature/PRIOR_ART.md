@@ -7,32 +7,37 @@ converse cuts follow from Leditzky–Datta–Smith through the
 requires the separate entropy-difference and chord argument. The
 [targeted comparison](PRIORITY_CHECK_2026-10-07.md) and
 [contribution assessment](../research/CONTRIBUTION_ASSESSMENT_2026-10-07.md)
-map these ingredients to the actual resources. The primary-source reading
-depths below delimit the comparison. The [original ledger](../archive/original/PRIOR_ART.md)
-preserves earlier attributions and retrieval history.
+map these ingredients to the communication resources. The comparisons below are
+limited to the stated primary-source passages.
 
-## The three proof anchors
+## Proof ingredients
 
-**Smolin–Verstraete–Winter (2005), Theorems 1 and 8.** Reread the pure-state assistance theorem and the proof that a chosen environment measurement defines a channel with a classical outcome register, to which quantum coding is applied. Figure 1 and Theorem 8 on PDF page 5 were also rendered successfully and inspected. That diagram already sends a classical measurement result only to Bob. Receiver-only signaling is therefore not itself new. What differs is that the present channel leaves an additional environment E inaccessible. The joint-preserving converse follows from the degradable-state reduction in [PROOF_DEPENDENCIES](../research/PROOF_DEPENDENCIES.md); the separate product-measurement optimization is not supplied by this assistance theorem. https://arxiv.org/abs/quant-ph/0505038
+**Leditzky–Datta–Smith, [Useful states and entanglement distillation](https://arxiv.org/abs/1701.03081v4).** Definition 2.2 and Proposition 2.4, including its proof, give the one-way distillation quantity for degradable states. The [register reduction](../research/PROOF_DEPENDENCIES.md) applies this result to both finite-dimensional converse cuts. The state-decomposition minimum in Theorem 2.8 does not optimize the helper's shared branch-entropy difference.
 
-**Dutil–Hayden, Theorem 8.** The printed bound max{I(A>B), min[I(AC>B), I(A>BC)]} is the inherited minimum-cut assistance lower bound. Its operational task permits entanglement distillation between two recipients after the helper acts. The present construction uses the ensemble property and a fixed measured channel, not an added sender–receiver distillation channel. Relevant definitions and theorem/proof text were read. A requested image of PDF page 11 failed; no visual reading of that page is claimed. https://arxiv.org/abs/1011.1972
+**Smolin–Verstraete–Winter, [Entanglement of assistance and multipartite state distillation](https://arxiv.org/abs/quant-ph/0505038), Theorems 1 and 8.** The pure-state assistance theorem supplies a helper measurement with the required average branch entropy. Theorem 8 and its proof turn a chosen environment measurement into a channel with a classical outcome register and apply ordinary quantum coding. Figure 1 sends the record only to the receiver, so receiver-only signaling is an established resource. The present channel additionally leaves an output $`E`$ inaccessible. Its converse uses the degradable-state reduction; its product-measurement optimum requires a separate argument.
 
-**Wilde–Qi (2018).** The relevant energy-constrained coding results and Theorem 6's thermal-reference proof were reread in primary parsed text. The theorem assumes an ordinary channel and its complement, with specified degradability/Gibbs preservation. In this project's first cut, E is not the full complement of B: D has not disappeared physically. The extra joint-register argument is needed before applying the same entropy technique. A requested image of PDF page 21 failed. No graph or numerical table from the paper was used. https://arxiv.org/abs/1609.01997
+**Dutil–Hayden, [Assisted Entanglement Distillation](https://arxiv.org/abs/1011.1972), Theorem 8.** The theorem gives the assistance lower bound
 
-## Additional checks
+```math
+\max\{I(A\rangle B),\min[I(AC\rangle B),I(A\rangle BC)]\}.
+```
 
-**Buscemi–Datta, General theory of environment-assisted entanglement distillation (2013).** Primary abstract, introduction and operational definition around PDF page 10 were examined. The helper holds the full purification. The one-shot generalization does not supply the present inaccessible-output converse merely because it considers arbitrary bipartite mixed states. No complete reproduction of its one-shot bounds or exclusions of all citations is claimed. https://arxiv.org/abs/1009.4464
+Its operational definition and theorem/proof text allow entanglement distillation between two recipients after the helper acts. The present channel construction uses an assistance ensemble and a fixed measured channel; it supplies no sender–receiver distillation link.
 
-**Grassl–Ji–Wei–Zeng (2010).** The primary title/authors/journal metadata and abstract were verified: *Quantum Capacity Approaching Codes for the Detected-Jump Channel*, PRA 82, 062324. The full perfect-detection construction was read in the prior record; this pass does not claim to reread its code analysis. The active bibliography uses these correct authors, not an unverified working attribution. https://arxiv.org/abs/1008.3350
+**Wilde–Qi, [Energy-constrained private and quantum capacities of quantum channels](https://arxiv.org/abs/1609.01997v2), Theorems 2 and 6.** The coding theorem and thermal-reference proof support energy-constrained achievability and the optical entropy method. Their channel and complement assumptions require care here: $`E`$ is not the full complement of $`B`$, because $`D`$ is a separate output. The joint-register converse establishes the needed bound, and coding applies to a fixed flagged channel at finite photon cutoff and helper block length. [PROOF_DEPENDENCIES](../research/PROOF_DEPENDENCIES.md#3-optical-identity-and-photon-budget-coding) gives these applications.
 
-**Devetak–Shor.** The primary metadata/abstract was checked for the standard coding/degradability reference. This pass derives the specific encoder-ancilla monotonicity directly. It does not claim a new construction-level reading of that entire paper. https://arxiv.org/abs/quant-ph/0311131
+## Related resources and results
 
-**Gregoratti–Werner.** The primary characterization of correctable mixtures of isometries supports the inherited random-phase control; the counterexample's actual matrices were already supplied and remain unchanged. Abstract/metadata check only in this pass. https://arxiv.org/abs/quant-ph/0209025
+| Source | Basis of comparison | Relation to this model |
+|---|---|---|
+| Buscemi–Datta, [General theory of environment-assisted entanglement distillation](https://arxiv.org/abs/1009.4464) | Abstract, introduction and operational definition around PDF page 10; not the complete one-shot bounds. | The helper holds the full purification. This operational scope differs from assistance with an inaccessible residual output. |
+| Grassl–Ji–Wei–Zeng, [Quantum Capacity Approaching Codes for the Detected-Jump Channel](https://arxiv.org/abs/1008.3350), PRA 82, 062324 | Primary bibliographic metadata and abstract. | A detected-jump coding precedent. The separate [product-measurement comparison](../research/CONTRIBUTION_ASSESSMENT_2026-10-07.md) identifies the fixed-basis capacity result and its relation to optimization over helper POVMs. |
+| Devetak–Shor, [The capacity of a quantum channel for simultaneous transmission of classical and quantum information](https://arxiv.org/abs/quant-ph/0311131) | Appendix B, Eq. (18) and its proof, as specified in the [product reduction](../research/PRODUCT_HELPER_GAP_2026-10-07.md). | Supplies degradable-channel capacity and additivity. The product reduction also derives the particular total-correlation inequality; the encoder-ancilla argument is explicit in [PROOF_AUDIT](../research/PROOF_AUDIT.md). |
+| Gregoratti–Werner, [Quantum Lost and Found](https://arxiv.org/abs/quant-ph/0209025) | Abstract and primary bibliographic metadata. | Environment-assisted correction provides the context for the random-phase control in [THEOREM](../research/THEOREM.md). The displayed countercontrol, rather than a further claim about the source's proof, shows why marginal degradability is insufficient. |
+| Oskouei–Mancini–Winter, [Capacities of Gaussian quantum channels with passive environment assistance](https://arxiv.org/abs/2101.00602) | Primary abstract. | The helper sets the incoming environment state. This differs from measuring only the collected output of a vacuum splitter. |
 
-**Passive input-environment assistance.** Oskouei–Mancini–Winter's primary abstract explicitly lets a helper set the incoming environment state. This is not the output-only vacuum-splitter task. The earlier relay, cooperating-decoder and prepared-nonvacuum comparisons remain in [archived optical audit](../archive/original/prior/AUDIT.md) with their original reading limits; they are not claimed independently reaudited here. https://arxiv.org/abs/2101.00602
+## Contribution boundary
 
-## What has, and has not, been excluded
+The capacity formula combines established assistance, degradable-state converse and coding ingredients under the joint-register hypothesis. The exact product benchmark separately optimizes the branch-entropy difference over every predetermined individual helper POVM and every qubit input in its stated domain.
 
-The reviewed passages do not directly give the joint-register single-letter equality or its partial-output optical energy law. The task and missing implication are precise enough for a genuine priority check. Nevertheless, no assertion of first-ever monitoring, first assistance bound, first bosonic capacity, or exhaustive novelty is made. Search results on unrelated environment-assisted physics and secondary generated summaries were excluded from technical evidence.
-
-The exact theoretical capacity need not be sold as a realizable photodetector scheme. A finite receiver is a separate constructive problem, not a premise silently supplied by the assistance theorem.
+The [resource comparison](PRIORITY_CHECK_2026-10-07.md) covers symmetric side channels, cooperating decoders and partial-access recovery. These source-specific comparisons do not establish exhaustive priority. The results specify asymptotic capacities with unrestricted helper processing; an efficient collective receiver is a separate constructive question.

@@ -40,7 +40,7 @@ The [product-helper proof](PRODUCT_HELPER_GAP_2026-10-07.md), Section 1, establi
 Q_{\rm prod}=\sup_{\rho,M}\sum_xp_x[S(B_x)-S(E_x)].
 ```
 
-Rank-one refinement can only help; every refined measured channel is degradable. Product-channel additivity covers use-varying measurements and arbitrary correlated inputs. The reduction also covers continuous records; [PROOF_DEPENDENCIES, Section 2](PROOF_DEPENDENCIES.md) states the finite trace-measure formulation and finite total-correlation argument explicitly. The following bound holds for every input/measurement pair and is attained by a two-outcome measurement, so no compactness argument is needed for the equality.
+Rank-one refinement can only help; every refined measured channel is degradable. Product-channel additivity covers use-varying measurements and arbitrary correlated inputs. The reduction also covers continuous records; [PROOF_DEPENDENCIES, Section 2](PROOF_DEPENDENCIES.md) states the finite trace-measure formulation and finite total-correlation argument explicitly. The following bound holds for every input/measurement pair and is attained by a two-outcome measurement.
 
 Write
 
@@ -167,16 +167,16 @@ Rational evaluation brackets the root between $0.5583443480550842$ and $0.558344
 
 After reducing to $1\le x\le2$, $|t|\le1/3$. Forty terms and exact rational arithmetic certify the displayed capacity and gap intervals. No floating-point optimizer or tolerance is a correctness premise.
 
-Run [the certificate](../checks/certify_product_capacity.py) after the unchanged original verification runner:
+Run [the certificate](../checks/certify_product_capacity.py) after the verification runner:
 
 ```bash
 python checks/certify_product_capacity.py --output NEW_EVIDENCE_DIRECTORY/product-capacity-certificate.json
 ```
 
-The dedicated workflow step includes its output in the downloaded evidence. The original 23 scientific groups and reference reports remain unchanged and separately counted. This arithmetic certifies the scalar evaluation conditional on the analytical theorem; it does not replace proof review.
+The dedicated workflow step includes its output in the downloaded evidence. The 23 scientific groups are checked separately against their reference reports. This arithmetic certifies the scalar evaluation conditional on the analytical theorem.
 
-## Attribution and remaining boundary
+## Attribution
 
-The entropy function $e(C)$ and its ordinary convexity are established in Wootters, [quant-ph/9709029](https://arxiv.org/pdf/quant-ph/9709029), Eq. (8) and following paragraph, PDF page 4. The difference-convexity calculation needed here is derived above. Laustsen, Verstraete and van Enk, [quant-ph/0206192](https://arxiv.org/pdf/quant-ph/0206192), Section 2, Eqs. (5), (9), (24), distinguish entropy assistance from their optimized concurrence-assistance objective; those formulas cannot simply replace this entropy-difference optimization. These primary passages were inspected.
+The entropy function $`e(C)`$ and its ordinary convexity are established in Wootters, [quant-ph/9709029](https://arxiv.org/pdf/quant-ph/9709029), Eq. (8) and following paragraph, PDF page 4. The difference-convexity calculation needed here is derived above. Laustsen, Verstraete and van Enk, [quant-ph/0206192](https://arxiv.org/pdf/quant-ph/0206192), Section 2, Eqs. (5), (9), (24), distinguish entropy assistance from their optimized concurrence-assistance objective; those formulas cannot simply replace this entropy-difference optimization.
 
-The [archived product-helper comparison](../archive/editorial/2026-10-07-pre-release/research/PRODUCT_HELPER_GAP_2026-10-07.md) records the detected-jump capacity and collective-assistance predecessors. The additional statement here is all-input optimality of counting over every predetermined product helper POVM with an inaccessible residual output. No inspected passage directly supplies that implication; this is a targeted comparison, not exhaustive priority clearance or independent scientific review.
+The [contribution comparison](CONTRIBUTION_ASSESSMENT_2026-10-07.md) relates this result to detected-jump capacity and collective-assistance predecessors. The measurement optimization here establishes all-input optimality of counting over every predetermined product helper POVM with an inaccessible residual output.

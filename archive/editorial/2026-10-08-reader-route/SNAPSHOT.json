@@ -1,0 +1,25 @@
+{
+  "source_commit": "a2b0b37664bc12b3509c4e1bf3107b334f4a44f8",
+  "files": {
+    "STATUS.md": {
+      "bytes": 2736,
+      "sha256": "d8401f6363f0c0287d60eb03b11cbb40ca83708813ae85813d32e433103aaccb"
+    },
+    "WORKSPACE.md": {
+      "bytes": 1909,
+      "sha256": "df9923752f8c0e9ab93e575c5c83efd5ea8b192ae0eb19692fdb1b5f0f77ed1c"
+    },
+    "work_orders/CURRENT.md": {
+      "bytes": 1511,
+      "sha256": "23fe5a54b5c92ba885f60a15f581d6033e259ac2e884429b56175917d15cd89c"
+    },
+    "literature/PRIOR_ART.md": {
+      "bytes": 5421,
+      "sha256": "af6db88bb2a11976c96e4b678719047e350322984d937c8afc18f8b4ebb03a9a"
+    },
+    "research/PROOF_DEPENDENCIES.md": {
+      "bytes": 14670,
+      "sha256": "30360072768d87e27843dae74c52503a26817e1773a946768160a1fde8649d78"
+    }
+  }
+}

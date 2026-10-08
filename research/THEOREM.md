@@ -68,7 +68,7 @@ $$D_j^{(n)}(\rho_{A^n})\le\sum_iD_j(\rho_i)\le nD_j(\bar\rho),\qquad j=1,2.$$
 
 Taking the minimum of (4) and (5) yields n times the right side of (2), including arbitrarily correlated input states and collective helper measurements.
 
-There is no hidden restriction to isometric encoders. Dilate a general encoder using a discarded ancilla F, so the pre-channel RFA state is pure. For a refined helper outcome, the difference between purified-input coherent information and the actual message coherent information is S(F|E^nX). The complementary channel is antidegradable; it has a symmetric extension with two identical E^nX marginals. Weak monotonicity of conditional entropy therefore gives S(F|E^nX)>=0. Discarding F cannot evade the upper bound. The usual coherent-information transmission converse then applies [DS05, WQ18]. This paragraph makes explicit a coding step previously delegated to the standard theorem.
+There is no hidden restriction to isometric encoders. Dilate a general encoder using a discarded ancilla F, so the pre-channel RFA state is pure. For a refined helper outcome, the difference between purified-input coherent information and the actual message coherent information is S(F|E^nX). The complementary channel is antidegradable; it has a symmetric extension with two identical E^nX marginals. Weak monotonicity of conditional entropy therefore gives S(F|E^nX)>=0. Discarding F cannot evade the upper bound. The usual coherent-information transmission converse then applies [DS05, WQ18].
 
 ### Achievability with a receiver-only classical message
 
@@ -96,7 +96,7 @@ $$\boxed{Q_{\mathrm{qubit}}=\begin{cases}
 
 Phase covariance and concavity justify the diagonal input diag(1-q,q). Positivity is equivalent to a>b. For exponential damping, a=1-r, b=(1-eta)r, so the threshold is r<1/(2-eta). This compares surviving and permanently lost excitation, not merely detector quality after collection.
 
-Counting the collected photon gives the previously established flagged channel with output populations 1-(a+c)q, aq, cq and complementary populations 1-(b+c)q, bq, cq. Its capacity is the maximum difference of their ternary entropies when a>b. Counting reaches the positivity boundary but not the full optimal rate. At (a,b,c)=(.2,.08,.72), Q_count=.18621044 while (6) gives .30570954 qubits/use. Full collection b=0 recovers the established environment-assisted endpoint [SVW05, DJ10].
+Counting the collected photon gives the flagged channel with output populations 1-(a+c)q, aq, cq and complementary populations 1-(b+c)q, bq, cq. Its capacity is the maximum difference of their ternary entropies when a>b. Counting reaches the positivity boundary but not the full optimal rate. At (a,b,c)=(.2,.08,.72), Q_count=.18621044 while (6) gives .30570954 qubits/use. Full collection b=0 recovers the established environment-assisted endpoint [SVW05, DJ10].
 
 Equation (6) needs only one scalar root or the entropy-crossover point. Set q_c=1/(1+a-b). For q<=q_c the active expression is h2(aq)-h2(bq); above q_c it is h2((1-b)q)-h2(bq). The right piece is nonincreasing from q_c onward. If
 
@@ -104,7 +104,7 @@ $$a\log_2\frac{1-aq_c}{aq_c}-b\log_2\frac{1-bq_c}{bq_c}\ge0,$$
 
 the optimum is q_c. Otherwise the unique zero of that derivative on (0,q_c) is the optimum. Terms multiplied by b=0 are interpreted by their limit. This is an evaluation corollary, not another capacity theorem. At the example above q_c=25/28.
 
-On the zero-capacity side, antidegradability also supplies an unconditional finite-message ceiling F_e<=(d+1)/(2d) for a d-dimensional logical message. In particular, F_e<=3/4 for one logical qubit at every blocklength. This is the standard shareability/no-cloning argument, not a tight error formula for every parameter or a postselection statement. The prior proof is preserved in the [monitoring-rate excerpt](../archive/excerpts/QUANTUM_RATE.md), Section A3.
+On the zero-capacity side, antidegradability also supplies an unconditional finite-message ceiling F_e<=(d+1)/(2d) for a d-dimensional logical message. In particular, F_e<=3/4 for one logical qubit at every blocklength. This is the standard shareability/no-cloning argument, not a tight error formula for every parameter or a postselection statement. The [zero-side fidelity proof](PROOF_DEPENDENCIES.md#4-boundary-cases-and-the-zero-side-fidelity-bound) gives the symmetric-extension argument.
 
 ## 4. Vacuum optical loss: exact energy-constrained rate
 
@@ -137,7 +137,7 @@ For achievability, truncate the thermal average input, not competing codes, at p
 
 $$N_K=N-\frac{(K+1)r^{K+1}}{1-r^{K+1}}<N.$$
 
-For fixed K, vacuum loss leaves finite output support; apply the finite-dimensional assistance construction and then energy-constrained channel coding [WQ18, Theorem 2] to the fixed flagged block channel with its summed photon-number Hamiltonian and strict energy slack. Only afterward let K grow. The discarded thermal tail has probability epsilon_K=r^(K+1) and conditional mean K+1+N. Entropy-of-mixture bounds enclose the output entropies and prove convergence to (7), rather than assuming entropy continuity from trace-distance convergence. The full coding application and finite-cutoff minimum are explicit in [PROOF_DEPENDENCIES](PROOF_DEPENDENCIES.md); the original entropy bounds and numerical checks remain in [archived optical audit](../archive/original/prior/AUDIT.md), Section 4.3. The converse is never cutoff-restricted. Cases b=0, N=0 and vanishing port weights follow directly.
+For fixed K, vacuum loss leaves finite output support; apply the finite-dimensional assistance construction and then energy-constrained channel coding [WQ18, Theorem 2] to the fixed flagged block channel with its summed photon-number Hamiltonian and strict energy slack. Only afterward let K grow. The discarded thermal tail has probability epsilon_K=r^(K+1) and conditional mean K+1+N. Entropy-of-mixture bounds enclose the output entropies and prove convergence to (7), rather than assuming entropy continuity from trace-distance convergence. The full coding application, finite-cutoff minimum and entropy-tail bounds are given in [PROOF_DEPENDENCIES, Section 3](PROOF_DEPENDENCIES.md#3-optical-identity-and-photon-budget-coding). The converse is never cutoff-restricted. Cases b=0, N=0 and vanishing port weights follow directly.
 
 For a=.2,b=.08,N=1, the capacity is .3686045934 qubits/mode. At N=10 it is .9709505945. For b>0 and a>b,
 
@@ -161,7 +161,7 @@ nQ(N)-I_c
 +\underbrace{\Delta_{\mathrm{meas}}}_{\text{measurement deficit}}.
 }\tag{8}$$
 
-All terms are nonnegative. This is a rearrangement of the already used equalities, not a new independent capacity law. It separates deficient average inputs from deficient helper measurements. In particular, for an exact thermal product input at budget N, the finite-block coherent-information gap is exactly Delta_meas. The capacity-achieving sequence makes this gap sublinear in n. Simply collecting a more detailed photon record is not a proof that the best rate is reached.
+All terms are nonnegative. The identity separates deficient average inputs from deficient helper measurements. In particular, for an exact thermal product input at budget N, the finite-block coherent-information gap is exactly Delta_meas. The capacity-achieving sequence makes this gap sublinear in n. Simply collecting a more detailed photon record is not a proof that the best rate is reached.
 
 Equation (8) is not a finite-code fidelity formula and does not say that discarding parts of a classical record improves performance. Once the outcome is coarsened, an additional unresolved helper system appears in the complement, and (3)'s E-only subtraction need not apply. For a=.2,b=.08,c=.72,q=.5, ignoring the helper gives negative coherent information, although the incorrect E-only subtraction would be positive. The separate check makes this distinction explicit.
 
@@ -171,7 +171,7 @@ Likewise, replacing (1) by marginal degradability is invalid: the standard rando
 
 The main claim is **exact saturation of a known assistance lower bound under a register-preserving degradation condition**, with computable qubit and photon-budget examples. Its finite-dimensional converse is a resource-specific application of established degradable-state theory [LDS17]. Environment-assisted communication, the assistance minimum cut, coherent-information coding, thermal-reference extremality and the no-cloning bound are inherited.
 
-The [dependency correction](PROOF_DEPENDENCIES.md) supersedes the earlier assessment that the matching converse required an additional new inequality. The separate [exact product-capacity proof](EXACT_PRODUCT_CAPACITY_2026-10-07.md) still requires optimization over every predetermined single-use helper measurement and every input. The inspected state-decomposition minima do not supply that maximum. This bounded comparison is **not exhaustive priority clearance**.
+The [proof dependencies](PROOF_DEPENDENCIES.md) give the register reduction and source comparisons. The separate [exact product-capacity proof](EXACT_PRODUCT_CAPACITY_2026-10-07.md) optimizes over every predetermined single-use helper measurement and every input. The state-decomposition minima in [LDS17] do not supply that maximum.
 
 The theorem specifies asymptotic entanglement transmission with unrestricted helper processing, a receiver-only classical record and vacuum environmental inputs in the optical model. Its operational scope is given in [MODEL_AND_CLAIMS](MODEL_AND_CLAIMS.md); its evidence policy is in [VERIFICATION](../VERIFICATION.md).
 

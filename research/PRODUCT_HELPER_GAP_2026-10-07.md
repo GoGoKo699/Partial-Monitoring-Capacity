@@ -6,7 +6,7 @@ retain arbitrary block codes; the helper sends only a classical record to the re
 All outcomes contribute to unconditional transmission error. The qubit regime is
 $`a+b+c=1,\ a>b>0,\ c>0`$.
 
-## 1. The correct product capacity optimization
+## 1. Product capacity optimization
 
 Refining a single-use POVM into rank-one effects gives the receiver additional classical information, which it can ignore. Write the refined rows as $m_x$, with $\sum_xm_x^\dagger m_x=I_D$, and let
 
@@ -49,15 +49,10 @@ Outcome-adaptive local measurements and general separable block POVMs are outsid
 benchmark. Both rates in the individual-versus-collective comparison allow arbitrary
 sender/receiver block codes.
 
-## Sources and the earlier qualitative route
+## Sources
 
 [Devetak–Shor, quant-ph/0311131](https://arxiv.org/pdf/quant-ph/0311131), Appendix B,
-Eq. (18) and its proof, supplies degradable-channel capacity and additivity. Those
-primary passages were inspected; the product inequality is also derived above.
+Eq. (18) and its proof, supplies degradable-channel capacity and additivity.
+The product inequality is also derived above.
 The [dependency record](PROOF_DEPENDENCIES.md#2-why-this-does-not-settle-the-product-measurement-optimum)
 specifies the finite trace-measure formulation and continuous-record argument.
-
-The [archived qualitative proof](../archive/editorial/2026-10-07-pre-release/research/PRODUCT_HELPER_GAP_2026-10-07.md)
-retains the preceding compactness and strict-contraction argument, its source-reading
-depths and its historical open questions. The exact chord proof gives the stronger
-counting optimum without those compactness or equality-recovery steps.

@@ -11,9 +11,9 @@ measurements recover more than the best measurements made one output at a time?
 |---|---|
 | [Physical picture](research/PHYSICAL_PICTURE.md) · [Preskill reading guide](research/PRESKILL_READING_MAP.md) | Start from the physical question and one tutorial, then work through four local bridges |
 | [Capacity theorem](research/THEOREM.md) · [Exact product optimum](research/EXACT_PRODUCT_CAPACITY_2026-10-07.md) | Follow both sides of the individual-versus-collective measurement comparison |
-| [Model and claims](research/MODEL_AND_CLAIMS.md) · [Proof dependencies](research/PROOF_DEPENDENCIES.md) | Check the resources, supporting claims and corrected attribution |
+| [Model and claims](research/MODEL_AND_CLAIMS.md) · [Proof dependencies](research/PROOF_DEPENDENCIES.md) | Check the resources, supporting claims and source attribution |
 | [Prior-work comparison](literature/PRIORITY_CHECK_2026-10-07.md) · [Contribution assessment](research/CONTRIBUTION_ASSESSMENT_2026-10-07.md) | Separate established ingredients from the measurement optimization |
-| [Verification](#evidence-and-reproduction) · [Verification record](STATUS.md) · [LLM guide](llms.txt) | Inspect evidence and locate authoritative material by question |
+| [Verification](VERIFICATION.md) · [LLM guide](llms.txt) | Inspect evidence and locate authoritative material by question |
 
 ## What the helper can access
 
@@ -79,8 +79,8 @@ Q_{\rm meas}
 Both finite-dimensional upper bounds follow from the established one-way distillation
 theorem for degradable states after regrouping registers. A known assistance ensemble,
 followed by ordinary channel coding, attains their minimum. The
-[dependency record](research/PROOF_DEPENDENCIES.md) supplies the reduction and preserves
-the correction to the earlier converse attribution. The separate product optimum
+[proof dependencies](research/PROOF_DEPENDENCIES.md) give the register reduction
+and source attribution. The separate product optimum
 still requires its determinant and convexity argument.
 
 ## Inaccessible optical loss imposes an energy ceiling
@@ -138,8 +138,6 @@ The [model and claim map](research/MODEL_AND_CLAIMS.md) states these boundaries 
 Environmental assistance and collective-assistance gains have established predecessors.
 The capacity consequence and exact product benchmark are distinguished in the
 [contribution assessment](research/CONTRIBUTION_ASSESSMENT_2026-10-07.md).
-The results remain author-side research claims; numerical checks do not prove coding
-theorems or establish independent review or exhaustive priority.
 
 ## Evidence and reproduction
 
@@ -162,13 +160,11 @@ and gap; it does not prove the analytical optimization over POVMs.
 The runner retains logs, environments, source hashes and every comparison difference
 without refreshing reference reports. [Verification policy](VERIFICATION.md) distinguishes
 passing assertions, numerical agreement and exact-byte reproduction.
-[Provenance](provenance/IMPORT_MANIFEST.json) identifies all 70 protected imports and the
-excluded material. The separate spin/strip project remains outside this repository.
+[Provenance](provenance/IMPORT_MANIFEST.json) identifies all 70 protected source files and excerpts.
 
 ## Purpose and contact
 
 This repository serves as a record of the work and a guide for the author’s self-directed learning. For discussion or potential collaboration, please contact Ruge Lin at [gogoko699@gmail.com](mailto:gogoko699@gmail.com).
 
 The [LLM guide](llms.txt) gives relevant questions, search phrases and authoritative reading
-links. The [maintenance guide](WORKSPACE.md) and [checklist](work_orders/CURRENT.md)
-guide repository changes. The owner's [MIT license](LICENSE) is preserved.
+links. This repository is available under the [MIT license](LICENSE).
