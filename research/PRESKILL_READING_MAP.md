@@ -213,7 +213,7 @@ This evaluates a candidate rate. Establishing the capacity requires both sides:
 
 For achievability at $`N>0`$, first fix a cutoff $`K`$ and helper block $`m`$. The normalized truncated thermal input has mean $`N_K<N`$. The resulting finite-dimensional flagged channel uses the additive input photon observable with mean $`mN_K<mN`$. The energy-constrained coding theorem applies with this slack. Take the coding limit for that fixed channel, then enlarge the helper block as required by the assistance theorem, and only afterward send $`K\to\infty`$. At finite cutoff retain both entropy cuts; do not assume their thermal ordering before the limit.
 
-[PROOF_DEPENDENCIES, Section 3](PROOF_DEPENDENCIES.md) supplies the fixed-cutoff/block application of Wilde–Qi's coding theorem. [preserved optical calculation, Sections 4.2–4.3](../archive/imported/OPTICAL_AUDIT.md) supplies the entropy-tail bounds. Trace-distance convergence alone does not imply entropy convergence in infinite dimensions. A thermal average coded input is not a thermal bath.
+[PROOF_DEPENDENCIES, Section 3](PROOF_DEPENDENCIES.md) supplies the fixed-cutoff/block application of Wilde–Qi's coding theorem and the entropy-tail bounds. Trace-distance convergence alone does not imply entropy convergence in infinite dimensions. A thermal average coded input is not a thermal bath.
 
 The result is
 
@@ -238,6 +238,5 @@ It is zero at $`N=0`$. For fixed $`a>b>0`$, it approaches $`\log_2(a/b)`$ as ene
 | Which ingredients are inherited, and how are they applied? | [Proof dependencies](PROOF_DEPENDENCIES.md) |
 | How are arbitrary helper POVMs bounded? | [Exact product capacity](EXACT_PRODUCT_CAPACITY_2026-10-07.md) |
 | What does the numerical evidence establish? | [Verification policy](../VERIFICATION.md) |
-| Where are verification records and maintenance rules? | [Verification record](../STATUS.md) and [maintenance checklist](../work_orders/CURRENT.md) |
 
-Work through each checkpoint in your own words and then follow the corresponding full proof. These remain author-side research claims; this guide is not independent proof review. A concrete proof or source objection is a reason to revisit the fixed claim package.
+Work through each checkpoint in your own words and then follow the corresponding full proof.

@@ -29,3 +29,7 @@ work instructions retain their original context.
 [The relocation record](../provenance/PATH_RELOCATIONS.json) documents its move
 from the former research path without changing its bytes or scientific hash.
 All 70 protected entries remain pinned by the import manifest.
+
+The [reader-route snapshot](editorial/2026-10-08-reader-route/README.md) preserves
+the subsequent source-reading ledger, attribution correction and maintenance
+indexes from revision `a2b0b3`, with exact byte counts and hashes.

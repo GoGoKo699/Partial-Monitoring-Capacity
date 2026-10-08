@@ -2,9 +2,9 @@
 
 ## Identity and authority
 
-Work only in `GoGoKo699/Partial-Monitoring-Capacity` for this task. Read README.md, STATUS.md, WORKSPACE.md, research/MODEL_AND_CLAIMS.md and work_orders/CURRENT.md. Resolve the live remote branch before editing; a remembered SHA or historical chat assessment is not current repository status. The owner has authorized modifications and merging after checks.
+Work only in `GoGoKo699/Partial-Monitoring-Capacity` for this task. Read README.md, VERIFICATION.md, research/MODEL_AND_CLAIMS.md and .github/MAINTENANCE.md. Resolve the live remote branch before editing; a remembered SHA or historical chat assessment is not current repository status. The owner has authorized modifications and merging after checks.
 
-Preserve existing public visibility, authorship and MIT license. Do not change repository settings, permissions, secrets, release state or other projects. Do not contact external reviewers or collaborators without a separate instruction. Initial chat tools could read but not publish; do not mistake the local feature commit for a remote merged commit.
+Preserve existing public visibility, authorship and MIT license. Do not change repository settings, permissions, secrets, release state or other projects. Do not contact external reviewers or collaborators without a separate instruction. A local feature commit is not a remote merged commit.
 
 ## Scientific scope
 
@@ -24,8 +24,8 @@ The original nested helper imports under checks/source are intentional to preser
 
 Use a feature branch, review the exact diff, inspect checks for the actual PR revision, and merge only after successful validation. After merge inspect the actual main revision and its evidence, then report exact IDs. Do not fabricate a review or claim another assistant pass is independent scientific scrutiny.
 
-Keep work claim-driven. A limitation can delimit the theorem; it is not automatically an instruction to add a new model or resource. Prior-art searches should target an implication that could subsume the central result, not accumulate irrelevant references. Failed retrieval is not novelty evidence. Reader-facing documents describe results, proofs, resources and reproduction. Keep dated decisions, progress updates and task backlogs in historical records or PR receipts, rather than adding a "Next work" section to the scientific reading route.
+Keep work claim-driven. A limitation can delimit the theorem; it is not automatically an instruction to add a new model or resource. Prior-art searches should target an implication that could subsume the central result, not accumulate irrelevant references. Failed retrieval is not novelty evidence. Reader-facing documents describe results, proofs, resources and reproduction. Keep dated decisions, progress updates and task backlogs in historical records or PR receipts, rather than adding them to the scientific reading route. Present current source attribution directly; preserve corrections and retrieval history in the archive. Keep contributor workflow in .github/MAINTENANCE.md, outside the reader navigation.
 
-Maintain the exact Purpose and contact notice in current reader-facing notices. No generated website or manuscript workflow is introduced in this initial import.
+Maintain the exact Purpose and contact notice in current reader-facing notices. Do not introduce a generated website or manuscript workflow without a separate request.
 
 For new or edited reader-facing math, use GitHub's explicit inline delimiters (for example, $`d`$) and fenced `math` blocks. Keep inline formulas separate from hyphenated prose: write “of dimension $`d`$” or “at fixed $`K,m`$”. Use `\mathrm{Tr}`, `\mathrm{id}` and `\mathrm{diag}` rather than `\operatorname`, which the observed GitHub renderer rejects. Apply formatting repairs to active editorial documents; preserve protected imports and archived originals.

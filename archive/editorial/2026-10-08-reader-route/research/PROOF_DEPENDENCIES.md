@@ -1,6 +1,6 @@
 # Proof dependencies and scope
 
-Both finite-dimensional converse cuts follow from the established one-way distillation theorem for degradable states after regrouping registers. The exact product-measurement optimum requires a separate optimization. This record supplies the register reduction and the continuous-measurement and optical coding arguments.
+Both finite-dimensional converse cuts follow from the established one-way distillation theorem for degradable states after regrouping registers. The exact product-measurement optimum requires a separate optimization. This record supplies the register reduction, preserves the attribution correction, and gives the continuous-measurement and optical coding arguments.
 
 ## 1. Finite-dimensional converse: a degradable-state reduction
 
@@ -44,19 +44,21 @@ The two applications concern the same encoded state. The concavity, product-map 
 \qquad g_2(\delta)=(1+\delta)h_2\!\left(\frac{\delta}{1+\delta}\right).
 ```
 
-For $\delta_n\to0$, division by $n$ supplies the operational converse without first assuming $\log d_n=O(n)$. The inherited assistance ensemble and fixed-measurement coding construction give the reverse inequality. Atypical and failure outcomes are included in the completed helper POVM; their vanishing weight is absorbed into the ensemble entropy error, rather than postselected away.
+For $\delta_n\to0$, division by $n$ supplies the operational converse without first assuming $\log d_n=O(n)$. The inherited assistance ensemble and fixed-measurement coding construction give the reverse inequality. Atypical and failure outcomes are included in the completed helper POVM; their vanishing weight is absorbed into the ensemble entropy error, rather than postselected away. The result is therefore a capacity consequence assembled from established ingredients under the stated register-preserving hypothesis. Its proof does not require an independently new converse inequality.
 
-The explicit refined-channel proof identifies the real complement, explains the measurement deficit and supports the product-measurement reduction. The [direct converse](CLAIM_ASSESSMENT_2026-10-07.md) covers coarse records and finite-energy optical systems. The cited state theorem is finite dimensional; it does not replace those infinite-dimensional arguments automatically.
+The explicit refined-channel proof remains useful: it identifies the real complement, explains the measurement deficit and supports the product-measurement reduction. The [direct converse](CLAIM_ASSESSMENT_2026-10-07.md) also remains useful for coarse records and finite-energy optical systems. The cited state theorem is finite dimensional; it does not replace those infinite-dimensional arguments automatically.
+
+**Attribution correction.** The [earlier contribution assessment at revision 6655613](https://github.com/GoGoKo699/Partial-Monitoring-Capacity/blob/66556130d6c308653f2e34f6730d2990efb3b30a/research/CONTRIBUTION_ASSESSMENT_2026-10-07.md) presented the partial-access converse as an additional substantive implication not supplied by the inspected predecessors. The reduction above narrows that assessment. The exact helper-capacity formula was not located as a stated theorem in the new source, but that absence does not make its converse mechanism new. No rate, domain, protected source or reference report is corrected.
 
 ## 2. Why this does not settle the product-measurement optimum
 
-The same source's Proposition 2.7 establishes convexity for suitable mixtures under its tensor-product hypothesis; Theorem 2.8 then gives an upper bound through a **minimum** over degradable/antidegradable decompositions. The helper problem instead maximizes a shared branch-entropy difference over physically allowed measurements. That minimum controls a state-distillation bound and supplies no ordering of the physically allowed helper measurement averages. The [exact product proof](EXACT_PRODUCT_CAPACITY_2026-10-07.md) uses a determinant calculation, difference-convexity inequality and counting chord bound.
+The same source's Proposition 2.7 establishes convexity for suitable mixtures under its tensor-product hypothesis; Theorem 2.8 then gives an upper bound through a **minimum** over degradable/antidegradable decompositions. The helper problem instead maximizes a shared branch-entropy difference over physically allowed measurements. That minimum controls a state-distillation bound and supplies no ordering of the physically allowed helper measurement averages. The [exact product proof](EXACT_PRODUCT_CAPACITY_2026-10-07.md) still needs its determinant calculation, difference-convexity inequality and counting chord bound.
 
 For completeness, the continuous-outcome extension can be stated without an uncountable orthogonal-flag isometry. For a qubit POVM $M$, use its finite trace measure $\mu(S)=\mathrm{Tr}M(S)$, with $\mu(\Omega)=2$. Its positive matrix density admits spectral refinement into rows $m_j(x)$. For fixed input, define the branch probabilities relative to $\mu$ and replace each sum in the chord proof by $\int\sum_j\,d\mu(x)$. The determinant and Rayleigh bounds hold pointwise, and completeness gives $\int\sum_j p_j(x)r_j(x)\,d\mu(x)=1$. Qubit conditional entropies are bounded, so the integrals are well defined. Branches with zero probability contribute zero.
 
 For predetermined measurements on different uses, the additivity difference is the contraction of total correlation from receiver outputs to complementary outputs. Both total correlations are finite by data processing from the finite-dimensional input. One may cancel the common classical correlation term using conditional entropies, without assigning a differential entropy to the outcome. General encoder ancillas are covered by the same conditional weak-monotonicity argument as in the direct proof.
 
-Achievability uses the finite two-outcome counting measurement. Thus the exact equality needs no separate continuous-output coding theorem and no compactness argument.
+Achievability uses the finite two-outcome counting measurement. Thus the exact equality needs no separate continuous-output coding theorem and no compactness argument. The earlier compactness proof remains a historical route to the qualitative gap, rather than a dependency of the stronger chord proof.
 
 ## 3. Optical identity and photon-budget coding
 
@@ -145,10 +147,12 @@ For the optical model, $N=0$ always gives zero capacity. For $R>0$ and $0<a<1$, 
 | Source | Passages inspected and consequence |
 |---|---|
 | [Leditzky–Datta–Smith, 1701.03081v4](https://arxiv.org/pdf/1701.03081v4) | Eqs. (2.1)–(2.4), Definition 2.2, Proposition 2.4 and complete proof, printed pp. 5–8; Proposition 2.7, Theorem 2.8 and Proposition 2.9. Supplies both finite-dimensional cuts through the explicit regrouping above; its decomposition minimum does not settle the helper maximum. |
-| [Ahmed–Smith–Wu, 2603.23417](https://arxiv.org/pdf/2603.23417) | Definitions II.2/III.1, Eq. (17), Propositions III.2–III.3 and relevant proofs. The weaker state conditions do not order helper measurements. |
+| [Ahmed–Smith–Wu, 2603.23417](https://arxiv.org/pdf/2603.23417) | Definitions II.2/III.1, Eq. (17), Propositions III.2–III.3 and relevant proofs. Led to the older state theorem; the attribution belongs to that older result. The weaker state conditions do not order helper measurements. |
 | [Tang–Zhu–Bai–Wang, 2609.28592](https://arxiv.org/pdf/2609.28592) | Theorems 4.1–4.2, Proposition 6.4 and proof, Appendix B. Formation-cost minimization and classical-capacity additivity do not give the shared entropy-difference maximum; ordinary entropy-function convexity is insufficient. |
 | [Relaying Quantum Information, 2507.06770v2](https://arxiv.org/pdf/2507.06770v2) | Operational definition, Theorems 2–4, Remarks 2–3 and Appendix C reductions. An active causal relay and achievable bounds do not supply the present measurement optimization. |
 | [Wilde–Qi, 1609.01997v2](https://arxiv.org/pdf/1609.01997v2) | Theorem 2 and its coding proof; Theorem 6 and its thermal-reference proof. These support the energy-constrained coding step at fixed $`K,m`$ and the inherited entropy method. |
 | [Winter, 1507.07775](https://arxiv.org/pdf/1507.07775) | Lemma 2 and proof. Its finite-reference continuity bound controls passage from finite partitions to the full classical record. |
+
+These are targeted primary-text checks, not exhaustive priority clearance or independent peer review. The analytical rederivation found no rate correction. The material change is the converse attribution, together with the explicit coding and measurable-limit details above. All 23 original diagnostic groups and the separate rational scalar certificate remain distinct from these analytical arguments.
 
 The capacity statements concern the resources in [MODEL_AND_CLAIMS](MODEL_AND_CLAIMS.md). The product optimum is a qubit result for predetermined measurements; the optical law uses vacuum environmental inputs and an average signal-energy constraint.

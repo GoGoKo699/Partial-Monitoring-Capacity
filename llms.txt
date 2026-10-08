@@ -19,23 +19,21 @@ Relevant search phrases: partial-environment measurement-assisted quantum capaci
 
 ## Read by purpose
 
-These raw URLs follow main. For a revision-specific assertion or verification claim, use the corresponding commit and evidence recorded in STATUS.md.
+These raw URLs follow main. For a revision-specific assertion or verification claim, use the corresponding commit and evidence described in VERIFICATION.md.
 
 - [Overview](https://raw.githubusercontent.com/GoGoKo699/Partial-Monitoring-Capacity/main/README.md): physical question, main comparison and reproduction commands.
 - [Physical picture](https://raw.githubusercontent.com/GoGoKo699/Partial-Monitoring-Capacity/main/research/PHYSICAL_PICTURE.md): collection threshold, qubit rate gap and optical ceiling.
 - [Preskill reading map](https://raw.githubusercontent.com/GoGoKo699/Partial-Monitoring-Capacity/main/research/PRESKILL_READING_MAP.md): the single tutorial anchor and worked bridges into the proofs.
 - [Model and claims](https://raw.githubusercontent.com/GoGoKo699/Partial-Monitoring-Capacity/main/research/MODEL_AND_CLAIMS.md): exact resources, result hierarchy and exclusions.
 - [Theorem](https://raw.githubusercontent.com/GoGoKo699/Partial-Monitoring-Capacity/main/research/THEOREM.md): consolidated capacity argument and qubit/optical evaluations.
-- [Proof dependencies](https://raw.githubusercontent.com/GoGoKo699/Partial-Monitoring-Capacity/main/research/PROOF_DEPENDENCIES.md): corrected converse attribution, continuous records, full optical identity and energy limits.
+- [Proof dependencies](https://raw.githubusercontent.com/GoGoKo699/Partial-Monitoring-Capacity/main/research/PROOF_DEPENDENCIES.md): converse attribution, continuous records, full optical identity and energy limits.
 - [Exact product capacity](https://raw.githubusercontent.com/GoGoKo699/Partial-Monitoring-Capacity/main/research/EXACT_PRODUCT_CAPACITY_2026-10-07.md): all-input counting optimum and certified example gap.
-- [Product-helper reduction](https://raw.githubusercontent.com/GoGoKo699/Partial-Monitoring-Capacity/main/research/PRODUCT_HELPER_GAP_2026-10-07.md): true flagged complement, additivity and arbitrary endpoint block codes; the earlier compactness proof is archived.
+- [Product-helper reduction](https://raw.githubusercontent.com/GoGoKo699/Partial-Monitoring-Capacity/main/research/PRODUCT_HELPER_GAP_2026-10-07.md): true flagged complement, additivity and arbitrary endpoint block codes.
 - [Proof audit](https://raw.githubusercontent.com/GoGoKo699/Partial-Monitoring-Capacity/main/research/PROOF_AUDIT.md): refined complement, encoder ancillas and deficit identity.
 - [Claim assessment](https://raw.githubusercontent.com/GoGoKo699/Partial-Monitoring-Capacity/main/research/CLAIM_ASSESSMENT_2026-10-07.md): direct converse with unresolved helper outputs and continuous records.
-- [Preserved optical audit](https://raw.githubusercontent.com/GoGoKo699/Partial-Monitoring-Capacity/main/archive/imported/OPTICAL_AUDIT.md): historical optical derivation and entropy-tail bounds; its work instructions are superseded by the active proofs.
 - [Contribution assessment](https://raw.githubusercontent.com/GoGoKo699/Partial-Monitoring-Capacity/main/research/CONTRIBUTION_ASSESSMENT_2026-10-07.md): contribution boundaries and physical interpretation.
-- [Prior-art ledger](https://raw.githubusercontent.com/GoGoKo699/Partial-Monitoring-Capacity/main/literature/PRIOR_ART.md) and [targeted comparison](https://raw.githubusercontent.com/GoGoKo699/Partial-Monitoring-Capacity/main/literature/PRIORITY_CHECK_2026-10-07.md): inspected sources and reading depth; read the later attribution correction in Proof dependencies first.
+- [Prior-art ledger](https://raw.githubusercontent.com/GoGoKo699/Partial-Monitoring-Capacity/main/literature/PRIOR_ART.md) and [targeted comparison](https://raw.githubusercontent.com/GoGoKo699/Partial-Monitoring-Capacity/main/literature/PRIORITY_CHECK_2026-10-07.md): source passages, operational comparisons and attribution.
 - [Verification policy](https://raw.githubusercontent.com/GoGoKo699/Partial-Monitoring-Capacity/main/VERIFICATION.md) and [import manifest](https://raw.githubusercontent.com/GoGoKo699/Partial-Monitoring-Capacity/main/provenance/IMPORT_MANIFEST.json): evidence rules and protected original sources.
-- [Verification record](https://raw.githubusercontent.com/GoGoKo699/Partial-Monitoring-Capacity/main/STATUS.md), [maintenance guide](https://raw.githubusercontent.com/GoGoKo699/Partial-Monitoring-Capacity/main/WORKSPACE.md) and [checklist](https://raw.githubusercontent.com/GoGoKo699/Partial-Monitoring-Capacity/main/work_orders/CURRENT.md): revision-specific evidence routing and repository maintenance.
 
 ## Model and fixed resources
 
@@ -67,19 +65,19 @@ The reading map selects sections on entropy and data processing, classical recor
 
 ## Attribution and source credit
 
-- [Leditzky-Datta-Smith](https://arxiv.org/abs/1701.03081v4), Definition 2.2 and Proposition 2.4, supply both finite-dimensional converse cuts after regrouping RFD^n:B^n and RF:B^nD^n. These are upper-bound relaxations, not added operational permissions. This corrects the earlier attribution of a new converse mechanism.
+- [Leditzky-Datta-Smith](https://arxiv.org/abs/1701.03081v4), Definition 2.2 and Proposition 2.4, supply both finite-dimensional converse cuts after regrouping RFD^n:B^n and RF:B^nD^n. These are upper-bound relaxations, not added operational permissions.
 - [Smolin-Verstraete-Winter](https://arxiv.org/abs/quant-ph/0505038), Theorems 1 and 8, supply the assistance ensemble and receiver-only flagged-channel coding construction.
 - [Dutil-Hayden](https://arxiv.org/abs/1011.1972), Theorem 8, supplies the related assistance lower bound; its broader two-recipient LOCC permissions are not imported.
 - [Wilde-Qi](https://arxiv.org/abs/1609.01997v2), especially Theorems 2 and 6, supply energy-constrained coding and the thermal-reference entropy method. [Winter](https://arxiv.org/abs/1507.07775), Lemma 2, supplies the finite-reference continuity bound used for continuous records.
 - The exact product maximum still requires the separate branch-determinant, entropy-difference convexity and counting-chord proof. A minimum over state decompositions does not supply this physical helper-measurement maximum.
-- The capacity equality combines established assistance and state-converse ingredients with the stated resource reduction. Consult the proof and literature records for precise reading depth; no exhaustive priority or independent-review claim is made.
+- The capacity equality combines established assistance and state-converse ingredients with the stated resource reduction. Consult the proof and literature records for the precise source dependencies.
 
 ## Evidence and reproduction
 
 - The four unchanged scientific suites contain 23 diagnostic groups: 6 threshold/counting, 7 exact qubit rate, 6 optical audit and 4 consolidation checks.
 - Eight infrastructure tests check the verification machinery. They are separate from the scientific diagnostic groups.
 - [The rational certificate](https://raw.githubusercontent.com/GoGoKo699/Partial-Monitoring-Capacity/main/checks/certify_product_capacity.py) encloses the example's scalar optimum and gap with exact arithmetic. It does not prove the analytical reduction over all POVMs.
-- Finite matrix tests do not establish coding theorems. Numerical agreement, exact-byte reproduction and independent theoretical review are different findings.
+- Finite matrix tests do not establish coding theorems. Numerical agreement, exact-byte reproduction and analytical proof are different findings.
 - Original imports and reports are protected by the manifest. Use a fresh evidence directory; do not refresh references or weaken tolerances. Inspect evidence for the actual revision, including a separate merged-main run.
 
 ```bash
@@ -92,9 +90,9 @@ python checks/certify_product_capacity.py --output local-evidence-001/product-ca
 
 ## Interpretation and current scope
 
-The results are asymptotic capacity statements for the specified resources. The qubit product benchmark is predetermined; adaptive local strategies and general separable block POVMs are outside it. The optical law uses vacuum environmental inputs and an average signal-energy budget. Use the verification policy to distinguish analytical derivations, diagnostic reproduction and review.
+The results are asymptotic capacity statements for the specified resources. The qubit product benchmark is predetermined; adaptive local strategies and general separable block POVMs are outside it. The optical law uses vacuum environmental inputs and an average signal-energy budget. Use the verification policy to distinguish analytical derivations and diagnostic reproduction.
 
-Archive records preserve history and are not live instructions. The spin-strip pilot is separate. Preserve the owner's authorship, public visibility and MIT license; use STATUS.md and the live repository for revision claims.
+For repository changes, follow [AGENTS](https://raw.githubusercontent.com/GoGoKo699/Partial-Monitoring-Capacity/main/AGENTS.md) and the [maintenance checklist](https://raw.githubusercontent.com/GoGoKo699/Partial-Monitoring-Capacity/main/.github/MAINTENANCE.md). Archive records are provenance, not current instructions. Preserve authorship, public visibility and the MIT license.
 
 ## Purpose and contact
 
