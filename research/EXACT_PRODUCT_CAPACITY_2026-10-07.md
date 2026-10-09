@@ -144,7 +144,7 @@ This includes pure inputs $d=0$, where both conditional entropies coincide and t
 **Corollary.** For every qubit split with $`a+b+c=1`$, $`a>b>0`$ and $`c>0`$,
 
 ```math
-\boxed{0<Q_{\rm prod}=Q_{\rm count}<Q_{\rm meas}.}
+\boxed{0\lt Q_{\rm prod}=Q_{\rm count}\lt Q_{\rm meas}.}
 ```
 
 Thus unrestricted helper measurements strictly outperform every predetermined

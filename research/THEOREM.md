@@ -105,7 +105,7 @@ predetermined product helper POVMs and all inputs. Its
 then gives
 
 ```math
-0<Q_{\rm prod}=Q_{\rm count}<Q_{\rm meas}
+0\lt Q_{\rm prod}=Q_{\rm count}\lt Q_{\rm meas}
 \qquad(a+b+c=1,\ a>b>0,\ c>0),
 ```
 
