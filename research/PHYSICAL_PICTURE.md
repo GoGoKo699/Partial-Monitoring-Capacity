@@ -26,7 +26,7 @@ Use the existing split $(a,b,c)=(0.2,0.08,0.72)$:
 
 The helper collects 90% of the field lost by the receiver. Without its record the receiver's channel has zero quantum capacity; with the stipulated assistance it has positive capacity. These are asymptotic coding statements, not the probability of recovering one lost photon.
 
-## A better individual detector cannot close the example's rate gap
+## A better individual detector cannot close the rate gap
 
 For the same qubit split, [the exact product-capacity proof](EXACT_PRODUCT_CAPACITY_2026-10-07.md) optimizes over all predetermined product helper POVMs and all inputs, including coherent inputs. Photon counting attains that maximum. The sender and receiver may use arbitrary block codes in both rows below.
 
@@ -35,7 +35,12 @@ For the same qubit split, [the exact product-capacity proof](EXACT_PRODUCT_CAPAC
 | Best predetermined product measurements, attained by counting | $0.18621044$ |
 | Unrestricted collective measurements | $0.30570954$ |
 
-The exact difference is certified at about $0.11949910$ qubits/use. Counting already reaches the positive-capacity boundary $a>b$; the additional collective benefit demonstrated here is a higher rate. No choice of a better predetermined single-use detector closes this example's gap. The approximately 64% increase illustrates that comparison; the theorem's content is optimization over the entire stated product class.
+The example's exact difference is certified at about $`0.11949910`$ qubits/use.
+The [strict-gap corollary](EXACT_PRODUCT_CAPACITY_2026-10-07.md#4-strict-collective-advantage-throughout-the-qubit-interior)
+establishes $`0<Q_{\rm prod}<Q_{\rm meas}`$ throughout $`a+b+c=1,\ a>b>0,\ c>0`$.
+Counting already reaches the positive-capacity boundary $`a>b`$; the collective
+benefit is a higher rate. No better predetermined single-use detector closes this
+gap. The approximately 64% increase is its quantitative illustration.
 
 The product class includes every single-use POVM and schedules fixed in advance. It excludes measurements chosen adaptively from earlier helper outcomes and general separable block POVMs. Thus this result does not establish that coherent helper memory is necessary against all local strategies. Counting optimality is global after input optimization, rather than a claim for each fixed coherent input. No efficient measurement attaining the unrestricted optimum is supplied, and product optimality has not been established for the optical model.
 

@@ -96,7 +96,26 @@ $$\boxed{Q_{\mathrm{qubit}}=\begin{cases}
 
 Phase covariance and concavity justify the diagonal input diag(1-q,q). Positivity is equivalent to a>b. For exponential damping, a=1-r, b=(1-eta)r, so the threshold is r<1/(2-eta). This compares surviving and permanently lost excitation, not merely detector quality after collection.
 
-Counting the collected photon gives the flagged channel with output populations 1-(a+c)q, aq, cq and complementary populations 1-(b+c)q, bq, cq. Its capacity is the maximum difference of their ternary entropies when a>b. Counting reaches the positivity boundary but not the full optimal rate. At (a,b,c)=(.2,.08,.72), Q_count=.18621044 while (6) gives .30570954 qubits/use. Full collection b=0 recovers the established environment-assisted endpoint [SVW05, DJ10].
+Counting the collected photon gives the flagged channel with output populations
+$`1-(a+c)q,\ aq,\ cq`$ and complementary populations $`1-(b+c)q,\ bq,\ cq`$.
+Its capacity is the maximum difference of their ternary entropies when $`a>b`$.
+The [exact product proof](EXACT_PRODUCT_CAPACITY_2026-10-07.md) optimizes all
+predetermined product helper POVMs and all inputs. Its
+[strict-gap corollary](EXACT_PRODUCT_CAPACITY_2026-10-07.md#4-strict-collective-advantage-throughout-the-qubit-interior)
+then gives
+
+```math
+0<Q_{\rm prod}=Q_{\rm count}<Q_{\rm meas}
+\qquad(a+b+c=1,\ a>b>0,\ c>0),
+```
+
+with a positive parameter-dependent lower bound on the gap. Both sides allow
+arbitrary sender/receiver block codes. Counting reaches the same positivity
+boundary; the collective advantage is a higher asymptotic rate. At
+$`(a,b,c)=(.2,.08,.72)`$, $`Q_{\rm prod}=.18621044\ldots`$ while (6) gives
+$`.30570954\ldots`$ qubits per original use. Full collection $`b=0`$ recovers
+the established environment-assisted endpoint [SVW05, DJ10]; it is outside
+the stated product corollary.
 
 Equation (6) needs only one scalar root or the entropy-crossover point. Set q_c=1/(1+a-b). For q<=q_c the active expression is h2(aq)-h2(bq); above q_c it is h2((1-b)q)-h2(bq). The right piece is nonincreasing from q_c onward. If
 

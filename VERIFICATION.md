@@ -14,6 +14,14 @@ Seventy source files and excerpts, including the license, are pinned by byte cou
 and SHA-256 in [the import manifest](provenance/IMPORT_MANIFEST.json). The eight
 infrastructure tests are counted separately from the scientific groups.
 
+Three additional [strict-gap regression tests](tests/test_strict_gap.py) use
+120-decimal-digit arithmetic to compare direct entropy differences with the mixed
+differences and their lower bounds, including cancellation-sensitive inputs near
+the boundaries. They also check the second derivative, the common product-optimal
+input and endpoint consistency. These finite safeguards do not prove universal
+strictness; the [analytical corollary](research/EXACT_PRODUCT_CAPACITY_2026-10-07.md#4-strict-collective-advantage-throughout-the-qubit-interior)
+does. Run all eleven tests with `python -m unittest discover -s tests -v`.
+
 ## Fresh run
 
 `python verify.py --output-dir NEW_DIRECTORY` refuses an existing directory. It records before/after integrity, exact source hashes, the tracked source ZIP, Python/dependency versions, every original log and report, and field-by-field comparisons against the preserved references. The result identifies the actual local commit and staged source tree. The runner never regenerates originals.
@@ -24,7 +32,7 @@ For cross-environment comparisons, finite float values use relative tolerance **
 
 ## Exact product-capacity certificate
 
-The [counting-optimality proof](research/EXACT_PRODUCT_CAPACITY_2026-10-07.md) has one additional arithmetic certificate, counted separately from the original 23 groups and eight infrastructure tests. After the runner creates its new evidence directory, run:
+The [counting-optimality proof](research/EXACT_PRODUCT_CAPACITY_2026-10-07.md) has one additional arithmetic certificate, counted separately from the original 23 groups, eight infrastructure tests and three strict-gap regression tests. After the runner creates its new evidence directory, run:
 
 ```bash
 python checks/certify_product_capacity.py --output NEW_DIRECTORY/product-capacity-certificate.json

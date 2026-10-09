@@ -40,8 +40,11 @@ is supplied.
 For qubit splitting, let $`a,b,c`$ be the received, inaccessible and collected fractions,
 with $`a+b+c=1`$. Throughout $`a>b>0,\ c>0`$, photon counting attains the largest capacity
 over all predetermined product helper POVMs and all inputs, including coherent inputs.
+The [strict-gap corollary](research/EXACT_PRODUCT_CAPACITY_2026-10-07.md#4-strict-collective-advantage-throughout-the-qubit-interior)
+establishes $`0<Q_{\rm prod}<Q_{\rm meas}`$ throughout this region, with a positive
+parameter-dependent lower bound on the difference.
 
-At $`(a,b,c)=(0.2,0.08,0.72)`$:
+A certified numerical illustration at $`(a,b,c)=(0.2,0.08,0.72)`$:
 
 | Helper measurement resource | Capacity, qubits/use |
 |---|---:|
@@ -50,8 +53,9 @@ At $`(a,b,c)=(0.2,0.08,0.72)`$:
 | Certified difference | $`0.11949910`$ |
 
 Both rows allow arbitrary sender/receiver block codes. A better predetermined
-single-use detector cannot close this example's gap. Counting already reaches the
-positive-capacity boundary $`a>b`$; the demonstrated collective benefit is a higher rate.
+single-use detector cannot close the gap anywhere in the stated interior region.
+Counting already reaches the positive-capacity boundary $`a>b`$; the collective benefit
+is a higher rate.
 The [exact product proof](research/EXACT_PRODUCT_CAPACITY_2026-10-07.md) supplies the
 optimization over all measurements. It establishes counting optimality after input
 optimization, rather than for every fixed coherent input.
@@ -154,7 +158,8 @@ python checks/certify_product_capacity.py --output local-evidence-001/product-ca
 
 Four preserved scientific suites contain **23 monitoring groups**: 6 threshold/counting,
 7 exact qubit rate, 6 optical audit and 4 consolidation checks. The eight infrastructure
-tests are separate. The rational certificate encloses the example's scalar product rate
+tests and three high-precision strict-gap regression tests are separate. The rational
+certificate encloses the example's scalar product rate
 and gap; it does not prove the analytical optimization over POVMs.
 
 The runner retains logs, environments, source hashes and every comparison difference
