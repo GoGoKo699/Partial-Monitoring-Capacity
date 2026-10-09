@@ -12,7 +12,7 @@ resource and proof boundaries.
 
 A signal is split between the receiver, permanently inaccessible loss, and a collected field. The helper measures the collected field and sends only a classical record to the receiver. For the stated vacuum-loss models, transmission becomes possible when the received fraction exceeds the inaccessible fraction. In the qubit model, photon counting already reaches that positive-capacity boundary.
 
-Above that boundary, the question becomes how much rate an individual detector can recover. For the qubit family with $a>b>0$ and $c>0$, optimizing every predetermined single-use helper POVM cannot beat photon counting, even with coherent inputs and arbitrary sender/receiver block codes. In the example below, the larger unrestricted capacity therefore cannot be obtained merely by selecting a better independent-use detector basis.
+Above that boundary, the question becomes how much rate an individual detector can recover. For the qubit family with $`a+b+c=1,\ a>b>0,\ c>0`$, optimizing every predetermined single-use helper POVM cannot beat photon counting, even with coherent inputs and arbitrary sender/receiver block codes. The [strict-gap corollary](EXACT_PRODUCT_CAPACITY_2026-10-07.md#4-strict-collective-advantage-throughout-the-qubit-interior) gives $`0<Q_{\rm prod}<Q_{\rm meas}`$ throughout this region, with a positive parameter-dependent lower bound. The example below quantifies this general separation.
 
 | Qubit example: $(a,b,c)=(0.2,0.08,0.72)$ | Capacity, qubits/use |
 |---|---:|
@@ -20,7 +20,7 @@ Above that boundary, the question becomes how much rate an individual detector c
 | Unrestricted collective helper measurements | $0.30570954$ |
 | Difference | $0.11949910$ |
 
-The approximately 64% increase illustrates the exact comparison; its size is not the novelty argument. These are asymptotic rates, not single-photon recovery probabilities. Collective processing improves the rate in this example, not the positive-capacity boundary. Adaptive local measurements and general separable block POVMs remain outside the product benchmark, so necessity of coherent helper memory has not been established.
+The approximately 64% increase illustrates the exact comparison; its size is not the novelty argument. These are asymptotic rates, not single-photon recovery probabilities. Collective processing improves the rate throughout the stated interior region; the positive-capacity boundary is unchanged. Adaptive local measurements and general separable block POVMs remain outside the product benchmark, so necessity of coherent helper memory has not been established.
 
 The optical evaluation adds a complementary lesson: at fixed splitting fractions $a>b>0$, more signal energy approaches the ceiling $\log_2(a/b)$; reducing that loss can raise the ceiling. This is an exact consequence of the capacity theorem for vacuum splitting, not an independent discovery about all monitored noise. The qubit product-optimality theorem has not been proved for the optical model.
 
@@ -63,6 +63,10 @@ The [prior-work comparison](../literature/PRIORITY_CHECK_2026-10-07.md) details 
 | [Pereg, 2411.16263v2](https://arxiv.org/pdf/2411.16263v2), introduction, Definition 3, Theorems 3–5 | The Hadamard equality and measure-/assist-forward bounds concern classical messages, with an active relay input. They do not give this entanglement-transmission capacity. Definitions and results were inspected, not the full appendix proofs. |
 
 The degradable-state theorem supplies the finite-dimensional converse mechanism. The all-input product-measurement maximum requires the separate determinant and chord argument. The [dependency record](PROOF_DEPENDENCIES.md) gives further source comparisons and the passages supporting them.
+
+The strict interior separation follows by a short entropy comparison from these two
+exact capacities. It establishes the gap throughout the stated parameter region;
+it does not claim priority for collective environmental assistance or counting gaps.
 
 ## What the exact comparison establishes
 

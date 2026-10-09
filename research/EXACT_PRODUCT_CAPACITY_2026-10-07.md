@@ -20,7 +20,9 @@ h_2\!\left(\frac{aq}{1-cq}\right)
 
 Photon counting in the helper's vacuum/excitation basis attains this value with a diagonal average input. No other predetermined product POVM improves it, even when paired with coherent input states and collective encoding/decoding. The theorem concerns the same qubit family; it does not extend to the optical model.
 
-For $(a,b,c)=(1/5,2/25,18/25)$, the exact-arithmetic certificate described below gives
+Throughout this interior region, $`0<Q_{\rm prod}<Q_{\rm meas}`$ by the
+[strict-gap corollary](#4-strict-collective-advantage-throughout-the-qubit-interior).
+For $`(a,b,c)=(1/5,2/25,18/25)`$, the exact-arithmetic certificate described below gives
 
 ```math
 0.18621044456570<Q_{\rm prod}<0.18621044456572,
@@ -137,21 +139,122 @@ I_c(\rho,\mathcal N_M)
 
 This includes pure inputs $d=0$, where both conditional entropies coincide and the value is zero. For a diagonal input, $\widetilde q=q$. Photon counting has exactly $r=R$ for the vacuum outcome and $r=0$ for the collected-excitation outcome, so it saturates the chord. Optimizing its diagonal input proves the claimed equality. No assumption that a general fixed POVM is phase covariant was used.
 
-## 4. A small exact-arithmetic certificate
+## 4. Strict collective advantage throughout the qubit interior
 
-Let $u(q)=1-(1-b)q$ and $v(q)=1-(1-a)q$. The counting objective can also be written
+**Corollary.** For every qubit split with $`a+b+c=1`$, $`a>b>0`$ and $`c>0`$,
 
 ```math
-F(q)=-u\log_2u-aq\log_2(aq)+v\log_2v+bq\log_2(bq),
+\boxed{0\lt Q_{\rm prod}=Q_{\rm count}\lt Q_{\rm meas}.}
 ```
 
-with
+Thus unrestricted helper measurements strictly outperform every predetermined
+product helper strategy, including use-varying choices fixed in advance. Both
+capacities allow arbitrary sender/receiver block codes and measure unconditional
+asymptotic transmission in qubits per original use.
+
+**Proof.** With binary entropy in bits, define the diagonal-input functions
+
+```math
+D_1(q)=h_2(aq)-h_2(bq),\qquad
+D_2(q)=h_2((1-b)q)-h_2(bq),\qquad
+G(q)=\min\{D_1(q),D_2(q)\}.
+```
+
+The [qubit theorem](THEOREM.md#3-qubit-decay-exact-rate-and-irreversible-boundary)
+gives $`Q_{\rm meas}=\max_{[0,1]}G`$; Sections 1–3 give
+$`Q_{\rm prod}=\max_{[0,1]}F`$ after optimizing every product POVM and all inputs,
+including coherent inputs. The comparison below concerns these diagonal-input
+functions, not counting optimality at each fixed coherent input.
+
+Locally set $`\phi(t)=t\log_2t`$, with $`\phi(0)=0`$, and for positive real
+arguments define
+
+```math
+\begin{aligned}
+J(x;y,z)&=\phi(x+y+z)-\phi(x+y)-\phi(x+z)+\phi(x)\\
+&=\frac1{\ln2}\int_0^y\int_0^z\frac{dt\,ds}{x+s+t}>0.
+\end{aligned}
+```
+
+The integral follows by integrating $`\phi''(t)=1/(t\ln2)`$ twice. Put
+$`u(q)=1-(1-b)q`$ and $`v(q)=1-(1-a)q`$. Expanding the binary entropies gives
+
+```math
+F(q)=-\phi(u)-\phi(aq)+\phi(v)+\phi(bq),
+```
+
+and hence the exact identities
+
+```math
+\begin{aligned}
+D_1(q)-F(q)&=J\bigl(u(q);(a-b)q,cq\bigr),\\
+D_2(q)-F(q)&=J\bigl(aq;1-q,cq\bigr).
+\end{aligned}
+```
+
+For the first identity the two partial sums are $`v(q)`$ and $`1-aq`$;
+for the second they are $`v(q)`$ and $`(1-b)q`$. Both total sums are
+$`1-bq`$. For $`0<q<1`$, all three arguments of each mixed difference are
+positive: in particular $`u(q)>b>0`$, $`(a-b)q>0`$, $`aq>0`$, $`1-q>0`$
+and $`cq>0`$. Therefore $`F(q)<G(q)`$ at every interior diagonal input.
+
+Since $`1-cq\ge a+b>0`$, the counting objective is continuous on $`[0,1]`$,
+with $`F(0)=F(1)=0`$. Differentiating its expanded form yields
 
 ```math
 F''(q)=-\frac{a-b}{\ln2\,q\,u(q)\,v(q)}<0.
 ```
 
-Its derivative tends to $+\infty$ at zero and equals $\log_2(b/a)<0$ at one. Thus there is one maximizing root. At the example's rational parameters, the derivative sign is exactly the sign of
+Strict concavity makes $`F`$ positive on $`(0,1)`$, so its unique attained
+maximizer $`q_*`$ lies in that interval. Evaluate the unrestricted objective
+at this same product-optimal input:
+
+```math
+Q_{\rm meas}\ge G(q_*)>F(q_*)=Q_{\rm prod}>0.
+```
+
+For a quantitative bound, the integral also gives
+
+```math
+J(x;y,z)\ge\frac{yz}{(x+y+z)\ln2}.
+```
+
+Using the common total $`1-bq`$ in the two identities,
+
+```math
+D_1(q)-F(q)\ge\frac{c(a-b)q^2}{(1-bq)\ln2},\qquad
+D_2(q)-F(q)\ge\frac{cq(1-q)}{(1-bq)\ln2}.
+```
+
+Taking their minimum at $`q_*`$ proves the conservative bound
+
+```math
+\boxed{
+Q_{\rm meas}-Q_{\rm prod}
+\ge\frac{cq_*}{(1-bq_*)\ln2}
+\min\{(a-b)q_*,1-q_*\}>0.
+}
+```
+
+This is a parameter-dependent lower bound, not the exact capacity difference
+or a uniform positive gap over the open region. At fixed interior input it
+vanishes as $`c\to0`$ or $`a\to b`$. At $`c=0`$ there is no collected helper
+output and the capacities coincide; at $`a=b`$ both capacities vanish.
+At $`q=0,1`$, $`F=G=0`$; the second mixed difference vanishes at $`q=1`$,
+while the first need not. These consistency checks do not extend the product
+theorem to $`b=0`$.
+
+The corollary compares rates within the existing operational model. It does
+not change the positive-capacity boundary, supply finite-block fidelity or
+implementation guarantees, or establish necessity of coherent helper memory.
+Outcome-adaptive local strategies and general separable block POVMs remain
+outside the product benchmark. The all-POVM optimization is a qubit result.
+
+## 5. A small exact-arithmetic certificate
+
+With $`u,v`$ as above, $`F'`$ tends to $`+\infty`$ at zero and equals
+$`\log_2(b/a)<0`$ at one. Thus there is one maximizing root. At the example's
+rational parameters, the derivative sign is exactly the sign of
 
 ```math
 20(1-23q/25)^{23}-q^3(1-4q/5)^{20}.

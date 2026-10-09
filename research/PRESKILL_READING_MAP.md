@@ -185,6 +185,9 @@ Q_{\rm prod}=Q_{\rm count}=\max_qF(q).
 
 This is counting optimality **after optimizing the input**. It does not claim counting is best for every fixed coherent input. The full proof defines $`f`$, derives its second derivative and treats continuous POVMs.
 
+The [strict-gap corollary](EXACT_PRODUCT_CAPACITY_2026-10-07.md#4-strict-collective-advantage-throughout-the-qubit-interior)
+compares the two entropy objectives at the product-optimal input and gives
+$`0<Q_{\rm prod}<Q_{\rm meas}`$ throughout $`a+b+c=1,\ a>b>0,\ c>0`$.
 At $`(a,b,c)=(0.2,0.08,0.72)`$, the product and unrestricted capacities are approximately $`0.18621044`$ and $`0.30570954`$ qubits/use. The [rational certificate](../checks/certify_product_capacity.py) verifies the scalar rate and gap enclosures conditional on the analytical reduction; it does not certify the proof over all POVMs.
 
 **Checkpoint:** which step rules out a better individual detector, and which allows arbitrary endpoint coding? The all-input chord bound answers the first; degradable product-channel additivity answers the second.

@@ -27,7 +27,7 @@ These raw URLs follow main. For a revision-specific assertion or verification cl
 - [Model and claims](https://raw.githubusercontent.com/GoGoKo699/Partial-Monitoring-Capacity/main/research/MODEL_AND_CLAIMS.md): exact resources, result hierarchy and exclusions.
 - [Theorem](https://raw.githubusercontent.com/GoGoKo699/Partial-Monitoring-Capacity/main/research/THEOREM.md): consolidated capacity argument and qubit/optical evaluations.
 - [Proof dependencies](https://raw.githubusercontent.com/GoGoKo699/Partial-Monitoring-Capacity/main/research/PROOF_DEPENDENCIES.md): converse attribution, continuous records, full optical identity and energy limits.
-- [Exact product capacity](https://raw.githubusercontent.com/GoGoKo699/Partial-Monitoring-Capacity/main/research/EXACT_PRODUCT_CAPACITY_2026-10-07.md): all-input counting optimum and certified example gap.
+- [Exact product capacity](https://raw.githubusercontent.com/GoGoKo699/Partial-Monitoring-Capacity/main/research/EXACT_PRODUCT_CAPACITY_2026-10-07.md): all-input counting optimum, strict separation throughout the qubit interior, positive gap bound and certified numerical illustration.
 - [Product-helper reduction](https://raw.githubusercontent.com/GoGoKo699/Partial-Monitoring-Capacity/main/research/PRODUCT_HELPER_GAP_2026-10-07.md): true flagged complement, additivity and arbitrary endpoint block codes.
 - [Proof audit](https://raw.githubusercontent.com/GoGoKo699/Partial-Monitoring-Capacity/main/research/PROOF_AUDIT.md): refined complement, encoder ancillas and deficit identity.
 - [Claim assessment](https://raw.githubusercontent.com/GoGoKo699/Partial-Monitoring-Capacity/main/research/CLAIM_ASSESSMENT_2026-10-07.md): direct converse with unresolved helper outputs and continuous records.
@@ -48,6 +48,7 @@ These raw URLs follow main. For a revision-specific assertion or verification cl
 
 - Under the joint identity, the finite-dimensional capacity is Q_meas = max_rho [min{S(B), S(BD)} - S(E)], with entropies in bits on V rho V-dagger.
 - For the qubit splitting family with received, inaccessible and collected fractions a+b+c=1 and a>b>0, c>0, photon counting attains the capacity optimized over all predetermined product helper POVMs and all inputs.
+- Throughout that interior region, 0<Q_prod<Q_meas. The strict-gap corollary evaluates both exact objectives at the product-optimal input and gives a positive parameter-dependent lower bound, not a uniform gap over the region.
 - Predetermined product measurements include schedules that vary by use. Both the product and unrestricted benchmarks allow arbitrary endpoint block codes.
 - At (a,b,c)=(0.2,0.08,0.72), Q_product=Q_count is about 0.18621044 qubits/use, while Q_meas is about 0.30570954; the certified difference is about 0.11949910 qubits/use.
 - Counting already reaches the qubit positive-capacity boundary. The demonstrated collective advantage concerns rate, not an improved positivity threshold.
@@ -76,6 +77,7 @@ The reading map selects sections on entropy and data processing, classical recor
 
 - The four unchanged scientific suites contain 23 diagnostic groups: 6 threshold/counting, 7 exact qubit rate, 6 optical audit and 4 consolidation checks.
 - Eight infrastructure tests check the verification machinery. They are separate from the scientific diagnostic groups.
+- Three additional high-precision regression tests check the strict-gap entropy identities, bounds, common-input optimization and boundary consistency; the analytical proof establishes universal strictness.
 - [The rational certificate](https://raw.githubusercontent.com/GoGoKo699/Partial-Monitoring-Capacity/main/checks/certify_product_capacity.py) encloses the example's scalar optimum and gap with exact arithmetic. It does not prove the analytical reduction over all POVMs.
 - Finite matrix tests do not establish coding theorems. Numerical agreement, exact-byte reproduction and analytical proof are different findings.
 - Original imports and reports are protected by the manifest. Use a fresh evidence directory; do not refresh references or weaken tolerances. Inspect evidence for the actual revision, including a separate merged-main run.

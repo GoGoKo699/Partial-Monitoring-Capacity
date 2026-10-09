@@ -25,7 +25,7 @@ jobs:
           cache: pip
       - name: Install pinned dependencies
         run: python -m pip install -r requirements.txt
-      - name: Infrastructure checks
+      - name: Infrastructure and strict-gap regression checks
         run: python -m unittest discover -s tests -v
       - name: Verify original sources and all 23 monitoring groups
         run: python verify.py --output-dir verification-artifacts
