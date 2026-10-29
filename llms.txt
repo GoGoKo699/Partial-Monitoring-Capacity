@@ -14,6 +14,7 @@ Machine-readable guide: https://raw.githubusercontent.com/GoGoKo699/Partial-Moni
 - Is photon counting optimal over all predetermined product helper POVMs for a qubit decay channel with inaccessible residual loss?
 - How does unobserved vacuum optical loss limit capacity under an average incident photon budget?
 - How can a reader connect quantum Shannon theory to the classical flag, complementary channel, two entropy cuts and product-measurement proof?
+- How does the qubit counting optimum connect to the optical sister's two-photon counterexample, detector-class laws and priced local reference?
 
 Relevant search phrases: partial-environment measurement-assisted quantum capacity; partial monitoring quantum channel; joint-register degradation; inaccessible environment; collective versus product helper measurements; photon-counting optimality; qubit amplitude damping; vacuum optical loss; energy-constrained quantum capacity.
 
@@ -23,7 +24,9 @@ These raw URLs follow main. For a revision-specific assertion or verification cl
 
 - [Overview](https://raw.githubusercontent.com/GoGoKo699/Partial-Monitoring-Capacity/main/README.md): physical question, main comparison and reproduction commands.
 - [Physical picture](https://raw.githubusercontent.com/GoGoKo699/Partial-Monitoring-Capacity/main/research/PHYSICAL_PICTURE.md): collection threshold, qubit rate gap and optical ceiling.
-- [Preskill reading map](https://raw.githubusercontent.com/GoGoKo699/Partial-Monitoring-Capacity/main/research/PRESKILL_READING_MAP.md): the single tutorial anchor and worked bridges into the proofs.
+- [Thirty milestones](https://raw.githubusercontent.com/GoGoKo699/Partial-Monitoring-Capacity/main/research/LEARNING_MILESTONES.md): exactly 12 background and 18 narrative understanding targets, with dependencies, conceptual connections and source pointers; the qubit comparison remains central.
+- [Preskill reading map](https://raw.githubusercontent.com/GoGoKo699/Partial-Monitoring-Capacity/main/research/PRESKILL_READING_MAP.md): the single tutorial anchor and four worked bridges into the proofs.
+- [Sister-project bridge](https://raw.githubusercontent.com/GoGoKo699/Partial-Monitoring-Capacity/main/research/OPTICAL_DETECTOR_BRIDGE.md): notation translation and pinned optical results, separating the two-photon cutoff, mean-only detector comparison and mean-reference energy model.
 - [Model and claims](https://raw.githubusercontent.com/GoGoKo699/Partial-Monitoring-Capacity/main/research/MODEL_AND_CLAIMS.md): exact resources, result hierarchy and exclusions.
 - [Theorem](https://raw.githubusercontent.com/GoGoKo699/Partial-Monitoring-Capacity/main/research/THEOREM.md): consolidated capacity argument and qubit/optical evaluations.
 - [Proof dependencies](https://raw.githubusercontent.com/GoGoKo699/Partial-Monitoring-Capacity/main/research/PROOF_DEPENDENCIES.md): converse attribution, continuous records, full optical identity and energy limits.
@@ -34,7 +37,7 @@ These raw URLs follow main. For a revision-specific assertion or verification cl
 - [Contribution assessment](https://raw.githubusercontent.com/GoGoKo699/Partial-Monitoring-Capacity/main/research/CONTRIBUTION_ASSESSMENT_2026-10-07.md): contribution boundaries and physical interpretation.
 - [Prior-art ledger](https://raw.githubusercontent.com/GoGoKo699/Partial-Monitoring-Capacity/main/literature/PRIOR_ART.md) and [targeted comparison](https://raw.githubusercontent.com/GoGoKo699/Partial-Monitoring-Capacity/main/literature/PRIORITY_CHECK_2026-10-07.md): source passages, operational comparisons and attribution.
 - [Verification policy](https://raw.githubusercontent.com/GoGoKo699/Partial-Monitoring-Capacity/main/VERIFICATION.md) and [import manifest](https://raw.githubusercontent.com/GoGoKo699/Partial-Monitoring-Capacity/main/provenance/IMPORT_MANIFEST.json): evidence rules and protected original sources.
-- [Companion optical detector comparison](https://github.com/GoGoKo699/Optical-Detector-Capacity/tree/dfaa76e84f964d4d0289a7d6e3ccd89b3048c65a): reuses this project's collective optical benchmark, certifies counting suboptimality at a two-photon cutoff, and distinguishes counting's half-logarithmic rate from coherent individual-mode measurements' full logarithmic rate in the mean-energy-only oscillator model. Its uniform domain and detector-resource assumptions remain those of the companion project.
+- [Companion optical detector comparison](https://github.com/GoGoKo699/Optical-Detector-Capacity/tree/c3582795f208bfa287d53db2458ca710cefeb6f7): reuses this project's collective optical benchmark, certifies counting suboptimality at a two-photon cutoff, and distinguishes counting's half-logarithmic rate from coherent individual-mode measurements' full logarithmic rate in the mean-energy-only oscillator model. Its local-reference result also prices average initial reference photons under separate invariance at each mode; the full assumptions remain those of the companion project.
 
 ## Model and fixed resources
 
@@ -58,13 +61,14 @@ These raw URLs follow main. For a revision-specific assertion or verification cl
 - For a>b>0, the optical rate approaches log2(a/b) as N grows. The constraint is average signal energy, not a maximum photon number per codeword or a total apparatus-energy budget.
 - The optical converse includes entangled non-Gaussian inputs. Finite photon cutoffs enter achievability with explicit entropy-tail control; environmental inputs remain vacuum.
 - The qubit product optimum does not establish optical counting optimality or the necessity of coherent helper memory against adaptive strategies. No efficient capacity-achieving helper or finite-block implementation is supplied.
-- The companion [two-photon bridge](https://github.com/GoGoKo699/Optical-Detector-Capacity/blob/dfaa76e84f964d4d0289a7d6e3ccd89b3048c65a/science/qubit_optical_bridge.md) compares all counting codes under the same additional per-mode cutoff; it does not bound full-Fock counting at that mean energy. The [full optical laws](https://github.com/GoGoKo699/Optical-Detector-Capacity/blob/dfaa76e84f964d4d0289a7d6e3ccd89b3048c65a/science/uniform_laws.md) instead use only a mean signal budget. Within-mode number coherence and cross-mode collective processing are distinct resources.
+- The companion [two-photon bridge](https://github.com/GoGoKo699/Optical-Detector-Capacity/blob/c3582795f208bfa287d53db2458ca710cefeb6f7/science/qubit_optical_bridge.md) compares all counting codes under the same additional per-mode cutoff; it does not bound full-Fock counting at that mean energy. The [full optical laws](https://github.com/GoGoKo699/Optical-Detector-Capacity/blob/c3582795f208bfa287d53db2458ca710cefeb6f7/science/uniform_laws.md) instead use only a mean signal budget. Within-mode number coherence and cross-mode collective processing are distinct resources.
+- In the companion's energy-driven local-reference model, fixed 0<a<1, N>=1, 0<=b<=(1/2)min{a,1-a}, and bN<=1 give Q_loc_mean(N,M)=min{log2 N,max{(1/2)log2 N,log2(M+1)}}+O_a(1). Here M is average initial reference photon stock; effects commute with each local collected-plus-reference number, references are initially independent of the signal, and classical records remain unrestricted. The [sister bridge](https://raw.githubusercontent.com/GoGoKo699/Partial-Monitoring-Capacity/main/research/OPTICAL_DETECTOR_BRIDGE.md) supplies the pinned source. Prepared stock is not work, reset cost, or a claim of coherent reuse.
 
 ## One tutorial anchor
 
 Use John Preskill, Quantum Shannon Theory, Chapter 10, 2025 revision: [official chapter](https://www.preskill.caltech.edu/ph219/chap10_6A_2025.pdf), [arXiv v5](https://arxiv.org/abs/1604.07450v5).
 
-The reading map selects sections on entropy and data processing, classical records, coherent information, degradability, amplitude damping and coding. Start with its worked copied-flag/complement construction, then the two cuts and product chord. The helper-ensemble theorem and optical energy argument remain separate bridges. Preskill's preshared entanglement assistance is not this helper resource. The chapter is linked, not redistributed.
+The thirty-milestone map assembles 12 background and 18 narrative targets from the project's actual science. The reading map selects sections on entropy and data processing, classical records, coherent information, degradability, amplitude damping and coding. Start with its worked copied-flag/complement construction, then the two cuts and product chord. The helper-ensemble theorem and optical energy argument remain separate bridges. The final milestones connect the optical sister through its pinned proofs. Preskill's preshared entanglement assistance is not this helper resource. The chapter is linked, not redistributed.
 
 ## Attribution and source credit
 

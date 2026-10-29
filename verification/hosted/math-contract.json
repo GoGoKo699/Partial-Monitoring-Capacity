@@ -1,0 +1,239 @@
+{
+  "schema_version": 1,
+  "expressions": [
+    {
+      "path": "README.md",
+      "index": 14,
+      "source_sha256": "3c571aa0f6507f9a77b26d040b7020a7eeb6809d54275d34dbd266f1a9101e88",
+      "expected_text": "NED=(TB→E⊗idD)NBD.",
+      "required_text": [
+        "NED",
+        "TB→E",
+        "⊗idD",
+        "NBD"
+      ]
+    },
+    {
+      "path": "README.md",
+      "index": 15,
+      "source_sha256": "1a164173281dbdbaa69d52f15a5b46fb1f187704f1c97c78131a4c9aad9e3a22",
+      "expected_text": "Qmeas=maxρA[min{S(B),S(BD)}−S(E)].",
+      "required_text": [
+        "Qmeas",
+        "maxρA",
+        "min{S(B),S(BD)}−S(E)"
+      ]
+    },
+    {
+      "path": "README.md",
+      "index": 17,
+      "source_sha256": "7b312c140e67c9c3b5a2f5c737990d6ab16b5645b9e651d5d12bf85c9a9c6afd",
+      "expected_text": "Qoptical(N)={g(aN)−g(bN),a>b,0,a≤b,g(x)=(x+1)log2(x+1)−xlog2x.",
+      "required_text": [
+        "Qoptical(N)",
+        "g(aN)−g(bN)",
+        "a>b",
+        "a≤b",
+        "g(x)"
+      ]
+    },
+    {
+      "path": "research/EXACT_PRODUCT_CAPACITY_2026-10-07.md",
+      "index": 4,
+      "source_sha256": "54412a3c9d1f1d491f70d9d6b4c2ad7c98522f9ccf5221f6c756f8d774f3cbf0",
+      "expected_text": "Qprod=Qcount=max0≤q≤1F(q),",
+      "required_text": [
+        "Qprod=Qcount",
+        "0≤q≤1",
+        "F(q)"
+      ]
+    },
+    {
+      "path": "research/EXACT_PRODUCT_CAPACITY_2026-10-07.md",
+      "index": 54,
+      "source_sha256": "af9114f79fd92f2ef5fc5dba401d49b3dee5e8b8a0c7f6335fbf8cf119aaef1a",
+      "expected_text": "0<Qprod=Qcount<Qmeas.",
+      "required_text": [
+        "0<Qprod=Qcount<Qmeas"
+      ]
+    },
+    {
+      "path": "research/EXACT_PRODUCT_CAPACITY_2026-10-07.md",
+      "index": 90,
+      "source_sha256": "a88cbc11f934ebc3b88d056b7732f35f516e86f83fc43e5e517d377c838e1229",
+      "expected_text": "Qmeas−Qprod≥cq∗(1−bq∗)ln2min{(a−b)q∗,1−q∗}>0.",
+      "required_text": [
+        "Qmeas−Qprod≥",
+        "(a−b)q∗",
+        "1−q∗",
+        ">0"
+      ]
+    },
+    {
+      "path": "research/PROOF_AUDIT.md",
+      "index": 3,
+      "source_sha256": "8fc7913d40ae1378c67d3301a847f8af01514572b010904140fe6135393e523a",
+      "expected_text": "n[Q(N)−Q(N̄)]+{D(ρB‖τaN̄⊗n)−D(ρE‖τbN̄⊗n)}+{I(X;B)−I(X;E)}.",
+      "required_text": [
+        "Q(N)",
+        "D(ρB",
+        "D(ρE",
+        "I(X;B)−I(X;E)"
+      ]
+    },
+    {
+      "path": "research/PROOF_AUDIT.md",
+      "index": 4,
+      "source_sha256": "7e1e24f2bcd07609036f11b01f2d9571d8542c883ad9de93c5b83aab00593e6e",
+      "expected_text": "f1′′(q)=b−aln2q(1−aq)(1−bq)<0.",
+      "required_text": [
+        "f1′′(q)",
+        "b−a",
+        "q(1−aq)(1−bq)",
+        "<0"
+      ]
+    },
+    {
+      "path": "research/PROOF_DEPENDENCIES.md",
+      "index": 44,
+      "source_sha256": "2b939bf0b42f084dc479f402c24432da8002afbffdfa70fe08a183ef009aa1e8",
+      "expected_text": "∫∑jdμ(x)",
+      "required_text": [
+        "∫∑j",
+        "dμ(x)"
+      ]
+    },
+    {
+      "path": "research/PROOF_DEPENDENCIES.md",
+      "index": 45,
+      "source_sha256": "444170072407f479a00911034ddae0d87cb046d6dc1875a4e1abdc2cf8cbce8f",
+      "expected_text": "∫∑jpj(x)rj(x)dμ(x)=1",
+      "required_text": [
+        "pj(x)rj(x)",
+        "dμ(x)=1"
+      ]
+    },
+    {
+      "path": "research/PROOF_DEPENDENCIES.md",
+      "index": 83,
+      "source_sha256": "dc2556a1c9e749334f28901b5b5e3e6a66e661012967b8c8140bc276f2517d45",
+      "expected_text": "min{Ha(K),H1−b(K)}",
+      "required_text": [
+        "min{Ha(K),H1−b(K)}"
+      ]
+    },
+    {
+      "path": "research/PROOF_DEPENDENCIES.md",
+      "index": 95,
+      "source_sha256": "6433c1364926ac33c53452d6b1d871b63d06f02f666d9b2df7b46a87b51ce7ea",
+      "expected_text": "∥P+Q∥∞=1+1/d",
+      "required_text": [
+        "∥P+Q∥∞=1+1/d"
+      ]
+    },
+    {
+      "path": "research/THEOREM.md",
+      "index": 3,
+      "source_sha256": "9d461b9f7c29dd10be251dfc754841530e2a01ba4aa38f3e5baeb652a9e43fa4",
+      "expected_text": "(2)Qmeas=maxρA[min{S(B),S(BD)}−S(E)].",
+      "required_text": [
+        "(2)",
+        "Qmeas",
+        "min{S(B),S(BD)}−S(E)"
+      ]
+    },
+    {
+      "path": "research/THEOREM.md",
+      "index": 10,
+      "source_sha256": "07be205d2768db410032a097a57f55b9c6e82a90d967d0962fe993188440c296",
+      "expected_text": "∑xpxS(Bxn)≥n[min{S(B),S(BD)}−ε].",
+      "required_text": [
+        "∑xpxS(Bxn)",
+        "≥n[",
+        "min{S(B),S(BD)}"
+      ]
+    },
+    {
+      "path": "research/THEOREM.md",
+      "index": 12,
+      "source_sha256": "968add84f80f61a47ed148c5310110402b8f3cf640df05637aa31d6ece4f0546",
+      "expected_text": "(6)Qqubit={max0≤q≤1{min[h2(aq),h2((1−b)q)]−h2(bq)},a>b,0,a≤b.",
+      "required_text": [
+        "(6)",
+        "Qqubit",
+        "h2(aq)",
+        "h2((1−b)q)",
+        "h2(bq)",
+        "a>b",
+        "a≤b"
+      ]
+    },
+    {
+      "path": "research/THEOREM.md",
+      "index": 22,
+      "source_sha256": "35c4a327ae423ad8ae669d85b05790d182689755dbcbcbae8add764e48e55619",
+      "expected_text": "A^†↦aB^†+bE^†+cD^†,",
+      "required_text": [
+        "A^†",
+        "↦aB^†+bE^†+cD^†"
+      ]
+    },
+    {
+      "path": "research/THEOREM.md",
+      "index": 27,
+      "source_sha256": "69b53c0202f225f4a0916878e8961938713dae7d728fecedb2f6d759f224cf6d",
+      "expected_text": "Q(N)↗log2(a/b),Q′′(N)=b−aln2N(1+aN)(1+bN)<0.",
+      "required_text": [
+        "Q(N)↗log2(a/b)",
+        "Q′′(N)",
+        "b−a",
+        "N(1+aN)(1+bN)",
+        "<0"
+      ]
+    },
+    {
+      "path": "research/THEOREM.md",
+      "index": 2,
+      "source_sha256": "93b407347a665f39c27d119f6383d0cb572f2add94a5ed16fcabb937f505bcc2",
+      "expected_text": "(1)NED=(TB→E⊗idD)NBD,",
+      "required_text": [
+        "(1)",
+        "NED",
+        "TB→E",
+        "⊗idD",
+        "NBD"
+      ]
+    },
+    {
+      "path": "research/THEOREM.md",
+      "index": 6,
+      "source_sha256": "4efa3fc9474b577bb2c105f1012bdcf331997b7dae6e4c2cd62cbae115d827b6",
+      "expected_text": "(3)Ic(ρ,NM)=S(Bn|X)−S(En|X).",
+      "required_text": [
+        "(3)",
+        "Ic(ρ,NM)",
+        "S(Bn|X)−S(En|X)"
+      ]
+    },
+    {
+      "path": "research/THEOREM.md",
+      "index": 7,
+      "source_sha256": "6884a5f84a9a12f3919456c486bed9f7e83e3b21183de33013619f517120a63c",
+      "expected_text": "(4)Ic≤S(Bn)−S(En).",
+      "required_text": [
+        "(4)",
+        "Ic≤S(Bn)−S(En)"
+      ]
+    },
+    {
+      "path": "research/THEOREM.md",
+      "index": 8,
+      "source_sha256": "05be434c180eaea6c3520dac0abf1c378a81fccd6cfb2c9bd6632561163d908f",
+      "expected_text": "(5)Ic≤S(BnDn)−S(En).",
+      "required_text": [
+        "(5)",
+        "Ic≤S(BnDn)−S(En)"
+      ]
+    }
+  ]
+}

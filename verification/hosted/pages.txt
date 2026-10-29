@@ -1,0 +1,20 @@
+# All current reader-facing Markdown: science, proofs, learning, sources, and verification.
+# Contributor instructions and protected historical archives are outside this hosted reader review.
+README.md
+VERIFICATION.md
+checks/README.md
+literature/ASSUMPTIONS.md
+literature/PRIORITY_CHECK_2026-10-07.md
+literature/PRIOR_ART.md
+research/CLAIM_ASSESSMENT_2026-10-07.md
+research/CONTRIBUTION_ASSESSMENT_2026-10-07.md
+research/EXACT_PRODUCT_CAPACITY_2026-10-07.md
+research/LEARNING_MILESTONES.md
+research/MODEL_AND_CLAIMS.md
+research/OPTICAL_DETECTOR_BRIDGE.md
+research/PHYSICAL_PICTURE.md
+research/PRESKILL_READING_MAP.md
+research/PRODUCT_HELPER_GAP_2026-10-07.md
+research/PROOF_AUDIT.md
+research/PROOF_DEPENDENCIES.md
+research/THEOREM.md

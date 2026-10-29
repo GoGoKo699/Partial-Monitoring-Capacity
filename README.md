@@ -9,10 +9,11 @@ measurements recover more than the best measurements made one output at a time?
 
 | Read next | Purpose |
 |---|---|
-| [Physical picture](research/PHYSICAL_PICTURE.md) · [Preskill reading guide](research/PRESKILL_READING_MAP.md) | Start from the physical question and one tutorial, then work through four local bridges |
+| [Physical picture](research/PHYSICAL_PICTURE.md) · [30 milestones](research/LEARNING_MILESTONES.md) · [Preskill reading guide](research/PRESKILL_READING_MAP.md) | Follow the question through 12 background and 18 narrative targets, using one tutorial and four worked bridges |
 | [Capacity theorem](research/THEOREM.md) · [Exact product optimum](research/EXACT_PRODUCT_CAPACITY_2026-10-07.md) | Follow both sides of the individual-versus-collective measurement comparison |
 | [Model and claims](research/MODEL_AND_CLAIMS.md) · [Proof dependencies](research/PROOF_DEPENDENCIES.md) | Check the resources, supporting claims and source attribution |
 | [Prior-work comparison](literature/PRIORITY_CHECK_2026-10-07.md) · [Contribution assessment](research/CONTRIBUTION_ASSESSMENT_2026-10-07.md) | Separate established ingredients from the measurement optimization |
+| [Sister-project bridge](research/OPTICAL_DETECTOR_BRIDGE.md) | Connect the qubit optimum to optical detector classes and a priced local phase reference |
 | [Verification](VERIFICATION.md) · [LLM guide](llms.txt) | Inspect evidence and locate authoritative material by question |
 
 ## What the helper can access
@@ -41,7 +42,7 @@ For qubit splitting, let $`a,b,c`$ be the received, inaccessible and collected f
 with $`a+b+c=1`$. Throughout $`a>b>0,\ c>0`$, photon counting attains the largest capacity
 over all predetermined product helper POVMs and all inputs, including coherent inputs.
 The [strict-gap corollary](research/EXACT_PRODUCT_CAPACITY_2026-10-07.md#4-strict-collective-advantage-throughout-the-qubit-interior)
-establishes $`0<Q_{\rm prod}<Q_{\rm meas}`$ throughout this region, with a positive
+establishes $`0\lt Q_{\rm prod}\lt Q_{\rm meas}`$ throughout this region, with a positive
 parameter-dependent lower bound on the difference.
 
 A certified numerical illustration at $`(a,b,c)=(0.2,0.08,0.72)`$:
@@ -111,22 +112,30 @@ result does not extend to optical measurements here.
 
 ## From the qubit optimum to optical detectors
 
-The companion [Optical Detector Capacity project](https://github.com/GoGoKo699/Optical-Detector-Capacity/tree/dfaa76e84f964d4d0289a7d6e3ccd89b3048c65a)
+The companion [Optical Detector Capacity project](https://github.com/GoGoKo699/Optical-Detector-Capacity/tree/c3582795f208bfa287d53db2458ca710cefeb6f7)
 reuses the collective optical benchmark above and compares individual-mode detector
 classes under the same vacuum splitter and receiver-only classical assistance.
-Its [two-photon example](https://github.com/GoGoKo699/Optical-Detector-Capacity/blob/dfaa76e84f964d4d0289a7d6e3ccd89b3048c65a/science/qubit_optical_bridge.md)
+Its [two-photon example](https://github.com/GoGoKo699/Optical-Detector-Capacity/blob/c3582795f208bfa287d53db2458ca710cefeb6f7/science/qubit_optical_bridge.md)
 already beats the capacity of every counting code when each input is restricted to
 vacuum through two photons. This does not contradict counting optimality on the
 vacuum/one-photon qubit space.
 
 In the full oscillator with only a mean signal budget, its
-[uniform comparison](https://github.com/GoGoKo699/Optical-Detector-Capacity/blob/dfaa76e84f964d4d0289a7d6e3ccd89b3048c65a/science/uniform_laws.md)
+[uniform comparison](https://github.com/GoGoKo699/Optical-Detector-Capacity/blob/c3582795f208bfa287d53db2458ca710cefeb6f7/science/uniform_laws.md)
 gives counting a leading rate of $`\tfrac12\log_2L`$, while coherent
 individual-mode measurements retain the full $`\log_2L`$ rate, where
 $`L=\min\{N,1/b\}`$ in this page's energy notation. Here $`1/0=\infty`$;
 the linked theorem states the domain at fixed $`a`$ and its additive constants. Coherence
 across photon numbers within one mode and joint processing across different modes
 are separate resources. All these comparisons retain arbitrary endpoint block coding.
+
+The [sister-project bridge](research/OPTICAL_DETECTOR_BRIDGE.md) translates the
+notation and continues to the companion's local-reference energy profile. Under
+separate number conservation at each collected mode, a bounded additive gap to
+the full rate in the energy-driven regime requires and admits initial reference
+stock linear in signal energy. That result prices a resource this project's
+unrestricted helper model supplies freely; its local-invariance, initialization
+and energy-domain assumptions remain explicit in the linked proof.
 
 ## One tutorial, then these results
 
@@ -137,8 +146,11 @@ The sole external teaching anchor is:
 > [Versioned text, arXiv:1604.07450v5](https://arxiv.org/abs/1604.07450v5) ·
 > [Author chapter](https://www.preskill.caltech.edu/ph219/chap10_6A_2025.pdf)
 
-The [reading guide](research/PRESKILL_READING_MAP.md) selects the entropy, classical-record,
-degradability and coding sections. Four local bridges then explain the extra steps:
+The [30-milestone map](research/LEARNING_MILESTONES.md) connects 12 background
+targets to 18 narrative targets, ending with the complete qubit comparison and
+its optical sister. The [reading guide](research/PRESKILL_READING_MAP.md) selects
+the entropy, classical-record, degradability and coding sections. Four local
+bridges then explain the extra steps:
 
 | Bridge | What the repository adds |
 |---|---|

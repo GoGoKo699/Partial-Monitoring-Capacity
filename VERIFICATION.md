@@ -55,8 +55,34 @@ matches and report differences. Evidence applies to its recorded revision.
 
 The hosted workflow checks out the PR head or push SHA, uses read-only repository permissions, installs the pinned dependencies, and uploads raw verification artifacts even after a failure. Review the artifact's commit, source hashes, protected-file checks, all original assertion outcomes and every report difference. After merging, inspect the actual merged-main run separately.
 
-The workflow uses major-version references for [checkout](https://github.com/actions/checkout)
+The scientific verification workflow uses major-version references for [checkout](https://github.com/actions/checkout)
 and [setup-python](https://github.com/actions/setup-python), rather than immutable
 action SHAs. Contributor procedures are in [repository maintenance](.github/MAINTENANCE.md).
 
 No forced merge, administration override, automatic reference refresh or private credential is included.
+
+## Hosted mathematical display
+
+The separate [Check hosted mathematics workflow](.github/workflows/hosted-math.yml)
+checks the exact PR head or pushed commit in GitHub's actual renderer. It reads
+the full [reader-page scope](verification/hosted/pages.txt), inventories every
+inline and display expression, and captures each page at widths of 1440 and
+760 pixels. The capture compares source-derived mathematics with the rendered
+expressions and applies the [text contract](verification/hosted/math-contract.json)
+for headline results. Source syntax checks alone do not establish this hosted
+result.
+
+The workflow can be rerun through `workflow_dispatch`; its commands also give
+the pinned browser/compiler dependencies for a local reproduction using
+[the capture program](verification/hosted/capture_hosted_math.cjs), a full commit
+SHA and a fresh output directory. Its retained artifact contains the source
+inventory, revision and hashes, captured HTML, wide and narrow screenshots,
+expression checks and `hosted-report.json`. Inspect that report's page scope,
+viewport coverage, failures and revision before using its status as evidence.
+
+Visual review remains separate: inspect representative screenshots and every
+flagged or repaired expression for legibility, omitted operands, relation signs
+and layout. A successful automated comparison is neither an analytical proof
+nor a record that this visual review occurred. Revision-specific PR receipts
+record the actual workflow runs, artifact identities, performed visual review
+and any limitations; the protocol here does not assert an unobserved pass.
