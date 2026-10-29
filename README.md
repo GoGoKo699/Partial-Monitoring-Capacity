@@ -109,6 +109,25 @@ the environmental inputs remain vacuum. The [optical proof](research/PROOF_DEPEN
 includes arbitrary correlated, non-Gaussian inputs. The qubit counting-optimality
 result does not extend to optical measurements here.
 
+## From the qubit optimum to optical detectors
+
+The companion [Optical Detector Capacity project](https://github.com/GoGoKo699/Optical-Detector-Capacity/tree/dfaa76e84f964d4d0289a7d6e3ccd89b3048c65a)
+reuses the collective optical benchmark above and compares individual-mode detector
+classes under the same vacuum splitter and receiver-only classical assistance.
+Its [two-photon example](https://github.com/GoGoKo699/Optical-Detector-Capacity/blob/dfaa76e84f964d4d0289a7d6e3ccd89b3048c65a/science/qubit_optical_bridge.md)
+already beats the capacity of every counting code when each input is restricted to
+vacuum through two photons. This does not contradict counting optimality on the
+vacuum/one-photon qubit space.
+
+In the full oscillator with only a mean signal budget, its
+[uniform comparison](https://github.com/GoGoKo699/Optical-Detector-Capacity/blob/dfaa76e84f964d4d0289a7d6e3ccd89b3048c65a/science/uniform_laws.md)
+gives counting a leading rate of $`\tfrac12\log_2L`$, while coherent
+individual-mode measurements retain the full $`\log_2L`$ rate, where
+$`L=\min\{N,1/b\}`$ in this page's energy notation. Here $`1/0=\infty`$;
+the linked theorem states the domain at fixed $`a`$ and its additive constants. Coherence
+across photon numbers within one mode and joint processing across different modes
+are separate resources. All these comparisons retain arbitrary endpoint block coding.
+
 ## One tutorial, then these results
 
 The sole external teaching anchor is:
