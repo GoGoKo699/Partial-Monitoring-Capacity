@@ -34,6 +34,7 @@ These raw URLs follow main. For a revision-specific assertion or verification cl
 - [Contribution assessment](https://raw.githubusercontent.com/GoGoKo699/Partial-Monitoring-Capacity/main/research/CONTRIBUTION_ASSESSMENT_2026-10-07.md): contribution boundaries and physical interpretation.
 - [Prior-art ledger](https://raw.githubusercontent.com/GoGoKo699/Partial-Monitoring-Capacity/main/literature/PRIOR_ART.md) and [targeted comparison](https://raw.githubusercontent.com/GoGoKo699/Partial-Monitoring-Capacity/main/literature/PRIORITY_CHECK_2026-10-07.md): source passages, operational comparisons and attribution.
 - [Verification policy](https://raw.githubusercontent.com/GoGoKo699/Partial-Monitoring-Capacity/main/VERIFICATION.md) and [import manifest](https://raw.githubusercontent.com/GoGoKo699/Partial-Monitoring-Capacity/main/provenance/IMPORT_MANIFEST.json): evidence rules and protected original sources.
+- [Companion optical detector comparison](https://github.com/GoGoKo699/Optical-Detector-Capacity/tree/dfaa76e84f964d4d0289a7d6e3ccd89b3048c65a): reuses this project's collective optical benchmark, certifies counting suboptimality at a two-photon cutoff, and distinguishes counting's half-logarithmic rate from coherent individual-mode measurements' full logarithmic rate in the mean-energy-only oscillator model. Its uniform domain and detector-resource assumptions remain those of the companion project.
 
 ## Model and fixed resources
 
@@ -57,6 +58,7 @@ These raw URLs follow main. For a revision-specific assertion or verification cl
 - For a>b>0, the optical rate approaches log2(a/b) as N grows. The constraint is average signal energy, not a maximum photon number per codeword or a total apparatus-energy budget.
 - The optical converse includes entangled non-Gaussian inputs. Finite photon cutoffs enter achievability with explicit entropy-tail control; environmental inputs remain vacuum.
 - The qubit product optimum does not establish optical counting optimality or the necessity of coherent helper memory against adaptive strategies. No efficient capacity-achieving helper or finite-block implementation is supplied.
+- The companion [two-photon bridge](https://github.com/GoGoKo699/Optical-Detector-Capacity/blob/dfaa76e84f964d4d0289a7d6e3ccd89b3048c65a/science/qubit_optical_bridge.md) compares all counting codes under the same additional per-mode cutoff; it does not bound full-Fock counting at that mean energy. The [full optical laws](https://github.com/GoGoKo699/Optical-Detector-Capacity/blob/dfaa76e84f964d4d0289a7d6e3ccd89b3048c65a/science/uniform_laws.md) instead use only a mean signal budget. Within-mode number coherence and cross-mode collective processing are distinct resources.
 
 ## One tutorial anchor
 
