@@ -10,11 +10,11 @@ Leditzky, Datta and Smith, [*Useful states and entanglement distillation*](https
 D_{\to}^{(1)}(\omega_{LK})=I(L\rangle K)_\omega
 ```
 
-for a finite-dimensional degradable state. Here $D_{\to}^{(1)}=\max_{\mathcal J}I(L'\rangle KM)$, where $\mathcal J:L\to L'M$ is an instrument and its classical record $M$ is sent to $K$. Subsequent receiver decoding cannot increase coherent information. Degradability means that a channel on $K$ reproduces the purifying system while preserving its correlations with $L$. The single-copy optimized statement is enough for the following application; no regularization limit is needed for either block bound.
+for a finite-dimensional degradable state. Here $`D_{\to}^{(1)}=\max_{\mathcal J}I(L'\rangle KM)`$, where $`\mathcal J:L\to L'M`$ is an instrument and its classical record $`M`$ is sent to $`K`$. Subsequent receiver decoding cannot increase coherent information. Degradability means that a channel on $`K`$ reproduces the purifying system while preserving its correlations with $`L`$. The single-copy optimized statement is enough for the following application; no regularization limit is needed for either block bound.
 
-First take a finite helper record. Purify an arbitrary encoded input as $RFA^n$, retaining its discarded encoder system $F$. After $V^{\otimes n}$, the state $\omega_{RFB^nE^nD^n}$ is pure. Let $\widehat B$ denote the decoded logical output. The following register identifications are an application of that existing proposition to this communication task. Normal continuous records follow through the finite-partition argument in Section 3, also valid for finite-dimensional outputs.
+First take a finite helper record. Purify an arbitrary encoded input as $`RFA^n`$, retaining its discarded encoder system $`F`$. After $`V^{\otimes n}`$, the state $`\omega_{RFB^nE^nD^n}`$ is pure. Let $`\widehat B`$ denote the decoded logical output. The following register identifications are an application of that existing proposition to this communication task. Normal continuous records follow through the finite-partition argument in Section 3, also valid for finite-dimensional outputs.
 
-**First cut.** Take $L=RFD^n$, $K=B^n$, with purifier $E^n$. The channel hypothesis, including reference $RF$, gives
+**First cut.** Take $`L=RFD^n`$, $`K=B^n`$, with purifier $`E^n`$. The channel hypothesis, including reference $`RF`$, gives
 
 ```math
 \omega_{RFD^nE^n}
@@ -22,7 +22,7 @@ First take a finite helper record. Purify an arbitrary encoded input as $RFA^n$,
   (\omega_{RFD^nB^n}).
 ```
 
-Thus $\omega_{LK}$ is degradable. The permitted helper measurement and discarding $F$ are an instrument from $L$ to $R$ and a classical message. The actual protocol is a subset of the enlarged one-way task; allowing joint access to $RFD^n$ is used only for this upper bound. Receiver decoding is included in the allowed processing. Therefore
+Thus $`\omega_{LK}`$ is degradable. The permitted helper measurement and discarding $`F`$ are an instrument from $`L`$ to $`R`$ and a classical message. The actual protocol is a subset of the enlarged one-way task; allowing joint access to $`RFD^n`$ is used only for this upper bound. Receiver decoding is included in the allowed processing. Therefore
 
 ```math
 I(R\rangle\widehat B)
@@ -30,13 +30,13 @@ I(R\rangle\widehat B)
 =S(B^n)-S(E^n).
 ```
 
-**Second cut.** Take $L=RF$, $K=B^nD^n$, again with purifier $E^n$. Its degrading map is $\mathcal T^{\otimes n}\circ\mathrm{Tr}_{D^n}$. Discarding $F$ acts on $L$; the helper measurement and decoding now belong to $K$'s local operation. The same proposition yields
+**Second cut.** Take $`L=RF`$, $`K=B^nD^n`$, again with purifier $`E^n`$. Its degrading map is $`\mathcal T^{\otimes n}\circ\mathrm{Tr}_{D^n}`$. Discarding $`F`$ acts on $`L`$; the helper measurement and decoding now belong to $`K`$'s local operation. The same proposition yields
 
 ```math
 I(R\rangle\widehat B)\le S(B^nD^n)-S(E^n).
 ```
 
-The two applications concern the same encoded state. The concavity, product-map subadditivity and common-input averaging in [THEOREM, Section 2](THEOREM.md) give the finite-dimensional capacity upper bound $Q_*$. If the decoded state is at trace distance $\delta_n$ from a maximally entangled state of dimension $d_n$, conditional-entropy continuity gives
+The two applications concern the same encoded state. The concavity, product-map subadditivity and common-input averaging in [THEOREM, Section 2](THEOREM.md) give the finite-dimensional capacity upper bound $`Q_*`$. If the decoded state is at trace distance $`\delta_n`$ from a maximally entangled state of dimension $`d_n`$, conditional-entropy continuity gives
 
 ```math
 (1-2\delta_n)\log_2d_n-g_2(\delta_n)
@@ -44,7 +44,7 @@ The two applications concern the same encoded state. The concavity, product-map 
 \qquad g_2(\delta)=(1+\delta)h_2\!\left(\frac{\delta}{1+\delta}\right).
 ```
 
-For $\delta_n\to0$, division by $n$ supplies the operational converse without first assuming $\log d_n=O(n)$. The inherited assistance ensemble and fixed-measurement coding construction give the reverse inequality. Atypical and failure outcomes are included in the completed helper POVM; their vanishing weight is absorbed into the ensemble entropy error, rather than postselected away.
+For $`\delta_n\to0`$, division by $`n`$ supplies the operational converse without first assuming $`\log d_n=O(n)`$. The inherited assistance ensemble and fixed-measurement coding construction give the reverse inequality. Atypical and failure outcomes are included in the completed helper POVM; their vanishing weight is absorbed into the ensemble entropy error, rather than postselected away.
 
 The explicit refined-channel proof identifies the real complement, explains the measurement deficit and supports the product-measurement reduction. The [direct converse](CLAIM_ASSESSMENT_2026-10-07.md) covers coarse records and finite-energy optical systems. The cited state theorem is finite dimensional; it does not replace those infinite-dimensional arguments automatically.
 
@@ -52,7 +52,7 @@ The explicit refined-channel proof identifies the real complement, explains the 
 
 The same source's Proposition 2.7 establishes convexity for suitable mixtures under its tensor-product hypothesis; Theorem 2.8 then gives an upper bound through a **minimum** over degradable/antidegradable decompositions. The helper problem instead maximizes a shared branch-entropy difference over physically allowed measurements. That minimum controls a state-distillation bound and supplies no ordering of the physically allowed helper measurement averages. The [exact product proof](EXACT_PRODUCT_CAPACITY_2026-10-07.md) uses a determinant calculation, difference-convexity inequality and counting chord bound.
 
-For completeness, the continuous-outcome extension can be stated without an uncountable orthogonal-flag isometry. For a qubit POVM $M$, use its finite trace measure $\mu(S)=\mathrm{Tr}M(S)$, with $\mu(\Omega)=2$. Its positive matrix density admits spectral refinement into rows $m_j(x)$. For fixed input, define the branch probabilities relative to $\mu$ and replace each sum in the chord proof by $\int\sum_j\,d\mu(x)$. The determinant and Rayleigh bounds hold pointwise, and completeness gives $\int\sum_j p_j(x)r_j(x)\,d\mu(x)=1$. Qubit conditional entropies are bounded, so the integrals are well defined. Branches with zero probability contribute zero.
+For completeness, the continuous-outcome extension can be stated without an uncountable orthogonal-flag isometry. For a qubit POVM $`M`$, use its finite trace measure $`\mu(S)=\mathrm{Tr}M(S)`$, with $`\mu(\Omega)=2`$. Its positive matrix density admits spectral refinement into rows $`m_j(x)`$. For fixed input, define the branch probabilities relative to $`\mu`$ and replace each sum in the chord proof by $`\int\sum_j\,d\mu(x)`$. The determinant and Rayleigh bounds hold pointwise, and completeness gives $`\int\sum_j p_j(x)r_j(x)\,d\mu(x)=1`$. Qubit conditional entropies are bounded, so the integrals are well defined. Branches with zero probability contribute zero.
 
 For predetermined measurements on different uses, the additivity difference is the contraction of total correlation from receiver outputs to complementary outputs. Both total correlations are finite by data processing from the finite-dimensional input. One may cancel the common classical correlation term using conditional entropies, without assigning a differential entropy to the outcome. General encoder ancillas are covered by the same conditional weak-monotonicity argument as in the direct proof.
 
@@ -62,7 +62,7 @@ Achievability uses the finite two-outcome counting measurement. Thus the exact e
 
 ### Full Fock-space identity
 
-Let $W(z)=\exp(z\hat a^\dagger-z^*\hat a)$. For the vacuum splitter,
+Let $`W(z)=\exp(z\hat a^\dagger-z^*\hat a)`$. For the vacuum splitter,
 
 ```math
 \mathcal N_{BD}^{*}[W(z)\otimes W(w)]
@@ -77,30 +77,30 @@ The attenuation channel obeys
 =e^{-(1-t)|z|^2/2}W(\sqrt t\,z).
 ```
 
-For $a\ge b$ and $a>0$, composing with $t=b/a$ replaces $a$ by $b$ in the first expression. Equality on the Weyl operators determines the normal channels, hence proves the joint-register identity on the entire Fock space and with arbitrary references. This includes non-Gaussian inputs and input coherences. Reversing $a,b$ gives the zero-capacity side; $a=b=0$ is handled directly.
+For $`a\ge b`$ and $`a>0`$, composing with $`t=b/a`$ replaces $`a`$ by $`b`$ in the first expression. Equality on the Weyl operators determines the normal channels, hence proves the joint-register identity on the entire Fock space and with arbitrary references. This includes non-Gaussian inputs and input coherences. Reversing $`a,b`$ gives the zero-capacity side; $`a=b=0`$ is handled directly.
 
 ### All-input converse and finite records
 
-For total incident mean energy $n\bar N$, finite-energy output entropies and the thermal logarithm give
+For total incident mean energy $`n\bar N`$, finite-energy output entropies and the thermal logarithm give
 
 ```math
 D(\rho_{B^n}\Vert\tau_{a\bar N}^{\otimes n})
 =n g(a\bar N)-S(B^n),
 ```
 
-and the analogous identity for $E^n$. Relative-entropy contraction under product attenuation bounds their difference. Uniform energy allocation, Gaussianity and independent inputs are unnecessary. The cases $b=0$ and $\bar N=0$ use their direct vacuum/maximum-entropy forms.
+and the analogous identity for $`E^n`$. Relative-entropy contraction under product attenuation bounds their difference. Uniform energy allocation, Gaussianity and independent inputs are unnecessary. The cases $`b=0`$ and $`\bar N=0`$ use their direct vacuum/maximum-entropy forms.
 
-The direct converse retains the unresolved helper register $G$ and discarded encoder register $F$. For a finite message reference $R$, its conditional entropies remain finite under the physical mean-energy bound. For a normal classical record on a standard Borel outcome space, the conditional averages of the normal cq state field over nested generating finite partitions converge to that field in integrated trace norm. The finite-reference conditional-entropy continuity bound then passes both cuts to the full record. See [CLAIM_ASSESSMENT](CLAIM_ASSESSMENT_2026-10-07.md) and [Winter, Lemma 2](https://arxiv.org/abs/1507.07775). No photon cutoff is imposed on competing codes.
+The direct converse retains the unresolved helper register $`G`$ and discarded encoder register $`F`$. For a finite message reference $`R`$, its conditional entropies remain finite under the physical mean-energy bound. For a normal classical record on a standard Borel outcome space, the conditional averages of the normal cq state field over nested generating finite partitions converge to that field in integrated trace norm. The finite-reference conditional-entropy continuity bound then passes both cuts to the full record. See [CLAIM_ASSESSMENT](CLAIM_ASSESSMENT_2026-10-07.md) and [Winter, Lemma 2](https://arxiv.org/abs/1507.07775). No photon cutoff is imposed on competing codes.
 
 ### Energy-constrained achievability
 
-Fix $N>0$ and photon cutoff $K$. For the normalized truncated thermal state $\tau_N^{(K)}$, set $r=N/(1+N)$ and $\epsilon_K=r^{K+1}$. Its mean is
+Fix $`N>0`$ and photon cutoff $`K`$. For the normalized truncated thermal state $`\tau_N^{(K)}`$, set $`r=N/(1+N)`$ and $`\epsilon_K=r^{K+1}`$. Its mean is
 
 ```math
 N_K=N-\frac{(K+1)\epsilon_K}{1-\epsilon_K}\lt N.
 ```
 
-Next fix a helper block of $m$ modes and a finite-outcome assistance measurement. Restrict its flagged channel to $\mathcal H_K^{\otimes m}$ and use the input Hamiltonian
+Next fix a helper block of $`m`$ modes and a finite-outcome assistance measurement. Restrict its flagged channel to $`\mathcal H_K^{\otimes m}`$ and use the input Hamiltonian
 
 ```math
 H_{K,m}=\sum_{j=1}^{m}\hat n_j,
@@ -108,29 +108,29 @@ H_{K,m}=\sum_{j=1}^{m}\hat n_j,
 \mathrm{Tr}[H_{K,m}(\tau_N^{(K)})^{\otimes m}]=mN_K\lt mN.
 ```
 
-[Wilde–Qi, Theorem 2](https://arxiv.org/abs/1609.01997v2), applied to this fixed finite channel with budget $mN$, supplies energy-constrained codes achieving its coherent information. The finite input and output spaces satisfy its Gibbs and finite-output-entropy conditions. Divide the rate by $m$. The helper POVM can be extended outside the supported subspace by an additional outcome that never occurs for these codes. This explicitly supplies the energy constraint; it is not an inference that an arbitrary unconstrained code happens to meet it.
+[Wilde–Qi, Theorem 2](https://arxiv.org/abs/1609.01997v2), applied to this fixed finite channel with budget $`mN`$, supplies energy-constrained codes achieving its coherent information. The finite input and output spaces satisfy its Gibbs and finite-output-entropy conditions. Divide the rate by $`m`$. The helper POVM can be extended outside the supported subspace by an additional outcome that never occurs for these codes. This explicitly supplies the energy constraint; it is not an inference that an arbitrary unconstrained code happens to meet it.
 
-Take the coding limit while $K,m$ are fixed. Only afterward increase $K$, choosing a suitable finite $m$ for each cutoff. To check the entropy limit, let $H_s^{(K)}=S(\mathcal L_s(\tau_N^{(K)}))$. The discarded thermal component has conditional mean $K+1+N$, so entropy concavity and the entropy-of-mixture upper bound give
+Take the coding limit while $`K,m`$ are fixed. Only afterward increase $`K`$, choosing a suitable finite $`m`$ for each cutoff. To check the entropy limit, let $`H_s^{(K)}=S(\mathcal L_s(\tau_N^{(K)}))`$. The discarded thermal component has conditional mean $`K+1+N`$, so entropy concavity and the entropy-of-mixture upper bound give
 
 ```math
 \frac{g(sN)-h_2(\epsilon_K)-\epsilon_Kg(s(K+1+N))}{1-\epsilon_K}
 \le H_s^{(K)}\le\frac{g(sN)}{1-\epsilon_K}.
 ```
 
-The geometric tail makes both bounds tend to $g(sN)$. At finite $K$, retain the full minimum $\min\{H_a^{(K)},H_{1-b}^{(K)}\}$; no entropy ordering for truncated inputs is assumed. In the thermal limit, $g((1-b)N)\ge g(aN)$, giving the stated optical rate. Thermal refers to the average coded input; the environmental inputs stay vacuum.
+The geometric tail makes both bounds tend to $`g(sN)`$. At finite $`K`$, retain the full minimum $`\min\{H_a^{(K)},H_{1-b}^{(K)}\}`$; no entropy ordering for truncated inputs is assumed. In the thermal limit, $`g((1-b)N)\ge g(aN)`$, giving the stated optical rate. Thermal refers to the average coded input; the environmental inputs stay vacuum.
 
 ## 4. Boundary cases and the zero-side fidelity bound
 
-For the qubit family with $a>b$, the left scalar branch has
+For the qubit family with $`a>b`$, the left scalar branch has
 
 ```math
 \frac{d^2}{dq^2}[h_2(aq)-h_2(bq)]
 =\frac{b-a}{\ln2\,q(1-aq)(1-bq)}<0.
 ```
 
-For $q\ge q_c=1/(1+a-b)$, $(1-b)q\ge1/2$ and $bq<1/2$, so the right branch is nonincreasing. This verifies the crossover/unique-root rule, including $b=0$ by limits. At $c=0$ the two cuts are identical. At $a=b=0,c=1$, the receiver has a fixed quantum state plus a classical record and zero quantum capacity; no attenuation ratio is used.
+For $`q\ge q_c=1/(1+a-b)`$, $`(1-b)q\ge1/2`$ and $`bq<1/2`$, so the right branch is nonincreasing. This verifies the crossover/unique-root rule, including $`b=0`$ by limits. At $`c=0`$ the two cuts are identical. At $`a=b=0,c=1`$, the receiver has a fixed quantum state plus a classical record and zero quantum capacity; no attenuation ratio is used.
 
-For $a\le b$, reverse joint attenuation constructs a second receiver with the same reference marginal, even for coarse records and general encoders. Applying the same outcome-dependent decoder to both gives equal logical marginals. For a maximally entangled logical input of dimension $`d`$, the two maximally entangled projectors satisfy $\|P+Q\|_\infty=1+1/d$, hence
+For $`a\le b`$, reverse joint attenuation constructs a second receiver with the same reference marginal, even for coarse records and general encoders. Applying the same outcome-dependent decoder to both gives equal logical marginals. For a maximally entangled logical input of dimension $`d`$, the two maximally entangled projectors satisfy $`\|P+Q\|_\infty=1+1/d`$, hence
 
 ```math
 2F_e\le1+1/d.
@@ -138,7 +138,7 @@ For $a\le b$, reverse joint attenuation constructs a second receiver with the sa
 
 This bounds unconditional entanglement fidelity, with every measurement outcome included. It is neither a postselected success bound nor a strong converse forcing fidelity to zero.
 
-For the optical model, $N=0$ always gives zero capacity. For $R>0$ and $`0\lt a\lt 1`$, the target rate is attainable at some finite energy exactly when $`b\lt a2^{-R}`$. Equality with $b>0$ reaches the target only as an infinite-energy limit. At $b=0$, every finite target is attainable. These are consequences of the existing energy law, not further capacity theorems.
+For the optical model, $`N=0`$ always gives zero capacity. For $`R>0`$ and $`0\lt a\lt 1`$, the target rate is attainable at some finite energy exactly when $`b\lt a2^{-R}`$. Equality with $`b>0`$ reaches the target only as an infinite-energy limit. At $`b=0`$, every finite target is attainable. These are consequences of the existing energy law, not further capacity theorems.
 
 ## 5. Primary-source comparisons
 

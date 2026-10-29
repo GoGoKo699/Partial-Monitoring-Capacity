@@ -11,11 +11,15 @@ helper outputs and continuous records.
 
 For any rank-one refined helper measurement on a block, the true measured-channel output is BX and a true complement is EY, with X and Y copies of the same classical label. The joint-register identity yields a degrading channel BX -> EY. Take any message reference R and discarded encoding ancilla F purifying the input. Then
 
-$$I(RF\rangle BX)-I(R\rangle BX)=S(F|EX).$$
+```math
+I(RF\rangle BX)-I(R\rangle BX)=S(F|EX).
+```
 
 Apply the degrading map to B in the actual output state, producing E'. Conditional on every x, FE and FE' have identical marginals. Weak monotonicity gives
 
-$$S(F|E,x)+S(F|E',x)\ge0\quad\Rightarrow\quad S(F|E,x)\ge0.$$
+```math
+S(F|E,x)+S(F|E',x)\ge0\quad\Rightarrow\quad S(F|E,x)\ge0.
+```
 
 Averaging establishes the needed inequality for arbitrary encoding channels. The simulator creates a comparison extension; it is not a recovery operation on the real inaccessible field. The same reasoning works for a finite-entropy optical input. Finite mean energy controls the signal entropies; this is not a maximum-photon-number assumption.
 
@@ -31,7 +35,9 @@ This example shows why the unresolved environment must be included when coarseni
 
 For arbitrary block inputs of actual mean bar-N and refined helper measurements, the optical coherent-information deficit at budget N splits into three nonnegative terms:
 
-$$n[Q(N)-Q(\bar N)] +\{D(\rho_B\Vert\tau_{a\bar N}^{\otimes n})-D(\rho_E\Vert\tau_{b\bar N}^{\otimes n})\} +\{I(X;B)-I(X;E)\}.$$
+```math
+n[Q(N)-Q(\bar N)] +\{D(\rho_B\Vert\tau_{a\bar N}^{\otimes n})-D(\rho_E\Vert\tau_{b\bar N}^{\otimes n})\} +\{I(X;B)-I(X;E)\}.
+```
 
 This identity specifies what must vanish per use in a capacity-achieving sequence. It concerns coherent information, rather than finite-code fidelity. The second term is a **contraction deficit**, not a claim that every nonthermal state is strictly suboptimal or that the term measures only non-Gaussianity.
 
@@ -39,11 +45,15 @@ This identity specifies what must vanish per use in a capacity-achieving sequenc
 
 At a>b, define q_c=1/(1+a-b), s=1-b. The two receiver entropies cross at aq_c+sq_c=1. On [0,q_c] the rate objective is f_1(q)=h2(aq)-h2(bq), with
 
-$$f_1''(q)=\frac{b-a}{\ln2\,q(1-aq)(1-bq)}<0.$$
+```math
+f_1''(q)=\frac{b-a}{\ln2\,q(1-aq)(1-bq)}<0.
+```
 
 On the right, f_2(q)=h2(sq)-h2(bq) is concave. At q_c,
 
-$$f_2'(q_c)=s\log_2(a/s)-b\log_2[(1+a-2b)/b]\le0.$$
+```math
+f_2'(q_c)=s\log_2(a/s)-b\log_2[(1+a-2b)/b]\le0.
+```
 
 The inequality follows from s>=a and 1+a-2b>b (as a>b and b<1/2); endpoints use limits. Thus the optimum is q_c when f_1'(q_c)>=0, otherwise the unique left stationary point. The 56 parameter checks compare this rule against independently optimizing both pieces.
 
