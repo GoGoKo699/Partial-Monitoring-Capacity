@@ -27,7 +27,7 @@ The helper may use coherent quantum storage, arbitrary non-Gaussian operations w
 The required hypothesis is the **joint channel identity**
 
 ```math
-\mathcal N_{ED}=(\mathcal T_{B\to E}\otimes\mathrm{id}_D)\mathcal N_{BD},\tag{1}
+\mathord{\mathcal N_{ED}=(\mathcal T_{B\to E}\otimes\mathrm{id}_D)\mathcal N_{BD},}\tag{1}
 ```
 
 for a trace-preserving completely positive map T. This is equality on all input operators, hence with arbitrary references, not just equality on a selected ensemble. In particular, T preserves the correlations with D. Ordinary marginal degradation N_E=T N_B is insufficient.
@@ -59,7 +59,7 @@ The receiver has B^nX. A complementary output is E^nY. Tracing either copy of th
 Thus **every refined measured block channel is degradable**, not only the photon-counting channel. With a purifying reference R, its coherent information is exactly
 
 ```math
-I_c(\rho,\mathcal N_M)=S(B^n|X)-S(E^n|X).\tag{3}
+\mathord{I_c(\rho,\mathcal N_M)=S(B^n|X)-S(E^n|X).}\tag{3}
 ```
 
 For a coarse measurement this formula cannot generally subtract E alone: an unrefined part of the helper/environment must also be included in the complement. Refinement is a proof reduction, not permission to erase that information without consequence.
@@ -69,13 +69,13 @@ For a coarse measurement this formula cannot generally subtract E alone: an unre
 The same degrading map relates the conditional E and B states. Data processing gives I(X;E^n)<=I(X;B^n), and therefore
 
 ```math
-I_c\le S(B^n)-S(E^n).\tag{4}
+\mathord{I_c\le S(B^n)-S(E^n).}\tag{4}
 ```
 
 Sending BD coherently would be a stronger receiver resource. Processing that output into B^nX cannot increase coherent information, so also
 
 ```math
-I_c\le S(B^nD^n)-S(E^n).\tag{5}
+\mathord{I_c\le S(B^nD^n)-S(E^n).}\tag{5}
 ```
 
 For j=1,2 define D_1(rho)=S(B)-S(E) and D_2(rho)=S(BD)-S(E). Each is concave: dilate the relevant degrading map isometrically to E F and write the difference as S(F|E). Each is subadditive across uses because total correlations decrease under the product degrading map. Consequently, for rho_i the input marginals and bar-rho their average,

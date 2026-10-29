@@ -133,19 +133,6 @@
     },
     {
       "path": "research/THEOREM.md",
-      "index": 2,
-      "source_sha256": "35cc91620631dcbaf23426e73e7b9e69139b1c96e1a3f65b7200ba39a9d548d2",
-      "expected_text": "(1)NED=(TB→E⊗idD)NBD,",
-      "required_text": [
-        "(1)",
-        "NED",
-        "TB→E",
-        "⊗idD",
-        "NBD"
-      ]
-    },
-    {
-      "path": "research/THEOREM.md",
       "index": 3,
       "source_sha256": "9d461b9f7c29dd10be251dfc754841530e2a01ba4aa38f3e5baeb652a9e43fa4",
       "expected_text": "(2)Qmeas=maxρA[min{S(B),S(BD)}−S(E)].",
@@ -153,17 +140,6 @@
         "(2)",
         "Qmeas",
         "min{S(B),S(BD)}−S(E)"
-      ]
-    },
-    {
-      "path": "research/THEOREM.md",
-      "index": 6,
-      "source_sha256": "c9593fa0d5ce0b3d21c92b10bcbf1410109a1aa78409e75940158f876cb82380",
-      "expected_text": "(3)Ic(ρ,NM)=S(Bn|X)−S(En|X).",
-      "required_text": [
-        "(3)",
-        "Ic(ρ,NM)",
-        "S(Bn|X)−S(En|X)"
       ]
     },
     {
@@ -213,6 +189,50 @@
         "b−a",
         "N(1+aN)(1+bN)",
         "<0"
+      ]
+    },
+    {
+      "path": "research/THEOREM.md",
+      "index": 2,
+      "source_sha256": "93b407347a665f39c27d119f6383d0cb572f2add94a5ed16fcabb937f505bcc2",
+      "expected_text": "(1)NED=(TB→E⊗idD)NBD,",
+      "required_text": [
+        "(1)",
+        "NED",
+        "TB→E",
+        "⊗idD",
+        "NBD"
+      ]
+    },
+    {
+      "path": "research/THEOREM.md",
+      "index": 6,
+      "source_sha256": "4efa3fc9474b577bb2c105f1012bdcf331997b7dae6e4c2cd62cbae115d827b6",
+      "expected_text": "(3)Ic(ρ,NM)=S(Bn|X)−S(En|X).",
+      "required_text": [
+        "(3)",
+        "Ic(ρ,NM)",
+        "S(Bn|X)−S(En|X)"
+      ]
+    },
+    {
+      "path": "research/THEOREM.md",
+      "index": 7,
+      "source_sha256": "6884a5f84a9a12f3919456c486bed9f7e83e3b21183de33013619f517120a63c",
+      "expected_text": "(4)Ic≤S(Bn)−S(En).",
+      "required_text": [
+        "(4)",
+        "Ic≤S(Bn)−S(En)"
+      ]
+    },
+    {
+      "path": "research/THEOREM.md",
+      "index": 8,
+      "source_sha256": "05be434c180eaea6c3520dac0abf1c378a81fccd6cfb2c9bd6632561163d908f",
+      "expected_text": "(5)Ic≤S(BnDn)−S(En).",
+      "required_text": [
+        "(5)",
+        "Ic≤S(BnDn)−S(En)"
       ]
     }
   ]
