@@ -97,7 +97,7 @@ The direct converse retains the unresolved helper register $G$ and discarded enc
 Fix $N>0$ and photon cutoff $K$. For the normalized truncated thermal state $\tau_N^{(K)}$, set $r=N/(1+N)$ and $\epsilon_K=r^{K+1}$. Its mean is
 
 ```math
-N_K=N-\frac{(K+1)\epsilon_K}{1-\epsilon_K}<N.
+N_K=N-\frac{(K+1)\epsilon_K}{1-\epsilon_K}\lt N.
 ```
 
 Next fix a helper block of $m$ modes and a finite-outcome assistance measurement. Restrict its flagged channel to $\mathcal H_K^{\otimes m}$ and use the input Hamiltonian
@@ -105,7 +105,7 @@ Next fix a helper block of $m$ modes and a finite-outcome assistance measurement
 ```math
 H_{K,m}=\sum_{j=1}^{m}\hat n_j,
 \qquad
-\mathrm{Tr}[H_{K,m}(\tau_N^{(K)})^{\otimes m}]=mN_K<mN.
+\mathrm{Tr}[H_{K,m}(\tau_N^{(K)})^{\otimes m}]=mN_K\lt mN.
 ```
 
 [Wilde–Qi, Theorem 2](https://arxiv.org/abs/1609.01997v2), applied to this fixed finite channel with budget $mN$, supplies energy-constrained codes achieving its coherent information. The finite input and output spaces satisfy its Gibbs and finite-output-entropy conditions. Divide the rate by $m$. The helper POVM can be extended outside the supported subspace by an additional outcome that never occurs for these codes. This explicitly supplies the energy constraint; it is not an inference that an arbitrary unconstrained code happens to meet it.
@@ -138,7 +138,7 @@ For $a\le b$, reverse joint attenuation constructs a second receiver with the sa
 
 This bounds unconditional entanglement fidelity, with every measurement outcome included. It is neither a postselected success bound nor a strong converse forcing fidelity to zero.
 
-For the optical model, $N=0$ always gives zero capacity. For $R>0$ and $0<a<1$, the target rate is attainable at some finite energy exactly when $b<a2^{-R}$. Equality with $b>0$ reaches the target only as an infinite-energy limit. At $b=0$, every finite target is attainable. These are consequences of the existing energy law, not further capacity theorems.
+For the optical model, $N=0$ always gives zero capacity. For $R>0$ and $`0\lt a\lt 1`$, the target rate is attainable at some finite energy exactly when $`b\lt a2^{-R}`$. Equality with $b>0$ reaches the target only as an infinite-energy limit. At $b=0$, every finite target is attainable. These are consequences of the existing energy law, not further capacity theorems.
 
 ## 5. Primary-source comparisons
 

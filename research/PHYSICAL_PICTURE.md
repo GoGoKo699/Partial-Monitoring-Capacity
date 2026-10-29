@@ -37,7 +37,7 @@ For the same qubit split, [the exact product-capacity proof](EXACT_PRODUCT_CAPAC
 
 The example's exact difference is certified at about $`0.11949910`$ qubits/use.
 The [strict-gap corollary](EXACT_PRODUCT_CAPACITY_2026-10-07.md#4-strict-collective-advantage-throughout-the-qubit-interior)
-establishes $`0<Q_{\rm prod}<Q_{\rm meas}`$ throughout $`a+b+c=1,\ a>b>0,\ c>0`$.
+establishes $`0\lt Q_{\rm prod}\lt Q_{\rm meas}`$ throughout $`a+b+c=1,\ a>b>0,\ c>0`$.
 Counting already reaches the positive-capacity boundary $`a>b`$; the collective
 benefit is a higher rate. No better predetermined single-use detector closes this
 gap. The approximately 64% increase is its quantitative illustration.
@@ -53,7 +53,7 @@ Q(N)=g(aN)-g(bN),\qquad
 g(x)=(x+1)\log_2(x+1)-x\log_2x,
 ```
 
-on the positive side $a>b$. At fixed $0<b<a$, increasing signal energy approaches the ceiling
+on the positive side $a>b$. At fixed $`0\lt b\lt a`$, increasing signal energy approaches the ceiling
 
 ```math
 \lim_{N\to\infty}Q(N)=\log_2(a/b).
@@ -63,16 +63,16 @@ Here that ceiling is $\log_2(2.5)\simeq1.322$ qubits per mode. Additional signal
 
 ## Collection and signal power are different resources
 
-Let $\eta$ be the fraction of the lost field collected by the helper, so $b=(1-\eta)(1-a)$. For $0<a<1/2$, the positive-rate condition becomes
+Let $\eta$ be the fraction of the lost field collected by the helper, so $b=(1-\eta)(1-a)$. For $`0\lt a\lt 1/2`$, the positive-rate condition becomes
 
 ```math
 \eta>1-\frac{a}{1-a}.
 ```
 
-More quantitatively, for $0<a<1$ and a target optical rate $R>0$, that target is attainable at some finite signal-energy budget with the theorem's ideal resources exactly when
+More quantitatively, for $`0\lt a\lt 1`$ and a target optical rate $R>0$, that target is attainable at some finite signal-energy budget with the theorem's ideal resources exactly when
 
 ```math
-b<a\,2^{-R}
+b\lt a\,2^{-R}
 \quad\Longleftrightarrow\quad
 \eta>1-\frac{a}{2^R(1-a)}.
 ```

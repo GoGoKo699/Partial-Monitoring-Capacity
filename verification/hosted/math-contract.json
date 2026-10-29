@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "expressions": [
+    {
+      "path": "README.md",
+      "index": 14,
+      "source_sha256": "3c571aa0f6507f9a77b26d040b7020a7eeb6809d54275d34dbd266f1a9101e88",
+      "expected_text": "NED=(TB→E⊗idD)NBD.",
+      "required_text": [
+        "NED",
+        "TB→E",
+        "⊗idD",
+        "NBD"
+      ]
+    },
+    {
+      "path": "README.md",
+      "index": 15,
+      "source_sha256": "1a164173281dbdbaa69d52f15a5b46fb1f187704f1c97c78131a4c9aad9e3a22",
+      "expected_text": "Qmeas=maxρA[min{S(B),S(BD)}−S(E)].",
+      "required_text": [
+        "Qmeas",
+        "maxρA",
+        "min{S(B),S(BD)}−S(E)"
+      ]
+    },
+    {
+      "path": "README.md",
+      "index": 17,
+      "source_sha256": "7b312c140e67c9c3b5a2f5c737990d6ab16b5645b9e651d5d12bf85c9a9c6afd",
+      "expected_text": "Qoptical(N)={g(aN)−g(bN),a>b,0,a≤b,g(x)=(x+1)log2(x+1)−xlog2x.",
+      "required_text": [
+        "Qoptical(N)",
+        "g(aN)−g(bN)",
+        "a>b",
+        "a≤b",
+        "g(x)"
+      ]
+    },
+    {
+      "path": "research/EXACT_PRODUCT_CAPACITY_2026-10-07.md",
+      "index": 4,
+      "source_sha256": "54412a3c9d1f1d491f70d9d6b4c2ad7c98522f9ccf5221f6c756f8d774f3cbf0",
+      "expected_text": "Qprod=Qcount=max0≤q≤1F(q),",
+      "required_text": [
+        "Qprod=Qcount",
+        "0≤q≤1",
+        "F(q)"
+      ]
+    },
+    {
+      "path": "research/EXACT_PRODUCT_CAPACITY_2026-10-07.md",
+      "index": 54,
+      "source_sha256": "af9114f79fd92f2ef5fc5dba401d49b3dee5e8b8a0c7f6335fbf8cf119aaef1a",
+      "expected_text": "0<Qprod=Qcount<Qmeas.",
+      "required_text": [
+        "0<Qprod=Qcount<Qmeas"
+      ]
+    },
+    {
+      "path": "research/EXACT_PRODUCT_CAPACITY_2026-10-07.md",
+      "index": 90,
+      "source_sha256": "a88cbc11f934ebc3b88d056b7732f35f516e86f83fc43e5e517d377c838e1229",
+      "expected_text": "Qmeas−Qprod≥cq∗(1−bq∗)ln2min{(a−b)q∗,1−q∗}>0.",
+      "required_text": [
+        "Qmeas−Qprod≥",
+        "(a−b)q∗",
+        "1−q∗",
+        ">0"
+      ]
+    }
+  ]
+}

@@ -4,6 +4,12 @@
 
 Start with [the physical picture](PHYSICAL_PICTURE.md) or return to [the repository overview](../README.md). This guide assumes familiarity with density matrices, partial traces, purification and POVMs. It supplies a route through the existing proofs, not a new result.
 
+The [30-milestone map](LEARNING_MILESTONES.md) organizes the same scientific
+story into 12 background and 18 narrative understanding targets, with
+dependencies and source pointers. The four worked bridges below remain its
+shared explanatory route. Milestones M28–M30 continue into the
+[optical sister-project bridge](OPTICAL_DETECTOR_BRIDGE.md).
+
 > John Preskill, **Quantum Shannon Theory**, Chapter 10, **2025 revision, arXiv v5**.
 >
 > [Versioned record](https://arxiv.org/abs/1604.07450v5) · [Author chapter](https://www.preskill.caltech.edu/ph219/chap10_6A_2025.pdf)
@@ -187,7 +193,7 @@ This is counting optimality **after optimizing the input**. It does not claim co
 
 The [strict-gap corollary](EXACT_PRODUCT_CAPACITY_2026-10-07.md#4-strict-collective-advantage-throughout-the-qubit-interior)
 compares the two entropy objectives at the product-optimal input and gives
-$`0<Q_{\rm prod}<Q_{\rm meas}`$ throughout $`a+b+c=1,\ a>b>0,\ c>0`$.
+$`0\lt Q_{\rm prod}\lt Q_{\rm meas}`$ throughout $`a+b+c=1,\ a>b>0,\ c>0`$.
 At $`(a,b,c)=(0.2,0.08,0.72)`$, the product and unrestricted capacities are approximately $`0.18621044`$ and $`0.30570954`$ qubits/use. The [rational certificate](../checks/certify_product_capacity.py) verifies the scalar rate and gap enclosures conditional on the analytical reduction; it does not certify the proof over all POVMs.
 
 **Checkpoint:** which step rules out a better individual detector, and which allows arbitrary endpoint coding? The all-input chord bound answers the first; degradable product-channel additivity answers the second.
@@ -214,7 +220,7 @@ This evaluates a candidate rate. Establishing the capacity requires both sides:
 | Converse for all admissible codes | The full Fock-space joint identity and thermal-reference relative-entropy contraction bound arbitrary entangled, non-Gaussian inputs under the average budget. |
 | Achievability | Finite photon cutoffs, a fixed helper block and energy-constrained coding approach the thermal rate with explicit entropy-tail control. |
 
-For achievability at $`N>0`$, first fix a cutoff $`K`$ and helper block $`m`$. The normalized truncated thermal input has mean $`N_K<N`$. The resulting finite-dimensional flagged channel uses the additive input photon observable with mean $`mN_K<mN`$. The energy-constrained coding theorem applies with this slack. Take the coding limit for that fixed channel, then enlarge the helper block as required by the assistance theorem, and only afterward send $`K\to\infty`$. At finite cutoff retain both entropy cuts; do not assume their thermal ordering before the limit.
+For achievability at $`N>0`$, first fix a cutoff $`K`$ and helper block $`m`$. The normalized truncated thermal input has mean $`N_K\lt N`$. The resulting finite-dimensional flagged channel uses the additive input photon observable with mean $`mN_K\lt mN`$. The energy-constrained coding theorem applies with this slack. Take the coding limit for that fixed channel, then enlarge the helper block as required by the assistance theorem, and only afterward send $`K\to\infty`$. At finite cutoff retain both entropy cuts; do not assume their thermal ordering before the limit.
 
 [PROOF_DEPENDENCIES, Section 3](PROOF_DEPENDENCIES.md) supplies the fixed-cutoff/block application of Wilde–Qi's coding theorem and the entropy-tail bounds. Trace-distance convergence alone does not imply entropy convergence in infinite dimensions. A thermal average coded input is not a thermal bath.
 
@@ -232,6 +238,23 @@ It is zero at $`N=0`$. For fixed $`a>b>0`$, it approaches $`\log_2(a/b)`$ as ene
 
 **Checkpoint:** does choosing a thermal input restrict the converse to Gaussian codes? No. The converse is all-input; the thermal family is used to approach its bound. The cutoff is a proof device for achievability, not a maximum photon number imposed on the capacity problem.
 
+## Continue into optical detector resources
+
+The qubit chord argument establishes counting optimality on vacuum and one
+photon. The companion Optical Detector Capacity project starts from this
+repository's optical benchmark and changes the detector question. Its additional
+two-photon cutoff already permits an individual coherent measurement to beat
+optimized counting; its full-oscillator mean-energy result separates counting's
+half-logarithmic rate from the full leading rate of coherent individual-mode
+measurements.
+
+The [sister-project bridge](OPTICAL_DETECTOR_BRIDGE.md) keeps those two input
+domains separate and translates notation. It then explains the companion's
+mean-reference energy profile under separate local number conservation. The
+same complement bookkeeping used in Bridge 1 now retains the discarded
+detector reference. Classical records and reference stock are distinct resources;
+the reference result does not modify this project's exact unrestricted theorem.
+
 ## Continue by question
 
 | Question | Read |
@@ -240,6 +263,8 @@ It is zero at $`N=0`$. For fixed $`a>b>0`$, it approaches $`\log_2(a/b)`$ as ene
 | Where is the complete capacity argument? | [Theorem](THEOREM.md) |
 | Which ingredients are inherited, and how are they applied? | [Proof dependencies](PROOF_DEPENDENCIES.md) |
 | How are arbitrary helper POVMs bounded? | [Exact product capacity](EXACT_PRODUCT_CAPACITY_2026-10-07.md) |
+| How do the proof components form a learning route? | [Thirty milestones](LEARNING_MILESTONES.md) |
+| Why is optical counting different, and what changes when a reference is priced? | [Sister-project bridge](OPTICAL_DETECTOR_BRIDGE.md) |
 | What does the numerical evidence establish? | [Verification policy](../VERIFICATION.md) |
 
 Work through each checkpoint in your own words and then follow the corresponding full proof.

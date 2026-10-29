@@ -154,7 +154,9 @@ The thermal-reference logarithm and mean output energies give the equality; rela
 
 For achievability, truncate the thermal average input, not competing codes, at photon number K. With r=N/(1+N), the retained normalized distribution has mean
 
-$$N_K=N-\frac{(K+1)r^{K+1}}{1-r^{K+1}}<N.$$
+```math
+N_K=N-\frac{(K+1)r^{K+1}}{1-r^{K+1}}\lt N.
+```
 
 For fixed K, vacuum loss leaves finite output support; apply the finite-dimensional assistance construction and then energy-constrained channel coding [WQ18, Theorem 2] to the fixed flagged block channel with its summed photon-number Hamiltonian and strict energy slack. Only afterward let K grow. The discarded thermal tail has probability epsilon_K=r^(K+1) and conditional mean K+1+N. Entropy-of-mixture bounds enclose the output entropies and prove convergence to (7), rather than assuming entropy continuity from trace-distance convergence. The full coding application, finite-cutoff minimum and entropy-tail bounds are given in [PROOF_DEPENDENCIES, Section 3](PROOF_DEPENDENCIES.md#3-optical-identity-and-photon-budget-coding). The converse is never cutoff-restricted. Cases b=0, N=0 and vanishing port weights follow directly.
 

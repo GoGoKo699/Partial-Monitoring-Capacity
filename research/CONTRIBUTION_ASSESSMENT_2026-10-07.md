@@ -12,7 +12,7 @@ resource and proof boundaries.
 
 A signal is split between the receiver, permanently inaccessible loss, and a collected field. The helper measures the collected field and sends only a classical record to the receiver. For the stated vacuum-loss models, transmission becomes possible when the received fraction exceeds the inaccessible fraction. In the qubit model, photon counting already reaches that positive-capacity boundary.
 
-Above that boundary, the question becomes how much rate an individual detector can recover. For the qubit family with $`a+b+c=1,\ a>b>0,\ c>0`$, optimizing every predetermined single-use helper POVM cannot beat photon counting, even with coherent inputs and arbitrary sender/receiver block codes. The [strict-gap corollary](EXACT_PRODUCT_CAPACITY_2026-10-07.md#4-strict-collective-advantage-throughout-the-qubit-interior) gives $`0<Q_{\rm prod}<Q_{\rm meas}`$ throughout this region, with a positive parameter-dependent lower bound. The example below quantifies this general separation.
+Above that boundary, the question becomes how much rate an individual detector can recover. For the qubit family with $`a+b+c=1,\ a>b>0,\ c>0`$, optimizing every predetermined single-use helper POVM cannot beat photon counting, even with coherent inputs and arbitrary sender/receiver block codes. The [strict-gap corollary](EXACT_PRODUCT_CAPACITY_2026-10-07.md#4-strict-collective-advantage-throughout-the-qubit-interior) gives $`0\lt Q_{\rm prod}\lt Q_{\rm meas}`$ throughout this region, with a positive parameter-dependent lower bound. The example below quantifies this general separation.
 
 | Qubit example: $(a,b,c)=(0.2,0.08,0.72)$ | Capacity, qubits/use |
 |---|---:|

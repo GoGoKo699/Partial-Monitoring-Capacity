@@ -20,16 +20,16 @@ h_2\!\left(\frac{aq}{1-cq}\right)
 
 Photon counting in the helper's vacuum/excitation basis attains this value with a diagonal average input. No other predetermined product POVM improves it, even when paired with coherent input states and collective encoding/decoding. The theorem concerns the same qubit family; it does not extend to the optical model.
 
-Throughout this interior region, $`0<Q_{\rm prod}<Q_{\rm meas}`$ by the
+Throughout this interior region, $`0\lt Q_{\rm prod}\lt Q_{\rm meas}`$ by the
 [strict-gap corollary](#4-strict-collective-advantage-throughout-the-qubit-interior).
 For $`(a,b,c)=(1/5,2/25,18/25)`$, the exact-arithmetic certificate described below gives
 
 ```math
-0.18621044456570<Q_{\rm prod}<0.18621044456572,
+0.18621044456570\lt Q_{\rm prod}\lt 0.18621044456572,
 ```
 
 ```math
-0.11949909857428<Q_{\rm meas}-Q_{\rm prod}<0.11949909857432.
+0.11949909857428\lt Q_{\rm meas}-Q_{\rm prod}\lt 0.11949909857432.
 ```
 
 Thus unrestricted helper processing permits about 64% more asymptotic quantum transmission than the best predetermined product measurement in this example. These are capacities per original use, not single-photon recovery probabilities. Outcome-adaptive local strategies, general separable block POVMs and the implementation cost of a collective helper remain outside the comparison.
@@ -85,7 +85,7 @@ Since the entropy of a qubit state is $e(2\sqrt{\det\rho})$, each branch contrib
 
 ## 2. The entropy difference is convex
 
-Ordinary convexity of $e$ does not justify subtracting two copies of it. The stronger fact needed here follows directly by differentiation. For $0<C<1$,
+Ordinary convexity of $e$ does not justify subtracting two copies of it. The stronger fact needed here follows directly by differentiation. For $`0\lt C\lt 1`$,
 
 ```math
 e''(C)=\frac1{\ln2}\int_0^1
@@ -194,9 +194,9 @@ D_2(q)-F(q)&=J\bigl(aq;1-q,cq\bigr).
 
 For the first identity the two partial sums are $`v(q)`$ and $`1-aq`$;
 for the second they are $`v(q)`$ and $`(1-b)q`$. Both total sums are
-$`1-bq`$. For $`0<q<1`$, all three arguments of each mixed difference are
+$`1-bq`$. For $`0\lt q\lt 1`$, all three arguments of each mixed difference are
 positive: in particular $`u(q)>b>0`$, $`(a-b)q>0`$, $`aq>0`$, $`1-q>0`$
-and $`cq>0`$. Therefore $`F(q)<G(q)`$ at every interior diagonal input.
+and $`cq>0`$. Therefore $`F(q)\lt G(q)`$ at every interior diagonal input.
 
 Since $`1-cq\ge a+b>0`$, the counting objective is continuous on $`[0,1]`$,
 with $`F(0)=F(1)=0`$. Differentiating its expanded form yields
