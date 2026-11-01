@@ -1,6 +1,6 @@
 # Thirty milestones for partial monitoring capacity
 
-[Overview](../README.md) · [Preskill bridge](PRESKILL_READING_MAP.md) · [Exact statements](MODEL_AND_CLAIMS.md)
+[Overview](../README.md) · [Preskill bridge](PRESKILL_READING_MAP.md) · [Exact statements](../science/model.md)
 
 The central question is how a classical record from part of a lost field changes
 quantum transmission, and why collective helper measurements can outperform
@@ -29,7 +29,7 @@ their research attribution; they are not additional required tutorial anchors.
 - **Understanding target:** Explain partial trace and purification, and distinguish a mathematical reference from a system available to the helper.
 - **Dependencies and story role:** None; establish the objects carried through the argument.
 - **Conceptual connection:** Correlations, rather than output populations alone, determine quantum transmission.
-- **Sources:** Preskill Sections 10.2.1–10.2.4; [physical picture](PHYSICAL_PICTURE.md).
+- **Sources:** Preskill Sections 10.2.1–10.2.4; [physical picture](../science/physical_picture.md).
 
 ### M02 — Three destinations for one input
 
@@ -37,7 +37,7 @@ their research attribution; they are not additional required tutorial anchors.
 - **Understanding target:** Identify receiver $`B`$, inaccessible output $`E`$ and helper output $`D`$ in the splitting isometry.
 - **Dependencies and story role:** M01; place the abstract state in the physical task.
 - **Conceptual connection:** Collection changes access to an output, not the fractions already reaching the receiver.
-- **Sources:** [Physical picture](PHYSICAL_PICTURE.md); [model](MODEL_AND_CLAIMS.md#fixed-communication-resource).
+- **Sources:** [Physical picture](../science/physical_picture.md); [model](../science/model.md#fixed-communication-resource).
 
 ### M03 — Transmitting entanglement unconditionally
 
@@ -45,7 +45,7 @@ their research attribution; they are not additional required tutorial anchors.
 - **Understanding target:** Relate logical reference preservation, vanishing unconditional error and qubits per original channel use; distinguish this from a successful branch probability.
 - **Dependencies and story role:** M01, M02; define the operational objective.
 - **Conceptual connection:** Every outcome and failed trial remains in the denominator.
-- **Sources:** Preskill Sections 10.7.1–10.7.3; [model](MODEL_AND_CLAIMS.md#fixed-communication-resource).
+- **Sources:** Preskill Sections 10.7.1–10.7.3; [model](../science/model.md#fixed-communication-resource).
 
 ### M04 — A measurement makes a channel with a record
 
@@ -69,7 +69,7 @@ their research attribution; they are not additional required tutorial anchors.
 - **Understanding target:** Identify coherent information using the actual complementary output and distinguish a one-input quantity from an asymptotic optimized capacity.
 - **Dependencies and story role:** M03, M05; connect state entropies to communication.
 - **Conceptual connection:** Changing what the decoder receives also changes what is discarded.
-- **Sources:** Preskill Sections 10.7.1–10.7.3; [proof audit](PROOF_AUDIT.md).
+- **Sources:** Preskill Sections 10.7.1–10.7.3; [proof audit](../science/complements_and_deficits.md).
 
 ### M07 — Data processing and conditional entropy
 
@@ -85,7 +85,7 @@ their research attribution; they are not additional required tutorial anchors.
 - **Understanding target:** Distinguish degradability, antidegradability and entanglement breaking; explain the role of a receiver extension on the zero-capacity side.
 - **Dependencies and story role:** M02, M06, M07; supply the structural channel properties.
 - **Conceptual connection:** Simulation concerns correlations with arbitrary references, not just one output state.
-- **Sources:** Preskill Section 10.7.3 and Exercise 10.18; [theorem](THEOREM.md).
+- **Sources:** Preskill Section 10.7.3 and Exercise 10.18; [theorem](../science/capacity.md).
 
 ### M09 — Additivity and input optimization
 
@@ -93,7 +93,7 @@ their research attribution; they are not additional required tutorial anchors.
 - **Understanding target:** Explain why degradable-channel additivity and concavity cover correlated endpoint codes and use-varying predetermined measurements.
 - **Dependencies and story role:** M06, M08; prepare the exact product benchmark.
 - **Conceptual connection:** Individual helper measurements do not mean individual sender or receiver codes.
-- **Sources:** Preskill Section 10.7.3; [product-helper reduction](PRODUCT_HELPER_GAP_2026-10-07.md).
+- **Sources:** Preskill Section 10.7.3; [product-helper reduction](../science/product_reduction.md).
 
 ### M10 — Freeze an auxiliary operation, then code
 
@@ -109,7 +109,7 @@ their research attribution; they are not additional required tutorial anchors.
 - **Understanding target:** Distinguish mean energy from a peak cutoff and a thermal average coded input from a thermal environment.
 - **Dependencies and story role:** M01, M05; introduce the extra optical control of entropy and limits.
 - **Conceptual connection:** A finite mean constrains admissible codes without bounding every occupied photon level.
-- **Sources:** [Bridge 4](PRESKILL_READING_MAP.md#4-the-optical-energy-limit); [optical dependencies](PROOF_DEPENDENCIES.md#3-optical-identity-and-photon-budget-coding).
+- **Sources:** [Bridge 4](PRESKILL_READING_MAP.md#4-the-optical-energy-limit); [optical dependencies](../science/proof_dependencies.md#3-optical-identity-and-photon-budget-coding).
 
 ### M12 — Assemble the fixed resource model
 
@@ -117,7 +117,7 @@ their research attribution; they are not additional required tutorial anchors.
 - **Understanding target:** Reconstruct the input, three outputs, helper-only-to-receiver record, arbitrary endpoint codes and unconditional rate without importing feedback or shared entanglement.
 - **Dependencies and story role:** M02, M04, M10, M11; integrate the background phase.
 - **Conceptual connection:** Preskill's preshared entanglement assistance differs from environmental measurement assistance.
-- **Sources:** [Model and claims](MODEL_AND_CLAIMS.md); [reading-route resource distinction](PRESKILL_READING_MAP.md#reading-route).
+- **Sources:** [Model and claims](../science/model.md); [reading-route resource distinction](PRESKILL_READING_MAP.md#reading-route).
 
 ## Narrative and innovation: M13–M30
 
@@ -135,7 +135,7 @@ their research attribution; they are not additional required tutorial anchors.
 - **Understanding target:** Reconstruct the copied classical record and explain the extra unresolved register after coarse graining.
 - **Dependencies and story role:** M04, M05, M08, M13; make the channel entropy calculation sound.
 - **Conceptual connection:** The same obligation later includes a discarded optical detector reference.
-- **Sources:** [Flag dilation](PRESKILL_READING_MAP.md#copy-the-classical-label-into-the-dilation); [proof audit](PROOF_AUDIT.md).
+- **Sources:** [Flag dilation](PRESKILL_READING_MAP.md#copy-the-classical-label-into-the-dilation); [proof audit](../science/complements_and_deficits.md).
 
 ### M15 — Joint degradation preserves the helper
 
@@ -143,7 +143,7 @@ their research attribution; they are not additional required tutorial anchors.
 - **Understanding target:** Explain the joint $`ED`$ channel identity and why a helper measurement commutes with a map acting only on $`B`$.
 - **Dependencies and story role:** M08, M12, M14; establish the hypothesis that makes both cuts work.
 - **Conceptual connection:** Preserving helper correlations makes every refined measured channel degradable.
-- **Sources:** [Theorem](THEOREM.md); [joint-simulation dependencies](PROOF_DEPENDENCIES.md).
+- **Sources:** [Theorem](../science/capacity.md); [joint-simulation dependencies](../science/proof_dependencies.md).
 
 ### M16 — Two cuts from established state converses
 
@@ -151,7 +151,7 @@ their research attribution; they are not additional required tutorial anchors.
 - **Understanding target:** Explain the two register groupings and identify the inherited degradable-state theorem used for each.
 - **Dependencies and story role:** M06, M07, M15; derive the shape of the capacity bound.
 - **Conceptual connection:** Enlarging a mathematical task does not grant those registers to the actual helper.
-- **Sources:** [Upper bounds](PRESKILL_READING_MAP.md#upper-bounds-with-general-encoders); [proof dependencies](PROOF_DEPENDENCIES.md).
+- **Sources:** [Upper bounds](PRESKILL_READING_MAP.md#upper-bounds-with-general-encoders); [proof dependencies](../science/proof_dependencies.md).
 
 ### M17 — General encoders and a common input
 
@@ -159,7 +159,7 @@ their research attribution; they are not additional required tutorial anchors.
 - **Understanding target:** Retain discarded encoder ancillas and explain why both entropy cuts use the same averaged input marginal.
 - **Dependencies and story role:** M09, M16; close the operational quantifiers in the upper bound.
 - **Conceptual connection:** Maximizing the cuts separately would not give the stated exact objective.
-- **Sources:** [Theorem, Section 2](THEOREM.md#2-exact-finite-dimensional-rate); [direct converse](CLAIM_ASSESSMENT_2026-10-07.md).
+- **Sources:** [Theorem, Section 2](../science/capacity.md#2-exact-finite-dimensional-rate); [direct converse](../science/coarse_records.md).
 
 ### M18 — Assistance ensemble followed by ordinary coding
 
@@ -167,7 +167,7 @@ their research attribution; they are not additional required tutorial anchors.
 - **Understanding target:** Explain the inherited assistance ensemble, its mathematical reference grouping, and the fixed flagged-channel coding step.
 - **Dependencies and story role:** M10, M14, M15; supply the matching lower bound.
 - **Conceptual connection:** No operation on an inaccessible or reference register is borrowed by the construction.
-- **Sources:** [Helper ensemble and coding](PRESKILL_READING_MAP.md#the-helper-ensemble-then-ordinary-coding); [theorem](THEOREM.md).
+- **Sources:** [Helper ensemble and coding](PRESKILL_READING_MAP.md#the-helper-ensemble-then-ordinary-coding); [theorem](../science/capacity.md).
 
 ### M19 — The exact unrestricted capacity
 
@@ -175,7 +175,7 @@ their research attribution; they are not additional required tutorial anchors.
 - **Understanding target:** Assemble the minimum of the two entropy differences and identify its assumptions and inherited ingredients.
 - **Dependencies and story role:** M16, M17, M18; integrate the first main result.
 - **Conceptual connection:** Exact unrestricted capacity supplies a comparison target, not an efficient detector.
-- **Sources:** [Capacity theorem](THEOREM.md); [contribution assessment](CONTRIBUTION_ASSESSMENT_2026-10-07.md).
+- **Sources:** [Capacity theorem](../science/capacity.md); [contribution assessment](../science/contribution.md).
 
 ### M20 — Arbitrary qubit inputs and helper rows
 
@@ -183,7 +183,7 @@ their research attribution; they are not additional required tutorial anchors.
 - **Understanding target:** Explain how input coherence enters the determinant and how each refined branch reduces to one bounded scalar.
 - **Dependencies and story role:** M13, M14, M15; begin the separate all-POVM counting proof.
 - **Conceptual connection:** A proof about one diagonal input would not rule out a coherent competing input.
-- **Sources:** [Exact product proof, Section 1](EXACT_PRODUCT_CAPACITY_2026-10-07.md#1-reduce-every-branch-to-one-scalar).
+- **Sources:** [Exact product proof, Section 1](../science/product_measurements.md#1-reduce-every-branch-to-one-scalar).
 
 ### M21 — Convexity of the entropy difference
 
@@ -191,7 +191,7 @@ their research attribution; they are not additional required tutorial anchors.
 - **Understanding target:** Distinguish convexity of the required difference from convexity of its individual entropy terms, and use POVM completeness in the average.
 - **Dependencies and story role:** M05, M20; supply the decisive measurement inequality.
 - **Conceptual connection:** Subtracting convex functions does not automatically preserve convexity.
-- **Sources:** [Exact product proof, Section 2](EXACT_PRODUCT_CAPACITY_2026-10-07.md#2-the-entropy-difference-is-convex).
+- **Sources:** [Exact product proof, Section 2](../science/product_measurements.md#2-the-entropy-difference-is-convex).
 
 ### M22 — Counting saturates after input optimization
 
@@ -199,7 +199,7 @@ their research attribution; they are not additional required tutorial anchors.
 - **Understanding target:** Explain the replacement diagonal input, counting's endpoint saturation and the role of additivity for arbitrary endpoint codes.
 - **Dependencies and story role:** M09, M20, M21; complete the central product optimum.
 - **Conceptual connection:** The theorem optimizes inputs; it does not assert counting wins at every fixed coherent input.
-- **Sources:** [Exact product proof, Section 3](EXACT_PRODUCT_CAPACITY_2026-10-07.md#3-the-chord-is-bounded-by-counting-with-another-diagonal-input).
+- **Sources:** [Exact product proof, Section 3](../science/product_measurements.md#3-the-chord-is-bounded-by-counting-with-another-diagonal-input).
 
 ### M23 — A strict collective advantage throughout the interior
 
@@ -207,7 +207,7 @@ their research attribution; they are not additional required tutorial anchors.
 - **Understanding target:** Compare both unrestricted cuts with the counting objective at its common optimizing input and explain strict positivity of the difference.
 - **Dependencies and story role:** M19, M22; combine the two exact results.
 - **Conceptual connection:** The collective benefit raises rate while counting already attains the positive-capacity boundary.
-- **Sources:** [Strict-gap corollary](EXACT_PRODUCT_CAPACITY_2026-10-07.md#4-strict-collective-advantage-throughout-the-qubit-interior).
+- **Sources:** [Strict-gap corollary](../science/product_measurements.md#4-strict-collective-advantage-throughout-the-qubit-interior).
 
 ### M24 — What an exact numerical certificate establishes
 
@@ -223,7 +223,7 @@ their research attribution; they are not additional required tutorial anchors.
 - **Understanding target:** Explain the full Fock-space joint identity and thermal-reference relative-entropy contraction under a mean budget.
 - **Dependencies and story role:** M07, M11, M15, M19; extend the unrestricted theorem to optical energy.
 - **Conceptual connection:** Thermal references in a proof do not assume Gaussian encodings.
-- **Sources:** [Optical proof dependencies](PROOF_DEPENDENCIES.md#3-optical-identity-and-photon-budget-coding).
+- **Sources:** [Optical proof dependencies](../science/proof_dependencies.md#3-optical-identity-and-photon-budget-coding).
 
 ### M26 — Cutoff, coding limit and optical ceiling
 
@@ -231,7 +231,7 @@ their research attribution; they are not additional required tutorial anchors.
 - **Understanding target:** Explain the truncated thermal construction, energy slack, order of limits and the fixed-loss capacity ceiling.
 - **Dependencies and story role:** M10, M11, M18, M25; complete the optical evaluation.
 - **Conceptual connection:** A temporary cutoff in achievability differs from a cutoff defining all competing codes.
-- **Sources:** [Bridge 4](PRESKILL_READING_MAP.md#4-the-optical-energy-limit); [theorem](THEOREM.md).
+- **Sources:** [Bridge 4](PRESKILL_READING_MAP.md#4-the-optical-energy-limit); [theorem](../science/capacity.md).
 
 ### M27 — The meaning of the fixed resource comparison
 
@@ -239,7 +239,7 @@ their research attribution; they are not additional required tutorial anchors.
 - **Understanding target:** Distinguish predetermined product, adaptive local and unrestricted helper measurements, and identify unpriced helper memory, classical records and apparatus resources.
 - **Dependencies and story role:** M12, M19, M23, M26; synthesize the main project's physical scope.
 - **Conceptual connection:** An exact communication rate does not by itself specify detector cost or finite-block performance.
-- **Sources:** [Model and claims](MODEL_AND_CLAIMS.md#scope-and-interpretation); [contribution assessment](CONTRIBUTION_ASSESSMENT_2026-10-07.md).
+- **Sources:** [Model and claims](../science/model.md#scope-and-interpretation); [contribution assessment](../science/contribution.md).
 
 ### M28 — Why the optical sister does not contradict the qubit optimum
 
@@ -247,7 +247,7 @@ their research attribution; they are not additional required tutorial anchors.
 - **Understanding target:** Compare the additional two-photon cutoff example with the mean-only oscillator law; distinguish within-mode number coherence from cross-mode joint processing.
 - **Dependencies and story role:** M22, M26, M27; connect the established qubit result to the detector-class question.
 - **Conceptual connection:** A first higher photon cutoff and a full-oscillator asymptotic law have different input domains.
-- **Sources:** [Sister-project bridge](OPTICAL_DETECTOR_BRIDGE.md#from-one-photon-to-two); its pinned companion proofs.
+- **Sources:** [Sister-project bridge](../science/optical_detector_bridge.md#from-one-photon-to-two); its pinned companion proofs.
 
 ### M29 — Pricing a local detector reference
 
@@ -255,7 +255,7 @@ their research attribution; they are not additional required tutorial anchors.
 - **Understanding target:** Explain the separate-local-invariance model, mean prepared reference stock, and the half-to-full rate profile while retaining arbitrary endpoint codes.
 - **Dependencies and story role:** M14, M25, M28; identify a concrete resource extension developed in the sister project.
 - **Conceptual connection:** Reference information belongs to the true complement; mean stock differs from work, reset and coherent reuse.
-- **Sources:** [Priced-reference bridge](OPTICAL_DETECTOR_BRIDGE.md#when-the-local-reference-is-priced); its pinned companion theorem.
+- **Sources:** [Priced-reference bridge](../science/optical_detector_bridge.md#when-the-local-reference-is-priced); its pinned companion theorem.
 
 ### M30 — Reconstruct the whole comparison
 
@@ -263,4 +263,4 @@ their research attribution; they are not additional required tutorial anchors.
 - **Understanding target:** Trace the common communication task to each exact claim, its proof source, its input and operation domain, and its verification evidence.
 - **Dependencies and story role:** M24, M27, M28, M29; integrate the narrative phase and the project as a whole.
 - **Conceptual connection:** The same physical split supports different answers when the detector class or priced resources change.
-- **Sources:** [Overview](../README.md); [model and claims](MODEL_AND_CLAIMS.md); [sister bridge](OPTICAL_DETECTOR_BRIDGE.md); [verification](../VERIFICATION.md).
+- **Sources:** [Overview](../README.md); [model and claims](../science/model.md); [sister bridge](../science/optical_detector_bridge.md); [verification](../VERIFICATION.md).

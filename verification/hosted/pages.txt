@@ -1,8 +1,11 @@
-# All current reader-facing Markdown: science, proofs, learning, sources, and verification.
+# All current reader-facing Markdown: science, proofs, learning, sources, compatibility routes, and verification.
 # Contributor instructions and protected historical archives are outside this hosted reader review.
 README.md
 VERIFICATION.md
 checks/README.md
+learning/README.md
+references/README.md
+verification/README.md
 literature/ASSUMPTIONS.md
 literature/PRIORITY_CHECK_2026-10-07.md
 literature/PRIOR_ART.md
@@ -18,3 +21,14 @@ research/PRODUCT_HELPER_GAP_2026-10-07.md
 research/PROOF_AUDIT.md
 research/PROOF_DEPENDENCIES.md
 research/THEOREM.md
+science/README.md
+science/capacity.md
+science/coarse_records.md
+science/complements_and_deficits.md
+science/contribution.md
+science/model.md
+science/optical_detector_bridge.md
+science/physical_picture.md
+science/product_measurements.md
+science/product_reduction.md
+science/proof_dependencies.md

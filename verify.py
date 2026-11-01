@@ -81,7 +81,7 @@ def check_imports(root: Path = ROOT) -> dict:
 def integrity(root: Path = ROOT) -> dict:
     imported = check_imports(root)
     pages = list(root.glob("*.md"))
-    for folder in ("research", "literature", "work_orders", "checks"):
+    for folder in ("science", "research", "learning", "references", "literature", "verification", "work_orders", "checks"):
         pages.extend((root / folder).glob("*.md"))
     broken, links = [], 0
     for page in pages:

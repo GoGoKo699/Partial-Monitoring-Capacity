@@ -9,11 +9,12 @@ measurements recover more than the best measurements made one output at a time?
 
 | Read next | Purpose |
 |---|---|
-| [Physical picture](research/PHYSICAL_PICTURE.md) · [30 milestones](research/LEARNING_MILESTONES.md) · [Preskill reading guide](research/PRESKILL_READING_MAP.md) | Follow the question through 12 background and 18 narrative targets, using one tutorial and four worked bridges |
-| [Capacity theorem](research/THEOREM.md) · [Exact product optimum](research/EXACT_PRODUCT_CAPACITY_2026-10-07.md) | Follow both sides of the individual-versus-collective measurement comparison |
-| [Model and claims](research/MODEL_AND_CLAIMS.md) · [Proof dependencies](research/PROOF_DEPENDENCIES.md) | Check the resources, supporting claims and source attribution |
-| [Prior-work comparison](literature/PRIORITY_CHECK_2026-10-07.md) · [Contribution assessment](research/CONTRIBUTION_ASSESSMENT_2026-10-07.md) | Separate established ingredients from the measurement optimization |
-| [Sister-project bridge](research/OPTICAL_DETECTOR_BRIDGE.md) | Connect the qubit optimum to optical detector classes and a priced local phase reference |
+| [Scientific account](science/README.md) · [Learning route](learning/README.md) | Follow the connected topic-based argument or enter through the settled learning map |
+| [Physical picture](science/physical_picture.md) · [30 milestones](research/LEARNING_MILESTONES.md) · [Preskill reading guide](research/PRESKILL_READING_MAP.md) | Follow the question through 12 background and 18 narrative targets, using one tutorial and four worked bridges |
+| [Capacity theorem](science/capacity.md) · [Exact product optimum](science/product_measurements.md) | Follow both sides of the individual-versus-collective measurement comparison |
+| [Model and claims](science/model.md) · [Proof dependencies](science/proof_dependencies.md) | Check the resources, supporting claims and source attribution |
+| [Prior-work comparison](literature/PRIORITY_CHECK_2026-10-07.md) · [Contribution assessment](science/contribution.md) | Separate established ingredients from the measurement optimization |
+| [Sister-project bridge](science/optical_detector_bridge.md) | Connect the qubit optimum to optical detector classes and a priced local phase reference |
 | [Verification](VERIFICATION.md) · [LLM guide](llms.txt) | Inspect evidence and locate authoritative material by question |
 
 ## What the helper can access
@@ -41,7 +42,7 @@ is supplied.
 For qubit splitting, let $`a,b,c`$ be the received, inaccessible and collected fractions,
 with $`a+b+c=1`$. Throughout $`a>b>0,\ c>0`$, photon counting attains the largest capacity
 over all predetermined product helper POVMs and all inputs, including coherent inputs.
-The [strict-gap corollary](research/EXACT_PRODUCT_CAPACITY_2026-10-07.md#4-strict-collective-advantage-throughout-the-qubit-interior)
+The [strict-gap corollary](science/product_measurements.md#4-strict-collective-advantage-throughout-the-qubit-interior)
 establishes $`0\lt Q_{\rm prod}\lt Q_{\rm meas}`$ throughout this region, with a positive
 parameter-dependent lower bound on the difference.
 
@@ -57,7 +58,7 @@ Both rows allow arbitrary sender/receiver block codes. A better predetermined
 single-use detector cannot close the gap anywhere in the stated interior region.
 Counting already reaches the positive-capacity boundary $`a>b`$; the collective benefit
 is a higher rate.
-The [exact product proof](research/EXACT_PRODUCT_CAPACITY_2026-10-07.md) supplies the
+The [exact product proof](science/product_measurements.md) supplies the
 optimization over all measurements. It establishes counting optimality after input
 optimization, rather than for every fixed coherent input.
 
@@ -84,7 +85,7 @@ Q_{\rm meas}
 Both finite-dimensional upper bounds follow from the established one-way distillation
 theorem for degradable states after regrouping registers. A known assistance ensemble,
 followed by ordinary channel coding, attains their minimum. The
-[proof dependencies](research/PROOF_DEPENDENCIES.md) give the register reduction
+[proof dependencies](science/proof_dependencies.md) give the register reduction
 and source attribution. The separate product optimum
 still requires its determinant and convexity argument.
 
@@ -106,7 +107,7 @@ g(x)=(x+1)\log_2(x+1)-x\log_2x.
 For $`a>b>0`$, increasing signal energy approaches $`\log_2(a/b)`$ qubits per mode.
 At positive energy the positive-rate boundary is $`a>b`$. The budget is an average
 signal-energy constraint, not a peak photon-number or apparatus-energy constraint;
-the environmental inputs remain vacuum. The [optical proof](research/PROOF_DEPENDENCIES.md)
+the environmental inputs remain vacuum. The [optical proof](science/proof_dependencies.md)
 includes arbitrary correlated, non-Gaussian inputs. The qubit counting-optimality
 result does not extend to optical measurements here.
 
@@ -115,6 +116,10 @@ result does not extend to optical measurements here.
 The companion [Optical Detector Capacity project](https://github.com/GoGoKo699/Optical-Detector-Capacity/tree/c3582795f208bfa287d53db2458ca710cefeb6f7)
 reuses the collective optical benchmark above and compares individual-mode detector
 classes under the same vacuum splitter and receiver-only classical assistance.
+The shared capacity benchmark is credited once. This project's exact qubit
+measurement optimum and the companion's optical detector and reference-resource
+laws answer separate questions, with their transfer boundaries stated in the
+[sister-project bridge](science/optical_detector_bridge.md#what-passes-between-the-projects).
 Its [two-photon example](https://github.com/GoGoKo699/Optical-Detector-Capacity/blob/c3582795f208bfa287d53db2458ca710cefeb6f7/science/qubit_optical_bridge.md)
 already beats the capacity of every counting code when each input is restricted to
 vacuum through two photons. This does not contradict counting optimality on the
@@ -129,7 +134,7 @@ the linked theorem states the domain at fixed $`a`$ and its additive constants. 
 across photon numbers within one mode and joint processing across different modes
 are separate resources. All these comparisons retain arbitrary endpoint block coding.
 
-The [sister-project bridge](research/OPTICAL_DETECTOR_BRIDGE.md) translates the
+The [sister-project bridge](science/optical_detector_bridge.md) translates the
 notation and continues to the companion's local-reference energy profile. Under
 separate number conservation at each collected mode, a bounded additive gap to
 the full rate in the energy-driven regime requires and admits initial reference
@@ -168,11 +173,11 @@ tutorial. The chapter is linked, not redistributed.
 The helper's quantum memory, circuit complexity, phase references and classical message
 length are unrestricted. An efficient collective helper, a finite-block implementation
 and a necessity theorem against all adaptive local strategies are not established.
-The [model and claim map](research/MODEL_AND_CLAIMS.md) states these boundaries precisely.
+The [model and claim map](science/model.md) states these boundaries precisely.
 
 Environmental assistance and collective-assistance gains have established predecessors.
 The capacity consequence and exact product benchmark are distinguished in the
-[contribution assessment](research/CONTRIBUTION_ASSESSMENT_2026-10-07.md).
+[contribution assessment](science/contribution.md).
 
 ## Evidence and reproduction
 

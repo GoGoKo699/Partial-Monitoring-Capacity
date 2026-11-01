@@ -2,7 +2,7 @@
 
 ## Identity and authority
 
-Work only in `GoGoKo699/Partial-Monitoring-Capacity` for this task. Read README.md, VERIFICATION.md, research/MODEL_AND_CLAIMS.md and .github/MAINTENANCE.md. Resolve the live remote branch before editing; a remembered SHA or historical chat assessment is not current repository status. The owner has authorized modifications and merging after checks.
+Work only in `GoGoKo699/Partial-Monitoring-Capacity` for this task. Read README.md, VERIFICATION.md, science/model.md and .github/MAINTENANCE.md. Resolve the live remote branch before editing; a remembered SHA or historical chat assessment is not current repository status. The owner has authorized modifications and merging after checks.
 
 Preserve existing public visibility, authorship and MIT license. Do not change repository settings, permissions, secrets, release state or other projects. Do not contact external reviewers or collaborators without a separate instruction. A local feature commit is not a remote merged commit.
 
