@@ -7,7 +7,7 @@ visibility, the MIT license and the exact Purpose/contact notice.
 ## Reading and scope
 
 Read [AGENTS](../AGENTS.md), [README](../README.md),
-[model and claims](../research/MODEL_AND_CLAIMS.md) and
+[model and claims](../science/model.md) and
 [verification policy](../VERIFICATION.md), then inspect live main and open PRs.
 Use a feature branch and reconcile newer changes without forcing a ref.
 

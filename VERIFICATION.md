@@ -19,7 +19,7 @@ Three additional [strict-gap regression tests](tests/test_strict_gap.py) use
 differences and their lower bounds, including cancellation-sensitive inputs near
 the boundaries. They also check the second derivative, the common product-optimal
 input and endpoint consistency. These finite safeguards do not prove universal
-strictness; the [analytical corollary](research/EXACT_PRODUCT_CAPACITY_2026-10-07.md#4-strict-collective-advantage-throughout-the-qubit-interior)
+strictness; the [analytical corollary](science/product_measurements.md#4-strict-collective-advantage-throughout-the-qubit-interior)
 does. Run all eleven tests with `python -m unittest discover -s tests -v`.
 
 ## Fresh run
@@ -32,7 +32,7 @@ For cross-environment comparisons, finite float values use relative tolerance **
 
 ## Exact product-capacity certificate
 
-The [counting-optimality proof](research/EXACT_PRODUCT_CAPACITY_2026-10-07.md) has one additional arithmetic certificate, counted separately from the original 23 groups, eight infrastructure tests and three strict-gap regression tests. After the runner creates its new evidence directory, run:
+The [counting-optimality proof](science/product_measurements.md) has one additional arithmetic certificate, counted separately from the original 23 groups, eight infrastructure tests and three strict-gap regression tests. After the runner creates its new evidence directory, run:
 
 ```bash
 python checks/certify_product_capacity.py --output NEW_DIRECTORY/product-capacity-certificate.json

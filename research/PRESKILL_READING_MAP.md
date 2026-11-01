@@ -2,13 +2,13 @@
 
 **One tutorial, four worked bridges.** The question throughout is: how can joint measurements of a collected field improve quantum transmission when the helper sends only a classical record?
 
-Start with [the physical picture](PHYSICAL_PICTURE.md) or return to [the repository overview](../README.md). This guide assumes familiarity with density matrices, partial traces, purification and POVMs. It supplies a route through the existing proofs, not a new result.
+Start with [the physical picture](../science/physical_picture.md) or return to [the repository overview](../README.md). This guide assumes familiarity with density matrices, partial traces, purification and POVMs. It supplies a route through the existing proofs, not a new result.
 
 The [30-milestone map](LEARNING_MILESTONES.md) organizes the same scientific
 story into 12 background and 18 narrative understanding targets, with
 dependencies and source pointers. The four worked bridges below remain its
 shared explanatory route. Milestones M28–M30 continue into the
-[optical sister-project bridge](OPTICAL_DETECTOR_BRIDGE.md).
+[optical sister-project bridge](../science/optical_detector_bridge.md).
 
 > John Preskill, **Quantum Shannon Theory**, Chapter 10, **2025 revision, arXiv v5**.
 >
@@ -87,7 +87,7 @@ The two classical entropies cancel, so $`I_c=S(B|X)-S(E|X)`$. In the counting ex
 
 **Checkpoint:** why is $`E`$ alone not the complement? The measurement record also leaks into $`Y`$. A coarse record can additionally leave a quantum register $`G`$, giving complement $`EGY`$. Omitting it invalidates the displayed subtraction. The original unmeasured channel to $`B`$ instead has complement $`ED`$.
 
-[PROOF_AUDIT](PROOF_AUDIT.md) gives the detailed dilation. The [direct converse](CLAIM_ASSESSMENT_2026-10-07.md) retains unresolved helper outputs and discarded encoder ancillas. Continuous records use finite partitions or conditional-entropy integrals, not subtraction of divergent differential entropies; see [PROOF_DEPENDENCIES](PROOF_DEPENDENCIES.md).
+[PROOF_AUDIT](../science/complements_and_deficits.md) gives the detailed dilation. The [direct converse](../science/coarse_records.md) retains unresolved helper outputs and discarded encoder ancillas. Continuous records use finite partitions or conditional-entropy integrals, not subtraction of divergent differential entropies; see [PROOF_DEPENDENCIES](../science/proof_dependencies.md).
 
 ## 2. Two cuts and a matching construction
 
@@ -97,7 +97,7 @@ The two classical entropies cancel, so $`I_c=S(B|X)-S(E|X)`$. In the counting ex
 
 Purify an arbitrary encoded input as $`RFA^n`$: $`R`$ is the reference, and $`F`$ is the system discarded by the encoder. After the channel, $`RFB^nE^nD^n`$ is pure.
 
-Both finite-dimensional cuts follow from **Leditzky–Datta–Smith's degradable-state theorem**, Definition 2.2 and Proposition 2.4, as explained in [PROOF_DEPENDENCIES, Section 1](PROOF_DEPENDENCIES.md). For a degradable state on $`LK`$, its optimized one-way distillation quantity is $`D_{\to}^{(1)}=I(L\rangle K)`$. Apply it to two enlarged tasks:
+Both finite-dimensional cuts follow from **Leditzky–Datta–Smith's degradable-state theorem**, Definition 2.2 and Proposition 2.4, as explained in [PROOF_DEPENDENCIES, Section 1](../science/proof_dependencies.md). For a degradable state on $`LK`$, its optimized one-way distillation quantity is $`D_{\to}^{(1)}=I(L\rangle K)`$. Apply it to two enlarged tasks:
 
 | Grouping $`L:K`$ | Purifier | Upper bound on decoded coherent information |
 |---|---|---|
@@ -115,7 +115,7 @@ I_c=S(B^n)-S(E^n)-[I(X;B^n)-I(X;E^n)]
 
 Data processing makes the bracket nonnegative. The second cut hypothetically delivers $`B^nD^n`$ coherently; measuring $`D^n`$ is then receiver processing. These calculations explain the entropy terms, while the state-theorem reduction supplies the general-encoder bound.
 
-Subadditivity across uses and concavity, proved in [THEOREM, Section 2](THEOREM.md), bound both cuts using the same average input marginal $`\bar\rho`$. Thus
+Subadditivity across uses and concavity, proved in [THEOREM, Section 2](../science/capacity.md), bound both cuts using the same average input marginal $`\bar\rho`$. Thus
 
 ```math
 Q_{\rm meas}\le
@@ -126,7 +126,7 @@ Optimizing each cut separately could yield a weaker bound because their maximizi
 
 ### The helper ensemble, then ordinary coding
 
-Preskill explains how coherent information becomes a transmission rate. The extra helper ingredient is the **Smolin–Verstraete–Winter assistance ensemble theorem**, with the receiver-only construction credited in [THEOREM](THEOREM.md).
+Preskill explains how coherent information becomes a transmission rate. The extra helper ingredient is the **Smolin–Verstraete–Winter assistance ensemble theorem**, with the receiver-only construction credited in [THEOREM](../science/capacity.md).
 
 Purify $`\rho_A`$ by $`R`$ and use the mathematical grouping $`B|(RE)|D`$. The inherited theorem selects a measurement on $`D^m`$ with average branch entropy of $`B^m`$ approaching $`m\min\{S(B),S(BD)\}`$. This grouping grants no operation on $`R`$ or $`E`$. Concavity bounds the average branch entropy of $`E^m`$ by $`mS(E)`$.
 
@@ -134,7 +134,7 @@ Freeze that helper measurement at block length $`m`$. It defines a flagged chann
 
 This matches the upper bound without encoder knowledge of the outcome or preshared entanglement.
 
-**Checkpoint:** what are the two block lengths doing? The helper block $`m`$ builds a favorable channel; the coding block $`k`$ transmits through repeated uses of that channel. Their roles are distinct. The full operational converse and construction are in [PROOF_DEPENDENCIES](PROOF_DEPENDENCIES.md) and [THEOREM](THEOREM.md).
+**Checkpoint:** what are the two block lengths doing? The helper block $`m`$ builds a favorable channel; the coding block $`k`$ transmits through repeated uses of that channel. Their roles are distinct. The full operational converse and construction are in [PROOF_DEPENDENCIES](../science/proof_dependencies.md) and [THEOREM](../science/capacity.md).
 
 ## 3. Why counting is the best individual measurement
 
@@ -160,7 +160,7 @@ Write an arbitrary input as
 \qquad d=q(1-q)-|z|^2\ge0.
 ```
 
-The [exact product proof, Sections 1–3](EXACT_PRODUCT_CAPACITY_2026-10-07.md) computes branch determinants and expresses each entropy difference as $`f(r_x)`$. For $`q>0`$, the scalar satisfies
+The [exact product proof, Sections 1–3](../science/product_measurements.md) computes branch determinants and expresses each entropy difference as $`f(r_x)`$. For $`q>0`$, the scalar satisfies
 
 ```math
 0\le r_x\le r_{\max}=\frac q{d+(a+b)q^2},
@@ -191,7 +191,7 @@ Q_{\rm prod}=Q_{\rm count}=\max_qF(q).
 
 This is counting optimality **after optimizing the input**. It does not claim counting is best for every fixed coherent input. The full proof defines $`f`$, derives its second derivative and treats continuous POVMs.
 
-The [strict-gap corollary](EXACT_PRODUCT_CAPACITY_2026-10-07.md#4-strict-collective-advantage-throughout-the-qubit-interior)
+The [strict-gap corollary](../science/product_measurements.md#4-strict-collective-advantage-throughout-the-qubit-interior)
 compares the two entropy objectives at the product-optimal input and gives
 $`0\lt Q_{\rm prod}\lt Q_{\rm meas}`$ throughout $`a+b+c=1,\ a>b>0,\ c>0`$.
 At $`(a,b,c)=(0.2,0.08,0.72)`$, the product and unrestricted capacities are approximately $`0.18621044`$ and $`0.30570954`$ qubits/use. The [rational certificate](../checks/certify_product_capacity.py) verifies the scalar rate and gap enclosures conditional on the analytical reduction; it does not certify the proof over all POVMs.
@@ -222,7 +222,7 @@ This evaluates a candidate rate. Establishing the capacity requires both sides:
 
 For achievability at $`N>0`$, first fix a cutoff $`K`$ and helper block $`m`$. The normalized truncated thermal input has mean $`N_K\lt N`$. The resulting finite-dimensional flagged channel uses the additive input photon observable with mean $`mN_K\lt mN`$. The energy-constrained coding theorem applies with this slack. Take the coding limit for that fixed channel, then enlarge the helper block as required by the assistance theorem, and only afterward send $`K\to\infty`$. At finite cutoff retain both entropy cuts; do not assume their thermal ordering before the limit.
 
-[PROOF_DEPENDENCIES, Section 3](PROOF_DEPENDENCIES.md) supplies the fixed-cutoff/block application of Wilde–Qi's coding theorem and the entropy-tail bounds. Trace-distance convergence alone does not imply entropy convergence in infinite dimensions. A thermal average coded input is not a thermal bath.
+[PROOF_DEPENDENCIES, Section 3](../science/proof_dependencies.md) supplies the fixed-cutoff/block application of Wilde–Qi's coding theorem and the entropy-tail bounds. Trace-distance convergence alone does not imply entropy convergence in infinite dimensions. A thermal average coded input is not a thermal bath.
 
 The result is
 
@@ -248,7 +248,7 @@ optimized counting; its full-oscillator mean-energy result separates counting's
 half-logarithmic rate from the full leading rate of coherent individual-mode
 measurements.
 
-The [sister-project bridge](OPTICAL_DETECTOR_BRIDGE.md) keeps those two input
+The [sister-project bridge](../science/optical_detector_bridge.md) keeps those two input
 domains separate and translates notation. It then explains the companion's
 mean-reference energy profile under separate local number conservation. The
 same complement bookkeeping used in Bridge 1 now retains the discarded
@@ -259,12 +259,12 @@ the reference result does not modify this project's exact unrestricted theorem.
 
 | Question | Read |
 |---|---|
-| What are the operational permissions and exclusions? | [Model and claims](MODEL_AND_CLAIMS.md) |
-| Where is the complete capacity argument? | [Theorem](THEOREM.md) |
-| Which ingredients are inherited, and how are they applied? | [Proof dependencies](PROOF_DEPENDENCIES.md) |
-| How are arbitrary helper POVMs bounded? | [Exact product capacity](EXACT_PRODUCT_CAPACITY_2026-10-07.md) |
+| What are the operational permissions and exclusions? | [Model and claims](../science/model.md) |
+| Where is the complete capacity argument? | [Theorem](../science/capacity.md) |
+| Which ingredients are inherited, and how are they applied? | [Proof dependencies](../science/proof_dependencies.md) |
+| How are arbitrary helper POVMs bounded? | [Exact product capacity](../science/product_measurements.md) |
 | How do the proof components form a learning route? | [Thirty milestones](LEARNING_MILESTONES.md) |
-| Why is optical counting different, and what changes when a reference is priced? | [Sister-project bridge](OPTICAL_DETECTOR_BRIDGE.md) |
+| Why is optical counting different, and what changes when a reference is priced? | [Sister-project bridge](../science/optical_detector_bridge.md) |
 | What does the numerical evidence establish? | [Verification policy](../VERIFICATION.md) |
 
 Work through each checkpoint in your own words and then follow the corresponding full proof.
