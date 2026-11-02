@@ -127,22 +127,12 @@ already beats the capacity of every counting code when each input is restricted 
 vacuum through two photons. This does not contradict counting optimality on the
 vacuum/one-photon qubit space.
 
-In the full oscillator with only a mean signal budget, its
-[uniform comparison](https://github.com/GoGoKo699/Optical-Detector-Capacity/blob/c3582795f208bfa287d53db2458ca710cefeb6f7/science/uniform_laws.md)
-gives counting a leading rate of $`\tfrac12\log_2L`$, while coherent
-individual-mode measurements retain the full $`\log_2L`$ rate, where
-$`L=\min\{N,1/b\}`$ in this page's energy notation. Here $`1/0=\infty`$;
-the linked theorem states the domain at fixed $`a`$ and its additive constants. Coherence
-across photon numbers within one mode and joint processing across different modes
-are separate resources. All these comparisons retain arbitrary endpoint block coding.
-
-The [sister-project bridge](science/optical_detector_bridge.md) translates the
-notation and continues to the companion's local-reference energy profile. Under
-separate number conservation at each collected mode, a bounded additive gap to
-the full rate in the energy-driven regime requires and admits initial reference
-stock linear in signal energy. That result prices a resource this project's
-unrestricted helper model supplies freely; its local-invariance, initialization
-and energy-domain assumptions remain explicit in the linked proof.
+The [sister-project bridge](science/optical_detector_bridge.md) translates notation
+and explains the companion's full-oscillator detector laws and local-reference
+energy profile, with their input, conservation and initialization assumptions.
+Coherence across photon numbers within one mode and joint processing across
+different modes remain separate resources. Each project supplies its own model,
+proofs and learning route; the sister links add context without prerequisite reading.
 
 ## One tutorial, then these results
 
