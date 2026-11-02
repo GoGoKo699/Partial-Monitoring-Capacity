@@ -1,5 +1,7 @@
 # Partial Monitoring Capacity
 
+> **Sister project:** [Optical Detector Capacity](https://github.com/GoGoKo699/Optical-Detector-Capacity) uses this project's collective optical benchmark to compare photon counting with coherent individual-mode detectors and quantify finite phase-reference resources.
+
 **Even the best predetermined individual measurements can leave quantum transmission capacity unused.**
 
 A lossy quantum signal reaches a receiver, an inaccessible environment and a collected
